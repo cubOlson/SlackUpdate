@@ -22,7 +22,7 @@ jobs:
 
       - name: Install deps + Run checker (debug + venv)
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           set -euxo pipefail
           python -V
