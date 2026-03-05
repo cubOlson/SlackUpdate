@@ -1,0 +1,53 @@
+name: Daily game updates check
+
+on:
+  schedule:
+    - cron: "0 21 * * *"  # 18:00 Fortaleza (UTC-3) => 21:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps + Run checker (debug + venv)
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          set -euxo pipefail
+          python -V
+          which python
+          pwd
+          ls -la
+          echo "---- requirements.txt ----"
+          cat requirements.txt
+
+          python -m venv .venv
+          source .venv/bin/activate
+
+          python -m pip install --upgrade pip
+          python -m pip install --no-cache-dir -r requirements.txt
+
+          python -m pip show requests
+          python -c "import requests; print('requests OK:', requests.__version__)"
+
+          python check_updates.py
+
+
+      - name: Commit state.json
+        run: |
+          git config user.name "game-update-bot"
+          git config user.email "game-update-bot@users.noreply.github.com"
+          git add state.json || true
+          git commit -m "Update state" || echo "No changes"
+          git push || echo "No push"
