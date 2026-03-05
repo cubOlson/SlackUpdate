@@ -6,14 +6,13 @@ games:
     url: "https://www.minecraft.net/en-us/articles"
 
   - name: "Apex Legends"
-    urls:
-    - "https://store.steampowered.com/feeds/news/app/1172470/?format=rss"
-    - "https://store.steampowered.com/news/app/1172470"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/1172470/?format=rss"
 
   - name: "Fortnite"
     urls:
-    - "https://www.fortnite.com/news?lang=en-US"
-    - "https://fortnite.gg/news"
+      - "https://www.fortnite.com/news?lang=en-US"
+      - "https://fortnite.gg/news"
 
   - name: "League of Legends"
     url: "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
@@ -28,9 +27,9 @@ games:
     url: "https://www.cyberpunk.net/en/news/"
 
   - name: "Diablo IV"
-    url: "https://news.blizzard.com/en-us/article/24244466/diablo-iv-patch-notes"
+    mode: rss
+    url: "https://news.blizzard.com/en-us/feed/diablo-4"
 
   - name: "Counter-Strike 2"
-    urls:
-    - "https://store.steampowered.com/feeds/news/app/730/?format=rss"
-    - "https://store.steampowered.com/news/app/730"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/730/?format=rss"
