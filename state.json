@@ -1,60 +1,61 @@
 {
   "VALORANT": {
     "fingerprint": "bfc6957f028d8816f32185a00a019e5b39b56641c115a6a433cbd492dd2842d3",
-    "last_checked_utc": "2026-03-05T21:48:20.091912+00:00",
+    "last_checked_utc": "2026-03-05T22:07:01.005827+00:00",
     "last_source": "https://playvalorant.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Minecraft": {
     "fingerprint": "f1cafed1a596269a3903f0171bc3e6ba8ed49ea9343f2469ac1cf6d3f19e68c0",
-    "last_checked_utc": "2026-03-05T21:48:20.416518+00:00",
+    "last_checked_utc": "2026-03-05T22:07:01.167127+00:00",
     "last_source": "https://www.minecraft.net/en-us/articles",
     "mode": "scrape"
   },
   "Apex Legends": {
     "fingerprint": "5a54372a0adf6806aaf2236ab62e5316d431c38fa9097ca5e9fa21560e554100",
-    "last_checked_utc": "2026-03-05T21:48:20.665698+00:00",
+    "last_checked_utc": "2026-03-05T22:07:01.327191+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172470/?format=rss",
     "mode": "rss"
   },
   "Fortnite": {
-    "error": "403 Client Error: Forbidden for url: https://fortnite.gg/news",
-    "last_checked_utc": "2026-03-05T21:48:21.036143+00:00",
-    "last_source": "https://www.fortnite.com/news?lang=en-US"
+    "fingerprint": "860b103c51d9b172abd070743aea1c09d6ddead75a5e954b50ee1ef88c8b1417",
+    "last_checked_utc": "2026-03-05T22:07:01.596131+00:00",
+    "last_source": "https://fortnitenews.com/rss",
+    "mode": "rss"
   },
   "League of Legends": {
     "fingerprint": "280ae8044b2db308c46e16a22b7fabc8578ee448430d00394003fd83402e01f0",
-    "last_checked_utc": "2026-03-05T21:48:21.343177+00:00",
+    "last_checked_utc": "2026-03-05T22:07:01.832155+00:00",
     "last_source": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Call of Duty": {
     "fingerprint": "668eed63a59faee3fbab396adbf9f6336904e32e0cfac46efa0b0b987a6a696d",
-    "last_checked_utc": "2026-03-05T21:48:21.479986+00:00",
+    "last_checked_utc": "2026-03-05T22:07:01.968377+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
   "GTA V": {
     "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "last_checked_utc": "2026-03-05T21:48:21.644089+00:00",
+    "last_checked_utc": "2026-03-05T22:07:02.081332+00:00",
     "last_source": "https://www.rockstargames.com/newswire",
     "mode": "scrape"
   },
   "Cyberpunk 2077": {
     "fingerprint": "5ce9560e82a1d87e2091c63e3c76f005338a88bdfe2585bf86220645a20a25af",
-    "last_checked_utc": "2026-03-05T21:48:21.858288+00:00",
+    "last_checked_utc": "2026-03-05T22:07:02.394838+00:00",
     "last_source": "https://www.cyberpunk.net/en/news/",
     "mode": "scrape"
   },
   "Diablo IV": {
-    "fingerprint": "69d2e6975baf016e1c73aadbe23549d42b6df5c2537b8b92b51e7d5acff0751a",
-    "last_checked_utc": "2026-03-05T21:48:22.129670+00:00",
+    "fingerprint": "7a5ad91bfe18f60a0c64e7a0bd35b437d2739cc08d4fd3e690f6a02ba2049fde",
+    "last_checked_utc": "2026-03-05T22:07:02.751132+00:00",
     "last_source": "https://news.blizzard.com/en-us/feed/diablo-4",
     "mode": "rss"
   },
   "Counter-Strike 2": {
     "fingerprint": "ffdde83b2ca8d5862ef2ae259c4af7021a36814f7969b1099bd4bcd4f3f5957e",
-    "last_checked_utc": "2026-03-05T21:48:22.367832+00:00",
+    "last_checked_utc": "2026-03-05T22:07:02.837619+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/730/?format=rss",
     "mode": "rss"
   }
