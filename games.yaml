@@ -10,9 +10,10 @@ games:
     url: "https://store.steampowered.com/feeds/news/app/1172470/?format=rss"
 
   - name: "Fortnite"
+    mode: rss
     urls:
-      - "https://www.fortnite.com/news?lang=en-US"
-      - "https://fortnite.gg/news"
+      - "https://fortnitenews.com/rss"
+      - "https://fortniteinsider.com/feed"
 
   - name: "League of Legends"
     url: "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
