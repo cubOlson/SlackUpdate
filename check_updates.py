@@ -54,11 +54,10 @@ def stable_text_fingerprint(html: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def discord_notify(webhook_url: str, content: str) -> None:
-    # Discord uses {"content": "..."}
-    payload = {"content": content}
-    r = requests.post(webhook_url, json=payload, timeout=20)
-    r.raise_for_status()
+def send_slack(message):
+    import os, requests
+    url = os.environ["SLACK_WEBHOOK_URL"]
+    requests.post(url, json={"text": message}, timeout=15)
 
 
 def main() -> None:
@@ -133,7 +132,7 @@ def main() -> None:
             short = err[:180].replace("\n", " ")
             lines.append(f"- {name}: {url} — `{short}`")
 
-    discord_notify(webhook, "\n".join(lines))
+    send_slack(report)
 
 
 if __name__ == "__main__":
