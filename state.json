@@ -1,52 +1,52 @@
 {
   "VALORANT": {
-    "fingerprint": "c992c30ec2daa904d498d47f658978833fb562f2f28f8e592d78050b66819df2",
-    "last_checked_utc": "2026-02-12T21:26:35.321767+00:00",
+    "fingerprint": "4215b8fd3eff1937754f2535634383fe342a8e9502d9260644bc66056acac77a",
+    "last_checked_utc": "2026-03-05T21:38:02.273036+00:00",
     "last_source": "https://playvalorant.com/en-us/news/tags/patch-notes/"
   },
   "Minecraft": {
-    "fingerprint": "96b9bf063947d51df2a64404f7ff484f8160d4f91c61a133dd70ed90d8bd92f5",
-    "last_checked_utc": "2026-02-12T21:26:35.670256+00:00",
+    "fingerprint": "b9982493d907a3e9db36fb3070009772714d18bbb93c61600353a9c6592fa4c5",
+    "last_checked_utc": "2026-03-05T21:38:02.526592+00:00",
     "last_source": "https://www.minecraft.net/en-us/articles"
   },
   "Apex Legends": {
-    "error": "502 Server Error: Bad Gateway for url: https://store.steampowered.com/news/app/1172470/",
-    "last_checked_utc": "2026-02-12T21:26:35.912643+00:00",
-    "last_source": "https://store.steampowered.com/news/app/1172470/"
+    "fingerprint": "cced5ab9e43e77fbec1882191f5e623771b00bc1fc1f22e524f287564e74bf45",
+    "last_checked_utc": "2026-03-05T21:38:02.715776+00:00",
+    "last_source": "https://store.steampowered.com/feeds/news/app/1172470/?format=rss"
   },
   "Fortnite": {
-    "error": "403 Client Error: Forbidden for url: https://fortnite.fandom.com/wiki/Fortnite_Wiki",
-    "last_checked_utc": "2026-02-12T21:26:36.384893+00:00",
-    "last_source": "https://www.fortnite.com/news"
+    "error": "403 Client Error: Forbidden for url: https://fortnite.gg/news",
+    "last_checked_utc": "2026-03-05T21:38:03.875344+00:00",
+    "last_source": "https://www.fortnite.com/news?lang=en-US"
   },
   "League of Legends": {
-    "fingerprint": "0a17b25577f58f18cbf79b6f647ed2fff3316ea3ef3e441213ec7c01323e2a26",
-    "last_checked_utc": "2026-02-12T21:26:36.733756+00:00",
+    "fingerprint": "d5620b461fc48ae66e5618c914ae0302b1425ac0ec3c3d25f1627196fcad623c",
+    "last_checked_utc": "2026-03-05T21:38:04.212663+00:00",
     "last_source": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
   },
   "Call of Duty": {
-    "fingerprint": "fae92bcabf395dec531bac88d69975ff270e0c6844a554384c719283e698a887",
-    "last_checked_utc": "2026-02-12T21:26:37.105498+00:00",
+    "fingerprint": "0d1e13d4e8251330fdb573e46eb8773fe0197c2e2e80674e25a814d335021533",
+    "last_checked_utc": "2026-03-05T21:38:04.826344+00:00",
     "last_source": "https://www.callofduty.com/patchnotes"
   },
   "GTA V": {
     "fingerprint": "fa27ac1f025486ac610e46ae27f7d4434640ee7d09252bdb9e15ef67478032ea",
-    "last_checked_utc": "2026-02-12T21:26:37.483334+00:00",
+    "last_checked_utc": "2026-03-05T21:38:04.926087+00:00",
     "last_source": "https://www.rockstargames.com/newswire"
   },
   "Cyberpunk 2077": {
     "fingerprint": "1540db006c2d120c04fea419e25bd11b94f238e98f9f4a5f5ac2a521ffc52821",
-    "last_checked_utc": "2026-02-12T21:26:38.059267+00:00",
+    "last_checked_utc": "2026-03-05T21:38:05.410615+00:00",
     "last_source": "https://www.cyberpunk.net/en/news/"
   },
   "Diablo IV": {
-    "fingerprint": "b3d02f87c812810fe640d820aaaf144adf7710c8c9deaa2d110dfb9cfcf87fb1",
-    "last_checked_utc": "2026-02-12T21:26:38.472101+00:00",
+    "fingerprint": "9f60072598f8e8e7ba0d349f584520662727dc80745fce006194d406d1ee38e0",
+    "last_checked_utc": "2026-03-05T21:38:05.913710+00:00",
     "last_source": "https://news.blizzard.com/en-us/article/24244466/diablo-iv-patch-notes"
   },
   "Counter-Strike 2": {
-    "error": "502 Server Error: Bad Gateway for url: https://www.counter-strike.net/news/updates",
-    "last_checked_utc": "2026-02-12T21:26:38.857098+00:00",
-    "last_source": "https://www.counter-strike.net/news/updates"
+    "fingerprint": "a6f08d200e4a78f8a10fd3b9876a1e7f8fd59db84f429db60b521b99b6a60590",
+    "last_checked_utc": "2026-03-05T21:38:06.153217+00:00",
+    "last_source": "https://store.steampowered.com/feeds/news/app/730/?format=rss"
   }
 }
