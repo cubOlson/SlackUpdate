@@ -4,6 +4,7 @@ import hashlib
 from datetime import datetime, timezone
 import requests
 from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
 import yaml
 
 STATE_FILE = "state.json"
@@ -36,14 +37,38 @@ def fetch_page(url: str) -> str:
     r.raise_for_status()
     return r.text
 
-def stable_text_fingerprint(html: str) -> str:
+def fingerprint_rss(xml_text: str) -> str:
+    """Extract the title of the most recent item in an RSS/Atom feed."""
+    try:
+        root = ET.fromstring(xml_text)
+        # Handle both RSS and Atom namespaces
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        # Try RSS first
+        item = root.find(".//item/title")
+        if item is None:
+            # Try Atom
+            item = root.find(".//atom:entry/atom:title", ns)
+        if item is not None and item.text:
+            return hashlib.sha256(item.text.strip().encode("utf-8")).hexdigest()
+    except ET.ParseError:
+        pass
+    # Fallback: hash the raw text
+    return hashlib.sha256(xml_text[:5000].encode("utf-8")).hexdigest()
+
+def fingerprint_headlines(html: str) -> str:
+    """Fingerprint only headlines and article links — ignores ads, nav, banners."""
     soup = BeautifulSoup(html, "lxml")
-    for tag in soup(["script", "style", "noscript"]):
+    # Remove noise
+    for tag in soup(["script", "style", "noscript", "nav", "footer", "header"]):
         tag.decompose()
-    text = soup.get_text(" ", strip=True)
-    text = " ".join(text.split())
-    text = text[:20000]
-    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+    # Collect only headings and anchor text (article titles live here)
+    parts = []
+    for tag in soup.find_all(["h1", "h2", "h3", "a"]):
+        text = tag.get_text(" ", strip=True)
+        if len(text) > 10:  # skip tiny/empty tags
+            parts.append(text)
+    combined = " | ".join(parts[:100])  # cap at 100 items
+    return hashlib.sha256(combined.encode("utf-8")).hexdigest()
 
 def send_slack(message: str) -> None:
     url = os.environ["SLACK_WEBHOOK_URL"]
@@ -62,29 +87,41 @@ def main() -> None:
 
     for game in config["games"]:
         name = game["name"]
+        mode = game.get("mode", "scrape")  # "rss" or "scrape"
         urls = game.get("urls") or [game["url"]]
         last_error = None
         used_url = None
+
         try:
-            html = None
+            content = None
             for u in urls:
                 try:
-                    html = fetch_page(u)
+                    content = fetch_page(u)
                     used_url = u
                     break
                 except Exception as e:
                     last_error = e
-            if html is None:
+
+            if content is None:
                 raise last_error
-            fp = stable_text_fingerprint(html)
+
+            # Choose fingerprint strategy based on mode
+            if mode == "rss":
+                fp = fingerprint_rss(content)
+            else:
+                fp = fingerprint_headlines(content)
+
             prev_fp = state.get(name, {}).get("fingerprint")
             if prev_fp and prev_fp != fp:
                 updates_found.append((name, used_url))
+
             state[name] = {
                 "fingerprint": fp,
                 "last_checked_utc": datetime.now(timezone.utc).isoformat(),
                 "last_source": used_url,
+                "mode": mode,
             }
+
         except Exception as e:
             failures.append((name, used_url or urls[0], str(e)))
             state[name] = {
