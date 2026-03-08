@@ -1,61 +1,61 @@
 {
   "VALORANT": {
     "fingerprint": "bfc6957f028d8816f32185a00a019e5b39b56641c115a6a433cbd492dd2842d3",
-    "last_checked_utc": "2026-03-07T21:28:03.195660+00:00",
+    "last_checked_utc": "2026-03-08T21:30:08.793381+00:00",
     "last_source": "https://playvalorant.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Minecraft": {
     "fingerprint": "cdf69e5b4f325a00807b2ca22be96151ff3688125994bbec716177c940de3968",
-    "last_checked_utc": "2026-03-07T21:28:03.640624+00:00",
+    "last_checked_utc": "2026-03-08T21:30:09.031617+00:00",
     "last_source": "https://www.minecraft.net/en-us/articles",
     "mode": "scrape"
   },
   "Apex Legends": {
     "fingerprint": "5ca22ae10eaded06ec14ecbb27e659d04a08e3d0b4ac445ae88c71fb4603c6dc",
-    "last_checked_utc": "2026-03-07T21:28:03.814259+00:00",
+    "last_checked_utc": "2026-03-08T21:30:09.308372+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172470/?format=rss",
     "mode": "rss"
   },
   "Fortnite": {
     "fingerprint": "860b103c51d9b172abd070743aea1c09d6ddead75a5e954b50ee1ef88c8b1417",
-    "last_checked_utc": "2026-03-07T21:28:03.988045+00:00",
+    "last_checked_utc": "2026-03-08T21:30:09.598444+00:00",
     "last_source": "https://fortnitenews.com/rss",
     "mode": "rss"
   },
   "League of Legends": {
     "fingerprint": "280ae8044b2db308c46e16a22b7fabc8578ee448430d00394003fd83402e01f0",
-    "last_checked_utc": "2026-03-07T21:28:04.302105+00:00",
+    "last_checked_utc": "2026-03-08T21:30:09.901936+00:00",
     "last_source": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Call of Duty": {
     "fingerprint": "668eed63a59faee3fbab396adbf9f6336904e32e0cfac46efa0b0b987a6a696d",
-    "last_checked_utc": "2026-03-07T21:28:04.509250+00:00",
+    "last_checked_utc": "2026-03-08T21:30:10.095155+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
   "GTA V": {
     "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "last_checked_utc": "2026-03-07T21:28:04.591157+00:00",
+    "last_checked_utc": "2026-03-08T21:30:10.284921+00:00",
     "last_source": "https://www.rockstargames.com/newswire",
     "mode": "scrape"
   },
   "Cyberpunk 2077": {
     "fingerprint": "5ce9560e82a1d87e2091c63e3c76f005338a88bdfe2585bf86220645a20a25af",
-    "last_checked_utc": "2026-03-07T21:28:05.018689+00:00",
+    "last_checked_utc": "2026-03-08T21:30:10.818078+00:00",
     "last_source": "https://www.cyberpunk.net/en/news/",
     "mode": "scrape"
   },
   "Diablo IV": {
-    "fingerprint": "0bf9bf5b18340c7241cf843f76306fd025704fe26ffadd35948008b83ca686b1",
-    "last_checked_utc": "2026-03-07T21:28:05.217990+00:00",
+    "fingerprint": "3bd498e4fa4ac3de1e6c635e2ae08655de030b59eb34d878bcd70debfa696c81",
+    "last_checked_utc": "2026-03-08T21:30:11.109019+00:00",
     "last_source": "https://news.blizzard.com/en-us/feed/diablo-4",
     "mode": "rss"
   },
   "Counter-Strike 2": {
     "fingerprint": "ffdde83b2ca8d5862ef2ae259c4af7021a36814f7969b1099bd4bcd4f3f5957e",
-    "last_checked_utc": "2026-03-07T21:28:05.407812+00:00",
+    "last_checked_utc": "2026-03-08T21:30:11.338383+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/730/?format=rss",
     "mode": "rss"
   }
