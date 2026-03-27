@@ -11,6 +11,7 @@ games:
       - "https://store.steampowered.com/news/app/1172470"
 
   - name: "Fortnite"
+    mode: rss
     urls:
       - "https://www.fortnite.com/news?lang=en-US"
       - "https://fortnite.gg/news"
@@ -28,7 +29,8 @@ games:
     url: "https://www.cyberpunk.net/en/news/"
 
   - name: "Diablo IV"
-    url: "https://news.blizzard.com/en-us/article/24244466/diablo-iv-patch-notes"
+    mode: rss
+    url: "https://news.blizzard.com/en-us/feed/diablo-4"
 
   - name: "Counter-Strike 2"
     urls:
