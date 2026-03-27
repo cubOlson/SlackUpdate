@@ -7,13 +7,13 @@ games:
 
   - name: "Apex Legends"
     urls:
-    - "https://store.steampowered.com/feeds/news/app/1172470/?format=rss"
-    - "https://store.steampowered.com/news/app/1172470"
+      - "https://store.steampowered.com/feeds/news/app/1172470/?format=rss"
+      - "https://store.steampowered.com/news/app/1172470"
 
   - name: "Fortnite"
     urls:
-    - "https://www.fortnite.com/news?lang=en-US"
-    - "https://fortnite.gg/news"
+      - "https://www.fortnite.com/news?lang=en-US"
+      - "https://fortnite.gg/news"
 
   - name: "League of Legends"
     url: "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
@@ -32,5 +32,193 @@ games:
 
   - name: "Counter-Strike 2"
     urls:
-    - "https://store.steampowered.com/feeds/news/app/730/?format=rss"
-    - "https://store.steampowered.com/news/app/730"
+      - "https://store.steampowered.com/feeds/news/app/730/?format=rss"
+      - "https://store.steampowered.com/news/app/730"
+
+  - name: "Among Us"
+    urls:
+      - "https://www.innersloth.com/news/"
+      - "https://store.steampowered.com/news/app/945360"
+
+  - name: "Arc Raiders"
+    url: "https://arcraiders.com/news/"
+
+  - name: "Assetto Corsa"
+    urls:
+      - "https://store.steampowered.com/news/app/244210"
+      - "https://store.steampowered.com/news/app/805550"
+
+  - name: "Battlefield 6"
+    urls:
+      - "https://www.ea.com/games/battlefield"
+      - "https://www.ea.com/news/battlefield"
+
+  - name: "Black Ops 7"
+    urls:
+      - "https://www.callofduty.com/blog"
+      - "https://www.callofduty.com/patchnotes"
+
+  - name: "Borderlands 4"
+    urls:
+      - "https://borderlands.com/en-US/news/"
+      - "https://store.steampowered.com/news/app/2842490"
+
+  - name: "Chivalry 2"
+    urls:
+      - "https://store.steampowered.com/news/app/1824220"
+      - "https://www.chivalry2.com/news/"
+
+  - name: "Dead by Daylight"
+    urls:
+      - "https://deadbydaylight.com/news"
+      - "https://store.steampowered.com/news/app/381210"
+
+  - name: "Destiny 2"
+    urls:
+      - "https://www.bungie.net/en/News/"
+      - "https://store.steampowered.com/news/app/1085660"
+
+  - name: "DOOM 2016"
+    url: "https://store.steampowered.com/news/app/379720"
+
+  - name: "DOOM: The Dark Ages"
+    urls:
+      - "https://bethesda.net/en/games/doom"
+      - "https://store.steampowered.com/news/app/2413590"
+
+  - name: "Dota 2"
+    urls:
+      - "https://www.dota2.com/patches"
+      - "https://store.steampowered.com/news/app/570"
+
+  - name: "Dune: Awakening"
+    urls:
+      - "https://www.duneawakening.com/news"
+      - "https://store.steampowered.com/news/app/1919690"
+
+  - name: "Elden Ring"
+    urls:
+      - "https://store.steampowered.com/news/app/1245620"
+      - "https://en.bandainamcoent.eu/elden-ring/elden-ring"
+
+  - name: "Final Fantasy XIV"
+    url: "https://na.finalfantasyxiv.com/lodestone/news/"
+
+  - name: "Forza Horizon 5"
+    urls:
+      - "https://forza.net/en-US/news/forza-horizon-5"
+      - "https://store.steampowered.com/news/app/1551360"
+
+  - name: "Genshin Impact"
+    url: "https://genshin.hoyoverse.com/en/news/"
+
+  - name: "Hearthstone"
+    url: "https://hearthstone.blizzard.com/en-us/news"
+
+  - name: "Helldivers 2"
+    urls:
+      - "https://store.steampowered.com/news/app/553850"
+      - "https://www.helldivers.com/news"
+
+  - name: "Hogwarts Legacy"
+    url: "https://store.steampowered.com/news/app/990080"
+
+  - name: "Hytale"
+    url: "https://hytale.com/news"
+
+  - name: "Lost Ark"
+    urls:
+      - "https://www.playlostark.com/en-us/news"
+      - "https://store.steampowered.com/news/app/1599340"
+
+  - name: "Marvel Rivals"
+    urls:
+      - "https://www.marvelrivals.com/news/"
+      - "https://store.steampowered.com/news/app/2767030"
+
+  - name: "Microsoft Flight Simulator"
+    urls:
+      - "https://store.steampowered.com/news/app/2537590"
+      - "https://store.steampowered.com/news/app/1250410"
+
+  - name: "Monster Hunter Wilds"
+    urls:
+      - "https://store.steampowered.com/news/app/2246340"
+      - "https://www.monsterhunter.com/wilds/us/"
+
+  - name: "Elden Ring Nightreign"
+    urls:
+      - "https://store.steampowered.com/news/app/2622380"
+      - "https://en.bandainamcoent.eu/elden-ring/elden-ring-nightreign"
+
+  - name: "No Man's Sky"
+    urls:
+      - "https://store.steampowered.com/news/app/275850"
+      - "https://www.nomanssky.com/news/"
+
+  - name: "Overwatch 2"
+    urls:
+      - "https://overwatch.blizzard.com/en-us/news/patch-notes/"
+      - "https://store.steampowered.com/news/app/2357570"
+
+  - name: "Palworld"
+    urls:
+      - "https://store.steampowered.com/news/app/1623730"
+      - "https://www.pocketpair.jp/palworld"
+
+  - name: "Path of Exile"
+    urls:
+      - "https://www.pathofexile.com/news"
+      - "https://store.steampowered.com/news/app/238960"
+
+  - name: "PUBG"
+    urls:
+      - "https://store.steampowered.com/news/app/578080"
+      - "https://pubg.com/en/news/"
+
+  - name: "Rainbow Six Extraction"
+    url: "https://www.ubisoft.com/en-us/game/rainbow-six/extraction/news"
+
+  - name: "Rainbow Six Siege"
+    urls:
+      - "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news"
+      - "https://store.steampowered.com/news/app/359550"
+
+  - name: "Rocket League"
+    urls:
+      - "https://www.rocketleague.com/news"
+      - "https://store.steampowered.com/news/app/252950"
+
+  - name: "Rust"
+    urls:
+      - "https://rust.facepunch.com/news"
+      - "https://store.steampowered.com/news/app/252490"
+
+  - name: "Hollow Knight: Silksong"
+    url: "https://www.hollowknight.com/silksong/"
+
+  - name: "Stardew Valley"
+    urls:
+      - "https://store.steampowered.com/news/app/413150"
+      - "https://www.stardewvalley.net/"
+
+  - name: "Starfield"
+    urls:
+      - "https://store.steampowered.com/news/app/1716740"
+      - "https://bethesda.net/en/games/starfield"
+
+  - name: "Terraria"
+    urls:
+      - "https://store.steampowered.com/news/app/105600"
+      - "https://terraria.org/"
+
+  - name: "Teamfight Tactics"
+    url: "https://teamfighttactics.leagueoflegends.com/en-us/news/"
+
+  - name: "World of Tanks"
+    url: "https://worldoftanks.com/en/news/"
+
+  - name: "World of Warcraft"
+    urls:
+      - "https://worldofwarcraft.blizzard.com/en-us/news"
+      - "https://news.blizzard.com/en-us/world-of-warcraft"
