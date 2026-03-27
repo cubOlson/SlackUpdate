@@ -39,6 +39,7 @@ def fetch_page(url: str) -> str:
 
 def fingerprint_rss(xml_text: str) -> str:
     """Extract the title of the most recent item in an RSS/Atom feed."""
+    import re
     try:
         root = ET.fromstring(xml_text)
         # Handle both RSS and Atom namespaces
@@ -52,7 +53,11 @@ def fingerprint_rss(xml_text: str) -> str:
             return hashlib.sha256(item.text.strip().encode("utf-8")).hexdigest()
     except ET.ParseError:
         pass
-    # Fallback: hash the raw text
+    # Fallback 1: extract first item title with regex to avoid hashing dynamic timestamps
+    m = re.search(r"<item[^>]*>.*?<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", xml_text, re.DOTALL)
+    if m:
+        return hashlib.sha256(m.group(1).strip().encode("utf-8")).hexdigest()
+    # Fallback 2: hash the raw text (last resort — may be unstable if feed has dynamic headers)
     return hashlib.sha256(xml_text[:5000].encode("utf-8")).hexdigest()
 
 def fingerprint_headlines(html: str) -> str:
