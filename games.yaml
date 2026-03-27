@@ -13,9 +13,7 @@ games:
 
   - name: "Fortnite"
     mode: rss
-    urls:
-      - "https://www.fortnite.com/news?lang=en-US"
-      - "https://fortnite.gg/news"
+    url: "https://fortnitenews.com/rss"
 
   - name: "League of Legends"
     url: "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
@@ -216,7 +214,7 @@ games:
       - "https://pubg.com/en/news/"
 
   - name: "Rainbow Six Extraction"
-    url: "https://www.ubisoft.com/en-us/game/rainbow-six/extraction/news"
+    url: "https://www.ubisoft.com/en-us/game/rainbow-six/extraction"
 
   - name: "Rainbow Six Siege"
     mode: rss
@@ -236,7 +234,7 @@ games:
       - "https://rust.facepunch.com/news"
 
   - name: "Hollow Knight: Silksong"
-    url: "https://www.hollowknight.com/silksong/"
+    url: "https://teamcherry.com.au/"
 
   - name: "Stardew Valley"
     mode: rss
