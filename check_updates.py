@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import hashlib
 from datetime import datetime, timezone
@@ -8,6 +9,37 @@ import xml.etree.ElementTree as ET
 import yaml
 
 STATE_FILE = "state.json"
+
+# Matches article titles that signal actual game changes worth alerting on.
+# Covers patches, seasons, new content, balance changes, new characters, UI/feature releases, etc.
+_RELEVANT_RE = re.compile(
+    r'\b(?:'
+    r'update|patch|hotfix|bugfix|'
+    r'dlc|expansion|'
+    r'season|'
+    r'character|hero|operator|champion|'
+    r'playable|roster|'
+    r'balance|nerf|buff|rework|tuning|'
+    r'wipe|'
+    r'changelog|'
+    r'event|'
+    r'launch|'
+    r'version'
+    r')\b'
+    r'|battle\s*pass'
+    r'|patch\s+notes|release\s+notes'
+    r'|early\s+access'
+    r'|new\s+(?:content|map|mode|feature|weapon|skin|character|hero|agent|class)',
+    re.IGNORECASE,
+)
+
+# Sentinel returned when no relevant items are found — stable across runs so no alert fires.
+_NO_RELEVANT_CONTENT = hashlib.sha256(b"no-relevant-content").hexdigest()
+
+
+def is_relevant(text: str) -> bool:
+    return bool(_RELEVANT_RE.search(text))
+
 
 def load_state() -> dict:
     if os.path.exists(STATE_FILE):
@@ -38,42 +70,50 @@ def fetch_page(url: str) -> str:
     return r.text
 
 def fingerprint_rss(xml_text: str) -> str:
-    """Extract the title of the most recent item in an RSS/Atom feed."""
-    import re
+    """Hash only RSS/Atom item titles that signal actual game changes."""
     try:
         root = ET.fromstring(xml_text)
-        # Handle both RSS and Atom namespaces
         ns = {"atom": "http://www.w3.org/2005/Atom"}
-        # Try RSS first
-        item = root.find(".//item/title")
-        if item is None:
-            # Try Atom
-            item = root.find(".//atom:entry/atom:title", ns)
-        if item is not None and item.text:
-            return hashlib.sha256(item.text.strip().encode("utf-8")).hexdigest()
+
+        titles = [t.text.strip() for t in root.findall(".//item/title") if t.text]
+        if not titles:
+            titles = [t.text.strip() for t in root.findall(".//atom:entry/atom:title", ns) if t.text]
+
+        relevant = [t for t in titles if is_relevant(t)]
+        if relevant:
+            return hashlib.sha256(" | ".join(relevant).encode("utf-8")).hexdigest()
+        if titles:
+            return _NO_RELEVANT_CONTENT
     except ET.ParseError:
         pass
-    # Fallback 1: extract first item title with regex to avoid hashing dynamic timestamps
-    m = re.search(r"<item[^>]*>.*?<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", xml_text, re.DOTALL)
-    if m:
-        return hashlib.sha256(m.group(1).strip().encode("utf-8")).hexdigest()
-    # Fallback 2: hash the raw text (last resort — may be unstable if feed has dynamic headers)
+
+    # Fallback 1: regex title extraction (avoids hashing dynamic timestamps in raw XML)
+    raw_titles = re.findall(
+        r"<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", xml_text, re.DOTALL
+    )
+    item_titles = [t.strip() for t in raw_titles[1:] if t.strip()]  # skip channel title
+    relevant = [t for t in item_titles if is_relevant(t)]
+    if relevant:
+        return hashlib.sha256(" | ".join(relevant).encode("utf-8")).hexdigest()
+    if item_titles:
+        return _NO_RELEVANT_CONTENT
+
+    # Fallback 2: last resort — hash raw text (may be unstable if feed has dynamic headers)
     return hashlib.sha256(xml_text[:5000].encode("utf-8")).hexdigest()
 
 def fingerprint_headlines(html: str) -> str:
-    """Fingerprint only headlines and article links — ignores ads, nav, banners."""
+    """Hash only headlines that signal actual game changes — ignores news, ads, nav, banners."""
     soup = BeautifulSoup(html, "lxml")
-    # Remove noise
     for tag in soup(["script", "style", "noscript", "nav", "footer", "header"]):
         tag.decompose()
-    # Collect only headings and anchor text (article titles live here)
     parts = []
     for tag in soup.find_all(["h1", "h2", "h3", "a"]):
         text = tag.get_text(" ", strip=True)
-        if len(text) > 10:  # skip tiny/empty tags
+        if len(text) > 10 and is_relevant(text):
             parts.append(text)
-    combined = " | ".join(parts[:100])  # cap at 100 items
-    return hashlib.sha256(combined.encode("utf-8")).hexdigest()
+    if not parts:
+        return _NO_RELEVANT_CONTENT
+    return hashlib.sha256(" | ".join(parts[:100]).encode("utf-8")).hexdigest()
 
 def send_slack(message: str) -> None:
     url = os.environ["SLACK_WEBHOOK_URL"]
@@ -94,6 +134,7 @@ def main() -> None:
         name = game["name"]
         mode = game.get("mode", "scrape")  # "rss" or "scrape"
         urls = game.get("urls") or [game["url"]]
+        news_url = game.get("news_url", urls[0])
         last_error = None
         used_url = None
 
@@ -118,7 +159,7 @@ def main() -> None:
 
             prev_fp = state.get(name, {}).get("fingerprint")
             if prev_fp and prev_fp != fp:
-                updates_found.append((name, used_url))
+                updates_found.append((name, news_url))
 
             state[name] = {
                 "fingerprint": fp,
@@ -141,7 +182,7 @@ def main() -> None:
     if updates_found:
         lines.append("*Updates detected (changes since yesterday):*")
         for name, url in updates_found:
-            lines.append(f"- {name}: {url}")
+            lines.append(f"- {name}: <{url}|Check it out>")
     else:
         lines.append("No updates today ✅")
 
