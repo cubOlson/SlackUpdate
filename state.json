@@ -1,313 +1,313 @@
 {
   "VALORANT": {
     "fingerprint": "2dabdf8e67e9ed58ee069c3f03764ef5a8362a2d923b67a92b4f58ac291aefee",
-    "last_checked_utc": "2026-05-04T22:07:46.448794+00:00",
+    "last_checked_utc": "2026-05-05T22:05:18.432228+00:00",
     "last_source": "https://playvalorant.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Minecraft": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:46.665106+00:00",
+    "last_checked_utc": "2026-05-05T22:05:18.782386+00:00",
     "last_source": "https://www.minecraft.net/en-us/articles",
     "mode": "scrape"
   },
   "Apex Legends": {
-    "fingerprint": "928b0611dde152b30c28a560f38d7b5dbd94dae04665c3d94df7fc32ad7f6126",
-    "last_checked_utc": "2026-05-04T22:07:46.857069+00:00",
+    "fingerprint": "f8683de0c86c5e81a20b5c83ef9ac52bd13d3e7d008f206cbda9816cf9c95a85",
+    "last_checked_utc": "2026-05-05T22:05:18.973413+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172470/?format=rss",
     "mode": "rss"
   },
   "Fortnite": {
     "fingerprint": "a0be875d2288d6278edb1351d5363ece347bc11a25d26496b44c390a1401f7e8",
-    "last_checked_utc": "2026-05-04T22:07:47.006145+00:00",
+    "last_checked_utc": "2026-05-05T22:05:19.239828+00:00",
     "last_source": "https://fortnitenews.com/rss",
     "mode": "rss"
   },
   "League of Legends": {
     "fingerprint": "972b19302ae94c7a95ff1fe7f79b6889e5ef86e169a6a95994cf077e0133f739",
-    "last_checked_utc": "2026-05-04T22:07:47.348280+00:00",
+    "last_checked_utc": "2026-05-05T22:05:19.461177+00:00",
     "last_source": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Call of Duty": {
     "fingerprint": "4d9714186bcb02d23e8410cc4b8a15b8d92e3deb41e1fb2cf786c898f89b46de",
-    "last_checked_utc": "2026-05-04T22:07:47.526717+00:00",
+    "last_checked_utc": "2026-05-05T22:05:19.565695+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
   "GTA V": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:47.681358+00:00",
+    "last_checked_utc": "2026-05-05T22:05:19.712338+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/271590/?format=rss",
     "mode": "rss"
   },
   "Cyberpunk 2077": {
     "fingerprint": "385da19735883222c28f572545b912358507d3a6511ef827704588ff715d633f",
-    "last_checked_utc": "2026-05-04T22:07:47.970368+00:00",
+    "last_checked_utc": "2026-05-05T22:05:19.840754+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1091500/?format=rss",
     "mode": "rss"
   },
   "Diablo IV": {
     "fingerprint": "1db651c5184a797b8092761602f4aca73dd69ec25be04dac7aa2383f5240fb10",
-    "last_checked_utc": "2026-05-04T22:07:48.214233+00:00",
+    "last_checked_utc": "2026-05-05T22:05:19.958392+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2344520/?format=rss",
     "mode": "rss"
   },
   "Counter-Strike 2": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:48.406561+00:00",
+    "last_checked_utc": "2026-05-05T22:05:20.070315+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/730/?format=rss",
     "mode": "rss"
   },
   "Among Us": {
     "fingerprint": "a922235208190ffcff48965e557205c73311042088132e749da7c595defbec37",
-    "last_checked_utc": "2026-05-04T22:07:48.598982+00:00",
+    "last_checked_utc": "2026-05-05T22:05:20.269696+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/945360/?format=rss",
     "mode": "rss"
   },
   "Arc Raiders": {
-    "fingerprint": "dbfb32dc4435be001f342aef11136a9409d885881e2c6a52d9777930a976b18d",
-    "last_checked_utc": "2026-05-04T22:07:49.213915+00:00",
+    "fingerprint": "370c422eb9f1c3d87d68a167c467eb95e4e489c22fcb524974f81f8b12a2a69a",
+    "last_checked_utc": "2026-05-05T22:05:20.956319+00:00",
     "last_source": "https://arcraiders.com/news/",
     "mode": "scrape"
   },
   "Assetto Corsa": {
     "fingerprint": "8c50f22358e5e870aff73e90790e785165c07d51993a2d2ff0167d58186bbe6c",
-    "last_checked_utc": "2026-05-04T22:07:49.469923+00:00",
+    "last_checked_utc": "2026-05-05T22:05:21.168103+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/244210/?format=rss",
     "mode": "rss"
   },
   "Battlefield 6": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:50.186846+00:00",
+    "last_checked_utc": "2026-05-05T22:05:21.485235+00:00",
     "last_source": "https://www.ea.com/games/battlefield",
     "mode": "scrape"
   },
   "Black Ops 7": {
-    "fingerprint": "1586799c32e1a9d1cdc3390952e4f61ec5fa71190b016aa64d4b129aab69c63f",
-    "last_checked_utc": "2026-05-04T22:07:50.456514+00:00",
+    "fingerprint": "531be0d15c40dc745d664876740110fb2735c7f3369f17d3fa5f0d5c798ea1d7",
+    "last_checked_utc": "2026-05-05T22:05:21.795897+00:00",
     "last_source": "https://www.callofduty.com/blog",
     "mode": "scrape"
   },
   "Borderlands 4": {
     "fingerprint": "e250f05c1bb27d75abb98c94e68122157ce032958bdeb496b43f70dd58309890",
-    "last_checked_utc": "2026-05-04T22:07:50.671598+00:00",
+    "last_checked_utc": "2026-05-05T22:05:21.992803+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2842490/?format=rss",
     "mode": "rss"
   },
   "Chivalry 2": {
     "fingerprint": "abc365480f35bc989615f5b5251e885fce4825b5f529afff7b7e7614fb90f5ca",
-    "last_checked_utc": "2026-05-04T22:07:50.831362+00:00",
+    "last_checked_utc": "2026-05-05T22:05:22.321304+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1824220/?format=rss",
     "mode": "rss"
   },
   "Dead by Daylight": {
-    "fingerprint": "d9b8a660ede7e2f8dd10dc913c04e5bf669a8db59fb121c75ce6f9c917adf20d",
-    "last_checked_utc": "2026-05-04T22:07:51.045457+00:00",
+    "fingerprint": "1afe9fdc2853955134b1dd5938ebcced38c1002db77bfa4345aa7429f88ddc9f",
+    "last_checked_utc": "2026-05-05T22:05:22.528529+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/381210/?format=rss",
     "mode": "rss"
   },
   "Destiny 2": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:51.271652+00:00",
+    "last_checked_utc": "2026-05-05T22:05:22.625057+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1085660/?format=rss",
     "mode": "rss"
   },
   "DOOM 2016": {
     "fingerprint": "9aab41cfb8f3aa2c17de39e1c9bee92d1ef18afd0e111a481ff26155cd3a4906",
-    "last_checked_utc": "2026-05-04T22:07:51.567526+00:00",
+    "last_checked_utc": "2026-05-05T22:05:22.950182+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/379720/?format=rss",
     "mode": "rss"
   },
   "DOOM: The Dark Ages": {
-    "fingerprint": "8540a0849b738ec57bb932759a8bc7f4ba8279b006a48e5824d6297514b10959",
-    "last_checked_utc": "2026-05-04T22:07:51.815681+00:00",
+    "fingerprint": "a12792cad97dc79cb5ad4ead436f6a3d51a0d22d871899be54d61091d9868384",
+    "last_checked_utc": "2026-05-05T22:05:23.115727+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2413590/?format=rss",
     "mode": "rss"
   },
   "Dota 2": {
-    "fingerprint": "aa45824151e7884f5c878926ee4aba2a5e62a37e5c834464b6fd50a49458fd26",
-    "last_checked_utc": "2026-05-04T22:07:51.992593+00:00",
+    "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
+    "last_checked_utc": "2026-05-05T22:05:23.278148+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/570/?format=rss",
     "mode": "rss"
   },
   "Dune: Awakening": {
-    "fingerprint": "2096fcecd94674a056e12c84c028b2138813954dc359bbb3dffd1ec48dd0da5a",
-    "last_checked_utc": "2026-05-04T22:07:52.135813+00:00",
+    "fingerprint": "1061ecdc3d255bbf64555bd1d62e49319aabcef0f3e0977e51298b072551cf06",
+    "last_checked_utc": "2026-05-05T22:05:23.433703+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1919690/?format=rss",
     "mode": "rss"
   },
   "Elden Ring": {
     "fingerprint": "a1439228ee7606b775bc0ee777dce805d2f91e5a526e0bf5ba0635fcba3df419",
-    "last_checked_utc": "2026-05-04T22:07:52.343084+00:00",
+    "last_checked_utc": "2026-05-05T22:05:23.688037+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1245620/?format=rss",
     "mode": "rss"
   },
   "Final Fantasy XIV": {
     "fingerprint": "763a119b66b3d8411a7fcf149ed082ecf9ddb542bf83ca8dfc45dee5546e589f",
-    "last_checked_utc": "2026-05-04T22:07:52.678762+00:00",
+    "last_checked_utc": "2026-05-05T22:05:23.808997+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/39210/?format=rss",
     "mode": "rss"
   },
   "Forza Horizon 5": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:52.915908+00:00",
+    "last_checked_utc": "2026-05-05T22:05:23.980282+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1551360/?format=rss",
     "mode": "rss"
   },
   "Genshin Impact": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:53.268314+00:00",
+    "last_checked_utc": "2026-05-05T22:05:24.400377+00:00",
     "last_source": "https://genshin.hoyoverse.com/en/news/",
     "mode": "scrape"
   },
   "Hearthstone": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:53.335180+00:00",
+    "last_checked_utc": "2026-05-05T22:05:25.222761+00:00",
     "last_source": "https://hearthstone.blizzard.com/en-us/news",
     "mode": "scrape"
   },
   "Helldivers 2": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:53.514375+00:00",
+    "last_checked_utc": "2026-05-05T22:05:25.397097+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/553850/?format=rss",
     "mode": "rss"
   },
   "Hogwarts Legacy": {
     "fingerprint": "efb374371218ef50e5128f54bc924ba64d6b1287a4ee41ebd3c9b506c86aae01",
-    "last_checked_utc": "2026-05-04T22:07:53.750883+00:00",
+    "last_checked_utc": "2026-05-05T22:05:25.564522+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/990080/?format=rss",
     "mode": "rss"
   },
   "Hytale": {
     "fingerprint": "4b0e8638378edf96ff9227f898d0d4795a90f74bb12ec17a73eeb59e06ed31d4",
-    "last_checked_utc": "2026-05-04T22:07:53.928891+00:00",
+    "last_checked_utc": "2026-05-05T22:05:25.653119+00:00",
     "last_source": "https://hytale.com/news",
     "mode": "scrape"
   },
   "Lost Ark": {
     "fingerprint": "1b7b5bcb8a2b7748ca37e4731a062d053400276c371f6c888de181322bc2530b",
-    "last_checked_utc": "2026-05-04T22:07:54.157414+00:00",
+    "last_checked_utc": "2026-05-05T22:05:25.785359+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1599340/?format=rss",
     "mode": "rss"
   },
   "Marvel Rivals": {
-    "fingerprint": "0fe6a693077235180fcb46c0c00b29e60240961b87edf5c3ef8fa5f2385df262",
-    "last_checked_utc": "2026-05-04T22:07:54.326987+00:00",
+    "fingerprint": "fdb92d11980a4cd2e4e165548c10022160fb5e3464302624ef1015fe7e7db127",
+    "last_checked_utc": "2026-05-05T22:05:25.897675+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2767030/?format=rss",
     "mode": "rss"
   },
   "Microsoft Flight Simulator": {
-    "fingerprint": "2151c93637659de29d50d1ca6c6f85ac501e566f99d6fccfe7b7900581aa1b26",
-    "last_checked_utc": "2026-05-04T22:07:54.524115+00:00",
+    "fingerprint": "eb33b4f89f6eef71853b1e483da2e6ed1b1c2d958e25a77f677bcb24b0f9afd9",
+    "last_checked_utc": "2026-05-05T22:05:26.086530+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2537590/?format=rss",
     "mode": "rss"
   },
   "Monster Hunter Wilds": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:54.757803+00:00",
+    "last_checked_utc": "2026-05-05T22:05:26.225471+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2246340/?format=rss",
     "mode": "rss"
   },
   "Elden Ring Nightreign": {
     "fingerprint": "fe482667e82d1999507d9defc6f2558729473136c82764e3a66423627516a564",
-    "last_checked_utc": "2026-05-04T22:07:54.976307+00:00",
+    "last_checked_utc": "2026-05-05T22:05:26.379797+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2622380/?format=rss",
     "mode": "rss"
   },
   "No Man's Sky": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:55.394434+00:00",
+    "last_checked_utc": "2026-05-05T22:05:26.588644+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/275850/?format=rss",
     "mode": "rss"
   },
   "Overwatch 2": {
     "fingerprint": "db3e5e0620b6ed28ecef6e786f81eadd7994c8b8fae4b1f8e0b81ab4ec015616",
-    "last_checked_utc": "2026-05-04T22:07:55.540385+00:00",
+    "last_checked_utc": "2026-05-05T22:05:26.752200+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2357570/?format=rss",
     "mode": "rss"
   },
   "Palworld": {
     "fingerprint": "642469cbe1bc310763b1751f81411c949f3c46ad4a68031cd4ef7c47167f6118",
-    "last_checked_utc": "2026-05-04T22:07:55.758351+00:00",
+    "last_checked_utc": "2026-05-05T22:05:26.894184+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1623730/?format=rss",
     "mode": "rss"
   },
   "Path of Exile": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:55.948738+00:00",
+    "last_checked_utc": "2026-05-05T22:05:27.019971+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/238960/?format=rss",
     "mode": "rss"
   },
   "PUBG": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:56.281518+00:00",
+    "last_checked_utc": "2026-05-05T22:05:27.190447+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/578080/?format=rss",
     "mode": "rss"
   },
   "Rainbow Six Extraction": {
     "fingerprint": "ceccc556dedd0b567d06ec80c94120b80610df6e9225c76de0a6641bfe25672a",
-    "last_checked_utc": "2026-05-04T22:07:58.237440+00:00",
+    "last_checked_utc": "2026-05-05T22:05:28.926987+00:00",
     "last_source": "https://www.ubisoft.com/en-us/game/rainbow-six/extraction",
     "mode": "scrape"
   },
   "Rainbow Six Siege": {
-    "fingerprint": "5cc088d6935282075db38c125db16713d9ded57d79071cc016b1087d14f5f0ef",
-    "last_checked_utc": "2026-05-04T22:07:58.464321+00:00",
+    "fingerprint": "7b48dc0fc8b071a35c60eb2d6bfc4e84928fbc6ba94bac20704e1aa662d4cf05",
+    "last_checked_utc": "2026-05-05T22:05:29.096617+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/359550/?format=rss",
     "mode": "rss"
   },
   "Rocket League": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:07:59.074913+00:00",
+    "last_checked_utc": "2026-05-05T22:05:29.443524+00:00",
     "last_source": "https://store.steampowered.com/news/app/252950",
     "mode": "scrape"
   },
   "Rust": {
     "fingerprint": "b8fe771b0ad5caaab8476206f6f309df7d8c9213e223f8d9dc099fc9f4021a57",
-    "last_checked_utc": "2026-05-04T22:07:59.441786+00:00",
+    "last_checked_utc": "2026-05-05T22:05:29.687071+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/252490/?format=rss",
     "mode": "rss"
   },
   "Hollow Knight: Silksong": {
     "fingerprint": "097a5f99bd82aa39def63a937bf81b94a9d7909dadb0ee56e9149d422d67f162",
-    "last_checked_utc": "2026-05-04T22:07:59.805030+00:00",
+    "last_checked_utc": "2026-05-05T22:05:30.275496+00:00",
     "last_source": "https://teamcherry.com.au/",
     "mode": "scrape"
   },
   "Stardew Valley": {
     "fingerprint": "211c04729b66b1e01ad580d893711289d11fc1f1e1042adeabbb02f2f5c1a9a7",
-    "last_checked_utc": "2026-05-04T22:08:00.015656+00:00",
+    "last_checked_utc": "2026-05-05T22:05:30.413321+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/413150/?format=rss",
     "mode": "rss"
   },
   "Starfield": {
     "fingerprint": "5dc3527a6db5ebbab9a8fb9360d6e410e6236411865c5c8a90331974d749135d",
-    "last_checked_utc": "2026-05-04T22:08:00.240797+00:00",
+    "last_checked_utc": "2026-05-05T22:05:30.605731+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1716740/?format=rss",
     "mode": "rss"
   },
   "Terraria": {
     "fingerprint": "c622fb6bcb3f9d8e216e06c4995edcf3a304a2c08a98f272b7934ac613805a45",
-    "last_checked_utc": "2026-05-04T22:08:00.587124+00:00",
+    "last_checked_utc": "2026-05-05T22:05:30.941929+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/105600/?format=rss",
     "mode": "rss"
   },
   "Teamfight Tactics": {
     "fingerprint": "18f9a5ab1202050f88c0b38078b84e7d64be72f29f665d0cee58fe96eb83a975",
-    "last_checked_utc": "2026-05-04T22:08:01.157524+00:00",
+    "last_checked_utc": "2026-05-05T22:05:31.356238+00:00",
     "last_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/",
     "mode": "scrape"
   },
   "World of Tanks": {
     "fingerprint": "be17ac8c9b0c3e3ed7994d4fdc1c0a827cda2e9768798952273b444bf167664b",
-    "last_checked_utc": "2026-05-04T22:08:01.296038+00:00",
+    "last_checked_utc": "2026-05-05T22:05:32.812492+00:00",
     "last_source": "https://worldoftanks.com/en/news/",
     "mode": "scrape"
   },
   "World of Warcraft": {
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
-    "last_checked_utc": "2026-05-04T22:08:01.590823+00:00",
+    "last_checked_utc": "2026-05-05T22:05:33.291331+00:00",
     "last_source": "https://worldofwarcraft.blizzard.com/en-us/news",
     "mode": "scrape"
   }
