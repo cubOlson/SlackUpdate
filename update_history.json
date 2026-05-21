@@ -1,0 +1,45 @@
+{
+  "VALORANT": [
+    {
+      "date": "2026-05-20T16:38:00.456637+00:00",
+      "detected": [
+        "map",
+        "act",
+        "patch",
+        "patch notes"
+      ],
+      "titles": [
+        "Patch Notes",
+        "Game Updates 2026-05-12T13:00:00.000Z VALORANT Patch Notes 12.09 Neon and shotgun nerfs are here!",
+        "Game Updates 2026-04-28T13:00:00.000Z VALORANT Patch Notes 12.08 Introducing Skirmish: Ascension, new map rotation, and the return of Premier"
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    }
+  ],
+  "PUBG": [
+    {
+      "date": "2026-05-20T16:38:19.572383+00:00",
+      "detected": [
+        "map",
+        "new mode"
+      ],
+      "titles": [
+        "New Mode: PAYDAY",
+        "Update #41.2 New Mode: PUBG x PAYDAY",
+        "Map Service Report - Update 41.2"
+      ],
+      "url": "https://pubg.com/en/news/"
+    },
+    {
+      "date": "2026-05-20T23:13:09.905897+00:00",
+      "detected": [
+        "new mode"
+      ],
+      "titles": [
+        "New Mode: PAYDAY",
+        "Update #41.2 New Mode: PUBG x PAYDAY"
+      ],
+      "url": "https://pubg.com/en/news/"
+    }
+  ]
+}
