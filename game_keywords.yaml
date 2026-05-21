@@ -1,0 +1,744 @@
+VALORANT:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "agent"
+    - "new agent"
+    - "ability"
+    - "ultimate"
+    - "passive"
+    - "map"
+    - "competitive"
+    - "ranked"
+    - "crosshair"
+    - "hud"
+    - "ui"
+    - "interface"
+    - "weapon"
+    - "vfx"
+    - "episode"
+    - "act"
+
+  medium:
+    - "bundle"
+    - "skin"
+    - "battlepass"
+    - "event"
+
+  low:
+    - "esports"
+    - "merch"
+
+Minecraft:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "mob"
+    - "biome"
+    - "block"
+    - "dimension"
+    - "inventory"
+    - "hud"
+    - "ui"
+    - "health"
+    - "armor"
+    - "game drop"
+
+  medium:
+    - "marketplace"
+    - "realm"
+
+  low:
+    - "creator"
+
+Apex Legends:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "legend"
+    - "new legend"
+    - "ability"
+    - "ultimate"
+    - "map"
+    - "weapon"
+    - "ranked"
+    - "crosshair"
+    - "ui"
+    - "hud"
+    - "shield"
+    - "armor"
+
+  medium:
+    - "collection event"
+    - "skin"
+    - "heirloom"
+
+  low:
+    - "esports"
+
+Fortnite:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "chapter"
+    - "season"
+    - "map"
+    - "weapon"
+    - "movement"
+    - "vehicle"
+    - "ui"
+    - "hud"
+    - "interface"
+    - "health"
+    - "shield"
+    - "inventory"
+    - "mode"
+
+  medium:
+    - "event"
+    - "festival"
+    - "lego"
+    - "skin"
+
+  low:
+    - "creator"
+
+League of Legends:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "champion"
+    - "new champion"
+    - "rework"
+    - "ability"
+    - "ultimate"
+    - "passive"
+    - "map"
+    - "item"
+    - "hud"
+    - "ui"
+    - "interface"
+    - "ranked"
+    - "dragon"
+    - "baron"
+
+  medium:
+    - "skin"
+    - "event"
+    - "battle pass"
+
+  low:
+    - "esports"
+
+Call of Duty:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "weapon"
+    - "operator"
+    - "map"
+    - "movement"
+    - "ui"
+    - "hud"
+    - "zombies"
+    - "perk"
+    - "killstreak"
+    - "warzone"
+
+  medium:
+    - "bundle"
+    - "event"
+    - "season"
+
+  low:
+    - "esports"
+
+GTA V:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "dlc"
+    - "heist"
+    - "mission"
+
+  medium:
+    - "vehicle"
+    - "event"
+
+  low:
+    - "gta+"
+
+Cyberpunk 2077:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "expansion"
+    - "dlc"
+    - "vehicle"
+    - "ability"
+
+  medium:
+    - "event"
+    - "cosmetic"
+
+Diablo IV:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "season"
+    - "class"
+    - "skill"
+    - "balance"
+    - "dungeon"
+
+  medium:
+    - "event"
+    - "cosmetic"
+
+Counter-Strike 2:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "map"
+    - "weapon"
+    - "competitive"
+    - "premier"
+    - "subtick"
+    - "crosshair"
+    - "hud"
+    - "ui"
+    - "smoke"
+    - "grenade"
+    - "economy"
+
+  medium:
+    - "case"
+    - "sticker"
+
+  low:
+    - "esports"
+
+Among Us:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "role"
+    - "map"
+    - "mode"
+
+  medium:
+    - "cosmicube"
+    - "event"
+
+Arc Raiders:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "weapon"
+    - "map"
+    - "raid"
+    - "class"
+
+Assetto Corsa:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "physics"
+    - "track"
+    - "car"
+
+  medium:
+    - "dlc"
+
+Battlefield 6:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "map"
+    - "weapon"
+    - "vehicle"
+    - "class"
+    - "destruction"
+    - "ui"
+    - "hud"
+    - "specialist"
+
+  medium:
+    - "event"
+
+  low:
+    - "esports"
+
+Black Ops 7:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "weapon"
+    - "operator"
+    - "map"
+    - "movement"
+    - "ui"
+    - "hud"
+    - "zombies"
+    - "perk"
+    - "killstreak"
+    - "warzone"
+
+  medium:
+    - "bundle"
+    - "event"
+    - "season"
+
+  low:
+    - "esports"
+
+Borderlands 4:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "vault hunter"
+    - "weapon"
+    - "skill"
+
+Chivalry 2:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "weapon"
+    - "map"
+    - "combat"
+
+Dead by Daylight:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "killer"
+    - "survivor"
+    - "perk"
+    - "map"
+
+  medium:
+    - "event"
+    - "cosmetic"
+
+Destiny 2:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "raid"
+    - "subclass"
+    - "weapon"
+    - "season"
+
+  medium:
+    - "event"
+    - "artifact"
+
+DOOM 2016:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "weapon"
+    - "demon"
+
+"DOOM: The Dark Ages":
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "weapon"
+    - "shield"
+    - "dragon"
+    - "combat"
+
+Dota 2:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "hero"
+    - "new hero"
+    - "ability"
+    - "map"
+    - "item"
+    - "neutral"
+    - "ui"
+    - "hud"
+    - "patch"
+
+  medium:
+    - "arcana"
+    - "event"
+
+  low:
+    - "esports"
+
+"Dune: Awakening":
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "survival"
+    - "spice"
+    - "vehicle"
+
+Elden Ring:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "boss"
+    - "weapon"
+    - "dlc"
+    - "class"
+
+Final Fantasy XIV:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "job"
+    - "raid"
+    - "expansion"
+    - "dungeon"
+
+  medium:
+    - "event"
+
+Forza Horizon 5:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "car"
+    - "festival"
+    - "track"
+
+Genshin Impact:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "character"
+    - "region"
+    - "element"
+    - "banner"
+
+  medium:
+    - "event"
+
+Hearthstone:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "card"
+    - "expansion"
+    - "deck"
+    - "hero"
+
+Helldivers 2:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "stratagem"
+    - "enemy"
+    - "planet"
+    - "weapon"
+
+Hogwarts Legacy:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "spell"
+    - "quest"
+    - "dlc"
+
+Hytale:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "biome"
+    - "mob"
+    - "magic"
+
+Lost Ark:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "class"
+    - "raid"
+    - "continent"
+
+Marvel Rivals:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "hero"
+    - "ability"
+    - "map"
+    - "team-up"
+
+Microsoft Flight Simulator:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "aircraft"
+    - "airport"
+    - "weather"
+
+Monster Hunter Wilds:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "monster"
+    - "weapon"
+    - "biome"
+
+Elden Ring Nightreign:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "boss"
+    - "weapon"
+    - "nightfarer"
+
+No Man's Sky:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "expedition"
+    - "planet"
+    - "ship"
+    - "base"
+
+Overwatch 2:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "hero"
+    - "new hero"
+    - "ability"
+    - "ultimate"
+    - "perk"
+    - "passive"
+    - "map"
+    - "mode"
+    - "weapon"
+    - "crosshair"
+    - "ui"
+    - "hud"
+    - "interface"
+    - "competitive"
+    - "ranked"
+    - "season"
+
+  medium:
+    - "skin"
+    - "event"
+
+  low:
+    - "esports"
+
+Palworld:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "pal"
+    - "weapon"
+    - "base"
+
+Path of Exile:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "league"
+    - "skill"
+    - "ascendancy"
+    - "boss"
+
+PUBG:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "new mode"
+    - "map"
+    - "weapon"
+    - "vehicle"
+    - "survivor pass"
+    - "ranked"
+    - "ui"
+    - "hud"
+
+  medium:
+    - "event"
+    - "payday"
+    - "collaboration"
+    - "balance"
+
+  low:
+    - "store"
+    - "skin"
+    - "bundle"
+
+Rainbow Six Extraction:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "operator"
+    - "ability"
+    - "enemy"
+
+Rainbow Six Siege:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "operator"
+    - "new operator"
+    - "ability"
+    - "map"
+    - "ranked"
+    - "weapon"
+    - "hud"
+    - "ui"
+    - "crosshair"
+    - "drone"
+
+  medium:
+    - "event"
+
+  low:
+    - "esports"
+
+Rocket League:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "arena"
+    - "competitive"
+    - "car"
+
+Rust:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "wipe"
+    - "weapon"
+    - "building"
+    - "raid"
+
+"Hollow Knight: Silksong":
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "boss"
+    - "weapon"
+    - "area"
+
+Stardew Valley:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "farm"
+    - "npc"
+    - "festival"
+
+Starfield:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "ship"
+    - "planet"
+    - "dlc"
+    - "quest"
+
+Terraria:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "boss"
+    - "biome"
+    - "weapon"
+    - "event"
+
+Teamfight Tactics:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "set"
+    - "trait"
+    - "augment"
+    - "champion"
+
+World of Tanks:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "tank"
+    - "map"
+    - "battle pass"
+
+World of Warcraft:
+  high:
+    - "new season"
+    - "patch"
+    - "patch notes"
+    - "raid"
+    - "class"
+    - "ability"
+    - "spell"
+    - "dungeon"
+    - "expansion"
+    - "ui"
+    - "hud"
+    - "talent"
+    - "season"
+
+  medium:
+    - "event"
+
+  low:
+    - "esports"
