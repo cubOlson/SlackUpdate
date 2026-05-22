@@ -1,6 +1,6 @@
 VALORANT:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "agent"
@@ -8,17 +8,10 @@ VALORANT:
     - "ability"
     - "ultimate"
     - "passive"
-    - "map"
-    - "competitive"
-    - "ranked"
-    - "crosshair"
     - "hud"
     - "ui"
     - "interface"
-    - "weapon"
-    - "vfx"
-    - "episode"
-    - "act"
+    - "updates"
 
   medium:
     - "bundle"
@@ -32,19 +25,14 @@ VALORANT:
 
 Minecraft:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
-    - "mob"
-    - "biome"
-    - "block"
-    - "dimension"
+    - "snapshot"
     - "inventory"
     - "hud"
     - "ui"
-    - "health"
-    - "armor"
-    - "game drop"
+    - "update"
 
   medium:
     - "marketplace"
@@ -55,7 +43,7 @@ Minecraft:
 
 Apex Legends:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "legend"
@@ -81,22 +69,19 @@ Apex Legends:
 
 Fortnite:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "chapter"
     - "season"
     - "map"
     - "weapon"
-    - "movement"
     - "vehicle"
     - "ui"
     - "hud"
     - "interface"
     - "health"
     - "shield"
-    - "inventory"
-    - "mode"
 
   medium:
     - "event"
@@ -109,7 +94,7 @@ Fortnite:
 
 League of Legends:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "champion"
@@ -126,6 +111,7 @@ League of Legends:
     - "ranked"
     - "dragon"
     - "baron"
+    - "update"
 
   medium:
     - "skin"
@@ -137,7 +123,7 @@ League of Legends:
 
 Call of Duty:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "weapon"
@@ -161,12 +147,10 @@ Call of Duty:
 
 GTA V:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
-    - "dlc"
-    - "heist"
-    - "mission"
+    - "update"
 
   medium:
     - "vehicle"
@@ -177,7 +161,7 @@ GTA V:
 
 Cyberpunk 2077:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "expansion"
@@ -191,14 +175,23 @@ Cyberpunk 2077:
 
 Diablo IV:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "season"
-    - "class"
-    - "skill"
-    - "balance"
-    - "dungeon"
+    - "update"
+
+  medium:
+    - "event"
+    - "cosmetic"
+
+Diablo Immortal:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "season"
+    - "update"
 
   medium:
     - "event"
@@ -206,7 +199,7 @@ Diablo IV:
 
 Counter-Strike 2:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "map"
@@ -219,7 +212,8 @@ Counter-Strike 2:
     - "ui"
     - "smoke"
     - "grenade"
-    - "economy"
+    - "major"
+    - "update"
 
   medium:
     - "case"
@@ -230,7 +224,20 @@ Counter-Strike 2:
 
 Among Us:
   high:
-    - "new season"
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "role"
+    - "map"
+    - "mode"
+
+  medium:
+    - "cosmicube"
+    - "event"
+
+Among Us 3D:
+  high:
+    - "update"
     - "patch"
     - "patch notes"
     - "role"
@@ -243,7 +250,7 @@ Among Us:
 
 Arc Raiders:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "weapon"
@@ -253,29 +260,28 @@ Arc Raiders:
 
 Assetto Corsa:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "physics"
     - "track"
     - "car"
+    - "update"
 
   medium:
     - "dlc"
 
 Battlefield 6:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "map"
     - "weapon"
     - "vehicle"
-    - "class"
-    - "destruction"
     - "ui"
     - "hud"
-    - "specialist"
+    - "update"
 
   medium:
     - "event"
@@ -285,7 +291,7 @@ Battlefield 6:
 
 Black Ops 7:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "weapon"
@@ -309,7 +315,7 @@ Black Ops 7:
 
 Borderlands 4:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "vault hunter"
@@ -318,22 +324,25 @@ Borderlands 4:
 
 Chivalry 2:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "weapon"
     - "map"
     - "combat"
+    - "update"
+    - "hotfix"
 
 Dead by Daylight:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "killer"
     - "survivor"
     - "perk"
     - "map"
+    - "update"
 
   medium:
     - "event"
@@ -341,7 +350,7 @@ Dead by Daylight:
 
 Destiny 2:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "raid"
@@ -355,7 +364,7 @@ Destiny 2:
 
 DOOM 2016:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "weapon"
@@ -363,7 +372,7 @@ DOOM 2016:
 
 "DOOM: The Dark Ages":
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "weapon"
@@ -373,7 +382,7 @@ DOOM 2016:
 
 Dota 2:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "hero"
@@ -395,7 +404,7 @@ Dota 2:
 
 "Dune: Awakening":
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "survival"
@@ -404,7 +413,7 @@ Dota 2:
 
 Elden Ring:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "boss"
@@ -414,20 +423,21 @@ Elden Ring:
 
 Final Fantasy XIV:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "job"
     - "raid"
     - "expansion"
     - "dungeon"
+    - "update"
 
   medium:
     - "event"
 
 Forza Horizon 5:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "car"
@@ -436,7 +446,7 @@ Forza Horizon 5:
 
 Genshin Impact:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "character"
@@ -449,7 +459,7 @@ Genshin Impact:
 
 Hearthstone:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "card"
@@ -459,7 +469,7 @@ Hearthstone:
 
 Helldivers 2:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "stratagem"
@@ -469,7 +479,7 @@ Helldivers 2:
 
 Hogwarts Legacy:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "spell"
@@ -478,25 +488,29 @@ Hogwarts Legacy:
 
 Hytale:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "biome"
     - "mob"
     - "magic"
+    - "update"
 
 Lost Ark:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "class"
     - "raid"
     - "continent"
+    - "update"
+    - "release"
+    - "major"
 
 Marvel Rivals:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "hero"
@@ -506,7 +520,7 @@ Marvel Rivals:
 
 Microsoft Flight Simulator:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "aircraft"
@@ -515,7 +529,7 @@ Microsoft Flight Simulator:
 
 Monster Hunter Wilds:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "monster"
@@ -524,16 +538,17 @@ Monster Hunter Wilds:
 
 Elden Ring Nightreign:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "boss"
     - "weapon"
     - "nightfarer"
+    - "hotfix"
 
 No Man's Sky:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "expedition"
@@ -543,7 +558,7 @@ No Man's Sky:
 
 Overwatch 2:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "hero"
@@ -562,6 +577,7 @@ Overwatch 2:
     - "competitive"
     - "ranked"
     - "season"
+    - "update"
 
   medium:
     - "skin"
@@ -572,7 +588,7 @@ Overwatch 2:
 
 Palworld:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "pal"
@@ -581,7 +597,7 @@ Palworld:
 
 Path of Exile:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "league"
@@ -591,7 +607,7 @@ Path of Exile:
 
 PUBG:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "new mode"
@@ -616,7 +632,7 @@ PUBG:
 
 Rainbow Six Extraction:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "operator"
@@ -625,7 +641,7 @@ Rainbow Six Extraction:
 
 Rainbow Six Siege:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "operator"
@@ -647,7 +663,7 @@ Rainbow Six Siege:
 
 Rocket League:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "arena"
@@ -656,17 +672,18 @@ Rocket League:
 
 Rust:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "wipe"
     - "weapon"
     - "building"
     - "raid"
+    - "update"
 
 "Hollow Knight: Silksong":
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "boss"
@@ -675,7 +692,7 @@ Rust:
 
 Stardew Valley:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "farm"
@@ -684,7 +701,7 @@ Stardew Valley:
 
 Starfield:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "ship"
@@ -694,7 +711,7 @@ Starfield:
 
 Terraria:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "boss"
@@ -704,7 +721,7 @@ Terraria:
 
 Teamfight Tactics:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "set"
@@ -714,16 +731,20 @@ Teamfight Tactics:
 
 World of Tanks:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "tank"
     - "map"
     - "battle pass"
+    - "update"
+    - "micropatch"
+    - "battle pass"
+    - "updates"
 
 World of Warcraft:
   high:
-    - "new season"
+    - "update"
     - "patch"
     - "patch notes"
     - "raid"
@@ -736,6 +757,7 @@ World of Warcraft:
     - "hud"
     - "talent"
     - "season"
+    - "hotfixes"
 
   medium:
     - "event"
