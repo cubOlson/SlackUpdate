@@ -96,87 +96,57 @@ def fetch_page(url: str) -> str:
 
 
 def fingerprint_rss(xml_text: str):
-    """
-    Hash only RSS/Atom item titles that signal actual game changes.
-    Returns:
-        fingerprint, titles
-    """
-
+    """Extract RSS fingerprint + latest entry info."""
     try:
         root = ET.fromstring(xml_text)
         ns = {"atom": "http://www.w3.org/2005/Atom"}
 
-        titles = [
-            t.text.strip()
-            for t in root.findall(".//item/title")
-            if t.text
-        ]
+        items = root.findall(".//item")
 
-        if not titles:
-            titles = [
-                t.text.strip()
-                for t in root.findall(".//atom:entry/atom:title", ns)
-                if t.text
-            ]
+        if not items:
+            items = root.findall(".//atom:entry", ns)
 
-        relevant = [
-            t for t in titles
-            if is_relevant(t)
-        ]
+        titles = []
+        latest_title = None
+        latest_date = None
 
-        clean_titles = []
+        for idx, item in enumerate(items):
 
-        for r in relevant:
-            if r not in clean_titles:
-                clean_titles.append(r)
+            title_el = item.find("title")
+            if title_el is None:
+                title_el = item.find("atom:title", ns)
 
-        if clean_titles:
-            return (
-                hashlib.sha256(
-                    " | ".join(clean_titles).encode("utf-8")
-                ).hexdigest(),
-                clean_titles[:10]
-            )
+            if title_el is None or not title_el.text:
+                continue
+
+            title = title_el.text.strip()
+
+            if is_relevant(title):
+                titles.append(title)
+
+                if idx == 0:
+                    latest_title = title
+
+                    date_el = (
+                        item.find("pubDate")
+                        or item.find("updated")
+                        or item.find("atom:updated", ns)
+                    )
+
+                    if date_el is not None and date_el.text:
+                        latest_date = date_el.text.strip()
 
         if titles:
-            return _NO_RELEVANT_CONTENT, []
+            fp = hashlib.sha256(
+                " | ".join(titles).encode("utf-8")
+            ).hexdigest()
+
+            return fp, latest_title, latest_date
+
+        return _NO_RELEVANT_CONTENT, None, None
 
     except ET.ParseError:
-        pass
-
-    # fallback regex
-    raw_titles = re.findall(
-        r"<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>",
-        xml_text,
-        re.DOTALL
-    )
-
-    item_titles = [
-        t.strip()
-        for t in raw_titles[1:]
-        if t.strip()
-    ]
-
-    relevant = [
-        t for t in item_titles
-        if is_relevant(t)
-    ]
-
-    clean_titles = []
-
-    for r in relevant:
-        if r not in clean_titles:
-            clean_titles.append(r)
-
-    if clean_titles:
-        return (
-            hashlib.sha256(
-                " | ".join(clean_titles).encode("utf-8")
-            ).hexdigest(),
-            clean_titles[:10]
-        )
-
-    return _NO_RELEVANT_CONTENT, []
+        return _NO_RELEVANT_CONTENT, None, None
 
 
 def fingerprint_headlines(html: str):
@@ -294,14 +264,23 @@ def main() -> None:
 
             # fingerprint strategy
             if mode == "rss":
-                fp, titles = fingerprint_rss(content)
+
+                fp, latest_title, latest_date = fingerprint_rss(content)
+
+                titles = [latest_title] if latest_title else []
 
             else:
+
                 fp, titles = fingerprint_headlines(content)
+
+                latest_title = titles[0] if titles else None
+                latest_date = None
 
             prev_fp = state.get(name, {}).get("fingerprint")
 
-            if prev_fp and prev_fp != fp:
+            prev_title = state.get(name, {}).get("latest_title")
+
+            if prev_title and latest_title != prev_title:
 
                 joined_titles = " ".join(titles)
 
@@ -316,7 +295,8 @@ def main() -> None:
                         history[name] = []
 
                     history[name].append({
-                        "date": datetime.now(timezone.utc).isoformat(),
+                        "date_detected": datetime.now(timezone.utc).isoformat(),
+                        "article_date": latest_date,
                         "detected": detected,
                         "titles": titles[:3],
                         "url": news_url
@@ -334,6 +314,8 @@ def main() -> None:
 
             state[name] = {
                 "fingerprint": fp,
+                "latest_title": latest_title,
+                "latest_date": latest_date,
                 "last_checked_utc": datetime.now(
                     timezone.utc
                 ).isoformat(),

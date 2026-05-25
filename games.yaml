@@ -121,8 +121,7 @@ games:
 
   - name: "Diablo Immortal"
     news_url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
-    url:
-      - "https://news.blizzard.com/en-us/feed/diablo-immortal"
+    url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
 
   - name: "DOOM 2016"
     news_url: "https://store.steampowered.com/news/app/379720"
@@ -309,8 +308,7 @@ games:
   - name: "Starfield"
     news_url: "https://store.steampowered.com/news/app/1716740"
     mode: rss
-    url:
-      - "https://store.steampowered.com/feeds/news/app/1716740/?format=rss"
+    url: "https://store.steampowered.com/feeds/news/app/1716740/?format=rss"
 
 
   - name: "Terraria"
