@@ -3,7 +3,7 @@
     "fingerprint": "c426c2ce71491a8f55dd8112cd66ceb2caea12017a29fb9d7d970887474561d7",
     "latest_title": "Patch Notes",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:56.538031+00:00",
+    "last_checked_utc": "2026-05-28T22:42:42.948851+00:00",
     "last_source": "https://playvalorant.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
@@ -11,15 +11,15 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:56.945493+00:00",
+    "last_checked_utc": "2026-05-28T22:42:43.330258+00:00",
     "last_source": "https://www.minecraft.net/en-us/articles",
     "mode": "scrape"
   },
   "Apex Legends": {
-    "fingerprint": "d0aab3415ea7cd91f7acf50d99295cf501ae6934b48bd9182b574955ec0164ad",
-    "latest_title": "Apex Legends: Latest Update 05/27/2026",
+    "fingerprint": "3dd2d8c37408262770f62f3973335f54b35f77d799f00f10b6a40af7453d4a7f",
+    "latest_title": "Apex Legends: Latest Update 5/28/2026",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:57.373179+00:00",
+    "last_checked_utc": "2026-05-28T22:42:43.598511+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172470/?format=rss",
     "mode": "rss"
   },
@@ -27,7 +27,7 @@
     "fingerprint": "a0be875d2288d6278edb1351d5363ece347bc11a25d26496b44c390a1401f7e8",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:57.598655+00:00",
+    "last_checked_utc": "2026-05-28T22:42:43.842212+00:00",
     "last_source": "https://fortnitenews.com/rss",
     "mode": "rss"
   },
@@ -35,7 +35,7 @@
     "fingerprint": "167bee140b8fd36172e81c8841a993e80ec6994340d8034598898b8f1bf99684",
     "latest_title": "Patch Notes",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:57.841181+00:00",
+    "last_checked_utc": "2026-05-28T22:42:44.075729+00:00",
     "last_source": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
@@ -43,7 +43,7 @@
     "fingerprint": "a07ebf375a23413f4a615a96bc1c76c088d0f858f423bc767f9144eb60b96cea",
     "latest_title": "Patch Notes",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:58.034473+00:00",
+    "last_checked_utc": "2026-05-28T22:42:44.274530+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
@@ -51,7 +51,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:58.287642+00:00",
+    "last_checked_utc": "2026-05-28T22:42:44.605056+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/271590/?format=rss",
     "mode": "rss"
   },
@@ -59,7 +59,7 @@
     "fingerprint": "385da19735883222c28f572545b912358507d3a6511ef827704588ff715d633f",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:58.545854+00:00",
+    "last_checked_utc": "2026-05-28T22:42:44.824739+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1091500/?format=rss",
     "mode": "rss"
   },
@@ -67,7 +67,7 @@
     "fingerprint": "35f39e2439dd149e31ff8489349f714686f0a1808fd9192656835127cdfa25de",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:58.879113+00:00",
+    "last_checked_utc": "2026-05-28T22:42:45.017147+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2344520/?format=rss",
     "mode": "rss"
   },
@@ -75,7 +75,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:59.062944+00:00",
+    "last_checked_utc": "2026-05-28T22:42:45.216178+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/730/?format=rss",
     "mode": "rss"
   },
@@ -83,7 +83,7 @@
     "fingerprint": "a922235208190ffcff48965e557205c73311042088132e749da7c595defbec37",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:44:59.555265+00:00",
+    "last_checked_utc": "2026-05-28T22:42:45.510279+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/945360/?format=rss",
     "mode": "rss"
   },
@@ -91,7 +91,7 @@
     "fingerprint": "1685d17e2f171cd925560ad3e43248a24edea476e44126347230a968a55c8a64",
     "latest_title": "Store Update 1.30.0",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:00.375182+00:00",
+    "last_checked_utc": "2026-05-28T22:42:45.959625+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1808500/?format=rss",
     "mode": "rss"
   },
@@ -99,15 +99,15 @@
     "fingerprint": "8c50f22358e5e870aff73e90790e785165c07d51993a2d2ff0167d58186bbe6c",
     "latest_title": "Assetto Corsa EVO is OUT NOW in Steam Early Access!",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:00.597994+00:00",
+    "last_checked_utc": "2026-05-28T22:42:46.177840+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/244210/?format=rss",
     "mode": "rss"
   },
   "Battlefield 6": {
-    "fingerprint": "afda7de4f46e059928aced15e59ba4a3df5743bf0ad3779ff6e04daf70740c0a",
-    "latest_title": "BATTLEFIELD 6 GAME UPDATE 1.3.1.5",
+    "fingerprint": "cbd1d59b469eb622ca46c5d198a43a754b070c2aad70ff231f52004b14df51ab",
+    "latest_title": "Battlefield 6 - Community Update - Blastpoint Introduces Cairo Bazaar & BR Solos",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:00.877708+00:00",
+    "last_checked_utc": "2026-05-28T22:42:46.384103+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2807960/?format=rss",
     "mode": "rss"
   },
@@ -115,15 +115,15 @@
     "fingerprint": "a07ebf375a23413f4a615a96bc1c76c088d0f858f423bc767f9144eb60b96cea",
     "latest_title": "Patch Notes",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:00.979438+00:00",
+    "last_checked_utc": "2026-05-28T22:42:46.552252+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
   "Borderlands 4": {
-    "fingerprint": "37be6726462bdd25bdcc2ec1808b86031a5cd4e4092b5543b9c4c704c645dc63",
+    "fingerprint": "ebf470d0f8d6ff48812d0b20ab2dfd5d38be644a5c53cb0d311bb0e56d2c5364",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:01.421546+00:00",
+    "last_checked_utc": "2026-05-28T22:42:46.790963+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1285190/?format=rss",
     "mode": "rss"
   },
@@ -131,7 +131,7 @@
     "fingerprint": "abc365480f35bc989615f5b5251e885fce4825b5f529afff7b7e7614fb90f5ca",
     "latest_title": "Chivalry 2 Hotfix 2.11.4",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:01.665933+00:00",
+    "last_checked_utc": "2026-05-28T22:42:46.997912+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1824220/?format=rss",
     "mode": "rss"
   },
@@ -139,7 +139,7 @@
     "fingerprint": "17e67deb2d72eaf3a40124c2a186056ee05a5f09abd27865acbc4a88021075b6",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:01.875538+00:00",
+    "last_checked_utc": "2026-05-28T22:42:47.188354+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/381210/?format=rss",
     "mode": "rss"
   },
@@ -147,7 +147,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:02.142760+00:00",
+    "last_checked_utc": "2026-05-28T22:42:47.349576+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1085660/?format=rss",
     "mode": "rss"
   },
@@ -155,7 +155,7 @@
     "fingerprint": "9aab41cfb8f3aa2c17de39e1c9bee92d1ef18afd0e111a481ff26155cd3a4906",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:02.993479+00:00",
+    "last_checked_utc": "2026-05-28T22:42:47.884583+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/379720/?format=rss",
     "mode": "rss"
   },
@@ -163,7 +163,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:03.306980+00:00",
+    "last_checked_utc": "2026-05-28T22:42:48.107516+00:00",
     "last_source": "https://store.steampowered.com/app/3017860/?format=rss",
     "mode": "rss"
   },
@@ -171,7 +171,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:03.672480+00:00",
+    "last_checked_utc": "2026-05-28T22:42:48.357989+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/570/?format=rss",
     "mode": "rss"
   },
@@ -179,7 +179,7 @@
     "fingerprint": "b8b5f7a47d2574fc0e00ad6f1b1c5d6e9001e656be8dce81444c8a3941bc2a34",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:03.898218+00:00",
+    "last_checked_utc": "2026-05-28T22:42:48.647509+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172710/?format=rss",
     "mode": "rss"
   },
@@ -187,7 +187,7 @@
     "fingerprint": "a1439228ee7606b775bc0ee777dce805d2f91e5a526e0bf5ba0635fcba3df419",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:04.296200+00:00",
+    "last_checked_utc": "2026-05-28T22:42:48.854199+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1245620/?format=rss",
     "mode": "rss"
   },
@@ -195,7 +195,7 @@
     "fingerprint": "763a119b66b3d8411a7fcf149ed082ecf9ddb542bf83ca8dfc45dee5546e589f",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:04.534802+00:00",
+    "last_checked_utc": "2026-05-28T22:42:49.111031+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/39210/?format=rss",
     "mode": "rss"
   },
@@ -203,7 +203,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:04.883634+00:00",
+    "last_checked_utc": "2026-05-28T22:42:49.382260+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1551360/?format=rss",
     "mode": "rss"
   },
@@ -211,7 +211,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:05.641763+00:00",
+    "last_checked_utc": "2026-05-28T22:42:49.629048+00:00",
     "last_source": "https://genshin.hoyoverse.com/en/news/",
     "mode": "scrape"
   },
@@ -219,15 +219,15 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:05.753863+00:00",
+    "last_checked_utc": "2026-05-28T22:42:49.849043+00:00",
     "last_source": "https://hearthstone.blizzard.com/en-us/news",
     "mode": "scrape"
   },
   "Helldivers 2": {
-    "fingerprint": "9a2a0898d866ebdc257b233f32151268625efee204e31d3d928c2fa3ebf1e11e",
-    "latest_title": "Optimizing Liberty - Incoming Patch: 27th May",
+    "fingerprint": "d786be643be6b591ce756bfd3ebe2b53f357c40471476ae8d1d727f06986baf4",
+    "latest_title": "Patch Delay Update",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:06.081488+00:00",
+    "last_checked_utc": "2026-05-28T22:42:50.120024+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/553850/?format=rss",
     "mode": "rss"
   },
@@ -235,15 +235,15 @@
     "fingerprint": "f076a65ead4b9cd8a48b4b3efb8c1c56460ec85f18ea04baacfc2f68e81273a3",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:06.345085+00:00",
+    "last_checked_utc": "2026-05-28T22:42:50.292556+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/990080/?format=rss",
     "mode": "rss"
   },
   "Hytale": {
-    "fingerprint": "2bea880e81b00ccc9fb20e61d9c0bf951a414bb461833185b06a7803fda39244",
-    "latest_title": "HOTFIXES: UPDATE 5 UPDATE 5: HOTFIXES 0.5.2 Social bar will no longer get stuck in a jittering/flickering state. Updated javadocs to generate with SemVer. Fixed ambience volume slider. Fixed empty blocks in block filters - fixes empty masking and several scripted brushes in creative mode. Fixed a client crash when right-clicking non-interactable blocks... May 27, 2026 Posted by Hytale Team",
+    "fingerprint": "54329b448ec37a75a2fcaadb919cb1d138f496cf854fee351916dd1336b43b69",
+    "latest_title": "PRE-RELEASE PATCH NOTES (UPDATE 6) Pre-Release (Update 6, Part 1) May 28, 2026 Headline Features Save and reuse Block Palettes with the new Block Palette Presets! A new side tab has been added to the Quick Settings menu to manage your block palettes. Save block palettes as presets and load them back at any time.... May 28, 2026 Posted by Hytale Team",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:06.513596+00:00",
+    "last_checked_utc": "2026-05-28T22:42:50.402386+00:00",
     "last_source": "https://hytale.com/news",
     "mode": "scrape"
   },
@@ -251,15 +251,15 @@
     "fingerprint": "851309bc4aa6216daedb38fc8b85df55bfbc3d82242d11f68f0d5f1f6970468f",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:06.753021+00:00",
+    "last_checked_utc": "2026-05-28T22:42:50.666205+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1599340/?format=rss",
     "mode": "rss"
   },
   "Marvel Rivals": {
-    "fingerprint": "e84708ab12e5ae458fda218529d2a6a192ec777e19ff603e303f218a815990e0",
-    "latest_title": "Marvel Rivals Version 20260521 Patch Notes",
+    "fingerprint": "854ef49506a5471dc1c8a7f92dbaee179280eeb2324bf14acb6c87e1b19b35b9",
+    "latest_title": "Marvel Rivals Version 20260528 Patch Notes",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:06.934578+00:00",
+    "last_checked_utc": "2026-05-28T22:42:50.901421+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2767030/?format=rss",
     "mode": "rss"
   },
@@ -267,7 +267,7 @@
     "fingerprint": "eb33b4f89f6eef71853b1e483da2e6ed1b1c2d958e25a77f677bcb24b0f9afd9",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:07.259103+00:00",
+    "last_checked_utc": "2026-05-28T22:42:51.316950+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2537590/?format=rss",
     "mode": "rss"
   },
@@ -275,7 +275,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:07.532688+00:00",
+    "last_checked_utc": "2026-05-28T22:42:51.591936+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2246340/?format=rss",
     "mode": "rss"
   },
@@ -283,7 +283,7 @@
     "fingerprint": "fe482667e82d1999507d9defc6f2558729473136c82764e3a66423627516a564",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:07.847745+00:00",
+    "last_checked_utc": "2026-05-28T22:42:51.952564+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2622380/?format=rss",
     "mode": "rss"
   },
@@ -291,7 +291,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:08.098419+00:00",
+    "last_checked_utc": "2026-05-28T22:42:52.225539+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/275850/?format=rss",
     "mode": "rss"
   },
@@ -299,7 +299,7 @@
     "fingerprint": "db3e5e0620b6ed28ecef6e786f81eadd7994c8b8fae4b1f8e0b81ab4ec015616",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:08.345896+00:00",
+    "last_checked_utc": "2026-05-28T22:42:52.403311+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2357570/?format=rss",
     "mode": "rss"
   },
@@ -307,7 +307,7 @@
     "fingerprint": "642469cbe1bc310763b1751f81411c949f3c46ad4a68031cd4ef7c47167f6118",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:08.570511+00:00",
+    "last_checked_utc": "2026-05-28T22:42:52.626575+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1623730/?format=rss",
     "mode": "rss"
   },
@@ -315,7 +315,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:08.836141+00:00",
+    "last_checked_utc": "2026-05-28T22:42:52.870807+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/238960/?format=rss",
     "mode": "rss"
   },
@@ -323,7 +323,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:09.152910+00:00",
+    "last_checked_utc": "2026-05-28T22:42:53.042324+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/578080/?format=rss",
     "mode": "rss"
   },
@@ -331,7 +331,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:09.403804+00:00",
+    "last_checked_utc": "2026-05-28T22:42:53.317957+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2379390/?format=rss",
     "mode": "rss"
   },
@@ -339,7 +339,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:09.720269+00:00",
+    "last_checked_utc": "2026-05-28T22:42:53.553912+00:00",
     "last_source": "https://store.steampowered.com/news/app/359550/?format=rss",
     "mode": "rss"
   },
@@ -347,7 +347,7 @@
     "fingerprint": "bf7dd0acb8394ed845fd4f155b418d2692246b70c7f108e5ea5bc6a454b78c95",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:10.075126+00:00",
+    "last_checked_utc": "2026-05-28T22:42:53.856167+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/252950/?format=rss",
     "mode": "rss"
   },
@@ -355,7 +355,7 @@
     "fingerprint": "b1aaed82dcc8ecceab604d270310d03de59eddb55e0988cb9b3e9ff57cfad3df",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:10.507369+00:00",
+    "last_checked_utc": "2026-05-28T22:42:54.211128+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/252490/?format=rss",
     "mode": "rss"
   },
@@ -363,7 +363,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:10.766920+00:00",
+    "last_checked_utc": "2026-05-28T22:42:54.389100+00:00",
     "last_source": "https://store.steampowered.com/news/app/1030300?updates=true",
     "mode": "scrape"
   },
@@ -371,7 +371,7 @@
     "fingerprint": "211c04729b66b1e01ad580d893711289d11fc1f1e1042adeabbb02f2f5c1a9a7",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:10.964382+00:00",
+    "last_checked_utc": "2026-05-28T22:42:54.702661+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/413150/?format=rss",
     "mode": "rss"
   },
@@ -379,7 +379,7 @@
     "fingerprint": "5dc3527a6db5ebbab9a8fb9360d6e410e6236411865c5c8a90331974d749135d",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:11.321885+00:00",
+    "last_checked_utc": "2026-05-28T22:42:55.153301+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1716740/?format=rss",
     "mode": "rss"
   },
@@ -387,7 +387,7 @@
     "fingerprint": "c622fb6bcb3f9d8e216e06c4995edcf3a304a2c08a98f272b7934ac613805a45",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:11.785599+00:00",
+    "last_checked_utc": "2026-05-28T22:42:55.592753+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/105600/?format=rss",
     "mode": "rss"
   },
@@ -395,7 +395,7 @@
     "fingerprint": "12dba61cba3666278f06bc3f9d8e3f3a8c828e13270436aa16faf3f42073c5c8",
     "latest_title": "Patch Notes",
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:11.969666+00:00",
+    "last_checked_utc": "2026-05-28T22:42:55.901324+00:00",
     "last_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
@@ -403,7 +403,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:12.282796+00:00",
+    "last_checked_utc": "2026-05-28T22:42:56.247699+00:00",
     "last_source": "https://store.steampowered.com/news/app/1407200?updates=true",
     "mode": "scrape"
   },
@@ -411,7 +411,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:13.751192+00:00",
+    "last_checked_utc": "2026-05-28T22:42:56.721511+00:00",
     "last_source": "https://worldofwarcraft.blizzard.com/en-us/news",
     "mode": "scrape"
   },
@@ -419,7 +419,7 @@
     "fingerprint": "3220c14612c2a47d3d6dd6a4e9ea9d60482ad224df7d2bd3947c9d5a81d59969",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:00.020622+00:00",
+    "last_checked_utc": "2026-05-28T22:42:45.756611+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/3168600/?format=rss",
     "mode": "rss"
   },
@@ -427,7 +427,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-05-27T22:45:02.644045+00:00",
+    "last_checked_utc": "2026-05-28T22:42:47.641866+00:00",
     "last_source": "https://news.blizzard.com/en-us/feed/diablo-immortal",
     "mode": "scrape"
   }
