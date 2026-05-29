@@ -280,7 +280,19 @@ def main() -> None:
 
             prev_title = state.get(name, {}).get("latest_title")
 
-            if prev_title and latest_title != prev_title:
+            if latest_title and latest_title != prev_title:
+
+                if name not in history:
+                    history[name] = []
+
+                history[name].append({
+                    "date_detected": datetime.now(timezone.utc).isoformat(),
+                    "article_date": latest_date,
+                    "titles": titles[:3],
+                    "url": news_url
+                })
+
+                history[name] = history[name][-50:]
 
                 joined_titles = " ".join(titles)
 
@@ -289,21 +301,7 @@ def main() -> None:
                     joined_titles
                 )
 
-                # ONLY show HIGH priority games
                 if detected:
-                    if name not in history:
-                        history[name] = []
-
-                    history[name].append({
-                        "date_detected": datetime.now(timezone.utc).isoformat(),
-                        "article_date": latest_date,
-                        "detected": detected,
-                        "titles": titles[:3],
-                        "url": news_url
-                    })
-
-                    # last 50 updates
-                    history[name] = history[name][-50:]
 
                     updates_found.append({
                         "name": name,

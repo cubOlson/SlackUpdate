@@ -82,7 +82,7 @@ games:
       - "https://store.steampowered.com/feeds/news/app/805550/?format=rss"
 
   - name: "Battlefield 6"
-    news_url: "https://store.steampowered.com/news/app/2807960?updates=true"
+    news_url: "https://store.steampowered.com/news/app/2807960"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/2807960/?format=rss"
