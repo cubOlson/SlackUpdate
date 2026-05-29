@@ -1,0 +1,33 @@
+name: Weekly Calendar
+
+on:
+  schedule:
+    # Segunda-feira 10:00 Fortaleza
+    # Fortaleza = UTC-3
+    # 10:00 Fortaleza = 13:00 UTC
+    - cron: '0 13 * * 1'
+
+  workflow_dispatch:
+
+jobs:
+  run-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml pyyaml
+
+      - name: Run calendar
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python calendar.py
