@@ -44,10 +44,13 @@ jobs:
           python check_updates.py
 
 
-      - name: Commit state.json
+      - name: Commit state and history
         run: |
           git config user.name "game-update-bot"
           git config user.email "game-update-bot@users.noreply.github.com"
-          git add state.json || true
-          git commit -m "Update state" || echo "No changes"
+          
+          git add state.json update_history.json
+          
+          git commit -m "Update state and history" || echo "No changes"
+          git pull --rebase origin main || true
           git push || echo "No push"
