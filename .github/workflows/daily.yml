@@ -2,7 +2,7 @@ name: Daily game updates check
 
 on:
   schedule:
-    - cron: "0 21 * * *"  # 18:00 Fortaleza (UTC-3) => 21:00 UTC
+    - cron: "0 21 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -11,6 +11,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,17 +21,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps + Run checker (debug + venv)
+      - name: Install deps + Run checker
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           set -euxo pipefail
-          python -V
-          which python
-          pwd
-          ls -la
-          echo "---- requirements.txt ----"
-          cat requirements.txt
 
           python -m venv .venv
           source .venv/bin/activate
@@ -38,21 +33,17 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install --no-cache-dir -r requirements.txt
 
-          python -m pip show requests
-          python -c "import requests; print('requests OK:', requests.__version__)"
-
           python check_updates.py
 
+      - name: Commit state and history
+        run: |
+          git config user.name "game-update-bot"
+          git config user.email "game-update-bot@users.noreply.github.com"
 
-            - name: Commit state and history
-              run: |
-                git config user.name "game-update-bot"
-                git config user.email "game-update-bot@users.noreply.github.com"
-      
-                git pull --rebase origin main
-      
-                git add state.json update_history.json
-      
-                git commit -m "Update state and history" || echo "No changes"
-      
-                git push
+          git pull --rebase origin main
+
+          git add state.json update_history.json
+
+          git commit -m "Update state and history" || echo "No changes"
+
+          git push
