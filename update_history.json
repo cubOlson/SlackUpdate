@@ -41,5 +41,57 @@
       ],
       "url": "https://pubg.com/en/news/"
     }
+  ],
+  "Apex Legends": [
+    {
+      "date_detected": "2026-06-03T13:56:19.918656+00:00",
+      "article_date": null,
+      "titles": [
+        "Apex Legends™: Power Trip Event"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
+    }
+  ],
+  "Arc Raiders": [
+    {
+      "date_detected": "2026-06-03T13:56:22.582937+00:00",
+      "article_date": null,
+      "titles": [
+        "Store Update 1.31.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500?updates=true"
+    }
+  ],
+  "Dune: Awakening": [
+    {
+      "date_detected": "2026-06-03T13:56:25.614020+00:00",
+      "article_date": null,
+      "titles": [
+        "Dune: Awakening - 1.4.0.3 Hotfix Patch Notes"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
+    }
+  ],
+  "Final Fantasy XIV": [
+    {
+      "date_detected": "2026-06-03T13:56:26.167872+00:00",
+      "article_date": null,
+      "titles": [
+        "Patch 7.51 Notes"
+      ],
+      "url": "https://na.finalfantasyxiv.com/lodestone/news/"
+    }
+  ],
+  "Hytale": [
+    {
+      "date_detected": "2026-06-03T13:56:27.567373+00:00",
+      "article_date": null,
+      "titles": [
+        "PRE-RELEASE PATCH NOTES (UPDATE 6) Pre-Release (Update 6, Part 1, Hotfix 1) May 29, 2026 Bug Fixes Movement Sprinting is now preserved when crouch-sliding, instead of dropping back to a walk. Fixed the sprint input not resetting correctly when coming to a stop. Rolling on landing now correctly reduces fall damage. Stability & Performance Fixed... May 28, 2026 Posted by Hytale Team",
+        "HOTFIXES: UPDATE 5 UPDATE 5: HOTFIXES 0.5.3 Sprinting is now preserved when crouch-sliding, instead of dropping back to a walk. Fixed the sprint input not resetting correctly when coming to a stop. Rolling on landing now correctly reduces fall damage. Fixed a deadlock that could occur when inviting a friend to a singleplayer... May 27, 2026 Posted by Hytale Team",
+        "HYTALE PATCH NOTES - UPDATE 5 Update 5 is out! Headlining the release is the new Trigger Volume Tool for scripting encounters in-game without code, alongside controller support, Server Discovery for browsing community servers, a new Social Sidebar with a friends list and Discord integration! The changelog also has a long list of improvements, fixes, and... May 26, 2026 Posted by Hytale Team"
+      ],
+      "url": "https://hytale.com/news"
+    }
   ]
 }
