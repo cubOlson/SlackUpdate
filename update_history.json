@@ -50,6 +50,14 @@
         "Apex Legends™: Power Trip Event"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-06-04T22:24:17.240302+00:00",
+      "article_date": null,
+      "titles": [
+        "Apex Legends: Latest Update 6/4/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -92,6 +100,26 @@
         "HYTALE PATCH NOTES - UPDATE 5 Update 5 is out! Headlining the release is the new Trigger Volume Tool for scripting encounters in-game without code, alongside controller support, Server Discovery for browsing community servers, a new Social Sidebar with a friends list and Discord integration! The changelog also has a long list of improvements, fixes, and... May 26, 2026 Posted by Hytale Team"
       ],
       "url": "https://hytale.com/news"
+    },
+    {
+      "date_detected": "2026-06-04T22:24:24.243442+00:00",
+      "article_date": null,
+      "titles": [
+        "PRE-RELEASE PATCH NOTES (UPDATE 6) Hi everyone! Below are the pre-release patch notes for Update 6, which we will update weekly. As always, if you encounter any bugs, you can report them via the in-game bug reporter, and please submit any feedback via the Feedback Request website. Please make sure to note 'pre-release' in your... May 28, 2026 Posted by Hytale Team",
+        "HOTFIXES: UPDATE 5 UPDATE 5: HOTFIXES 0.5.3 Sprinting is now preserved when crouch-sliding, instead of dropping back to a walk. Fixed the sprint input not resetting correctly when coming to a stop. Rolling on landing now correctly reduces fall damage. Fixed a deadlock that could occur when inviting a friend to a singleplayer... May 27, 2026 Posted by Hytale Team",
+        "HYTALE PATCH NOTES - UPDATE 5 Update 5 is out! Headlining the release is the new Trigger Volume Tool for scripting encounters in-game without code, alongside controller support, Server Discovery for browsing community servers, a new Social Sidebar with a friends list and Discord integration! The changelog also has a long list of improvements, fixes, and... May 26, 2026 Posted by Hytale Team"
+      ],
+      "url": "https://hytale.com/news"
+    }
+  ],
+  "Marvel Rivals": [
+    {
+      "date_detected": "2026-06-04T22:24:24.509499+00:00",
+      "article_date": null,
+      "titles": [
+        "Marvel Rivals Version 20260604 Patch Notes"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
     }
   ]
 }
