@@ -66,6 +66,14 @@
         "Apex Legends: Latest Update 6/5/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-06-08T22:42:44.122728+00:00",
+      "article_date": null,
+      "titles": [
+        "Apex Legends: Matchmaking Tests Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -138,6 +146,16 @@
         "BATTLEFIELD 6 GAME UPDATE 1.3.2.0"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    }
+  ],
+  "Path of Exile": [
+    {
+      "date_detected": "2026-06-08T22:42:55.391344+00:00",
+      "article_date": null,
+      "titles": [
+        "Path of Exile 3.29 Expansion Timeline"
+      ],
+      "url": "https://www.pathofexile.com/news"
     }
   ]
 }
