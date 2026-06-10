@@ -40,6 +40,14 @@
         "Update #41.2 New Mode: PUBG x PAYDAY"
       ],
       "url": "https://pubg.com/en/news/"
+    },
+    {
+      "date_detected": "2026-06-10T22:53:36.767051+00:00",
+      "article_date": null,
+      "titles": [
+        "PNC 2026 Event Page Já Está Aberta"
+      ],
+      "url": "https://pubg.com/en/news?category=patch_notes"
     }
   ],
   "Apex Legends": [
@@ -74,6 +82,14 @@
         "Apex Legends: Matchmaking Tests Update"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-06-10T22:53:23.967476+00:00",
+      "article_date": null,
+      "titles": [
+        "Apex Legends: Latest Update 6/9/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -84,6 +100,14 @@
         "Store Update 1.31.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500?updates=true"
+    },
+    {
+      "date_detected": "2026-06-10T22:53:27.253553+00:00",
+      "article_date": null,
+      "titles": [
+        "Store Update 1.32.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500?updates=true"
     }
   ],
   "Dune: Awakening": [
@@ -92,6 +116,14 @@
       "article_date": null,
       "titles": [
         "Dune: Awakening - 1.4.0.3 Hotfix Patch Notes"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-06-10T22:53:31.158135+00:00",
+      "article_date": null,
+      "titles": [
+        "Public Test Client: Patch 1.4.10.0"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
     }
@@ -136,6 +168,14 @@
         "Marvel Rivals Version 20260604 Patch Notes"
       ],
       "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-06-10T22:53:34.320737+00:00",
+      "article_date": null,
+      "titles": [
+        "Marvel Rivals Version 20260612 Balance Post"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
     }
   ],
   "Battlefield 6": [
@@ -156,6 +196,36 @@
         "Path of Exile 3.29 Expansion Timeline"
       ],
       "url": "https://www.pathofexile.com/news"
+    }
+  ],
+  "Counter-Strike 2": [
+    {
+      "date_detected": "2026-06-10T22:53:26.410091+00:00",
+      "article_date": null,
+      "titles": [
+        "Counter-Strike 2 Update"
+      ],
+      "url": "https://www.counter-strike.net/news/updates"
+    }
+  ],
+  "Lost Ark": [
+    {
+      "date_detected": "2026-06-10T22:53:34.114156+00:00",
+      "article_date": null,
+      "titles": [
+        "The Twilight Isle Release Notes"
+      ],
+      "url": "https://www.playlostark.com/en-us/news"
+    }
+  ],
+  "Overwatch 2": [
+    {
+      "date_detected": "2026-06-10T22:53:35.789249+00:00",
+      "article_date": null,
+      "titles": [
+        "End of the Line | Shion Hero Trailer | Overwatch"
+      ],
+      "url": "https://overwatch.blizzard.com/en-us/news/patch-notes/"
     }
   ]
 }
