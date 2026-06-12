@@ -48,6 +48,14 @@
         "PNC 2026 Event Page Já Está Aberta"
       ],
       "url": "https://pubg.com/en/news?category=patch_notes"
+    },
+    {
+      "date_detected": "2026-06-12T22:41:12.559705+00:00",
+      "article_date": "Wed, 10 Jun 2026 07:00:45 +0000",
+      "titles": [
+        "PNC 2026 Event Page Now Open"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -136,6 +144,14 @@
         "Patch 7.51 Notes"
       ],
       "url": "https://na.finalfantasyxiv.com/lodestone/news/"
+    },
+    {
+      "date_detected": "2026-06-12T22:41:07.932526+00:00",
+      "article_date": "Wed, 10 Jun 2026 09:04:26 +0000",
+      "titles": [
+        "FINAL FANTASY RESONANCE is available for pre-purchase now!"
+      ],
+      "url": "https://store.steampowered.com/news/app/39210"
     }
   ],
   "Hytale": [
@@ -194,6 +210,14 @@
         "BATTLEFIELD 6 GAME UPDATE 1.3.2.0"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-06-12T22:41:04.746143+00:00",
+      "article_date": "Tue, 09 Jun 2026 15:02:00 +0000",
+      "titles": [
+        "Battlefield 6 | REDSEC Season 3: Blastpoint & Free Trial"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -214,6 +238,14 @@
         "Counter-Strike 2 Update"
       ],
       "url": "https://www.counter-strike.net/news/updates"
+    },
+    {
+      "date_detected": "2026-06-12T22:41:03.531226+00:00",
+      "article_date": "Wed, 10 Jun 2026 21:22:05 +0000",
+      "titles": [
+        "Counter-Strike 2 Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/730"
     }
   ],
   "Lost Ark": [
@@ -222,6 +254,14 @@
       "article_date": null,
       "titles": [
         "The Twilight Isle Release Notes"
+      ],
+      "url": "https://www.playlostark.com/en-us/news"
+    },
+    {
+      "date_detected": "2026-06-12T22:41:10.152784+00:00",
+      "article_date": "Thu, 11 Jun 2026 20:43:16 +0000",
+      "titles": [
+        "Ratlympics 4: Corvus Tul Rat, Gate 2 Nightmare"
       ],
       "url": "https://www.playlostark.com/en-us/news"
     }
@@ -234,6 +274,363 @@
         "End of the Line | Shion Hero Trailer | Overwatch"
       ],
       "url": "https://overwatch.blizzard.com/en-us/news/patch-notes/"
+    }
+  ],
+  "Minecraft": [
+    {
+      "date_detected": "2026-06-12T22:41:01.192293+00:00",
+      "article_date": null,
+      "titles": [
+        "Skip to Main Content",
+        "Minecraft Dungeons II gameplay reveal & date announce",
+        "Brave the unknown"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    }
+  ],
+  "Fortnite": [
+    {
+      "date_detected": "2026-06-12T22:41:01.790725+00:00",
+      "article_date": "Thu, 25 Dec 2025 00:09:50 GMT",
+      "titles": [
+        "IShowSpeed Joins the Fortnite Icon Series"
+      ],
+      "url": "https://www.fortnite.com/news"
+    }
+  ],
+  "Call of Duty": [
+    {
+      "date_detected": "2026-06-12T22:41:02.478302+00:00",
+      "article_date": "June 10, 2026",
+      "titles": [
+        "Black Ops 7",
+        "Black Ops 6",
+        "COD: Warzone"
+      ],
+      "url": "https://www.callofduty.com/patchnotes"
+    }
+  ],
+  "GTA V": [
+    {
+      "date_detected": "2026-06-12T22:41:02.745470+00:00",
+      "article_date": "Fri, 29 May 2026 09:55:34 +0000",
+      "titles": [
+        "Launder Your Bottom Line with Money Fronts Bonuses"
+      ],
+      "url": "https://store.steampowered.com/news/app/271590"
+    }
+  ],
+  "Cyberpunk 2077": [
+    {
+      "date_detected": "2026-06-12T22:41:03.058348+00:00",
+      "article_date": "Wed, 10 Jun 2026 13:44:13 +0000",
+      "titles": [
+        "It’s All About You! — A Crew to Remember"
+      ],
+      "url": "https://www.cyberpunk.net/en/news/"
+    }
+  ],
+  "Diablo IV": [
+    {
+      "date_detected": "2026-06-12T22:41:03.277013+00:00",
+      "article_date": "Wed, 27 May 2026 17:05:25 +0000",
+      "titles": [
+        "Celebrate the DIV Anniversary"
+      ],
+      "url": "https://news.blizzard.com/en-us/diablo4"
+    }
+  ],
+  "Among Us": [
+    {
+      "date_detected": "2026-06-12T22:41:03.830456+00:00",
+      "article_date": "Fri, 05 Jun 2026 23:17:27 +0000",
+      "titles": [
+        "The Among Us Animated Show Arrives! | Emergency Meeting #42"
+      ],
+      "url": "https://www.innersloth.com/news/"
+    }
+  ],
+  "Among Us 3D": [
+    {
+      "date_detected": "2026-06-12T22:41:04.068606+00:00",
+      "article_date": "Fri, 05 Jun 2026 23:56:47 +0000",
+      "titles": [
+        "Animated Show Cosmetics Arrive in Among Us 3D"
+      ],
+      "url": "https://www.innersloth.com/news/"
+    }
+  ],
+  "Black Ops 7": [
+    {
+      "date_detected": "2026-06-12T22:41:05.048303+00:00",
+      "article_date": "June 10, 2026",
+      "titles": [
+        "Black Ops 7",
+        "Black Ops 6",
+        "COD: Warzone"
+      ],
+      "url": "https://www.callofduty.com/patchnotes"
+    }
+  ],
+  "Borderlands 4": [
+    {
+      "date_detected": "2026-06-12T22:41:05.304835+00:00",
+      "article_date": "Fri, 12 Jun 2026 20:15:56 +0000",
+      "titles": [
+        "THIS WEEK ON KAIROS"
+      ],
+      "url": "https://store.steampowered.com/news/app/1285190?updates=true"
+    }
+  ],
+  "Dead by Daylight": [
+    {
+      "date_detected": "2026-06-12T22:41:05.743221+00:00",
+      "article_date": "Wed, 10 Jun 2026 17:01:47 +0000",
+      "titles": [
+        "PTB to Live changes: The Slasher"
+      ],
+      "url": "https://deadbydaylight.com/news"
+    }
+  ],
+  "Destiny 2": [
+    {
+      "date_detected": "2026-06-12T22:41:06.050710+00:00",
+      "article_date": "Thu, 11 Jun 2026 19:37:08 +0000",
+      "titles": [
+        "This Week In Destiny - 06/11/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1085660"
+    }
+  ],
+  "Diablo Immortal": [
+    {
+      "date_detected": "2026-06-12T22:41:06.400345+00:00",
+      "article_date": null,
+      "titles": [
+        "Latest Articles"
+      ],
+      "url": "https://news.blizzard.com/en-us/feed/diablo-immortal"
+    }
+  ],
+  "DOOM 2016": [
+    {
+      "date_detected": "2026-06-12T22:41:06.619864+00:00",
+      "article_date": "Fri, 09 May 2025 15:01:33 +0000",
+      "titles": [
+        "DOOM: The Dark Ages | Official Launch Trailer"
+      ],
+      "url": "https://store.steampowered.com/news/app/379720"
+    }
+  ],
+  "DOOM: The Dark Ages": [
+    {
+      "date_detected": "2026-06-12T22:41:06.872658+00:00",
+      "article_date": "Thu, 05 Feb 2026 16:31:01 +0000",
+      "titles": [
+        "id Software Anniversary Sale!"
+      ],
+      "url": "https://store.steampowered.com/news/app/3017860"
+    }
+  ],
+  "Dota 2": [
+    {
+      "date_detected": "2026-06-12T22:41:07.092928+00:00",
+      "article_date": "Fri, 05 Jun 2026 00:45:14 +0000",
+      "titles": [
+        "7.41d Gameplay Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/570"
+    }
+  ],
+  "Elden Ring": [
+    {
+      "date_detected": "2026-06-12T22:41:07.624501+00:00",
+      "article_date": "Wed, 13 May 2026 14:20:38 +0000",
+      "titles": [
+        "ELDEN RING - RAGING WOLF 1/6 SCALE STATUE"
+      ],
+      "url": "https://store.steampowered.com/news/app/1245620/"
+    }
+  ],
+  "Forza Horizon 5": [
+    {
+      "date_detected": "2026-06-12T22:41:08.211145+00:00",
+      "article_date": "Fri, 12 Jun 2026 16:00:33 +0000",
+      "titles": [
+        "Reward Car Build June 12th"
+      ],
+      "url": "https://store.steampowered.com/news/app/1551360"
+    }
+  ],
+  "Helldivers 2": [
+    {
+      "date_detected": "2026-06-12T22:41:09.563752+00:00",
+      "article_date": "Tue, 09 Jun 2026 12:01:09 +0000",
+      "titles": [
+        "Machinery of Oppression:  6.2.6"
+      ],
+      "url": "https://store.steampowered.com/news/app/553850"
+    }
+  ],
+  "Hogwarts Legacy": [
+    {
+      "date_detected": "2026-06-12T22:41:09.750769+00:00",
+      "article_date": "Wed, 27 May 2026 17:11:57 +0000",
+      "titles": [
+        "Celebrate Harry Potter's 25th Anniversary!"
+      ],
+      "url": "https://store.steampowered.com/news/app/990080/"
+    }
+  ],
+  "Microsoft Flight Simulator": [
+    {
+      "date_detected": "2026-06-12T22:41:10.717323+00:00",
+      "article_date": "Thu, 04 Jun 2026 23:37:05 +0000",
+      "titles": [
+        "June 4th, 2026 MSFS Weekly Briefing"
+      ],
+      "url": "https://store.steampowered.com/news/app/2537590/"
+    }
+  ],
+  "Monster Hunter Wilds": [
+    {
+      "date_detected": "2026-06-12T22:41:10.919093+00:00",
+      "article_date": "Sat, 06 Jun 2026 03:09:44 +0000",
+      "titles": [
+        "The massive expansion Monster Hunter Wilds: Ascendance is coming in 2027!"
+      ],
+      "url": "https://store.steampowered.com/news/app/2246340"
+    }
+  ],
+  "Elden Ring Nightreign": [
+    {
+      "date_detected": "2026-06-12T22:41:11.163112+00:00",
+      "article_date": "Wed, 01 Apr 2026 08:00:58 +0000",
+      "titles": [
+        "ELDEN RING NIGHTREIGN – THE LIMITED-EDITION VINYL COLLECTION"
+      ],
+      "url": "https://store.steampowered.com/news/app/2622380"
+    }
+  ],
+  "No Man's Sky": [
+    {
+      "date_detected": "2026-06-12T22:41:11.454214+00:00",
+      "article_date": "Wed, 27 May 2026 13:02:34 +0000",
+      "titles": [
+        "Introducing..No Man's Sky: The Swarm"
+      ],
+      "url": "https://store.steampowered.com/news/app/275850"
+    }
+  ],
+  "Palworld": [
+    {
+      "date_detected": "2026-06-12T22:41:11.974562+00:00",
+      "article_date": "Fri, 05 Jun 2026 22:42:36 +0000",
+      "titles": [
+        "Palworld 1.0 - July 10! Cinematic Trailer Reveal!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
+    }
+  ],
+  "Rainbow Six Extraction": [
+    {
+      "date_detected": "2026-06-12T22:41:12.953639+00:00",
+      "article_date": "Fri, 26 May 2023 00:08:48 +0000",
+      "titles": [
+        "Rainbow Six Extraction: Coming to Steam – Wishlist Now!"
+      ],
+      "url": "https://store.steampowered.com/news/app/2379390"
+    }
+  ],
+  "Rainbow Six Siege": [
+    {
+      "date_detected": "2026-06-12T22:41:13.387950+00:00",
+      "article_date": "Wed, 10 Jun 2026 13:09:27 +0000",
+      "titles": [
+        "Dead by Daylight & Rainbow Six Siege"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
+    }
+  ],
+  "Rocket League": [
+    {
+      "date_detected": "2026-06-12T22:41:13.718445+00:00",
+      "article_date": "Fri, 20 Mar 2026 16:11:09 +0000",
+      "titles": [
+        "Rocket League Bracket Rivalry"
+      ],
+      "url": "https://store.steampowered.com/news/app/252950"
+    }
+  ],
+  "Rust": [
+    {
+      "date_detected": "2026-06-12T22:41:14.051596+00:00",
+      "article_date": "Thu, 04 Jun 2026 17:44:04 +0000",
+      "titles": [
+        "BUILT DIFFERENT"
+      ],
+      "url": "https://store.steampowered.com/news/app/252490"
+    }
+  ],
+  "Hollow Knight: Silksong": [
+    {
+      "date_detected": "2026-06-12T22:41:14.297930+00:00",
+      "article_date": "Mon, 16 Mar 2026 03:24:05 +0000",
+      "titles": [
+        "Patch Version 1.0.30000 Now Live"
+      ],
+      "url": "https://store.steampowered.com/news/app/1030300"
+    }
+  ],
+  "Stardew Valley": [
+    {
+      "date_detected": "2026-06-12T22:41:14.514561+00:00",
+      "article_date": "Thu, 26 Feb 2026 23:40:00 +0000",
+      "titles": [
+        "Stardew Valley 10-year Anniversary"
+      ],
+      "url": "https://store.steampowered.com/news/app/413150"
+    }
+  ],
+  "Starfield": [
+    {
+      "date_detected": "2026-06-12T22:41:14.869716+00:00",
+      "article_date": "Fri, 12 Jun 2026 14:43:46 +0000",
+      "titles": [
+        "New worlds to explore with Starfield Creations!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1716740"
+    }
+  ],
+  "Terraria": [
+    {
+      "date_detected": "2026-06-12T22:41:15.312262+00:00",
+      "article_date": "Wed, 10 Jun 2026 16:13:50 +0000",
+      "titles": [
+        "Terraria 15th Anniversary Collector's Edition - Preorders are now open!"
+      ],
+      "url": "https://store.steampowered.com/news/app/105600"
+    }
+  ],
+  "World of Tanks": [
+    {
+      "date_detected": "2026-06-12T22:41:15.989356+00:00",
+      "article_date": "Wed, 10 Jun 2026 13:08:01 +0000",
+      "titles": [
+        "Arcade Cabinet: Equalize! Summer Launch"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
+    }
+  ],
+  "World of Warcraft": [
+    {
+      "date_detected": "2026-06-12T22:41:16.562461+00:00",
+      "article_date": null,
+      "titles": [
+        "Read more stories",
+        "Follow Warcraft"
+      ],
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news"
     }
   ]
 }
