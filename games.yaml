@@ -28,11 +28,11 @@ games:
     url: "https://www.callofduty.com/patchnotes"
 
   - name: "GTA V"
-    news_url: "https://www.rockstargames.com/newswire"
+    news_url: "https://store.steampowered.com/news/app/271590"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/271590/?format=rss"
-      - "https://www.rockstargames.com/newswire"
+      - "https://store.steampowered.com/news/app/271590"
 
   - name: "Cyberpunk 2077"
     news_url: "https://www.cyberpunk.net/en/news/"
@@ -49,7 +49,7 @@ games:
       - "https://news.blizzard.com/en-us/feed/diablo-4"
 
   - name: "Counter-Strike 2"
-    news_url: "https://www.counter-strike.net/news/updates"
+    news_url: "https://store.steampowered.com/news/app/730"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/730/?format=rss"
@@ -115,9 +115,7 @@ games:
   - name: "Destiny 2"
     news_url: "https://store.steampowered.com/news/app/1085660"
     mode: rss
-    urls:
-      - "https://store.steampowered.com/feeds/news/app/1085660/?format=rss"
-      - "https://www.bungie.net/en/News/"
+    url: "https://store.steampowered.com/feeds/news/app/1085660/?format=rss"
 
   - name: "Diablo Immortal"
     news_url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
@@ -129,18 +127,16 @@ games:
     url: "https://store.steampowered.com/feeds/news/app/379720/?format=rss"
 
   - name: "DOOM: The Dark Ages"
-    news_url: "https://store.steampowered.com/feeds/news/app/3017860?updates=true"
+    news_url: "https://store.steampowered.com/news/app/3017860"
     mode: rss
     urls:
-      - "https://store.steampowered.com/app/3017860/?format=rss"
-      - "https://store.steampowered.com/feeds/news/app/3017860?updates=true"
+      - "https://store.steampowered.com/feeds/news/app/3017860/?format=rss"
+      - "https://store.steampowered.com/news/app/3017860"
 
   - name: "Dota 2"
-    news_url: "https://www.dota2.com/news/updates"
+    news_url: "https://store.steampowered.com/news/app/570"
     mode: rss
-    urls:
-      - "https://store.steampowered.com/feeds/news/app/570/?format=rss"
-      - "https://www.dota2.com/news/"
+    url: "https://store.steampowered.com/feeds/news/app/570/?format=rss"
 
   - name: "Dune: Awakening"
     news_url: "https://duneawakening.com/news/patch-notes/"
@@ -157,15 +153,12 @@ games:
       - "https://en.bandainamcoent.eu/elden-ring/elden-ring/news?_gl=1%2A1e2u2gu%2A_gcl_au%2AMjI1MzQyNTU3LjE3Nzk0ODk1NTE."
 
   - name: "Final Fantasy XIV"
-    news_url: "https://na.finalfantasyxiv.com/lodestone/news/"
+    news_url: "https://store.steampowered.com/news/app/39210"
     mode: rss
-    urls:
-      - "https://store.steampowered.com/feeds/news/app/39210/?format=rss"
-      - "https://na.finalfantasyxiv.com/lodestone/news/"
-      - "https://na.finalfantasyxiv.com/lodestone/news/category/3"
+    url: "https://store.steampowered.com/feeds/news/app/39210/?format=rss"
 
   - name: "Forza Horizon 5"
-    news_url: "https://forza.net/news"
+    news_url: "https://store.steampowered.com/news/app/1551360"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/1551360/?format=rss"
@@ -176,11 +169,11 @@ games:
     url: "https://genshin.hoyoverse.com/en/news/"
 
   - name: "Hearthstone"
-    news_url: "https://hearthstone.blizzard.com/en-us/news"
-    url: "https://hearthstone.blizzard.com/en-us/news"
+    news_url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
 
   - name: "Helldivers 2"
-    news_url: "https://store.steampowered.com/news/app/553850/"
+    news_url: "https://store.steampowered.com/news/app/553850"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/553850/?format=rss"
@@ -217,7 +210,7 @@ games:
       - "https://store.steampowered.com/feeds/news/app/1250410/?format=rss"
 
   - name: "Monster Hunter Wilds"
-    news_url: "https://www.monsterhunter.com/news/"
+    news_url: "https://store.steampowered.com/news/app/2246340"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/2246340/?format=rss"
@@ -231,56 +224,56 @@ games:
       - "https://en.bandainamcoent.eu/elden-ring/elden-ring-nightreign/news?_gl=1%2A1j6gdkv%2A_gcl_au%2AMjI1MzQyNTU3LjE3Nzk0ODk1NTE."
 
   - name: "No Man's Sky"
-    news_url: "https://www.nomanssky.com/news/"
+    news_url: "https://store.steampowered.com/news/app/275850"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/275850/?format=rss"
       - "https://www.nomanssky.com/news/"
 
   - name: "Overwatch 2"
-    news_url: "https://overwatch.blizzard.com/en-us/news/patch-notes/"
+    news_url: "https://store.steampowered.com/news/app/2357570"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/2357570/?format=rss"
       - "https://overwatch.blizzard.com/en-us/news/patch-notes/"
 
   - name: "Palworld"
-    news_url: "https://www.pocketpair.jp/en/news-en/"
+    news_url: "https://store.steampowered.com/news/app/1623730"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/1623730/?format=rss"
       - "https://www.pocketpair.jp/en/news-en/"
 
   - name: "Path of Exile"
-    news_url: "https://www.pathofexile.com/news"
+    news_url: "https://store.steampowered.com/news/app/238960"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/238960/?format=rss"
       - "https://www.pathofexile.com/news"
 
   - name: "PUBG"
-    news_url: "https://pubg.com/en/news?category=patch_notes"
+    news_url: "https://store.steampowered.com/news/app/578080"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/578080/?format=rss"
       - "https://pubg.com/en/news?category=patch_notes"
 
   - name: "Rainbow Six Extraction"
-    news_url: "https://www.ubisoft.com/en-us/game/rainbow-six/extraction/news-updates"
+    news_url: "https://store.steampowered.com/news/app/2379390"
     mode: rss
     urls: 
       - "https://store.steampowered.com/feeds/news/app/2379390/?format=rss"
       - "https://www.ubisoft.com/en-us/game/rainbow-six/extraction/news-updates"
 
   - name: "Rainbow Six Siege"
-    news_url: "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates?category=all"
+    news_url: "https://store.steampowered.com/news/app/359550"
     mode: rss
     urls:
-      - "https://store.steampowered.com/news/app/359550/?format=rss"
+      - "https://store.steampowered.com/feeds/news/app/359550/?format=rss"
       - "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates?category=all"
 
   - name: "Rocket League"
-    news_url: "https://www.rocketleague.com/news"
+    news_url: "https://store.steampowered.com/news/app/252950"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/252950/?format=rss"
@@ -295,11 +288,12 @@ games:
       - "https://rust.facepunch.com/news"
 
   - name: "Hollow Knight: Silksong"
-    news_url: "https://store.steampowered.com/news/app/1030300?updates=true"
-    url: "https://store.steampowered.com/news/app/1030300?updates=true"
+    news_url: "https://store.steampowered.com/news/app/1030300"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/1030300/?format=rss"
 
   - name: "Stardew Valley"
-    news_url: "https://www.stardewvalley.net/blog/"
+    news_url: "https://store.steampowered.com/news/app/413150"
     mode: rss
     urls:
       - "https://store.steampowered.com/feeds/news/app/413150/?format=rss"
@@ -323,9 +317,10 @@ games:
     url: "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
 
   - name: "World of Tanks"
-    news_url: "https://worldoftanks.com/en/news/"
+    news_url: "https://store.steampowered.com/news/app/1407200"
+    mode: rss
     urls: 
-      - "https://store.steampowered.com/news/app/1407200?updates=true"
+      - "https://store.steampowered.com/feeds/news/app/1407200/?format=rss"
       - "https://worldoftanks.com/en/news/"
       
 

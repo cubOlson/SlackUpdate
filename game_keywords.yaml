@@ -213,7 +213,7 @@ Counter-Strike 2:
     - "smoke"
     - "grenade"
     - "major"
-    - "update"
+    - "counter-strike 2 update"
 
   medium:
     - "case"
@@ -394,6 +394,8 @@ Dota 2:
     - "ui"
     - "hud"
     - "patch"
+    - "gameplay"
+    - "gameplay patch"
 
   medium:
     - "arcana"
@@ -453,6 +455,7 @@ Genshin Impact:
     - "region"
     - "element"
     - "banner"
+    - "version"
 
   medium:
     - "event"
@@ -555,6 +558,7 @@ No Man's Sky:
     - "planet"
     - "ship"
     - "base"
+    - "introducing"
 
 Overwatch 2:
   high:

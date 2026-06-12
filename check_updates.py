@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 import yaml
+from email.utils import parsedate_to_datetime
 
 with open("game_keywords.yaml", "r", encoding="utf-8") as f:
     keyword_rules = yaml.safe_load(f)
@@ -28,10 +29,15 @@ _RELEVANT_RE = re.compile(
     r'changelog|'
     r'event|'
     r'launch|'
-    r'version'
+    r'version|'
+    r'notes|'
+    r'gameplay|'
+    r'preview|'
     r')\b'
     r'|battle\s*pass'
-    r'|patch\s+notes|release\s+notes'
+    r'|patch\s+notes'
+    r'|release\s+notes'
+    r'|content\s+update'
     r'|early\s+access'
     r'|new\s+(?:content|map|mode|feature|weapon|skin|character|hero|agent|class)',
     re.IGNORECASE,
@@ -86,7 +92,7 @@ def fetch_page(url: str) -> str:
                 "Chrome/121.0.0.0 Safari/537.36"
             ),
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Accept-Language": "en-US,en;q=0.9",
             "Connection": "keep-alive",
         },
     )
@@ -95,7 +101,7 @@ def fetch_page(url: str) -> str:
     return r.text
 
 
-def fingerprint_rss(xml_text: str):
+def fingerprint_rss(xml_text: str, game_name: str):
     """Extract RSS fingerprint + latest entry info."""
     try:
         root = ET.fromstring(xml_text)
@@ -107,12 +113,15 @@ def fingerprint_rss(xml_text: str):
             items = root.findall(".//atom:entry", ns)
 
         titles = []
+        all_titles = []
+
         latest_title = None
         latest_date = None
 
-        for idx, item in enumerate(items):
+        for item in items:
 
             title_el = item.find("title")
+
             if title_el is None:
                 title_el = item.find("atom:title", ns)
 
@@ -121,27 +130,59 @@ def fingerprint_rss(xml_text: str):
 
             title = title_el.text.strip()
 
-            if is_relevant(title):
+            all_titles.append(title)
+
+
+            if is_relevant(title) or detect_keywords(game_name, title):
+
                 titles.append(title)
 
-                if idx == 0:
+                if latest_title is None:
+
                     latest_title = title
 
-                    date_el = (
-                        item.find("pubDate")
-                        or item.find("updated")
-                        or item.find("atom:updated", ns)
-                    )
+                    date_el = item.find("pubDate")
+
+                    if date_el is None:
+                        date_el = item.find("updated")
+
+                    if date_el is None:
+                        date_el = item.find("atom:updated", ns)
 
                     if date_el is not None and date_el.text:
                         latest_date = date_el.text.strip()
 
         if titles:
+
             fp = hashlib.sha256(
                 " | ".join(titles).encode("utf-8")
             ).hexdigest()
 
             return fp, latest_title, latest_date
+
+        # DEBUG:
+        if all_titles:
+
+            first_item = items[0]
+
+            fallback_date = None
+
+            date_el = first_item.find("pubDate")
+
+            if date_el is None:
+                date_el = first_item.find("updated")
+
+            if date_el is None:
+                date_el = first_item.find("atom:updated", ns)
+
+            if date_el is not None and date_el.text:
+                fallback_date = date_el.text.strip()
+
+            fp = hashlib.sha256(
+                all_titles[0].encode("utf-8")
+            ).hexdigest()
+
+            return fp, all_titles[0], fallback_date
 
         return _NO_RELEVANT_CONTENT, None, None
 
@@ -149,7 +190,7 @@ def fingerprint_rss(xml_text: str):
         return _NO_RELEVANT_CONTENT, None, None
 
 
-def fingerprint_headlines(html: str):
+def fingerprint_headlines(html: str, game_name: str):
     """
     Hash only headlines that signal actual game changes.
     """
@@ -171,7 +212,9 @@ def fingerprint_headlines(html: str):
     for tag in soup.find_all(["h1", "h2", "h3", "a"]):
         text = tag.get_text(" ", strip=True)
 
-        if len(text) > 10 and is_relevant(text):
+        if len(text) > 10 and (
+            is_relevant(text) or detect_keywords(game_name, text)
+        ):
             parts.append(text)
 
     if not parts:
@@ -212,6 +255,80 @@ def send_slack(message: str) -> None:
         json={"text": message},
         timeout=15
     )
+
+def extract_date_from_html(html: str):
+
+    soup = BeautifulSoup(html, "lxml")
+
+    # Diablo Immortal
+    blz_time = soup.find("blz-timestamp")
+
+    if blz_time and blz_time.get("timestamp"):
+        return blz_time["timestamp"]
+
+    # WoW / Valorant / League / TFT
+    time_tag = soup.find("time")
+
+    if time_tag and time_tag.get("datetime"):
+        return time_tag["datetime"]
+
+    # Hearthstone
+    hs_time = soup.find(
+        "time",
+        class_=lambda x: x and "ArticleTime" in x
+    )
+
+    if hs_time:
+        return hs_time.get_text(strip=True)
+
+    # Call of Duty / Black Ops
+    news_date = soup.find(
+        "div",
+        class_="news-published"
+    )
+
+    if news_date and news_date.get("data-date"):
+        return news_date["data-date"]
+
+    # Minecraft
+    minecraft_date = soup.find(
+        "div",
+        class_="MC_listingF_timestamp"
+    )
+
+    if minecraft_date:
+        return minecraft_date.get_text(strip=True)
+
+    # Genshin
+    genshin_date = soup.find(
+        "div",
+        class_="news__date"
+    )
+
+    if genshin_date:
+        return genshin_date.get_text(strip=True)
+
+    # Hytale
+    date_span = soup.find(
+        "span",
+        class_="inline-block h-[26px]"
+    )
+
+    if date_span:
+        return date_span.get_text(strip=True)
+
+    # Fallback: "May 28, 2026"
+    for span in soup.find_all("span"):
+
+        text = span.get_text(" ", strip=True)
+
+        if re.search(
+            r"[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}",
+            text
+        ):
+            return text
+
+    return None
 
 
 def main() -> None:
@@ -265,18 +382,16 @@ def main() -> None:
             # fingerprint strategy
             if mode == "rss":
 
-                fp, latest_title, latest_date = fingerprint_rss(content)
+                fp, latest_title, latest_date = fingerprint_rss(content,name)
 
                 titles = [latest_title] if latest_title else []
 
             else:
 
-                fp, titles = fingerprint_headlines(content)
+                fp, titles = fingerprint_headlines(content, name)
 
                 latest_title = titles[0] if titles else None
-                latest_date = None
-
-            prev_fp = state.get(name, {}).get("fingerprint")
+                latest_date = extract_date_from_html(content)
 
             prev_title = state.get(name, {}).get("latest_title")
 
@@ -303,12 +418,33 @@ def main() -> None:
 
                 if detected:
 
-                    updates_found.append({
-                        "name": name,
-                        "url": news_url,
-                        "detected": detected,
-                        "titles": titles[:3]
-                    })
+                    recent = True
+
+                    try:
+
+                        if latest_date:
+
+                            article_dt = parsedate_to_datetime(latest_date)
+
+                            days_old = (
+                                datetime.now(timezone.utc) - article_dt
+                            ).days
+
+                            recent = days_old <= 7
+
+                    except:
+                        pass
+
+                    if recent:
+
+                        updates_found.append({
+                            "name": name,
+                            "url": news_url,
+                            "detected": detected,
+                            "titles": titles[:3]
+                        })
+
+            print(f"{name} | title={latest_title} | date={latest_date}")
 
             state[name] = {
                 "fingerprint": fp,
