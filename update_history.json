@@ -200,6 +200,14 @@
         "Marvel Rivals Version 20260612 Patch Notes - Season 8.5 Arrives"
       ],
       "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-06-14T22:17:06.242167+00:00",
+      "article_date": "Thu, 11 Jun 2026 09:22:16 +0000",
+      "titles": [
+        "Marvel Rivals: Dive Into Season 8.5 // Dev Vision Vol. 18"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
     }
   ],
   "Battlefield 6": [
@@ -396,6 +404,14 @@
       "article_date": "Sat, 13 Jun 2026 14:30:25 +0000",
       "titles": [
         "10 Years. 10 Items. One Limited Release."
+      ],
+      "url": "https://deadbydaylight.com/news"
+    },
+    {
+      "date_detected": "2026-06-14T22:17:03.567325+00:00",
+      "article_date": "Sun, 14 Jun 2026 18:42:05 +0000",
+      "titles": [
+        "Dead by Daylight | 10th Anniversary Broadcast"
       ],
       "url": "https://deadbydaylight.com/news"
     }
