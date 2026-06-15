@@ -418,31 +418,12 @@ def main() -> None:
 
                 if detected:
 
-                    recent = True
-
-                    try:
-
-                        if latest_date:
-
-                            article_dt = parsedate_to_datetime(latest_date)
-
-                            days_old = (
-                                datetime.now(timezone.utc) - article_dt
-                            ).days
-
-                            recent = days_old <= 7
-
-                    except:
-                        pass
-
-                    if recent:
-
-                        updates_found.append({
-                            "name": name,
-                            "url": news_url,
-                            "detected": detected,
-                            "titles": titles[:3]
-                        })
+                    updates_found.append({
+                        "name": name,
+                        "url": news_url,
+                        "detected": detected,
+                        "titles": titles[:3]
+                    })
 
             print(f"{name} | title={latest_title} | date={latest_date}")
 
