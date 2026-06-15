@@ -208,6 +208,14 @@
         "Marvel Rivals: Dive Into Season 8.5 // Dev Vision Vol. 18"
       ],
       "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-06-15T23:05:19.847627+00:00",
+      "article_date": "Thu, 11 Jun 2026 09:22:11 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260612 Patch Notes - Season 8.5 Arrives"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
     }
   ],
   "Battlefield 6": [
@@ -270,6 +278,14 @@
       "article_date": "Thu, 11 Jun 2026 20:43:16 +0000",
       "titles": [
         "Ratlympics 4: Corvus Tul Rat, Gate 2 Nightmare"
+      ],
+      "url": "https://www.playlostark.com/en-us/news"
+    },
+    {
+      "date_detected": "2026-06-15T23:05:19.739238+00:00",
+      "article_date": "Mon, 15 Jun 2026 20:43:14 +0000",
+      "titles": [
+        "Community Emote Design Competition 2026"
       ],
       "url": "https://www.playlostark.com/en-us/news"
     }
@@ -356,6 +372,14 @@
         "The Among Us Animated Show Arrives! | Emergency Meeting #42"
       ],
       "url": "https://www.innersloth.com/news/"
+    },
+    {
+      "date_detected": "2026-06-15T23:05:15.424600+00:00",
+      "article_date": "Mon, 15 Jun 2026 17:00:15 +0000",
+      "titles": [
+        "Among Us Turns 8! | New Demo & Cosmetic 🥳"
+      ],
+      "url": "https://www.innersloth.com/news/"
     }
   ],
   "Among Us 3D": [
@@ -412,6 +436,14 @@
       "article_date": "Sun, 14 Jun 2026 18:42:05 +0000",
       "titles": [
         "Dead by Daylight | 10th Anniversary Broadcast"
+      ],
+      "url": "https://deadbydaylight.com/news"
+    },
+    {
+      "date_detected": "2026-06-15T23:05:16.676810+00:00",
+      "article_date": "Mon, 15 Jun 2026 16:06:08 +0000",
+      "titles": [
+        "Stats | Celebrating 10 Years In The Fog"
       ],
       "url": "https://deadbydaylight.com/news"
     }
