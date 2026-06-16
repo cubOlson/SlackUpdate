@@ -56,6 +56,14 @@
         "PNC 2026 Event Page Now Open"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-06-16T22:54:43.565479+00:00",
+      "article_date": "Tue, 16 Jun 2026 06:00:52 +0000",
+      "titles": [
+        "[Dev Letter] Blue Zone Revamp"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -114,6 +122,14 @@
       "article_date": null,
       "titles": [
         "Store Update 1.32.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500?updates=true"
+    },
+    {
+      "date_detected": "2026-06-16T22:54:37.672493+00:00",
+      "article_date": "Tue, 16 Jun 2026 09:02:10 +0000",
+      "titles": [
+        "Live Update 1.33.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500?updates=true"
     }
@@ -216,6 +232,14 @@
         "Marvel Rivals Version 20260612 Patch Notes - Season 8.5 Arrives"
       ],
       "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-06-16T22:54:42.139173+00:00",
+      "article_date": "Thu, 11 Jun 2026 09:22:16 +0000",
+      "titles": [
+        "Marvel Rivals: Dive Into Season 8.5 // Dev Vision Vol. 18"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
     }
   ],
   "Battlefield 6": [
@@ -298,6 +322,14 @@
         "End of the Line | Shion Hero Trailer | Overwatch"
       ],
       "url": "https://overwatch.blizzard.com/en-us/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-06-16T22:54:43.048550+00:00",
+      "article_date": "Tue, 16 Jun 2026 18:30:28 +0000",
+      "titles": [
+        "Excavation Initiative"
+      ],
+      "url": "https://store.steampowered.com/news/app/2357570"
     }
   ],
   "Minecraft": [
@@ -446,6 +478,14 @@
         "Stats | Celebrating 10 Years In The Fog"
       ],
       "url": "https://deadbydaylight.com/news"
+    },
+    {
+      "date_detected": "2026-06-16T22:54:38.921114+00:00",
+      "article_date": "Tue, 16 Jun 2026 18:15:59 +0000",
+      "titles": [
+        "The Jason Chapter is now available on Steam!"
+      ],
+      "url": "https://deadbydaylight.com/news"
     }
   ],
   "Destiny 2": [
@@ -524,6 +564,14 @@
       "article_date": "Tue, 09 Jun 2026 12:01:09 +0000",
       "titles": [
         "Machinery of Oppression:  6.2.6"
+      ],
+      "url": "https://store.steampowered.com/news/app/553850"
+    },
+    {
+      "date_detected": "2026-06-16T22:54:41.384523+00:00",
+      "article_date": "Tue, 16 Jun 2026 09:00:24 +0000",
+      "titles": [
+        "Machinery of Oppression:  6.3.0"
       ],
       "url": "https://store.steampowered.com/news/app/553850"
     }
