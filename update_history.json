@@ -64,6 +64,14 @@
         "[Dev Letter] Blue Zone Revamp"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-06-17T22:47:29.768878+00:00",
+      "article_date": "Wed, 17 Jun 2026 08:00:13 +0000",
+      "titles": [
+        "PUBG: BATTLEGROUNDS Weekly Bans Notice (06/08~06/14)"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -104,6 +112,14 @@
       "article_date": null,
       "titles": [
         "Apex Legends: Latest Update 6/9/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-06-17T22:47:18.343702+00:00",
+      "article_date": "Wed, 17 Jun 2026 22:06:33 +0000",
+      "titles": [
+        "Apex Legends: Latest Update - 06/17/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
     }
@@ -238,6 +254,14 @@
       "article_date": "Thu, 11 Jun 2026 09:22:16 +0000",
       "titles": [
         "Marvel Rivals: Dive Into Season 8.5 // Dev Vision Vol. 18"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-06-17T22:47:27.922929+00:00",
+      "article_date": "Thu, 11 Jun 2026 09:22:11 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260612 Patch Notes - Season 8.5 Arrives"
       ],
       "url": "https://www.marvelrivals.com/news/"
     }
