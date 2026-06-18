@@ -122,6 +122,14 @@
         "Apex Legends: Latest Update - 06/17/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:24.344037+00:00",
+      "article_date": "Thu, 18 Jun 2026 18:07:45 +0000",
+      "titles": [
+        "Overclocked Midseason Designer’s Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -164,6 +172,14 @@
       "article_date": null,
       "titles": [
         "Public Test Client: Patch 1.4.10.0"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:28.706236+00:00",
+      "article_date": "Thu, 18 Jun 2026 16:02:09 +0000",
+      "titles": [
+        "Communinet Signal #18"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
     }
@@ -264,6 +280,14 @@
         "Marvel Rivals Version 20260612 Patch Notes - Season 8.5 Arrives"
       ],
       "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:30.707633+00:00",
+      "article_date": "Thu, 18 Jun 2026 06:46:21 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260618 Patch Notes"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
     }
   ],
   "Battlefield 6": [
@@ -280,6 +304,14 @@
       "article_date": "Tue, 09 Jun 2026 15:02:00 +0000",
       "titles": [
         "Battlefield 6 | REDSEC Season 3: Blastpoint & Free Trial"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:26.714700+00:00",
+      "article_date": "Thu, 18 Jun 2026 15:05:16 +0000",
+      "titles": [
+        "Battlefield 6 - Community Update - What’s Coming in the Final Phase of Season 3"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -308,6 +340,14 @@
       "article_date": "Wed, 10 Jun 2026 21:22:05 +0000",
       "titles": [
         "Counter-Strike 2 Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/730"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:25.644558+00:00",
+      "article_date": "Wed, 17 Jun 2026 23:22:20 +0000",
+      "titles": [
+        "Playoffs at the \"Cathedral of Counter-Strike\""
       ],
       "url": "https://store.steampowered.com/news/app/730"
     }
@@ -468,6 +508,14 @@
         "THIS WEEK ON KAIROS"
       ],
       "url": "https://store.steampowered.com/news/app/1285190?updates=true"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:27.066510+00:00",
+      "article_date": "Thu, 18 Jun 2026 17:00:07 +0000",
+      "titles": [
+        "Bounty Pack 3 and Takedown | Borderlands 4"
+      ],
+      "url": "https://store.steampowered.com/news/app/1285190?updates=true"
     }
   ],
   "Dead by Daylight": [
@@ -510,6 +558,14 @@
         "The Jason Chapter is now available on Steam!"
       ],
       "url": "https://deadbydaylight.com/news"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:27.414048+00:00",
+      "article_date": "Thu, 18 Jun 2026 14:16:27 +0000",
+      "titles": [
+        "Dead by Daylight | Jason launch stream, Featuring PaulieEsther (replay)"
+      ],
+      "url": "https://deadbydaylight.com/news"
     }
   ],
   "Destiny 2": [
@@ -518,6 +574,14 @@
       "article_date": "Thu, 11 Jun 2026 19:37:08 +0000",
       "titles": [
         "This Week In Destiny - 06/11/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1085660"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:27.547390+00:00",
+      "article_date": "Thu, 18 Jun 2026 18:48:49 +0000",
+      "titles": [
+        "This Week in Destiny – 06/18/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1085660"
     }
@@ -580,6 +644,14 @@
         "Reward Car Build June 12th"
       ],
       "url": "https://store.steampowered.com/news/app/1551360"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:29.142204+00:00",
+      "article_date": "Thu, 18 Jun 2026 20:00:30 +0000",
+      "titles": [
+        "Celebrate 50 Years of A Legendary Victory with the Ford GT #66 GTLM Le Mans!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1551360"
     }
   ],
   "Helldivers 2": [
@@ -616,6 +688,14 @@
       "article_date": "Thu, 04 Jun 2026 23:37:05 +0000",
       "titles": [
         "June 4th, 2026 MSFS Weekly Briefing"
+      ],
+      "url": "https://store.steampowered.com/news/app/2537590/"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:30.960352+00:00",
+      "article_date": "Thu, 18 Jun 2026 22:50:02 +0000",
+      "titles": [
+        "June 18th, 2026 MSFS Weekly Briefing"
       ],
       "url": "https://store.steampowered.com/news/app/2537590/"
     }
@@ -736,6 +816,14 @@
       "article_date": "Wed, 10 Jun 2026 16:13:50 +0000",
       "titles": [
         "Terraria 15th Anniversary Collector's Edition - Preorders are now open!"
+      ],
+      "url": "https://store.steampowered.com/news/app/105600"
+    },
+    {
+      "date_detected": "2026-06-18T22:58:33.879648+00:00",
+      "article_date": "Thu, 18 Jun 2026 18:39:17 +0000",
+      "titles": [
+        "Terraria: Design Works - Preorder yours today!"
       ],
       "url": "https://store.steampowered.com/news/app/105600"
     }
