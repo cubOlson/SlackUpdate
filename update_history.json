@@ -182,6 +182,14 @@
         "Communinet Signal #18"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-06-19T22:09:12.583169+00:00",
+      "article_date": "Fri, 19 Jun 2026 13:01:14 +0000",
+      "titles": [
+        "Upcoming PlayStation Closed Beta Weekend Playtest"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
     }
   ],
   "Final Fantasy XIV": [
@@ -324,6 +332,14 @@
         "Path of Exile 3.29 Expansion Timeline"
       ],
       "url": "https://www.pathofexile.com/news"
+    },
+    {
+      "date_detected": "2026-06-19T22:09:15.218518+00:00",
+      "article_date": "Fri, 19 Jun 2026 21:05:45 +0000",
+      "titles": [
+        "Play the Return of the Ancestors Event on June 25th PDT"
+      ],
+      "url": "https://store.steampowered.com/news/app/238960"
     }
   ],
   "Counter-Strike 2": [
@@ -650,6 +666,14 @@
       "article_date": "Thu, 18 Jun 2026 20:00:30 +0000",
       "titles": [
         "Celebrate 50 Years of A Legendary Victory with the Ford GT #66 GTLM Le Mans!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1551360"
+    },
+    {
+      "date_detected": "2026-06-19T22:09:12.913063+00:00",
+      "article_date": "Fri, 19 Jun 2026 14:30:48 +0000",
+      "titles": [
+        "Reward Car Build: June 19th"
       ],
       "url": "https://store.steampowered.com/news/app/1551360"
     }
