@@ -366,6 +366,14 @@
         "Playoffs at the \"Cathedral of Counter-Strike\""
       ],
       "url": "https://store.steampowered.com/news/app/730"
+    },
+    {
+      "date_detected": "2026-06-20T22:14:39.726380+00:00",
+      "article_date": "Sat, 20 Jun 2026 20:51:54 +0000",
+      "titles": [
+        "The IEM Cologne 2026 Grand Finals"
+      ],
+      "url": "https://store.steampowered.com/news/app/730"
     }
   ],
   "Lost Ark": [
@@ -760,6 +768,14 @@
       "article_date": "Fri, 05 Jun 2026 22:42:36 +0000",
       "titles": [
         "Palworld 1.0 - July 10! Cinematic Trailer Reveal!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
+    },
+    {
+      "date_detected": "2026-06-20T22:14:45.326114+00:00",
+      "article_date": "Sat, 20 Jun 2026 11:44:38 +0000",
+      "titles": [
+        "Palworld × LumenTale Steam Bundle Available Now !"
       ],
       "url": "https://store.steampowered.com/news/app/1623730"
     }
