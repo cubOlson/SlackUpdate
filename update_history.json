@@ -72,6 +72,14 @@
         "PUBG: BATTLEGROUNDS Weekly Bans Notice (06/08~06/14)"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-06-22T22:50:18.398082+00:00",
+      "article_date": "Mon, 22 Jun 2026 16:22:11 +0000",
+      "titles": [
+        "PNC 2026: Pride & Glory"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -128,6 +136,14 @@
       "article_date": "Thu, 18 Jun 2026 18:07:45 +0000",
       "titles": [
         "Overclocked Midseason Designer’s Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-06-22T22:50:11.443214+00:00",
+      "article_date": "Mon, 22 Jun 2026 19:40:34 +0000",
+      "titles": [
+        "Apex Legends™: Overclocked Midseason Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
     }
@@ -462,6 +478,14 @@
         "Launder Your Bottom Line with Money Fronts Bonuses"
       ],
       "url": "https://store.steampowered.com/news/app/271590"
+    },
+    {
+      "date_detected": "2026-06-22T22:50:12.380461+00:00",
+      "article_date": "Mon, 22 Jun 2026 10:43:51 +0000",
+      "titles": [
+        "The Next Big Score"
+      ],
+      "url": "https://store.steampowered.com/news/app/271590"
     }
   ],
   "Cyberpunk 2077": [
@@ -498,6 +522,14 @@
       "article_date": "Mon, 15 Jun 2026 17:00:15 +0000",
       "titles": [
         "Among Us Turns 8! | New Demo & Cosmetic 🥳"
+      ],
+      "url": "https://www.innersloth.com/news/"
+    },
+    {
+      "date_detected": "2026-06-22T22:50:13.032577+00:00",
+      "article_date": "Mon, 22 Jun 2026 18:29:13 +0000",
+      "titles": [
+        "Among Us – Depreciation of 2024 Versions"
       ],
       "url": "https://www.innersloth.com/news/"
     }
@@ -874,6 +906,14 @@
       "article_date": "Wed, 10 Jun 2026 13:08:01 +0000",
       "titles": [
         "Arcade Cabinet: Equalize! Summer Launch"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-06-22T22:50:20.263042+00:00",
+      "article_date": "Mon, 22 Jun 2026 09:04:05 +0000",
+      "titles": [
+        "Tankfest 2026: Sales, Streams, Drops, and Premium Rewards!"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
     }
