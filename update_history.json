@@ -128,6 +128,14 @@
         "New Blue Zone Ruleset: Rondo"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-07-01T22:21:58.906142+00:00",
+      "article_date": "Wed, 01 Jul 2026 07:00:30 +0000",
+      "titles": [
+        "PUBG: BATTLEGROUNDS Weekly Bans Notice (06/22~06/28)"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -216,6 +224,14 @@
       "article_date": "Fri, 26 Jun 2026 20:01:56 +0000",
       "titles": [
         "Apex Legends: Latest Update 6/26/26"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-01T22:21:49.575176+00:00",
+      "article_date": "Wed, 01 Jul 2026 20:59:52 +0000",
+      "titles": [
+        "Apex Legends: Latest Update 7/1/26 as of 2:00pm PT"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
     }
@@ -316,6 +332,14 @@
       "article_date": "Thu, 25 Jun 2026 17:14:09 +0000",
       "titles": [
         "The Funcom Steam Summer Sale is live!"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-01T22:21:54.915397+00:00",
+      "article_date": "Wed, 01 Jul 2026 09:53:45 +0000",
+      "titles": [
+        "Dune: Awakening - 1.4.10.1 Hotfix Patch Notes"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
     }
@@ -580,6 +604,14 @@
       "article_date": "Sat, 20 Jun 2026 20:51:54 +0000",
       "titles": [
         "The IEM Cologne 2026 Grand Finals"
+      ],
+      "url": "https://store.steampowered.com/news/app/730"
+    },
+    {
+      "date_detected": "2026-07-01T22:21:51.222479+00:00",
+      "article_date": "Wed, 01 Jul 2026 02:58:04 +0000",
+      "titles": [
+        "Team Falcons' Finale"
       ],
       "url": "https://store.steampowered.com/news/app/730"
     }
