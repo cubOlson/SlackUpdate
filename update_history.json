@@ -234,6 +234,14 @@
         "Apex Legends: Latest Update 7/1/26 as of 2:00pm PT"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-02T22:11:51.645429+00:00",
+      "article_date": "Thu, 02 Jul 2026 17:35:33 +0000",
+      "titles": [
+        "Apex Legends: Latest Update 7/2/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -340,6 +348,14 @@
       "article_date": "Wed, 01 Jul 2026 09:53:45 +0000",
       "titles": [
         "Dune: Awakening - 1.4.10.1 Hotfix Patch Notes"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-02T22:11:56.597995+00:00",
+      "article_date": "Thu, 02 Jul 2026 14:00:29 +0000",
+      "titles": [
+        "Dive into a year of big updates and get a sneak peek at what’s next!"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
     }
@@ -478,6 +494,14 @@
       "article_date": "Thu, 25 Jun 2026 08:32:13 +0000",
       "titles": [
         "Marvel Rivals Version 20260625 Patch Notes"
+      ],
+      "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-07-02T22:11:58.355375+00:00",
+      "article_date": "Thu, 02 Jul 2026 07:15:48 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260702 Patch Notes"
       ],
       "url": "https://www.marvelrivals.com/news/"
     }
@@ -1064,6 +1088,14 @@
         "The Dark Carnival"
       ],
       "url": "https://store.steampowered.com/news/app/570"
+    },
+    {
+      "date_detected": "2026-07-02T22:11:56.419300+00:00",
+      "article_date": "Wed, 01 Jul 2026 23:26:01 +0000",
+      "titles": [
+        "Dota 2 Update - 7/1/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/570"
     }
   ],
   "Elden Ring": [
@@ -1216,6 +1248,14 @@
       "article_date": "Mon, 29 Jun 2026 20:12:16 +0000",
       "titles": [
         "Sim Update 5.1 Release Notes [1.7.35.0] - Available Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2537590/"
+    },
+    {
+      "date_detected": "2026-07-02T22:11:58.615251+00:00",
+      "article_date": "Thu, 02 Jul 2026 20:03:41 +0000",
+      "titles": [
+        "World Update 22: United States National Parks"
       ],
       "url": "https://store.steampowered.com/news/app/2537590/"
     }
