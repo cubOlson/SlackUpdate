@@ -332,10 +332,10 @@ def extract_date_from_html(html: str):
 
 def main() -> None:
 
-    #if not os.getenv("SLACK_WEBHOOK_URL"):
-        #raise RuntimeError(
-           # "Missing SLACK_WEBHOOK_URL env var"
-        #)
+    if not os.getenv("SLACK_WEBHOOK_URL"):
+        raise RuntimeError(
+            "Missing SLACK_WEBHOOK_URL env var"
+        )
 
     with open("games.yaml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
@@ -498,8 +498,8 @@ def main() -> None:
                 f"- {name}: {url} — `{short}`"
             )
 
-    #send_slack("\n".join(lines))
-    print("\n".join(lines))
+    send_slack("\n".join(lines))
+    #print("\n".join(lines))
 
 
 if __name__ == "__main__":

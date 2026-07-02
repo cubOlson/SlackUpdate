@@ -48,8 +48,8 @@ with open(HISTORY_FILE, "r", encoding="utf-8") as f:
 now = datetime.now(timezone.utc)
 week_ago = now - timedelta(days=7)
 
-print("NOW =", now)
-print("WEEK AGO =", week_ago)
+#print("NOW =", now)
+#print("WEEK AGO =", week_ago)
 
 lines = [
     "🎮 *WEEKLY GAME UPDATE CALENDAR*\n"
@@ -57,18 +57,18 @@ lines = [
 
 total_updates = 0
 
-print("TOTAL GAMES:", len(history))
+#print("TOTAL GAMES:", len(history))
 
 for game, updates in history.items():
 
-    print(game, len(updates))
+    #print(game, len(updates))
 
     recent_updates = []
     seen_titles = set()
 
     for update in updates:
 
-        print(update)
+        #print(update)
 
         title = (update.get("titles") or ["No title"])[0]
 
@@ -89,7 +89,7 @@ for game, updates in history.items():
         if dt is None:
             continue
 
-        print(
+        #print(
             "COMPARE:",
             game,
             dt,
@@ -97,7 +97,7 @@ for game, updates in history.items():
             week_ago,
             "result=",
             dt >= week_ago
-        )
+        #)
 
         if dt >= week_ago:
 
@@ -148,6 +148,6 @@ else:
 
 message = "\n".join(lines)
 
-print(message)
+#print(message)
 
-# send_slack(message)
+send_slack(message)
