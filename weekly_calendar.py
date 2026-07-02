@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 
 import requests
 
@@ -8,7 +9,6 @@ HISTORY_FILE = "update_history.json"
 
 
 def send_slack(message: str) -> None:
-
     url = os.environ["SLACK_WEBHOOK_URL"]
 
     requests.post(
@@ -18,11 +18,38 @@ def send_slack(message: str) -> None:
     )
 
 
+def parse_date(raw_date):
+    if not raw_date:
+        return None
+
+    try:
+        return datetime.fromisoformat(raw_date.replace("Z", "+00:00"))
+
+    except ValueError:
+
+        try:
+            return parsedate_to_datetime(raw_date)
+
+        except Exception:
+
+            try:
+                return datetime.strptime(
+                    raw_date,
+                    "%B %d, %Y"
+                ).replace(tzinfo=timezone.utc)
+
+            except Exception:
+                return None
+
+
 with open(HISTORY_FILE, "r", encoding="utf-8") as f:
     history = json.load(f)
 
 now = datetime.now(timezone.utc)
 week_ago = now - timedelta(days=7)
+
+print("NOW =", now)
+print("WEEK AGO =", week_ago)
 
 lines = [
     "🎮 *WEEKLY GAME UPDATE CALENDAR*\n"
@@ -30,50 +57,82 @@ lines = [
 
 total_updates = 0
 
+print("TOTAL GAMES:", len(history))
+
 for game, updates in history.items():
 
+    print(game, len(updates))
+
     recent_updates = []
+    seen_titles = set()
 
     for update in updates:
 
-        raw_date = (
-            update.get("article_date")
-            or update.get("date_detected")
-            or update.get("date")
-        )
+        print(update)
 
-        if not raw_date:
+        title = (update.get("titles") or ["No title"])[0]
+
+        # Não contar o mesmo título duas vezes
+        if title in seen_titles:
             continue
 
-        try:
+        seen_titles.add(title)
 
-            dt = datetime.fromisoformat(
-                raw_date.replace("Z", "+00:00")
-            )
+        article_dt = parse_date(update.get("article_date"))
+        detected_dt = parse_date(update.get("date_detected"))
+        fallback_dt = parse_date(update.get("date"))
 
-            if dt >= week_ago:
-                recent_updates.append(dt)
+        # Prioridade:
+        # article_date -> date_detected -> date
+        dt = article_dt or detected_dt or fallback_dt
 
-        except Exception:
+        if dt is None:
             continue
 
-    if recent_updates:
-
-        recent_updates.sort(reverse=True)
-
-        total_updates += len(recent_updates)
-
-        lines.append(f"*{game}*")
-        lines.append(
-            f"• Updates this week: {len(recent_updates)}"
+        print(
+            "COMPARE:",
+            game,
+            dt,
+            "week_ago=",
+            week_ago,
+            "result=",
+            dt >= week_ago
         )
 
-        lines.append(
-            f"• Last update: "
-            f"{recent_updates[0].strftime('%Y-%m-%d')}"
-        )
+        if dt >= week_ago:
 
-        lines.append("")
+            recent_updates.append({
+                "date": dt,
+                "title": title,
+                "article": article_dt,
+            })
+
+    if not recent_updates:
+        continue
+
+    recent_updates.sort(
+        key=lambda x: x["date"],
+        reverse=True
+    )
+
+    total_updates += len(recent_updates)
+
+    latest = recent_updates[0]
+
+    lines.append(f"*{game}*")
+    lines.append(
+        f"• Updates this week: {len(recent_updates)}"
+    )
+    lines.append(
+        f"• {latest['title']}"
+    )
+
+    lines.append(
+        "• Published: "
+        + latest["date"].strftime("%Y-%m-%d")
+    )
+
+    lines.append("")
 
 if total_updates == 0:
 
@@ -91,4 +150,4 @@ message = "\n".join(lines)
 
 print(message)
 
-send_slack(message)
+# send_slack(message)

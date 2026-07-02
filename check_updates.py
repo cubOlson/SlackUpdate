@@ -27,7 +27,6 @@ _RELEVANT_RE = re.compile(
     r'balance|nerf|buff|rework|tuning|'
     r'wipe|'
     r'changelog|'
-    r'event|'
     r'launch|'
     r'version|'
     r'notes|'
@@ -333,10 +332,10 @@ def extract_date_from_html(html: str):
 
 def main() -> None:
 
-    if not os.getenv("SLACK_WEBHOOK_URL"):
-        raise RuntimeError(
-            "Missing SLACK_WEBHOOK_URL env var"
-        )
+    #if not os.getenv("SLACK_WEBHOOK_URL"):
+        #raise RuntimeError(
+           # "Missing SLACK_WEBHOOK_URL env var"
+        #)
 
     with open("games.yaml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
@@ -397,26 +396,34 @@ def main() -> None:
 
             if latest_title and latest_title != prev_title:
 
-                if name not in history:
-                    history[name] = []
-
-                history[name].append({
-                    "date_detected": datetime.now(timezone.utc).isoformat(),
-                    "article_date": latest_date,
-                    "titles": titles[:3],
-                    "url": news_url
-                })
-
-                history[name] = history[name][-50:]
-
                 joined_titles = " ".join(titles)
 
-                detected = detect_keywords(
-                    name,
-                    joined_titles
+                detected = detect_keywords(name, joined_titles)
+
+                relevant = any(
+                    is_relevant(t)
+                    for t in titles
                 )
 
-                if detected:
+                if detected and relevant:
+
+                    print(
+                        f"NEW UPDATE DETECTED -> {name} | "
+                        f"title={latest_title} | "
+                        f"prev={prev_title}"
+                    )
+
+                    if name not in history:
+                        history[name] = []
+
+                    history[name].append({
+                        "date_detected": datetime.now(timezone.utc).isoformat(),
+                        "article_date": latest_date,
+                        "titles": titles[:3],
+                        "url": news_url
+                    })
+
+                    history[name] = history[name][-50:]
 
                     updates_found.append({
                         "name": name,
@@ -491,8 +498,8 @@ def main() -> None:
                 f"- {name}: {url} — `{short}`"
             )
 
-    send_slack("\n".join(lines))
-    #print("\n".join(lines))
+    #send_slack("\n".join(lines))
+    print("\n".join(lines))
 
 
 if __name__ == "__main__":
