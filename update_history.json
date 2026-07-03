@@ -242,6 +242,14 @@
         "Apex Legends: Latest Update 7/2/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-03T22:08:45.632421+00:00",
+      "article_date": "Thu, 02 Jul 2026 22:14:49 +0000",
+      "titles": [
+        "Apex Legends: Latest Update 7/2/2026 3:15PM PT"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -356,6 +364,14 @@
       "article_date": "Thu, 02 Jul 2026 14:00:29 +0000",
       "titles": [
         "Dive into a year of big updates and get a sneak peek at what’s next!"
+      ],
+      "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-03T22:08:49.663827+00:00",
+      "article_date": "Fri, 03 Jul 2026 09:28:05 +0000",
+      "titles": [
+        "Dune: Awakening - 1.4.10.2 Hotfix Patch Notes"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
     }
@@ -1162,6 +1178,14 @@
       "article_date": "Fri, 26 Jun 2026 16:00:59 +0000",
       "titles": [
         "Reward Car Build June 26th"
+      ],
+      "url": "https://store.steampowered.com/news/app/1551360"
+    },
+    {
+      "date_detected": "2026-07-03T22:08:50.137054+00:00",
+      "article_date": "Fri, 03 Jul 2026 16:00:21 +0000",
+      "titles": [
+        "Reward Car Build July 3rd"
       ],
       "url": "https://store.steampowered.com/news/app/1551360"
     }
