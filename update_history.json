@@ -604,6 +604,14 @@
         "Play the Return of the Ancestors Event on June 25th PDT"
       ],
       "url": "https://store.steampowered.com/news/app/238960"
+    },
+    {
+      "date_detected": "2026-07-06T22:18:42.792267+00:00",
+      "article_date": "Mon, 06 Jul 2026 21:22:39 +0000",
+      "titles": [
+        "New Transfigured Skills in Path of Exile: Curse of the Allflame"
+      ],
+      "url": "https://store.steampowered.com/news/app/238960"
     }
   ],
   "Counter-Strike 2": [
@@ -1004,6 +1012,14 @@
       "article_date": "Fri, 26 Jun 2026 21:34:01 +0000",
       "titles": [
         "Ice Nine Kills X Dead by Daylight Merch"
+      ],
+      "url": "https://deadbydaylight.com/news"
+    },
+    {
+      "date_detected": "2026-07-06T22:18:39.145624+00:00",
+      "article_date": "Mon, 06 Jul 2026 14:30:16 +0000",
+      "titles": [
+        "10.0.2 | Bugfix Patch"
       ],
       "url": "https://deadbydaylight.com/news"
     }
