@@ -250,6 +250,14 @@
         "Apex Legends: Latest Update 7/2/2026 3:15PM PT"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-07T22:14:59.850519+00:00",
+      "article_date": "Tue, 07 Jul 2026 17:04:15 +0000",
+      "titles": [
+        "Apex Legends x Cyberpunk"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -298,6 +306,14 @@
       "article_date": "Tue, 30 Jun 2026 09:02:43 +0000",
       "titles": [
         "Store Update 1.35.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500?updates=true"
+    },
+    {
+      "date_detected": "2026-07-07T22:15:02.978669+00:00",
+      "article_date": "Tue, 07 Jul 2026 09:37:36 +0000",
+      "titles": [
+        "Live Update 1.36.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500?updates=true"
     }
@@ -1092,6 +1108,14 @@
       "article_date": "Thu, 05 Feb 2026 16:31:01 +0000",
       "titles": [
         "id Software Anniversary Sale!"
+      ],
+      "url": "https://store.steampowered.com/news/app/3017860"
+    },
+    {
+      "date_detected": "2026-07-07T22:15:05.895334+00:00",
+      "article_date": "Tue, 07 Jul 2026 17:51:06 +0000",
+      "titles": [
+        "Revelations Update 4 Release Notes"
       ],
       "url": "https://store.steampowered.com/news/app/3017860"
     }
