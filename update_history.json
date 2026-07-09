@@ -14,6 +14,16 @@
         "Game Updates 2026-04-28T13:00:00.000Z VALORANT Patch Notes 12.08 Introducing Skirmish: Ascension, new map rotation, and the return of Premier"
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-09T22:26:57.304419+00:00",
+      "article_date": "2026-06-23T13:00:00.000Z",
+      "titles": [
+        "VALORANT Patch Notes 13.00",
+        "Game Updates 2026-06-23T13:00:00.000Z VALORANT Patch Notes 13.00 Act 4 starts now.",
+        "Game Updates 2026-06-09T13:00:00.000Z VALORANT Patch Notes 12.11 A light little patch to end Act 3."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -258,6 +268,14 @@
         "Apex Legends x Cyberpunk"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-09T22:26:58.010343+00:00",
+      "article_date": "Thu, 09 Jul 2026 18:03:24 +0000",
+      "titles": [
+        "An Update from the Anti Cheat Team - Auto Aim Manipulation"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -316,6 +334,14 @@
         "Live Update 1.36.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500?updates=true"
+    },
+    {
+      "date_detected": "2026-07-09T22:27:00.320050+00:00",
+      "article_date": "Thu, 09 Jul 2026 12:01:12 +0000",
+      "titles": [
+        "Hotfix 1.36.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -536,6 +562,14 @@
         "Marvel Rivals Version 20260702 Patch Notes"
       ],
       "url": "https://www.marvelrivals.com/news/"
+    },
+    {
+      "date_detected": "2026-07-09T22:27:05.563294+00:00",
+      "article_date": "Wed, 08 Jul 2026 08:01:12 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260710 Balance Post"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -676,6 +710,14 @@
       "article_date": "Wed, 01 Jul 2026 02:58:04 +0000",
       "titles": [
         "Team Falcons' Finale"
+      ],
+      "url": "https://store.steampowered.com/news/app/730"
+    },
+    {
+      "date_detected": "2026-07-09T22:26:59.701430+00:00",
+      "article_date": "Thu, 09 Jul 2026 21:46:16 +0000",
+      "titles": [
+        "Counter-Strike 2 Update"
       ],
       "url": "https://store.steampowered.com/news/app/730"
     }
@@ -1683,6 +1725,30 @@
         "Chivalry 2 Hotfix 2.11.4"
       ],
       "url": "https://store.steampowered.com/news/app/1824220"
+    }
+  ],
+  "League of Legends": [
+    {
+      "date_detected": "2026-07-09T22:26:58.650292+00:00",
+      "article_date": "2026-06-23T18:00:00.000Z",
+      "titles": [
+        "League of Legends Patch 26.13 Notes",
+        "Game Updates 2026-06-23T18:00:00.000Z League of Legends Patch 26.13 Notes Absolutely no demons allowed. - Locke",
+        "Game Updates 2026-06-09T18:00:00.000Z League of Legends Patch 26.12 Notes A spicy start to Season 2 Act 2"
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    }
+  ],
+  "Teamfight Tactics": [
+    {
+      "date_detected": "2026-07-09T22:27:09.293840+00:00",
+      "article_date": "2026-06-23T18:00:00.000Z",
+      "titles": [
+        "Teamfight Tactics patch 17.6",
+        "Game Updates 2026-06-23T18:00:00.000Z Teamfight Tactics patch 17.6 Patch 17.6 brings an update to Pengu’s Party and a balance pass on Space Gods with an Augment focus.",
+        "Game Updates 2026-06-09T18:00:00.000Z Teamfight Tactics patch 17.5 With 17.5 we’re lifting champions that haven’t been able to find their zero-grav footing is Space Gods, while also doing a sweeping pass on our Augments, with nerfs targeted at overperforming econ Augments and buffs for weaker combat options."
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ]
 }
