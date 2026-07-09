@@ -255,79 +255,167 @@ def send_slack(message: str) -> None:
         timeout=15
     )
 
-def extract_date_from_html(html: str):
+def extract_game_update(
+    game_name: str,
+    html: str,
+    default_title: str = None
+):
+    """
+    Returns:
+        latest_title, latest_date
+    """
 
     soup = BeautifulSoup(html, "lxml")
 
+    # ==========================================================
+    # Riot Games (Valorant / League / TFT)
+    # ==========================================================
+    if game_name in (
+        "VALORANT",
+        "League of Legends",
+        "Teamfight Tactics"
+    ):
+
+        title = default_title
+        date = None
+
+        title_tag = soup.find(
+            attrs={"data-testid": "card-title"}
+        )
+
+        if title_tag:
+            title = title_tag.get_text(
+                " ",
+                strip=True
+            )
+
+        date_container = soup.find(
+            attrs={"data-testid": "card-date"}
+        )
+
+        if date_container:
+
+            time_tag = date_container.find("time")
+
+            if time_tag and time_tag.get("datetime"):
+                date = time_tag["datetime"]
+
+        return title, date
+
+    # ==========================================================
+    # World of Warcraft
+    # ==========================================================
+    if game_name == "World of Warcraft":
+
+        title = default_title
+        date = None
+
+        title_tag = soup.find(
+            "div",
+            class_="NewsBlog-title"
+        )
+
+        if title_tag:
+            title = title_tag.get_text(
+                " ",
+                strip=True
+            )
+
+        time_tag = soup.find("time")
+
+        if time_tag and time_tag.get("datetime"):
+            date = time_tag["datetime"]
+
+        return title, date
+
+    # ==========================================================
     # Diablo Immortal
+    # ==========================================================
     blz_time = soup.find("blz-timestamp")
 
     if blz_time and blz_time.get("timestamp"):
-        return blz_time["timestamp"]
+        return default_title, blz_time["timestamp"]
 
-    # WoW / Valorant / League / TFT
+    # ==========================================================
+    # Generic <time datetime="">
+    # ==========================================================
     time_tag = soup.find("time")
 
     if time_tag and time_tag.get("datetime"):
-        return time_tag["datetime"]
+        return default_title, time_tag["datetime"]
 
+    # ==========================================================
     # Hearthstone
+    # ==========================================================
     hs_time = soup.find(
         "time",
         class_=lambda x: x and "ArticleTime" in x
     )
 
     if hs_time:
-        return hs_time.get_text(strip=True)
+        return default_title, hs_time.get_text(strip=True)
 
+    # ==========================================================
     # Call of Duty / Black Ops
+    # ==========================================================
     news_date = soup.find(
         "div",
         class_="news-published"
     )
 
     if news_date and news_date.get("data-date"):
-        return news_date["data-date"]
+        return default_title, news_date["data-date"]
 
+    # ==========================================================
     # Minecraft
+    # ==========================================================
     minecraft_date = soup.find(
         "div",
         class_="MC_listingF_timestamp"
     )
 
     if minecraft_date:
-        return minecraft_date.get_text(strip=True)
+        return default_title, minecraft_date.get_text(strip=True)
 
-    # Genshin
+    # ==========================================================
+    # Genshin Impact
+    # ==========================================================
     genshin_date = soup.find(
         "div",
         class_="news__date"
     )
 
     if genshin_date:
-        return genshin_date.get_text(strip=True)
+        return default_title, genshin_date.get_text(strip=True)
 
+    # ==========================================================
     # Hytale
+    # ==========================================================
     date_span = soup.find(
         "span",
         class_="inline-block h-[26px]"
     )
 
     if date_span:
-        return date_span.get_text(strip=True)
+        return default_title, date_span.get_text(strip=True)
 
-    # Fallback: "May 28, 2026"
+    # ==========================================================
+    # Generic Month Day, Year fallback
+    # ==========================================================
     for span in soup.find_all("span"):
 
-        text = span.get_text(" ", strip=True)
+        text = span.get_text(
+            " ",
+            strip=True
+        )
 
         if re.search(
             r"[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}",
             text
         ):
-            return text
+            return default_title, text
 
-    return None
+    return default_title, None
 
 
 def main() -> None:
@@ -389,8 +477,8 @@ def main() -> None:
 
                 fp, titles = fingerprint_headlines(content, name)
 
-                latest_title = titles[0] if titles else None
-                latest_date = extract_date_from_html(content)
+                default_title = titles[0] if titles else None
+                latest_title, latest_date = extract_game_update(name,content,default_title)
 
             prev_title = state.get(name, {}).get("latest_title")
 
@@ -419,7 +507,7 @@ def main() -> None:
                     history[name].append({
                         "date_detected": datetime.now(timezone.utc).isoformat(),
                         "article_date": latest_date,
-                        "titles": titles[:3],
+                        "titles": [latest_title] + titles[1:3],
                         "url": news_url
                     })
 
@@ -429,7 +517,7 @@ def main() -> None:
                         "name": name,
                         "url": news_url,
                         "detected": detected,
-                        "titles": titles[:3]
+                        "titles": [latest_title]
                     })
 
             print(f"{name} | title={latest_title} | date={latest_date}")

@@ -13,15 +13,6 @@ VALORANT:
     - "interface"
     - "updates"
 
-  medium:
-    - "bundle"
-    - "skin"
-    - "battlepass"
-    - "event"
-
-  low:
-    - "esports"
-    - "merch"
 
 Minecraft:
   high:
@@ -34,130 +25,50 @@ Minecraft:
     - "ui"
     - "update"
 
-  medium:
-    - "marketplace"
-    - "realm"
-
-  low:
-    - "creator"
 
 Apex Legends:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "legend"
-    - "new legend"
-    - "ability"
-    - "ultimate"
-    - "map"
-    - "weapon"
-    - "ranked"
-    - "crosshair"
-    - "ui"
-    - "hud"
-    - "shield"
-    - "armor"
+    - "Latest update"
+   
 
-  medium:
-    - "collection event"
-    - "skin"
-    - "heirloom"
-
-  low:
-    - "esports"
 
 Fortnite:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "chapter"
-    - "season"
-    - "map"
-    - "weapon"
-    - "vehicle"
-    - "ui"
-    - "hud"
-    - "interface"
-    - "health"
-    - "shield"
-
-  medium:
-    - "event"
-    - "festival"
-    - "lego"
-    - "skin"
-
-  low:
-    - "creator"
+  
 
 League of Legends:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "champion"
-    - "new champion"
-    - "rework"
-    - "ability"
-    - "ultimate"
-    - "passive"
-    - "map"
-    - "item"
-    - "hud"
-    - "ui"
-    - "interface"
-    - "ranked"
-    - "dragon"
-    - "baron"
-    - "update"
 
-  medium:
-    - "skin"
-    - "event"
-    - "battle pass"
-
-  low:
-    - "esports"
 
 Call of Duty:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "weapon"
-    - "operator"
-    - "map"
-    - "movement"
-    - "ui"
-    - "hud"
-    - "zombies"
-    - "perk"
-    - "killstreak"
     - "warzone"
 
   medium:
     - "bundle"
-    - "event"
     - "season"
 
-  low:
-    - "esports"
 
 GTA V:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "update"
+    - "major"
+    - "GTA Online"
 
-  medium:
-    - "vehicle"
-    - "event"
-
-  low:
-    - "gta+"
 
 Cyberpunk 2077:
   high:
@@ -165,13 +76,8 @@ Cyberpunk 2077:
     - "patch"
     - "patch notes"
     - "expansion"
-    - "dlc"
-    - "vehicle"
-    - "ability"
+    - "regular update"
 
-  medium:
-    - "event"
-    - "cosmetic"
 
 Diablo IV:
   high:
@@ -179,11 +85,9 @@ Diablo IV:
     - "patch"
     - "patch notes"
     - "season"
-    - "update"
+    - "major"
+    - "available"
 
-  medium:
-    - "event"
-    - "cosmetic"
 
 Diablo Immortal:
   high:
@@ -191,146 +95,96 @@ Diablo Immortal:
     - "patch"
     - "patch notes"
     - "season"
-    - "update"
+    - "major"
 
-  medium:
-    - "event"
-    - "cosmetic"
+
 
 Counter-Strike 2:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "map"
-    - "weapon"
-    - "competitive"
-    - "premier"
-    - "subtick"
-    - "crosshair"
-    - "hud"
-    - "ui"
-    - "smoke"
-    - "grenade"
     - "major"
     - "counter-strike 2 update"
-
-  medium:
-    - "case"
-    - "sticker"
-
-  low:
-    - "esports"
+    - "season"
+    - "regular update"
+    - "small update"
 
 Among Us:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "role"
-    - "map"
-    - "mode"
+    - "regular update"
+    - "announcing"
+    - "recap"
+    - "new roles"
+    - "depreciation"
+    - "fix"
+    - "hotfix"
 
-  medium:
-    - "cosmicube"
-    - "event"
 
 Among Us 3D:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "role"
-    - "map"
-    - "mode"
+    - "announcing"
+    - "recap"
+    - "available"
+    - "edition"
 
-  medium:
-    - "cosmicube"
-    - "event"
 
 Arc Raiders:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "weapon"
-    - "map"
-    - "raid"
-    - "class"
+    - "hotfix"
+    
 
 Assetto Corsa:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "physics"
-    - "track"
-    - "car"
-    - "update"
-
-  medium:
-    - "dlc"
+    - "available"
+    - "edition"
+    - "season"
+    - "pack"
+    
 
 Battlefield 6:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "map"
-    - "weapon"
-    - "vehicle"
-    - "ui"
-    - "hud"
-    - "update"
+    - "game update"
+    - "season"
 
-  medium:
-    - "event"
-
-  low:
-    - "esports"
 
 Black Ops 7:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "weapon"
-    - "operator"
-    - "map"
-    - "movement"
-    - "ui"
-    - "hud"
-    - "zombies"
-    - "perk"
-    - "killstreak"
     - "warzone"
-
-  medium:
-    - "bundle"
-    - "event"
     - "season"
 
-  low:
-    - "esports"
 
 Borderlands 4:
   high:
     - "update"
     - "patch"
-    - "patch notes"
-    - "vault hunter"
-    - "weapon"
-    - "skill"
+    - "update notes"
+    - "version"
+    - "weekly update"
 
 Chivalry 2:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "weapon"
-    - "map"
-    - "combat"
-    - "update"
     - "hotfix"
 
 Dead by Daylight:
@@ -338,112 +192,74 @@ Dead by Daylight:
     - "update"
     - "patch"
     - "patch notes"
-    - "killer"
-    - "survivor"
-    - "perk"
-    - "map"
-    - "update"
-
-  medium:
-    - "event"
-    - "cosmetic"
+    - "bugfix"
+    - "10."
 
 Destiny 2:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "raid"
-    - "subclass"
-    - "weapon"
     - "season"
+    - "2026"
 
-  medium:
-    - "event"
-    - "artifact"
 
 DOOM 2016:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "weapon"
-    - "demon"
+    - "available"
+    - "release notes"
+ 
 
 "DOOM: The Dark Ages":
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "weapon"
-    - "shield"
-    - "dragon"
-    - "combat"
+    - "release notes"
+    - "hotfix"
+    - "game patch"
+    
 
 Dota 2:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "hero"
-    - "new hero"
-    - "ability"
-    - "map"
-    - "item"
-    - "neutral"
-    - "ui"
-    - "hud"
-    - "patch"
-    - "gameplay"
     - "gameplay patch"
-
-  medium:
-    - "arcana"
-    - "event"
-
-  low:
-    - "esports"
 
 "Dune: Awakening":
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "survival"
-    - "spice"
-    - "vehicle"
+    - "hotfix"
 
 Elden Ring:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "boss"
-    - "weapon"
-    - "dlc"
-    - "class"
+    - "release note"
+    - "version"
 
 Final Fantasy XIV:
   high:
     - "update"
     - "patch"
-    - "patch notes"
-    - "job"
-    - "raid"
+    - "notes"
     - "expansion"
     - "dungeon"
     - "update"
 
-  medium:
-    - "event"
 
 Forza Horizon 5:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "car"
-    - "festival"
     - "track"
 
 Genshin Impact:
@@ -451,14 +267,8 @@ Genshin Impact:
     - "update"
     - "patch"
     - "patch notes"
-    - "character"
-    - "region"
-    - "element"
-    - "banner"
     - "version"
-
-  medium:
-    - "event"
+    - "notes"
 
 Hearthstone:
   high:
@@ -475,139 +285,99 @@ Helldivers 2:
     - "update"
     - "patch"
     - "patch notes"
-    - "stratagem"
-    - "enemy"
-    - "planet"
-    - "weapon"
+    - "6."
+    - "machinery"
+    - "oppression"
 
 Hogwarts Legacy:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "spell"
-    - "quest"
-    - "dlc"
+    - "hotfix"
 
 Hytale:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "biome"
-    - "mob"
-    - "magic"
-    - "update"
+    - "hotfixes"
 
 Lost Ark:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "class"
-    - "raid"
-    - "continent"
-    - "update"
-    - "release"
-    - "major"
+    - "release notes"
 
 Marvel Rivals:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "hero"
-    - "ability"
-    - "map"
-    - "team-up"
+    - "version"
+    - "season"
 
 Microsoft Flight Simulator:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "aircraft"
-    - "airport"
-    - "weather"
+    - "release notes"
+
 
 Monster Hunter Wilds:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "monster"
-    - "weapon"
-    - "biome"
+    - "summary"
+    - "ver."
+
 
 Elden Ring Nightreign:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "boss"
-    - "weapon"
-    - "nightfarer"
-    - "hotfix"
+    - "release note"
+    - "version"
 
 No Man's Sky:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "expedition"
-    - "planet"
-    - "ship"
-    - "base"
     - "introducing"
+    - "announcing"
 
 Overwatch 2:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "hero"
-    - "new hero"
-    - "ability"
-    - "ultimate"
-    - "perk"
-    - "passive"
-    - "map"
-    - "mode"
-    - "weapon"
-    - "crosshair"
-    - "ui"
-    - "hud"
-    - "interface"
-    - "competitive"
-    - "ranked"
     - "season"
-    - "update"
 
-  medium:
-    - "skin"
-    - "event"
 
-  low:
-    - "esports"
 
 Palworld:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "pal"
-    - "weapon"
-    - "base"
+    - "adjustments"
+    - "balance"
+    - "bug fixes"
+    - "palworld v0."
+    - "v0."
 
 Path of Exile:
   high:
     - "update"
     - "patch"
-    - "patch notes"
-    - "league"
-    - "skill"
-    - "ascendancy"
-    - "boss"
+    - "patch note"
+    - "preview"
+    - "available"
 
 PUBG:
   high:
@@ -615,18 +385,12 @@ PUBG:
     - "patch"
     - "patch notes"
     - "new mode"
-    - "ui"
-    - "hud"
 
   medium:
-    - "event"
-    - "payday"
     - "collaboration"
     - "balance"
 
   low:
-    - "store"
-    - "skin"
     - "bundle"
 
 Rainbow Six Extraction:
@@ -634,40 +398,22 @@ Rainbow Six Extraction:
     - "update"
     - "patch"
     - "patch notes"
-    - "operator"
-    - "ability"
-    - "enemy"
+    
 
 Rainbow Six Siege:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "operator"
-    - "new operator"
-    - "ability"
-    - "map"
-    - "ranked"
-    - "weapon"
-    - "hud"
-    - "ui"
-    - "crosshair"
-    - "drone"
+    - "begins now"
 
-  medium:
-    - "event"
-
-  low:
-    - "esports"
 
 Rocket League:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "arena"
-    - "competitive"
-    - "car"
+    
 
 Rust:
   high:
@@ -685,48 +431,37 @@ Rust:
     - "update"
     - "patch"
     - "patch notes"
-    - "boss"
-    - "weapon"
-    - "area"
+    - "version"
+    - "now live"
+    
 
 Stardew Valley:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "farm"
-    - "npc"
-    - "festival"
+    - "available"
+    - "bug"
+    - "fix"
 
 Starfield:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "ship"
-    - "planet"
-    - "dlc"
-    - "quest"
 
 Terraria:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "boss"
-    - "biome"
-    - "weapon"
-    - "event"
+    - "1."
 
 Teamfight Tactics:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "set"
-    - "trait"
-    - "augment"
-    - "champion"
 
 World of Tanks:
   high:
