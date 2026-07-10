@@ -570,6 +570,14 @@
         "Marvel Rivals Version 20260710 Balance Post"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-07-10T22:10:25.944798+00:00",
+      "article_date": "Fri, 10 Jul 2026 07:10:50 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260710 Patch Notes - Season 9 Arrives"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -626,6 +634,14 @@
       "article_date": "Tue, 30 Jun 2026 15:02:07 +0000",
       "titles": [
         "Battlefield 6 | REDSEC Season 3: High-Value Target & free trial"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-07-10T22:10:22.096704+00:00",
+      "article_date": "Fri, 10 Jul 2026 15:04:31 +0000",
+      "titles": [
+        "Battlefield 6 and REDSEC Battle Pass Content Update"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -846,6 +862,14 @@
       "article_date": "Tue, 23 Jun 2026 13:57:16 +0000",
       "titles": [
         "Earn Special Rewards in GTA Online with the Fine Art Collector Program"
+      ],
+      "url": "https://store.steampowered.com/news/app/271590"
+    },
+    {
+      "date_detected": "2026-07-10T22:10:20.394283+00:00",
+      "article_date": "Fri, 10 Jul 2026 10:51:33 +0000",
+      "titles": [
+        "The Kortz Center Heist, Coming to GTA Online July 14"
       ],
       "url": "https://store.steampowered.com/news/app/271590"
     }
@@ -1692,6 +1716,14 @@
       "article_date": "Tue, 30 Jun 2026 13:07:18 +0000",
       "titles": [
         "WoT Monthly: July"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-07-10T22:10:30.859231+00:00",
+      "article_date": "Fri, 10 Jul 2026 13:01:34 +0000",
+      "titles": [
+        "Battle Pass Special: Far Cry"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
     }
