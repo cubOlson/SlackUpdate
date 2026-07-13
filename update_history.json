@@ -276,6 +276,14 @@
         "An Update from the Anti Cheat Team - Auto Aim Manipulation"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-13T22:00:26.529604+00:00",
+      "article_date": "Mon, 13 Jul 2026 17:52:51 +0000",
+      "titles": [
+        "An Update from the Anti-Cheat Team - 07/13/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1732,6 +1740,14 @@
       "article_date": "Fri, 10 Jul 2026 13:01:34 +0000",
       "titles": [
         "Battle Pass Special: Far Cry"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-07-13T22:00:36.907413+00:00",
+      "article_date": "Mon, 13 Jul 2026 13:20:17 +0000",
+      "titles": [
+        "Update 2.3.1: Summer Surge"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
     }
