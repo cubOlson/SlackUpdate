@@ -24,6 +24,16 @@
         "Game Updates 2026-06-09T13:00:00.000Z VALORANT Patch Notes 12.11 A light little patch to end Act 3."
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:01.584648+00:00",
+      "article_date": "2026-07-14T13:00:00.000Z",
+      "titles": [
+        "VALORANT Patch Notes 13.01",
+        "Game Updates 2026-07-14T13:00:00.000Z VALORANT Patch Notes 13.01 Adjustments to Iso, Yoru, and Outlaw, and punishing rank manipulators.",
+        "Game Updates 2026-06-23T13:00:00.000Z VALORANT Patch Notes 13.00 Act 4 starts now."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -144,6 +154,14 @@
       "article_date": "Wed, 01 Jul 2026 07:00:30 +0000",
       "titles": [
         "PUBG: BATTLEGROUNDS Weekly Bans Notice (06/22~06/28)"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:10.203150+00:00",
+      "article_date": "Tue, 14 Jul 2026 06:00:33 +0000",
+      "titles": [
+        "Map Service Report - Update 42.2"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
     }
@@ -350,6 +368,14 @@
         "Hotfix 1.36.1"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:04.581516+00:00",
+      "article_date": "Tue, 14 Jul 2026 09:01:45 +0000",
+      "titles": [
+        "Store Update 1.37.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -424,6 +450,14 @@
         "Dune: Awakening - 1.4.10.2 Hotfix Patch Notes"
       ],
       "url": "https://duneawakening.com/news/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:06.725651+00:00",
+      "article_date": "Tue, 14 Jul 2026 12:44:17 +0000",
+      "titles": [
+        "Dune: Awakening - 1.4.10.3 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -1200,6 +1234,14 @@
         "Revelations Update 4 Release Notes"
       ],
       "url": "https://store.steampowered.com/news/app/3017860"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:06.413639+00:00",
+      "article_date": "Tue, 14 Jul 2026 14:58:17 +0000",
+      "titles": [
+        "Update 4 Hotfix 1"
+      ],
+      "url": "https://store.steampowered.com/news/app/3017860"
     }
   ],
   "Dota 2": [
@@ -1576,6 +1618,14 @@
         "MARKETPLACE & ECONOMY: A NEW DIRECTION"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:10.603763+00:00",
+      "article_date": "Tue, 14 Jul 2026 10:08:48 +0000",
+      "titles": [
+        "Y11S2.2 MID-SEASON PATCH NOTES"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
     }
   ],
   "Rocket League": [
@@ -1793,6 +1843,16 @@
         "Game Updates 2026-06-09T18:00:00.000Z League of Legends Patch 26.12 Notes A spicy start to Season 2 Act 2"
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:03.140883+00:00",
+      "article_date": "2026-07-14T18:00:00.000Z",
+      "titles": [
+        "League of Legends Patch 26.14 Notes",
+        "Game Updates 2026-07-14T18:00:00.000Z League of Legends Patch 26.14 Notes Glory to the victorious three-peat champions!",
+        "Game Updates 2026-06-23T18:00:00.000Z League of Legends Patch 26.13 Notes Absolutely no demons allowed. - Locke"
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -1803,6 +1863,16 @@
         "Teamfight Tactics patch 17.6",
         "Game Updates 2026-06-23T18:00:00.000Z Teamfight Tactics patch 17.6 Patch 17.6 brings an update to Pengu’s Party and a balance pass on Space Gods with an Augment focus.",
         "Game Updates 2026-06-09T18:00:00.000Z Teamfight Tactics patch 17.5 With 17.5 we’re lifting champions that haven’t been able to find their zero-grav footing is Space Gods, while also doing a sweeping pass on our Augments, with nerfs targeted at overperforming econ Augments and buffs for weaker combat options."
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-14T22:03:12.090618+00:00",
+      "article_date": "2026-07-14T18:00:00.000Z",
+      "titles": [
+        "Teamfight Tactics patch 17.7",
+        "Game Updates 2026-07-14T18:00:00.000Z Teamfight Tactics patch 17.7 Patch 17.7 unlocks Choncc’s Lore & Legends (set 16) in addition to a patch full of buffs for the Space Gods roster!",
+        "Game Updates 2026-06-23T18:00:00.000Z Teamfight Tactics patch 17.6 Patch 17.6 brings an update to Pengu’s Party and a balance pass on Space Gods with an Augment focus."
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
