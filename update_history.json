@@ -302,6 +302,14 @@
         "An Update from the Anti-Cheat Team - 07/13/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:05.165657+00:00",
+      "article_date": "Wed, 15 Jul 2026 17:51:58 +0000",
+      "titles": [
+        "Apex Legends: Latest Update - 07/15/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -514,6 +522,16 @@
         "HYTALE PATCH NOTES - UPDATE 5 Update 5 is out! Headlining the release is the new Trigger Volume Tool for scripting encounters in-game without code, alongside controller support, Server Discovery for browsing community servers, a new Social Sidebar with a friends list and Discord integration! The changelog also has a long list of improvements, fixes, and... May 26, 2026 Posted by Hytale Team"
       ],
       "url": "https://hytale.com/news"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:12.921549+00:00",
+      "article_date": "PRE-RELEASE PATCH NOTES (UPDATE 6) Hi everyone! Below are the pre-release patch notes for Update 6, which we will update weekly. As always, if you encounter any bugs, you can report them via the in-game bug reporter, and please submit any feedback via the Feedback Request website. Please make sure to note 'pre-release' in your... May 28, 2026 • Pre-Release Patch Notes Posted by Hytale Team",
+      "titles": [
+        "PRE-RELEASE PATCH NOTES (UPDATE 6)",
+        "Pre-Release Patch Notes",
+        "HOTFIXES: UPDATE 5"
+      ],
+      "url": "https://hytale.com/news"
     }
   ],
   "Marvel Rivals": [
@@ -694,6 +712,14 @@
         "Battlefield 6 and REDSEC Battle Pass Content Update"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:08.433046+00:00",
+      "article_date": "Wed, 15 Jul 2026 15:01:37 +0000",
+      "titles": [
+        "Battlefield 6 - Community Update - Naval Warfare and Our Journey Since Launch"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -828,6 +854,14 @@
         "June Team Update"
       ],
       "url": "https://www.playlostark.com/en-us/news"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:13.121916+00:00",
+      "article_date": "Tue, 14 Jul 2026 16:33:46 +0000",
+      "titles": [
+        "The Summer Extremes Release Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1599340"
     }
   ],
   "Overwatch 2": [
@@ -920,6 +954,14 @@
       "article_date": "Fri, 10 Jul 2026 10:51:33 +0000",
       "titles": [
         "The Kortz Center Heist, Coming to GTA Online July 14"
+      ],
+      "url": "https://store.steampowered.com/news/app/271590"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:06.467022+00:00",
+      "article_date": "Wed, 15 Jul 2026 14:00:16 +0000",
+      "titles": [
+        "The Kortz Center Heist Now Available in GTA Online"
       ],
       "url": "https://store.steampowered.com/news/app/271590"
     }
@@ -1550,6 +1592,14 @@
         "Palworld Surpasses 40 Million Players!"
       ],
       "url": "https://store.steampowered.com/news/app/1623730"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:14.875501+00:00",
+      "article_date": "Wed, 15 Jul 2026 05:17:43 +0000",
+      "titles": [
+        "v1.0.1: Bug fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
     }
   ],
   "Rainbow Six Extraction": [
@@ -1624,6 +1674,14 @@
       "article_date": "Tue, 14 Jul 2026 10:08:48 +0000",
       "titles": [
         "Y11S2.2 MID-SEASON PATCH NOTES"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-07-15T22:06:15.881386+00:00",
+      "article_date": "Wed, 15 Jul 2026 15:05:21 +0000",
+      "titles": [
+        "DESIGNER'S NOTES: Y11S2.2 MID-SEASON UPDATE"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
     }
