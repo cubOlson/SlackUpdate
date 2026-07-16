@@ -384,6 +384,14 @@
         "Store Update 1.37.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-07-16T22:07:10.694326+00:00",
+      "article_date": "Thu, 16 Jul 2026 14:00:53 +0000",
+      "titles": [
+        "Expedition Departure Issue Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -646,6 +654,14 @@
         "Marvel Rivals Version 20260711 Balance Post"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-07-16T22:07:15.823963+00:00",
+      "article_date": "Thu, 16 Jul 2026 12:59:57 +0000",
+      "titles": [
+        "Marvel Rivals Version 20260716 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -718,6 +734,14 @@
       "article_date": "Wed, 15 Jul 2026 15:01:37 +0000",
       "titles": [
         "Battlefield 6 - Community Update - Naval Warfare and Our Journey Since Launch"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-07-16T22:07:11.098652+00:00",
+      "article_date": "Thu, 16 Jul 2026 17:02:45 +0000",
+      "titles": [
+        "Season 4 Community Event on Discord"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -1196,6 +1220,14 @@
         "10.0.2 | Bugfix Patch"
       ],
       "url": "https://deadbydaylight.com/news"
+    },
+    {
+      "date_detected": "2026-07-16T22:07:12.020849+00:00",
+      "article_date": "Thu, 16 Jul 2026 13:31:22 +0000",
+      "titles": [
+        "Important Developer Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -1682,6 +1714,14 @@
       "article_date": "Wed, 15 Jul 2026 15:05:21 +0000",
       "titles": [
         "DESIGNER'S NOTES: Y11S2.2 MID-SEASON UPDATE"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-07-16T22:07:18.075086+00:00",
+      "article_date": "Thu, 16 Jul 2026 16:10:43 +0000",
+      "titles": [
+        "Rainbow Six Siege Mid-Season Update: Everything You Need to Know"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
     }
