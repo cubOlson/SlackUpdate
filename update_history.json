@@ -540,6 +540,16 @@
         "HOTFIXES: UPDATE 5"
       ],
       "url": "https://hytale.com/news"
+    },
+    {
+      "date_detected": "2026-07-17T21:58:22.340455+00:00",
+      "article_date": "PRE-RELEASE PATCH NOTES (UPDATE 6) Hi everyone! Below are the pre-release patch notes for Update 6, which we will update weekly. As always, if you encounter any bugs, you can report them via the in-game bug reporter, and please submit any feedback via the Feedback Request website. Please make sure to note 'pre-release' in your... May 28, 2026 • Pre-Release Patch Notes Posted by Hytale Team",
+      "titles": [
+        "All categories",
+        "Game Updates",
+        "Q&A Summaries"
+      ],
+      "url": "https://hytale.com/news"
     }
   ],
   "Marvel Rivals": [
@@ -742,6 +752,14 @@
       "article_date": "Thu, 16 Jul 2026 17:02:45 +0000",
       "titles": [
         "Season 4 Community Event on Discord"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-07-17T21:58:18.401241+00:00",
+      "article_date": "Fri, 17 Jul 2026 15:42:55 +0000",
+      "titles": [
+        "Season 4 Roadmap - Everything You Need to Know"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
