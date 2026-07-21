@@ -310,6 +310,14 @@
         "Apex Legends: Latest Update - 07/15/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-07-21T22:07:25.255262+00:00",
+      "article_date": "Tue, 21 Jul 2026 17:33:09 +0000",
+      "titles": [
+        "Apex Legends: Latest Update - 07/21/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -390,6 +398,14 @@
       "article_date": "Thu, 16 Jul 2026 14:00:53 +0000",
       "titles": [
         "Expedition Departure Issue Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-07-21T22:07:28.577210+00:00",
+      "article_date": "Tue, 21 Jul 2026 09:00:50 +0000",
+      "titles": [
+        "Store Update 1.38.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
     }
@@ -762,6 +778,14 @@
         "Season 4 Roadmap - Everything You Need to Know"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-07-21T22:07:29.102205+00:00",
+      "article_date": "Tue, 21 Jul 2026 15:05:45 +0000",
+      "titles": [
+        "Battlefield 6 | REDSEC Season 4 Live Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -850,6 +874,14 @@
     {
       "date_detected": "2026-07-09T22:26:59.701430+00:00",
       "article_date": "Thu, 09 Jul 2026 21:46:16 +0000",
+      "titles": [
+        "Counter-Strike 2 Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/730"
+    },
+    {
+      "date_detected": "2026-07-21T22:07:27.756066+00:00",
+      "article_date": "Mon, 20 Jul 2026 23:13:36 +0000",
       "titles": [
         "Counter-Strike 2 Update"
       ],
@@ -1244,6 +1276,14 @@
       "article_date": "Thu, 16 Jul 2026 13:31:22 +0000",
       "titles": [
         "Important Developer Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-07-21T22:07:30.185261+00:00",
+      "article_date": "Tue, 21 Jul 2026 14:31:30 +0000",
+      "titles": [
+        "10.0.3 | Bugfix Patch"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
     }
