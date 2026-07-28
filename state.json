@@ -1,25 +1,25 @@
 {
   "VALORANT": {
-    "fingerprint": "12a4c557defac6236773fefe760e6a26e233ef903e7b2c99ab1a8790120f4a4b",
-    "latest_title": "VALORANT Patch Notes 13.01",
-    "latest_date": "2026-07-14T13:00:00.000Z",
-    "last_checked_utc": "2026-07-27T22:11:26.025004+00:00",
+    "fingerprint": "958c9afe3441e17147c68713b01b125fe4f7cbe7b6965e012562dfd2eaee7890",
+    "latest_title": "VALORANT Patch Notes 13.02",
+    "latest_date": "2026-07-28T13:00:00.000Z",
+    "last_checked_utc": "2026-07-28T22:09:58.166294+00:00",
     "last_source": "https://playvalorant.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
   "Minecraft": {
-    "fingerprint": "f8d9d0e7112ad2677ca954acf0ebe57a3488502b90ea26153d4ba43b27f762f4",
+    "fingerprint": "9b71663a60645fcf94ed6cd1de87427857efacc9e91a18bd4a65b024143cd79c",
     "latest_title": "Skip to Main Content",
     "latest_date": null,
-    "last_checked_utc": "2026-07-27T22:11:26.426230+00:00",
+    "last_checked_utc": "2026-07-28T22:09:58.855090+00:00",
     "last_source": "https://www.minecraft.net/en-us/articles",
     "mode": "scrape"
   },
   "Apex Legends": {
-    "fingerprint": "877212c13d458e11cb175305a85d8bc768580978d53226fc8ff3341395c90a12",
-    "latest_title": "Apex Legends: Latest Update - 07/21/2026",
-    "latest_date": "Tue, 21 Jul 2026 17:33:09 +0000",
-    "last_checked_utc": "2026-07-27T22:11:26.732703+00:00",
+    "fingerprint": "4e9376b318a52eb0724354653deba2e1181a2574f265ac15c9971d87cdce1f87",
+    "latest_title": "Apex Legends: Marked Gameplay Trailer",
+    "latest_date": "Tue, 28 Jul 2026 15:47:52 +0000",
+    "last_checked_utc": "2026-07-28T22:09:59.153439+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172470/?format=rss",
     "mode": "rss"
   },
@@ -27,15 +27,15 @@
     "fingerprint": "5b15dbfb824e289ac46fdc1ba77b23e899ef5d3267513fdd453233f6045f724d",
     "latest_title": "Springfield Returns to Fortnite Reload on July 30",
     "latest_date": "Sun, 26 Jul 2026 23:03:23 GMT",
-    "last_checked_utc": "2026-07-27T22:11:27.277184+00:00",
+    "last_checked_utc": "2026-07-28T22:09:59.908359+00:00",
     "last_source": "https://fortnitenews.com/rss",
     "mode": "rss"
   },
   "League of Legends": {
-    "fingerprint": "16e21816092701ec781a8b97ed73486eac6eb02ba9ebbe6dc17f3906b377cb75",
-    "latest_title": "League of Legends Patch 26.14 Notes",
-    "latest_date": "2026-07-14T18:00:00.000Z",
-    "last_checked_utc": "2026-07-27T22:11:27.624090+00:00",
+    "fingerprint": "c7666bc0a8ad56bd16ed77583a1601d7909e7a172f5c8e39733a819eb440daa9",
+    "latest_title": "League of Legends Patch 26.15 Notes",
+    "latest_date": "2026-07-28T18:00:00.000Z",
+    "last_checked_utc": "2026-07-28T22:10:00.380822+00:00",
     "last_source": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
@@ -43,7 +43,7 @@
     "fingerprint": "e52aa2d9c3dc8af1029e00cbab0442e89ab07e6a39c8a5af2438d34e1cfd2b37",
     "latest_title": "Black Ops 7",
     "latest_date": "July 22, 2026",
-    "last_checked_utc": "2026-07-27T22:11:27.966544+00:00",
+    "last_checked_utc": "2026-07-28T22:10:00.684543+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
@@ -51,7 +51,7 @@
     "fingerprint": "1385f5ef9de1a151211ac17645bfb1ed816e608348cebc915e0dd7188e8dfe21",
     "latest_title": "Apprehend the New Pegassi Ignus Pursuit Law Enforcement Vehicle",
     "latest_date": "Fri, 24 Jul 2026 14:39:02 +0000",
-    "last_checked_utc": "2026-07-27T22:11:28.274506+00:00",
+    "last_checked_utc": "2026-07-28T22:10:00.877371+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/271590/?format=rss",
     "mode": "rss"
   },
@@ -59,7 +59,7 @@
     "fingerprint": "b0c8945dfe95154e90933b0944cc1797219d110fa34936eee7d8b9d06e2c221c",
     "latest_title": "It’s All About You! — A Crew to Remember",
     "latest_date": "Wed, 10 Jun 2026 13:44:13 +0000",
-    "last_checked_utc": "2026-07-27T22:11:28.550139+00:00",
+    "last_checked_utc": "2026-07-28T22:10:01.082192+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1091500/?format=rss",
     "mode": "rss"
   },
@@ -67,7 +67,7 @@
     "fingerprint": "3ed55c6f0175e0de645fe4065f7f5f51a82436ecae28604ac298fd72aa19f66b",
     "latest_title": "Diablo® IV BlizzCon Bundle",
     "latest_date": "Wed, 22 Jul 2026 17:05:36 +0000",
-    "last_checked_utc": "2026-07-27T22:11:28.734358+00:00",
+    "last_checked_utc": "2026-07-28T22:10:01.359153+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2344520/?format=rss",
     "mode": "rss"
   },
@@ -75,7 +75,7 @@
     "fingerprint": "460eb4a0165134cbd81161f7a421c7b648e119fdbbf2c4601be99614d1cfb6a1",
     "latest_title": "Counter-Strike 2 Update",
     "latest_date": "Mon, 20 Jul 2026 23:13:36 +0000",
-    "last_checked_utc": "2026-07-27T22:11:29.007332+00:00",
+    "last_checked_utc": "2026-07-28T22:10:01.540731+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/730/?format=rss",
     "mode": "rss"
   },
@@ -83,15 +83,15 @@
     "fingerprint": "3507aad7b4309ad210374f16d3800f9aa7c86ad7e11ecea8bddfff530261c620",
     "latest_title": "The Indie Cosmicube Returns!!",
     "latest_date": "Mon, 13 Jul 2026 17:01:24 +0000",
-    "last_checked_utc": "2026-07-27T22:11:29.331806+00:00",
+    "last_checked_utc": "2026-07-28T22:10:01.844629+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/945360/?format=rss",
     "mode": "rss"
   },
   "Arc Raiders": {
-    "fingerprint": "d34615081201df7de44e367e9c8b3648077242d101577c6de7d7e7157623a4cd",
-    "latest_title": "Store Update 1.38.0",
-    "latest_date": "Tue, 21 Jul 2026 09:00:50 +0000",
-    "last_checked_utc": "2026-07-27T22:11:29.801521+00:00",
+    "fingerprint": "b75943d0f8812be65fec5c6bf962b325050118b49b88e71c0a8895bc128e7a28",
+    "latest_title": "Live Update 1.39.0",
+    "latest_date": "Tue, 28 Jul 2026 09:00:26 +0000",
+    "last_checked_utc": "2026-07-28T22:10:02.362726+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1808500/?format=rss",
     "mode": "rss"
   },
@@ -99,7 +99,7 @@
     "fingerprint": "057b54ab7d6d38b1f4ec797438cd0b74a7b0ac14baac16c8940e4e0ab14940a9",
     "latest_title": "Assetto Corsa EVO is OUT NOW in Steam Early Access!",
     "latest_date": "Thu, 16 Jan 2025 16:51:34 +0000",
-    "last_checked_utc": "2026-07-27T22:11:29.983879+00:00",
+    "last_checked_utc": "2026-07-28T22:10:02.526223+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/244210/?format=rss",
     "mode": "rss"
   },
@@ -107,7 +107,7 @@
     "fingerprint": "d0884fea6a69e988fb5f1915dfb75a9831d6325dd78634a26b89dbc05fb1265b",
     "latest_title": "Battlefield 6 | REDSEC Season 4 Live Now",
     "latest_date": "Tue, 21 Jul 2026 15:05:45 +0000",
-    "last_checked_utc": "2026-07-27T22:11:30.432103+00:00",
+    "last_checked_utc": "2026-07-28T22:10:02.759046+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2807960/?format=rss",
     "mode": "rss"
   },
@@ -115,7 +115,7 @@
     "fingerprint": "e52aa2d9c3dc8af1029e00cbab0442e89ab07e6a39c8a5af2438d34e1cfd2b37",
     "latest_title": "Black Ops 7",
     "latest_date": "July 22, 2026",
-    "last_checked_utc": "2026-07-27T22:11:30.656992+00:00",
+    "last_checked_utc": "2026-07-28T22:10:02.944209+00:00",
     "last_source": "https://www.callofduty.com/patchnotes",
     "mode": "scrape"
   },
@@ -123,7 +123,7 @@
     "fingerprint": "061894669f406e3925628ddfe7f26488c308f98ad759051d01899c57170cd6e7",
     "latest_title": "Borderlands: Dead ECHOs Episode 2",
     "latest_date": "Mon, 27 Jul 2026 16:37:24 +0000",
-    "last_checked_utc": "2026-07-27T22:11:30.895325+00:00",
+    "last_checked_utc": "2026-07-28T22:10:03.264173+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1285190/?format=rss",
     "mode": "rss"
   },
@@ -131,15 +131,15 @@
     "fingerprint": "68186f51c21e06ffa50e55826836e0e3ecacaa0cfb3b5626aeb81ca00c017bba",
     "latest_title": "Chivalry 2 Hotfix 2.11.4",
     "latest_date": "Tue, 09 Dec 2025 15:27:40 +0000",
-    "last_checked_utc": "2026-07-27T22:11:31.149688+00:00",
+    "last_checked_utc": "2026-07-28T22:10:03.462663+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1824220/?format=rss",
     "mode": "rss"
   },
   "Dead by Daylight": {
-    "fingerprint": "f724be572c947d31ecc67299d8ed179f6de2b79606478f95f7ffbb1f3d7c6741",
-    "latest_title": "10.0.3 | Bugfix Patch",
-    "latest_date": "Tue, 21 Jul 2026 14:31:30 +0000",
-    "last_checked_utc": "2026-07-27T22:11:31.448654+00:00",
+    "fingerprint": "086ecd01f7b285a92e592a4ade2e96000a7278c4ad66b280374037d4109e0d4f",
+    "latest_title": "July Community Stream | Gameplay Showcase Recap",
+    "latest_date": "Tue, 28 Jul 2026 14:00:43 +0000",
+    "last_checked_utc": "2026-07-28T22:10:03.721859+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/381210/?format=rss",
     "mode": "rss"
   },
@@ -147,7 +147,7 @@
     "fingerprint": "6659f4ff30a05952716536a8e1f77dae8b7b293fbab7e035a716beafffbcc890",
     "latest_title": "This Week in Destiny – 06/18/2026",
     "latest_date": "Thu, 18 Jun 2026 18:48:49 +0000",
-    "last_checked_utc": "2026-07-27T22:11:31.719243+00:00",
+    "last_checked_utc": "2026-07-28T22:10:03.952747+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1085660/?format=rss",
     "mode": "rss"
   },
@@ -155,7 +155,7 @@
     "fingerprint": "c3fa3defaad57931408f5f469c9dc8aa458ffee41ac3a6d4280fb26eefb853c6",
     "latest_title": "DOOM: The Dark Ages | Official Launch Trailer",
     "latest_date": "Fri, 09 May 2025 15:01:33 +0000",
-    "last_checked_utc": "2026-07-27T22:11:32.272107+00:00",
+    "last_checked_utc": "2026-07-28T22:10:04.594163+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/379720/?format=rss",
     "mode": "rss"
   },
@@ -163,7 +163,7 @@
     "fingerprint": "ded9e9aad93fe6db820797b74ab66eabb98f68ddefaf2bb709d2c60a3b844378",
     "latest_title": "Update 4 Hotfix 1",
     "latest_date": "Tue, 14 Jul 2026 14:58:17 +0000",
-    "last_checked_utc": "2026-07-27T22:11:32.594220+00:00",
+    "last_checked_utc": "2026-07-28T22:10:04.817900+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/3017860/?format=rss",
     "mode": "rss"
   },
@@ -171,7 +171,7 @@
     "fingerprint": "c2259128d9f98a8380c26bc7dacf4e8420fb74d9721ed943a58b759e159a430e",
     "latest_title": "Dota 2 Update - 7/1/2026",
     "latest_date": "Wed, 01 Jul 2026 23:26:01 +0000",
-    "last_checked_utc": "2026-07-27T22:11:32.826315+00:00",
+    "last_checked_utc": "2026-07-28T22:10:05.048444+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/570/?format=rss",
     "mode": "rss"
   },
@@ -179,7 +179,7 @@
     "fingerprint": "645cf239b5af69e0a1e9d91036146df602903dea58b6bc19ee9d91abbcc6ff41",
     "latest_title": "Dune: Awakening - 1.4.10.4 Hotfix Patch Notes",
     "latest_date": "Thu, 23 Jul 2026 07:45:54 +0000",
-    "last_checked_utc": "2026-07-27T22:11:33.097322+00:00",
+    "last_checked_utc": "2026-07-28T22:10:05.319581+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1172710/?format=rss",
     "mode": "rss"
   },
@@ -187,15 +187,15 @@
     "fingerprint": "d1f10ba123586408618f42cd9bb4a37214719022c6462588c4767b1da2b6843b",
     "latest_title": "ELDEN RING - RAGING WOLF 1/6 SCALE STATUE",
     "latest_date": "Wed, 13 May 2026 14:20:38 +0000",
-    "last_checked_utc": "2026-07-27T22:11:33.551524+00:00",
+    "last_checked_utc": "2026-07-28T22:10:05.547520+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1245620/?format=rss",
     "mode": "rss"
   },
   "Final Fantasy XIV": {
-    "fingerprint": "ac8eb80b9ff52ab3371f4b41a963c85b2a84bdfc53628ecf174a3aa27afd2d5f",
-    "latest_title": "Breaking Brick Mountains Returns on June 25!",
-    "latest_date": "Tue, 23 Jun 2026 15:37:42 +0000",
-    "last_checked_utc": "2026-07-27T22:11:33.799325+00:00",
+    "fingerprint": "b46bbffba8cd16bffbc905551bd4f140aba2e4fb30b186481d1a46effa875c11",
+    "latest_title": "Patch 7.55 Notes",
+    "latest_date": "Tue, 28 Jul 2026 16:15:16 +0000",
+    "last_checked_utc": "2026-07-28T22:10:05.726778+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/39210/?format=rss",
     "mode": "rss"
   },
@@ -203,7 +203,7 @@
     "fingerprint": "92ef0aa6401c04a3e1e54164de799cd391274cc075b12b436c4b293cbe82eb9e",
     "latest_title": "Reward Car Build July 24th",
     "latest_date": "Fri, 24 Jul 2026 14:00:53 +0000",
-    "last_checked_utc": "2026-07-27T22:11:34.103727+00:00",
+    "last_checked_utc": "2026-07-28T22:10:05.971011+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1551360/?format=rss",
     "mode": "rss"
   },
@@ -211,7 +211,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-07-27T22:11:34.840101+00:00",
+    "last_checked_utc": "2026-07-28T22:10:06.252376+00:00",
     "last_source": "https://genshin.hoyoverse.com/en/news/",
     "mode": "scrape"
   },
@@ -219,7 +219,7 @@
     "fingerprint": "ed980a181c13733d38f0975ba65f9dd845d9ee45c16dfd8c81b42c82e87ac260",
     "latest_title": null,
     "latest_date": null,
-    "last_checked_utc": "2026-07-27T22:11:35.150345+00:00",
+    "last_checked_utc": "2026-07-28T22:10:06.713928+00:00",
     "last_source": "https://hearthstone.blizzard.com/en-us/news/patchnotes",
     "mode": "scrape"
   },
@@ -227,7 +227,7 @@
     "fingerprint": "519d69c6b48354516006bc14ab67e45abb80c5ec9e57d33d4fdac63b80f831d3",
     "latest_title": "The Supply FRV comes home for good in October",
     "latest_date": "Thu, 23 Jul 2026 15:00:41 +0000",
-    "last_checked_utc": "2026-07-27T22:11:35.328271+00:00",
+    "last_checked_utc": "2026-07-28T22:10:06.894879+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/553850/?format=rss",
     "mode": "rss"
   },
@@ -235,7 +235,7 @@
     "fingerprint": "da550c4ecec4439acef46a22ab372ccdaea87b41718c706566956a8956eb287f",
     "latest_title": "Celebrate Harry Potter's 25th Anniversary!",
     "latest_date": "Wed, 27 May 2026 17:11:57 +0000",
-    "last_checked_utc": "2026-07-27T22:11:35.543190+00:00",
+    "last_checked_utc": "2026-07-28T22:10:07.155662+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/990080/?format=rss",
     "mode": "rss"
   },
@@ -243,7 +243,7 @@
     "fingerprint": "fa9ebcac32413c86d6bc61ec351f9379b73a166a29ac4a961f24cde6174d6b9d",
     "latest_title": "All categories",
     "latest_date": "PRE-RELEASE PATCH NOTES (UPDATE 6) Hi everyone! Below are the pre-release patch notes for Update 6, which we will update weekly. As always, if you encounter any bugs, you can report them via the in-game bug reporter, and please submit any feedback via the Feedback Request website. Please make sure to note 'pre-release' in your... May 28, 2026 • Pre-Release Patch Notes Posted by Hytale Team",
-    "last_checked_utc": "2026-07-27T22:11:35.837283+00:00",
+    "last_checked_utc": "2026-07-28T22:10:07.380238+00:00",
     "last_source": "https://hytale.com/news",
     "mode": "scrape"
   },
@@ -251,7 +251,7 @@
     "fingerprint": "da1448162adf34dca268eab4613e3ecf99c7aca3f91c25a03305eb917e2f3cd0",
     "latest_title": "The Summer Extremes Release Notes",
     "latest_date": "Tue, 14 Jul 2026 16:33:46 +0000",
-    "last_checked_utc": "2026-07-27T22:11:36.053646+00:00",
+    "last_checked_utc": "2026-07-28T22:10:07.618529+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1599340/?format=rss",
     "mode": "rss"
   },
@@ -259,7 +259,7 @@
     "fingerprint": "1856bd832130ff8a6d6cc4a0d5df8f4172b27bd4d6cabe31f82db0c2ff6be272",
     "latest_title": "Marvel Rivals Version 20260723 Patch Notes",
     "latest_date": "Thu, 23 Jul 2026 06:33:39 +0000",
-    "last_checked_utc": "2026-07-27T22:11:36.291051+00:00",
+    "last_checked_utc": "2026-07-28T22:10:07.811341+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2767030/?format=rss",
     "mode": "rss"
   },
@@ -267,7 +267,7 @@
     "fingerprint": "036b2f1298133fa1c3c45d5f94026e2ebeee3c07413703b193c89839e3160a56",
     "latest_title": "July 23rd, 2026 MSFS Weekly Briefing",
     "latest_date": "Thu, 23 Jul 2026 23:07:04 +0000",
-    "last_checked_utc": "2026-07-27T22:11:36.686781+00:00",
+    "last_checked_utc": "2026-07-28T22:10:08.084007+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2537590/?format=rss",
     "mode": "rss"
   },
@@ -275,7 +275,7 @@
     "fingerprint": "d55833b8dfcc39d8de82c19d1a0c185caf8c79d960e0c0ecc6f2d48e7c734e14",
     "latest_title": "Notice of Discontinuation of Select Products and Introduction of New Products",
     "latest_date": "Tue, 14 Jul 2026 00:07:11 +0000",
-    "last_checked_utc": "2026-07-27T22:11:36.974837+00:00",
+    "last_checked_utc": "2026-07-28T22:10:08.287869+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2246340/?format=rss",
     "mode": "rss"
   },
@@ -283,7 +283,7 @@
     "fingerprint": "3da6bae888b0b9726302c94391006925fb069030e444887ed1e2182dc4f6a27f",
     "latest_title": "ELDEN RING NIGHTREIGN – THE LIMITED-EDITION VINYL COLLECTION",
     "latest_date": "Wed, 01 Apr 2026 08:00:58 +0000",
-    "last_checked_utc": "2026-07-27T22:11:37.207568+00:00",
+    "last_checked_utc": "2026-07-28T22:10:08.456082+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2622380/?format=rss",
     "mode": "rss"
   },
@@ -291,7 +291,7 @@
     "fingerprint": "8171c9c7151905a3cdbd521738a24d4a3d91d4c5036f3b6096c12644791aa60e",
     "latest_title": "Introducing..No Man's Sky: The Swarm",
     "latest_date": "Wed, 27 May 2026 13:02:34 +0000",
-    "last_checked_utc": "2026-07-27T22:11:37.522841+00:00",
+    "last_checked_utc": "2026-07-28T22:10:08.687535+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/275850/?format=rss",
     "mode": "rss"
   },
@@ -299,7 +299,7 @@
     "fingerprint": "fb2cb9145d209c665e1e7184074c989aa69559d540be3524de949bb3d7c53f3c",
     "latest_title": "Overwatch® BlizzCon® Bundle",
     "latest_date": "Wed, 22 Jul 2026 17:05:35 +0000",
-    "last_checked_utc": "2026-07-27T22:11:37.708392+00:00",
+    "last_checked_utc": "2026-07-28T22:10:08.878404+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2357570/?format=rss",
     "mode": "rss"
   },
@@ -307,7 +307,7 @@
     "fingerprint": "14a6d2731c9fed4a41735371236d02cb0b506e8b09654feb783701ff0dd18e48",
     "latest_title": "v1.0.1: Bug fixes",
     "latest_date": "Wed, 15 Jul 2026 05:17:43 +0000",
-    "last_checked_utc": "2026-07-27T22:11:38.042076+00:00",
+    "last_checked_utc": "2026-07-28T22:10:09.126972+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1623730/?format=rss",
     "mode": "rss"
   },
@@ -315,15 +315,15 @@
     "fingerprint": "e7db8c59b2e2819eee99452385da7ef13be3b0873a337c39796e675f73484249",
     "latest_title": "What We're Working On - Curse of the Allflame",
     "latest_date": "Mon, 27 Jul 2026 02:42:07 +0000",
-    "last_checked_utc": "2026-07-27T22:11:38.288279+00:00",
+    "last_checked_utc": "2026-07-28T22:10:09.385818+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/238960/?format=rss",
     "mode": "rss"
   },
   "PUBG": {
-    "fingerprint": "20a162ae1117e4537a43b7b05ebf9d6af62c3cc218221b871eb71aaaddb3dfaa",
+    "fingerprint": "3ebc4e60471c9ff5f217fbf84aa62a018c8a494b4c66c5304223e21a40781bcb",
     "latest_title": "Get Ready for the EWC 2026 Finals!",
     "latest_date": "Fri, 24 Jul 2026 12:02:06 +0000",
-    "last_checked_utc": "2026-07-27T22:11:38.476097+00:00",
+    "last_checked_utc": "2026-07-28T22:10:09.592379+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/578080/?format=rss",
     "mode": "rss"
   },
@@ -331,7 +331,7 @@
     "fingerprint": "8ac7f056a86f384acf9a1ff5752b4d8affd9afb94f73256f521fe7dc4c35b29d",
     "latest_title": "Rainbow Six Extraction: Coming to Steam – Wishlist Now!",
     "latest_date": "Fri, 26 May 2023 00:08:48 +0000",
-    "last_checked_utc": "2026-07-27T22:11:38.709815+00:00",
+    "last_checked_utc": "2026-07-28T22:10:09.860254+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/2379390/?format=rss",
     "mode": "rss"
   },
@@ -339,7 +339,7 @@
     "fingerprint": "da3f2130005c1c305afc4299940aef9096ca97639a03137e1c2223502f2d1886",
     "latest_title": "Rainbow Six Siege Mid-Season Update: Everything You Need to Know",
     "latest_date": "Thu, 16 Jul 2026 16:10:43 +0000",
-    "last_checked_utc": "2026-07-27T22:11:38.973272+00:00",
+    "last_checked_utc": "2026-07-28T22:10:10.118240+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/359550/?format=rss",
     "mode": "rss"
   },
@@ -347,7 +347,7 @@
     "fingerprint": "366a124f3c193b748d801c4cda7f3bc7b29ae7cc9c48bc826b437e95fb7d74f0",
     "latest_title": "Rocket League Bracket Rivalry",
     "latest_date": "Fri, 20 Mar 2026 16:11:09 +0000",
-    "last_checked_utc": "2026-07-27T22:11:39.219175+00:00",
+    "last_checked_utc": "2026-07-28T22:10:10.439051+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/252950/?format=rss",
     "mode": "rss"
   },
@@ -355,7 +355,7 @@
     "fingerprint": "abc9b5e3ad5ea1faf882944cff43990b131eddcc80bb4bbd2c087a9e5184540c",
     "latest_title": "COMMON GROUND",
     "latest_date": "Thu, 02 Jul 2026 17:44:21 +0000",
-    "last_checked_utc": "2026-07-27T22:11:39.564316+00:00",
+    "last_checked_utc": "2026-07-28T22:10:10.784548+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/252490/?format=rss",
     "mode": "rss"
   },
@@ -363,7 +363,7 @@
     "fingerprint": "96a0915e806f88abf41ceb516f15e1f3be91dbd9399762111b224931ce404d33",
     "latest_title": "Patch Version 1.0.30000 Now Live",
     "latest_date": "Mon, 16 Mar 2026 03:24:05 +0000",
-    "last_checked_utc": "2026-07-27T22:11:39.784252+00:00",
+    "last_checked_utc": "2026-07-28T22:10:11.053045+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1030300/?format=rss",
     "mode": "rss"
   },
@@ -371,7 +371,7 @@
     "fingerprint": "bbbd6c4f9e6416e7064d7e5464ab83247a33bc739d9bc1fdaa9983d5d3f6275e",
     "latest_title": "Stardew Valley 10-year Anniversary",
     "latest_date": "Thu, 26 Feb 2026 23:40:00 +0000",
-    "last_checked_utc": "2026-07-27T22:11:39.993860+00:00",
+    "last_checked_utc": "2026-07-28T22:10:11.268605+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/413150/?format=rss",
     "mode": "rss"
   },
@@ -379,7 +379,7 @@
     "fingerprint": "a2bf3f376dccb2c43c8e83dd4f3857490004197bce2501f2b56b009feb0c1ae5",
     "latest_title": "New worlds to explore with Starfield Creations!",
     "latest_date": "Fri, 12 Jun 2026 14:43:46 +0000",
-    "last_checked_utc": "2026-07-27T22:11:40.246173+00:00",
+    "last_checked_utc": "2026-07-28T22:10:11.494498+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1716740/?format=rss",
     "mode": "rss"
   },
@@ -387,15 +387,15 @@
     "fingerprint": "23160ea45092bdeee8cc67113b06b770a2f00ac3490a30526c1637f59a28e540",
     "latest_title": "Terraria State of the Game - June 2026",
     "latest_date": "Thu, 25 Jun 2026 23:31:37 +0000",
-    "last_checked_utc": "2026-07-27T22:11:40.684825+00:00",
+    "last_checked_utc": "2026-07-28T22:10:11.900969+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/105600/?format=rss",
     "mode": "rss"
   },
   "Teamfight Tactics": {
-    "fingerprint": "070e814d36fb1ccfc7af94ddd108edbd1121e03abd76537097d0254749b1c1ca",
-    "latest_title": "Teamfight Tactics patch 17.7",
-    "latest_date": "2026-07-14T18:00:00.000Z",
-    "last_checked_utc": "2026-07-27T22:11:41.080132+00:00",
+    "fingerprint": "e5f4d2cef47b02304bac3ef654586bf27dd0fa0790f9e61516b3a2fc88194461",
+    "latest_title": "Teamfight Tactics patch 17.8",
+    "latest_date": "2026-07-28T18:00:00.000Z",
+    "last_checked_utc": "2026-07-28T22:10:12.373500+00:00",
     "last_source": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/",
     "mode": "scrape"
   },
@@ -403,15 +403,15 @@
     "fingerprint": "d5b6c43c22d5208e8272dc991e2b83c9395076e3bdaed83b77ed5a9ab539884e",
     "latest_title": "Hold the Line in Last Stand: Terra Nord!",
     "latest_date": "Mon, 27 Jul 2026 13:17:02 +0000",
-    "last_checked_utc": "2026-07-27T22:11:41.345880+00:00",
+    "last_checked_utc": "2026-07-28T22:10:12.633978+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/1407200/?format=rss",
     "mode": "rss"
   },
   "World of Warcraft": {
     "fingerprint": "9d787cb19ae6cc500bc510d83ba9c988e13233fb9fea317c3f27a6d601cc866b",
-    "latest_title": "WoW Weekly: Classic Anniversary Edition, Decor Duels, WoW Portal Room, and More!",
+    "latest_title": "Curse of Ula’tek Goes Live August 11! Journey to the Coiled Isle.",
     "latest_date": null,
-    "last_checked_utc": "2026-07-27T22:11:41.803781+00:00",
+    "last_checked_utc": "2026-07-28T22:10:13.151116+00:00",
     "last_source": "https://worldofwarcraft.blizzard.com/en-us/news",
     "mode": "scrape"
   },
@@ -419,7 +419,7 @@
     "fingerprint": "663431597c91df8d15e62c31ac534b1be6c1031827fc5d7c7aaac148f3d09fc9",
     "latest_title": "Animated Show Cosmetics Arrive in Among Us 3D",
     "latest_date": "Fri, 05 Jun 2026 23:56:47 +0000",
-    "last_checked_utc": "2026-07-27T22:11:29.604869+00:00",
+    "last_checked_utc": "2026-07-28T22:10:02.180264+00:00",
     "last_source": "https://store.steampowered.com/feeds/news/app/3168600/?format=rss",
     "mode": "rss"
   },
@@ -427,7 +427,7 @@
     "fingerprint": "e59ee9a373e9133c82ff8ed61276495ee1d182aaed51d394b855a7b91f95b8bc",
     "latest_title": "Latest Articles",
     "latest_date": null,
-    "last_checked_utc": "2026-07-27T22:11:32.006235+00:00",
+    "last_checked_utc": "2026-07-28T22:10:04.359730+00:00",
     "last_source": "https://news.blizzard.com/en-us/feed/diablo-immortal",
     "mode": "scrape"
   }

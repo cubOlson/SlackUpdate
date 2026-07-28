@@ -34,6 +34,16 @@
         "Game Updates 2026-06-23T13:00:00.000Z VALORANT Patch Notes 13.00 Act 4 starts now."
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-28T22:09:58.166260+00:00",
+      "article_date": "2026-07-28T13:00:00.000Z",
+      "titles": [
+        "VALORANT Patch Notes 13.02",
+        "Game Updates 2026-07-28T13:00:00.000Z VALORANT Patch Notes 13.02 Phoenix ult change, new maps added to Retakes, and loads of bug fixes.",
+        "Game Updates 2026-07-14T13:00:00.000Z VALORANT Patch Notes 13.01 Adjustments to Iso, Yoru, and Outlaw, and punishing rank manipulators."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -408,6 +418,14 @@
         "Store Update 1.38.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-07-28T22:10:02.362707+00:00",
+      "article_date": "Tue, 28 Jul 2026 09:00:26 +0000",
+      "titles": [
+        "Live Update 1.39.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -530,6 +548,14 @@
       "article_date": "Tue, 23 Jun 2026 15:37:42 +0000",
       "titles": [
         "Breaking Brick Mountains Returns on June 25!"
+      ],
+      "url": "https://store.steampowered.com/news/app/39210"
+    },
+    {
+      "date_detected": "2026-07-28T22:10:05.726759+00:00",
+      "article_date": "Tue, 28 Jul 2026 16:15:16 +0000",
+      "titles": [
+        "Patch 7.55 Notes"
       ],
       "url": "https://store.steampowered.com/news/app/39210"
     }
@@ -2025,6 +2051,16 @@
         "Game Updates 2026-06-23T18:00:00.000Z League of Legends Patch 26.13 Notes Absolutely no demons allowed. - Locke"
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-28T22:10:00.380804+00:00",
+      "article_date": "2026-07-28T18:00:00.000Z",
+      "titles": [
+        "League of Legends Patch 26.15 Notes",
+        "Game Updates 2026-07-28T18:00:00.000Z League of Legends Patch 26.15 Notes We’re kicking off Season 3…but of what year?!",
+        "Game Updates 2026-07-14T18:00:00.000Z League of Legends Patch 26.14 Notes Glory to the victorious three-peat champions!"
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -2045,6 +2081,16 @@
         "Teamfight Tactics patch 17.7",
         "Game Updates 2026-07-14T18:00:00.000Z Teamfight Tactics patch 17.7 Patch 17.7 unlocks Choncc’s Lore & Legends (set 16) in addition to a patch full of buffs for the Space Gods roster!",
         "Game Updates 2026-06-23T18:00:00.000Z Teamfight Tactics patch 17.6 Patch 17.6 brings an update to Pengu’s Party and a balance pass on Space Gods with an Augment focus."
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-07-28T22:10:12.373483+00:00",
+      "article_date": "2026-07-28T18:00:00.000Z",
+      "titles": [
+        "Teamfight Tactics patch 17.8",
+        "Game Updates 2026-07-28T18:00:00.000Z Teamfight Tactics patch 17.8 Choncc’s Lore & Legends (Set 16) becomes Choncc’s Classic Treasure and set 17 gets light changes!",
+        "Game Updates 2026-07-14T18:00:00.000Z Teamfight Tactics patch 17.7 Patch 17.7 unlocks Choncc’s Lore & Legends (set 16) in addition to a patch full of buffs for the Space Gods roster!"
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
