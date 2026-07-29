@@ -8,7 +8,6 @@ import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 import yaml
-from email.utils import parsedate_to_datetime
 
 with open("game_keywords.yaml", "r", encoding="utf-8") as f:
     keyword_rules = yaml.safe_load(f)
@@ -31,7 +30,7 @@ _RELEVANT_RE = re.compile(
     r'version|'
     r'notes|'
     r'gameplay|'
-    r'preview|'
+    r'preview'
     r')\b'
     r'|battle\s*pass'
     r'|patch\s+notes'
@@ -50,6 +49,14 @@ _NO_RELEVANT_CONTENT = hashlib.sha256(
 
 def is_relevant(text: str) -> bool:
     return bool(_RELEVANT_RE.search(text))
+
+
+def is_excluded(game_name: str, text: str) -> bool:
+    """True if the text contains a per-game 'exclude' term (e.g. leaks/rumors
+    that shouldn't count as real updates)."""
+    rules = keyword_rules.get(game_name, {})
+    low = text.lower()
+    return any(word.lower() in low for word in rules.get("exclude", []))
 
 
 def load_state() -> dict:
@@ -100,6 +107,29 @@ def fetch_page(url: str) -> str:
     return r.text
 
 
+def fingerprint_build(json_text: str):
+    """Track a game by its live client build/CL (e.g. Fortnite via
+    fortnite-api.com). The CL changes on every patch, so a changed
+    fingerprint == a real game update.
+
+    Returns: fingerprint, latest_title, latest_date
+    """
+    data = json.loads(json_text)
+    build = (data.get("data") or {}).get("build") or ""
+
+    # e.g. "++Fortnite+Release-41.20-CL-55550516"
+    ver = re.search(r"Release-([\d.]+)", build)
+    cl = re.search(r"CL-(\d+)", build)
+
+    version = ver.group(1) if ver else "?"
+    cl_num = cl.group(1) if cl else "?"
+
+    title = f"Fortnite v{version} (build CL-{cl_num})"
+    fp = hashlib.sha256(build.encode("utf-8")).hexdigest()
+
+    return fp, title, None
+
+
 def fingerprint_rss(xml_text: str, game_name: str):
     """Extract RSS fingerprint + latest entry info."""
     try:
@@ -128,6 +158,9 @@ def fingerprint_rss(xml_text: str, game_name: str):
                 continue
 
             title = title_el.text.strip()
+
+            if is_excluded(game_name, title):
+                continue
 
             all_titles.append(title)
 
@@ -211,7 +244,7 @@ def fingerprint_headlines(html: str, game_name: str):
     for tag in soup.find_all(["h1", "h2", "h3", "a"]):
         text = tag.get_text(" ", strip=True)
 
-        if len(text) > 10 and (
+        if len(text) > 10 and not is_excluded(game_name, text) and (
             is_relevant(text) or detect_keywords(game_name, text)
         ):
             parts.append(text)
@@ -467,7 +500,13 @@ def main() -> None:
                 raise last_error
 
             # fingerprint strategy
-            if mode == "rss":
+            if mode == "build":
+
+                fp, latest_title, latest_date = fingerprint_build(content)
+
+                titles = [latest_title] if latest_title else []
+
+            elif mode == "rss":
 
                 fp, latest_title, latest_date = fingerprint_rss(content,name)
 
@@ -486,14 +525,18 @@ def main() -> None:
 
                 joined_titles = " ".join(titles)
 
-                detected = detect_keywords(name, joined_titles)
+                if mode == "build":
+                    # A changed build/CL is itself the update signal; no
+                    # keyword matching needed.
+                    detected = ["build change"]
+                    is_update = prev_title is not None
+                else:
+                    detected = detect_keywords(name, joined_titles)
+                    is_update = bool(detected) and not is_excluded(
+                        name, joined_titles
+                    )
 
-                relevant = any(
-                    is_relevant(t)
-                    for t in titles
-                )
-
-                if detected and relevant:
+                if is_update:
 
                     print(
                         f"NEW UPDATE DETECTED -> {name} | "
