@@ -16,8 +16,8 @@ games:
 
   - name: "Fortnite"
     news_url: "https://www.fortnite.com/news"
-    mode: rss
-    url: "https://fortnitenews.com/rss"
+    mode: build
+    url: "https://fortnite-api.com/v2/aes"
 
   - name: "League of Legends"
     news_url: "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"

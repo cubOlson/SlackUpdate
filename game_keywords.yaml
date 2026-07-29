@@ -40,7 +40,17 @@ Fortnite:
     - "update"
     - "patch"
     - "patch notes"
-  
+    - "hotfix"
+    - "season"
+    - "chapter"
+    - "downtime"
+    - "now live"
+    - "vaulted"
+  exclude:
+    - "leak"
+    - "rumor"
+    - "rumour"
+
 
 League of Legends:
   high:
