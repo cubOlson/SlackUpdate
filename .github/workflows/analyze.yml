@@ -1,0 +1,31 @@
+name: Weekly Update Analysis
+
+on:
+  schedule:
+    # Segunda-feira 11:00 Fortaleza (UTC-3) = 14:00 UTC
+    - cron: '0 14 * * 1'
+
+  workflow_dispatch:
+
+jobs:
+  run-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run analysis
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python analyze.py --slack
