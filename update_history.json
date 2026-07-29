@@ -1416,6 +1416,14 @@
         "Update 4 Hotfix 1"
       ],
       "url": "https://store.steampowered.com/news/app/3017860"
+    },
+    {
+      "date_detected": "2026-07-29T22:04:26.207330+00:00",
+      "article_date": "Wed, 29 Jul 2026 15:16:57 +0000",
+      "titles": [
+        "Update 4 Hotfix 2"
+      ],
+      "url": "https://store.steampowered.com/news/app/3017860"
     }
   ],
   "Dota 2": [
@@ -1730,6 +1738,14 @@
       "article_date": "Wed, 15 Jul 2026 05:17:43 +0000",
       "titles": [
         "v1.0.1: Bug fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
+    },
+    {
+      "date_detected": "2026-07-29T22:04:29.468981+00:00",
+      "article_date": "Wed, 29 Jul 2026 03:08:24 +0000",
+      "titles": [
+        "v1.0.2: Bug fixes"
       ],
       "url": "https://store.steampowered.com/news/app/1623730"
     }
