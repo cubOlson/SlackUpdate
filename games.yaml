@@ -307,3 +307,28 @@ games:
     urls:
       - "https://worldofwarcraft.blizzard.com/en-us/news"
       - "https://news.blizzard.com/en-us/world-of-warcraft"
+
+  - name: "Forza Horizon 6"
+    news_url: "https://store.steampowered.com/news/app/2483190"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2483190/?format=rss"
+
+  - name: "Meccha Chameleon"
+    news_url: "https://store.steampowered.com/news/app/4704690"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/4704690/?format=rss"
+
+  - name: "Slay the Spire 2"
+    news_url: "https://store.steampowered.com/news/app/2868840"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2868840/?format=rss"
+
+  - name: "Warframe"
+    news_url: "https://store.steampowered.com/news/app/230410"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/230410/?format=rss"
+
+  - name: "War Thunder"
+    news_url: "https://store.steampowered.com/news/app/236390"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/236390/?format=rss"
