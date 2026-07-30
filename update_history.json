@@ -1958,5 +1958,15 @@
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
+  ],
+  "Hearthstone": [
+    {
+      "date_detected": "2026-07-30T15:52:54.408875+00:00",
+      "article_date": "2026-07-06T18:02:06+00:00",
+      "titles": [
+        "Hearthstone v36.0.246003"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    }
   ]
 }
