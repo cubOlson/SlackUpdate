@@ -279,16 +279,28 @@ Genshin Impact:
     - "patch notes"
     - "version"
     - "notes"
+  exclude:
+    - "device performance"
+    - "requirements preview"
+    - "redeem"
+    - "web event"
+    - "survey"
 
 Hearthstone:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "card"
+    - "hotfix"
     - "expansion"
-    - "deck"
-    - "hero"
+    - "balance"
+  exclude:
+    - "top decks"
+    - "tier list"
+    - "best decks"
+    - "budget"
+    - "arena"
+    - "giveaway"
 
 Helldivers 2:
   high:
@@ -491,3 +503,52 @@ World of Warcraft:
     - "patch notes"
     - "season"
     - "hotfixes"
+
+Forza Horizon 6:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "series"
+    - "track"
+
+Meccha Chameleon:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "fix"
+    - "hotfix"
+    - "version"
+
+Slay the Spire 2:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "beta"
+    - "version"
+
+Warframe:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "mainline"
+  exclude:
+    - "trailer"
+    - "demo"
+    - "merch"
+    - "sale"
+    - "tennocon"
+
+War Thunder:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "major update"
+    - "hotfix"

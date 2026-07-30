@@ -5,7 +5,8 @@ games:
 
   - name: "Minecraft"
     news_url: "https://www.minecraft.net/en-us/articles"
-    url: "https://www.minecraft.net/en-us/articles"
+    mode: minecraft
+    url: "https://launchercontent.mojang.com/v2/javaPatchNotes.json"
 
   - name: "Apex Legends"
     news_url: "https://store.steampowered.com/news/app/1172470"
@@ -117,8 +118,9 @@ games:
     url: "https://store.steampowered.com/feeds/news/app/1085660/?format=rss"
 
   - name: "Diablo Immortal"
-    news_url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
-    url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
+    news_url: "https://news.blizzard.com/en-us/diablo-immortal"
+    mode: appstore
+    url: "https://itunes.apple.com/lookup?id=1492005122&country=us"
 
   - name: "DOOM 2016"
     news_url: "https://store.steampowered.com/news/app/379720"
@@ -165,11 +167,13 @@ games:
 
   - name: "Genshin Impact"
     news_url: "https://genshin.hoyoverse.com/en/news/"
-    url: "https://genshin.hoyoverse.com/en/news/"
+    mode: genshin
+    url: "https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=15&type=1"
 
   - name: "Hearthstone"
     news_url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
-    url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    mode: rss
+    url: "https://www.hearthstonetopdecks.com/feed/"
 
   - name: "Helldivers 2"
     news_url: "https://store.steampowered.com/news/app/553850"
@@ -303,3 +307,28 @@ games:
     urls:
       - "https://worldofwarcraft.blizzard.com/en-us/news"
       - "https://news.blizzard.com/en-us/world-of-warcraft"
+
+  - name: "Forza Horizon 6"
+    news_url: "https://store.steampowered.com/news/app/2483190"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2483190/?format=rss"
+
+  - name: "Meccha Chameleon"
+    news_url: "https://store.steampowered.com/news/app/4704690"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/4704690/?format=rss"
+
+  - name: "Slay the Spire 2"
+    news_url: "https://store.steampowered.com/news/app/2868840"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2868840/?format=rss"
+
+  - name: "Warframe"
+    news_url: "https://store.steampowered.com/news/app/230410"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/230410/?format=rss"
+
+  - name: "War Thunder"
+    news_url: "https://store.steampowered.com/news/app/236390"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/236390/?format=rss"

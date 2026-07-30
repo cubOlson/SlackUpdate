@@ -218,6 +218,93 @@ def fingerprint_build(json_text: str):
     return fp, title, None
 
 
+def fingerprint_minecraft(json_text: str):
+    """Mojang's official Java patch-notes JSON. Every entry is a real
+    release/snapshot, so the newest one is the latest update.
+
+    Returns: fingerprint, latest_title, latest_date
+    """
+    data = json.loads(json_text)
+    entries = data.get("entries") or []
+
+    if not entries:
+        return _NO_RELEVANT_CONTENT, None, None
+
+    latest = entries[0]
+    title = (latest.get("title") or "").strip()
+    version = latest.get("version") or title
+    date = latest.get("date")  # already ISO-8601
+
+    fp = hashlib.sha256(str(version).encode("utf-8")).hexdigest()
+    return fp, title, date
+
+
+def fingerprint_appstore(json_text: str):
+    """Apple App Store lookup API. A changed version == a real update.
+    Works for any mobile game (e.g. Diablo Immortal).
+
+    Returns: fingerprint, latest_title, latest_date
+    """
+    data = json.loads(json_text)
+    results = data.get("results") or []
+
+    if not results:
+        return _NO_RELEVANT_CONTENT, None, None
+
+    app = results[0]
+    name = (app.get("trackName") or "").strip()
+    version = app.get("version") or ""
+    date = app.get("currentVersionReleaseDate")  # already ISO-8601
+
+    title = f"{name} v{version}".strip() if version else name
+    fp = hashlib.sha256(str(version).encode("utf-8")).hexdigest()
+    return fp, title, date
+
+
+def fingerprint_genshin(json_text: str, game_name: str):
+    """HoYoLAB news API (notices). Mixed content, so keep the newest item
+    that looks like a real version/update notice.
+
+    Returns: fingerprint, latest_title, latest_date
+    """
+    data = json.loads(json_text)
+    news = (data.get("data") or {}).get("list") or []
+
+    relevant = []
+    latest_title = None
+    latest_date = None
+
+    for item in news:
+        post = item.get("post") or {}
+        subject = (post.get("subject") or "").strip()
+        if not subject or is_excluded(game_name, subject):
+            continue
+
+        date_iso = None
+        ts = post.get("created_at")
+        if ts:
+            try:
+                date_iso = _iso_utc(
+                    datetime.fromtimestamp(int(ts), tz=timezone.utc)
+                )
+            except (ValueError, OSError, OverflowError):
+                pass
+
+        if is_relevant(subject) or detect_keywords(game_name, subject):
+            relevant.append(subject)
+            if latest_title is None:
+                latest_title = subject
+                latest_date = date_iso
+
+    if relevant:
+        fp = hashlib.sha256(
+            " | ".join(relevant).encode("utf-8")
+        ).hexdigest()
+        return fp, latest_title, latest_date
+
+    return _NO_RELEVANT_CONTENT, None, None
+
+
 def fingerprint_rss(xml_text: str, game_name: str):
     """Extract RSS fingerprint + latest entry info."""
     try:
@@ -594,6 +681,26 @@ def main() -> None:
 
                 titles = [latest_title] if latest_title else []
 
+            elif mode == "minecraft":
+
+                fp, latest_title, latest_date = fingerprint_minecraft(content)
+
+                titles = [latest_title] if latest_title else []
+
+            elif mode == "appstore":
+
+                fp, latest_title, latest_date = fingerprint_appstore(content)
+
+                titles = [latest_title] if latest_title else []
+
+            elif mode == "genshin":
+
+                fp, latest_title, latest_date = fingerprint_genshin(
+                    content, name
+                )
+
+                titles = [latest_title] if latest_title else []
+
             elif mode == "rss":
 
                 fp, latest_title, latest_date = fingerprint_rss(content,name)
@@ -620,6 +727,11 @@ def main() -> None:
                     # keyword matching needed.
                     detected = ["build change"]
                     is_update = prev_title is not None
+                elif mode in ("minecraft", "appstore"):
+                    # Authoritative version/patch feed: every new entry is a
+                    # real update.
+                    detected = ["patch note"]
+                    is_update = True
                 else:
                     detected = detect_keywords(name, joined_titles)
                     is_update = bool(detected) and not is_excluded(
