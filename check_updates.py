@@ -239,6 +239,28 @@ def fingerprint_minecraft(json_text: str):
     return fp, title, date
 
 
+def fingerprint_appstore(json_text: str):
+    """Apple App Store lookup API. A changed version == a real update.
+    Works for any mobile game (e.g. Diablo Immortal).
+
+    Returns: fingerprint, latest_title, latest_date
+    """
+    data = json.loads(json_text)
+    results = data.get("results") or []
+
+    if not results:
+        return _NO_RELEVANT_CONTENT, None, None
+
+    app = results[0]
+    name = (app.get("trackName") or "").strip()
+    version = app.get("version") or ""
+    date = app.get("currentVersionReleaseDate")  # already ISO-8601
+
+    title = f"{name} v{version}".strip() if version else name
+    fp = hashlib.sha256(str(version).encode("utf-8")).hexdigest()
+    return fp, title, date
+
+
 def fingerprint_genshin(json_text: str, game_name: str):
     """HoYoLAB news API (notices). Mixed content, so keep the newest item
     that looks like a real version/update notice.
@@ -665,6 +687,12 @@ def main() -> None:
 
                 titles = [latest_title] if latest_title else []
 
+            elif mode == "appstore":
+
+                fp, latest_title, latest_date = fingerprint_appstore(content)
+
+                titles = [latest_title] if latest_title else []
+
             elif mode == "genshin":
 
                 fp, latest_title, latest_date = fingerprint_genshin(
@@ -699,8 +727,8 @@ def main() -> None:
                     # keyword matching needed.
                     detected = ["build change"]
                     is_update = prev_title is not None
-                elif mode == "minecraft":
-                    # Authoritative patch-notes feed: every new entry is a
+                elif mode in ("minecraft", "appstore"):
+                    # Authoritative version/patch feed: every new entry is a
                     # real update.
                     detected = ["patch note"]
                     is_update = True

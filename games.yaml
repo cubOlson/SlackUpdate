@@ -118,8 +118,9 @@ games:
     url: "https://store.steampowered.com/feeds/news/app/1085660/?format=rss"
 
   - name: "Diablo Immortal"
-    news_url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
-    url: "https://news.blizzard.com/en-us/feed/diablo-immortal"
+    news_url: "https://news.blizzard.com/en-us/diablo-immortal"
+    mode: appstore
+    url: "https://itunes.apple.com/lookup?id=1492005122&country=us"
 
   - name: "DOOM 2016"
     news_url: "https://store.steampowered.com/news/app/379720"
