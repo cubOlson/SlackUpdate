@@ -5,7 +5,8 @@ games:
 
   - name: "Minecraft"
     news_url: "https://www.minecraft.net/en-us/articles"
-    url: "https://www.minecraft.net/en-us/articles"
+    mode: minecraft
+    url: "https://launchercontent.mojang.com/v2/javaPatchNotes.json"
 
   - name: "Apex Legends"
     news_url: "https://store.steampowered.com/news/app/1172470"
@@ -165,11 +166,13 @@ games:
 
   - name: "Genshin Impact"
     news_url: "https://genshin.hoyoverse.com/en/news/"
-    url: "https://genshin.hoyoverse.com/en/news/"
+    mode: genshin
+    url: "https://bbs-api-os.hoyolab.com/community/post/wapi/getNewsList?gids=2&page_size=15&type=1"
 
   - name: "Hearthstone"
     news_url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
-    url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    mode: rss
+    url: "https://www.hearthstonetopdecks.com/feed/"
 
   - name: "Helldivers 2"
     news_url: "https://store.steampowered.com/news/app/553850"

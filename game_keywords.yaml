@@ -279,16 +279,28 @@ Genshin Impact:
     - "patch notes"
     - "version"
     - "notes"
+  exclude:
+    - "device performance"
+    - "requirements preview"
+    - "redeem"
+    - "web event"
+    - "survey"
 
 Hearthstone:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "card"
+    - "hotfix"
     - "expansion"
-    - "deck"
-    - "hero"
+    - "balance"
+  exclude:
+    - "top decks"
+    - "tier list"
+    - "best decks"
+    - "budget"
+    - "arena"
+    - "giveaway"
 
 Helldivers 2:
   high:
