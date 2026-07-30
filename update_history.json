@@ -637,6 +637,14 @@
         "Marvel Rivals Version 20260723 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:49.014729+00:00",
+      "article_date": "2026-07-30T06:12:36+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260730 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -725,6 +733,14 @@
       "article_date": "2026-07-21T15:05:45+00:00",
       "titles": [
         "Battlefield 6 | REDSEC Season 4 Live Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:43.918706+00:00",
+      "article_date": "2026-07-30T15:06:24+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - New Maps, Features, and More"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -882,6 +898,14 @@
         "Brave the unknown"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:39.482591+00:00",
+      "article_date": "2026-07-28T13:56:26.604000+00:00",
+      "titles": [
+        "Minecraft 26.3 Snapshot 6"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
     }
   ],
   "Fortnite": [
@@ -890,6 +914,14 @@
       "article_date": "2025-12-25T00:09:50+00:00",
       "titles": [
         "IShowSpeed Joins the Fortnite Icon Series"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:40.189668+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v41.30 (build CL-55979764)"
       ],
       "url": "https://www.fortnite.com/news"
     }
@@ -902,6 +934,16 @@
         "Black Ops 7",
         "Black Ops 6",
         "COD: Warzone"
+      ],
+      "url": "https://www.callofduty.com/patchnotes"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:40.994691+00:00",
+      "article_date": "2026-07-29T00:00:00+00:00",
+      "titles": [
+        "COD: Warzone",
+        "Patch Notes",
+        "World Series of Warzone"
       ],
       "url": "https://www.callofduty.com/patchnotes"
     }
@@ -956,6 +998,14 @@
         "It’s All About You! — A Crew to Remember"
       ],
       "url": "https://www.cyberpunk.net/en/news/"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:41.872357+00:00",
+      "article_date": "2025-09-11T10:09:03+00:00",
+      "titles": [
+        "Patch 2.31"
+      ],
+      "url": "https://store.steampowered.com/news/app/1091500"
     }
   ],
   "Diablo IV": [
@@ -1026,6 +1076,14 @@
         "Animated Show Cosmetics Arrive in Among Us 3D"
       ],
       "url": "https://www.innersloth.com/news/"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:42.985777+00:00",
+      "article_date": "2026-04-08T18:55:41+00:00",
+      "titles": [
+        "It's Definitive Edition Time, Crewmates!"
+      ],
+      "url": "https://store.steampowered.com/news/app/3168600"
     }
   ],
   "Black Ops 7": [
@@ -1036,6 +1094,16 @@
         "Black Ops 7",
         "Black Ops 6",
         "COD: Warzone"
+      ],
+      "url": "https://www.callofduty.com/patchnotes"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:44.060920+00:00",
+      "article_date": "2026-07-29T00:00:00+00:00",
+      "titles": [
+        "COD: Warzone",
+        "Patch Notes",
+        "World Series of Warzone"
       ],
       "url": "https://www.callofduty.com/patchnotes"
     }
@@ -1190,6 +1258,14 @@
         "Latest Articles"
       ],
       "url": "https://news.blizzard.com/en-us/feed/diablo-immortal"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:45.271648+00:00",
+      "article_date": "2026-07-16T18:02:42+00:00",
+      "titles": [
+        "Diablo Immortal v5.0.1.3731207"
+      ],
+      "url": "https://news.blizzard.com/en-us/diablo-immortal"
     }
   ],
   "DOOM 2016": [
@@ -1270,6 +1346,14 @@
         "ELDEN RING - RAGING WOLF 1/6 SCALE STATUE"
       ],
       "url": "https://store.steampowered.com/news/app/1245620/"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:46.499881+00:00",
+      "article_date": "2025-12-16T07:05:57+00:00",
+      "titles": [
+        "Release Note for 2025/12/16"
+      ],
+      "url": "https://store.steampowered.com/news/app/1245620/"
     }
   ],
   "Forza Horizon 5": [
@@ -1336,6 +1420,14 @@
       "article_date": "2026-06-16T09:00:24+00:00",
       "titles": [
         "Machinery of Oppression: 6.3.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/553850"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:48.021827+00:00",
+      "article_date": "2026-07-07T09:00:17+00:00",
+      "titles": [
+        "Machinery of Oppression: 6.3.1"
       ],
       "url": "https://store.steampowered.com/news/app/553850"
     }
@@ -1410,6 +1502,14 @@
         "ELDEN RING NIGHTREIGN – THE LIMITED-EDITION VINYL COLLECTION"
       ],
       "url": "https://store.steampowered.com/news/app/2622380"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:49.714798+00:00",
+      "article_date": "2026-01-16T09:24:02+00:00",
+      "titles": [
+        "ELDEN RING NIGHTREIGN – PATCH NOTES VERSION 1.03.2"
+      ],
+      "url": "https://store.steampowered.com/news/app/2622380"
     }
   ],
   "No Man's Sky": [
@@ -1468,6 +1568,14 @@
       "article_date": "2026-07-29T03:08:24+00:00",
       "titles": [
         "v1.0.2: Bug fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:50.621335+00:00",
+      "article_date": "2026-07-30T12:16:34+00:00",
+      "titles": [
+        "v1.0.2.101103:Bug fixes"
       ],
       "url": "https://store.steampowered.com/news/app/1623730"
     }
@@ -1556,6 +1664,14 @@
         "Rocket League Bracket Rivalry"
       ],
       "url": "https://store.steampowered.com/news/app/252950"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:51.820050+00:00",
+      "article_date": "2026-03-11T16:07:48+00:00",
+      "titles": [
+        "Rocket League Patch Notes v2.66: Season 22 Live"
+      ],
+      "url": "https://store.steampowered.com/news/app/252950"
     }
   ],
   "Rust": [
@@ -1564,6 +1680,14 @@
       "article_date": "2026-06-04T17:44:04+00:00",
       "titles": [
         "BUILT DIFFERENT"
+      ],
+      "url": "https://store.steampowered.com/news/app/252490"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:52.322406+00:00",
+      "article_date": "2026-05-07T17:45:48+00:00",
+      "titles": [
+        "UPGRADE HARD, RAID HARDER"
       ],
       "url": "https://store.steampowered.com/news/app/252490"
     }
@@ -1586,6 +1710,14 @@
         "Stardew Valley 10-year Anniversary"
       ],
       "url": "https://store.steampowered.com/news/app/413150"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:52.893248+00:00",
+      "article_date": "2024-12-20T18:14:21+00:00",
+      "titles": [
+        "Stardew Valley 1.6.15 Patch now available"
+      ],
+      "url": "https://store.steampowered.com/news/app/413150"
     }
   ],
   "Starfield": [
@@ -1594,6 +1726,14 @@
       "article_date": "2026-06-12T14:43:46+00:00",
       "titles": [
         "New worlds to explore with Starfield Creations!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1716740"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:53.223435+00:00",
+      "article_date": "2026-06-11T15:15:06+00:00",
+      "titles": [
+        "Starfield Update 1.16.244 – June 11, 2026"
       ],
       "url": "https://store.steampowered.com/news/app/1716740"
     }
@@ -1620,6 +1760,14 @@
       "article_date": "2026-06-25T23:31:37+00:00",
       "titles": [
         "Terraria State of the Game - June 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/105600"
+    },
+    {
+      "date_detected": "2026-07-30T15:46:53.781466+00:00",
+      "article_date": "2026-01-27T15:16:37+00:00",
+      "titles": [
+        "Terraria 1.4.5: Bigger & Boulder - Available Now!"
       ],
       "url": "https://store.steampowered.com/news/app/105600"
     }
@@ -1759,6 +1907,56 @@
         "Teamfight Tactics patch 17.7 Patch 17.7 unlocks Choncc’s Lore & Legends (set 16) in addition to a patch full of buffs for the Space Gods roster!"
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    }
+  ],
+  "Genshin Impact": [
+    {
+      "date_detected": "2026-07-30T15:46:47.622353+00:00",
+      "article_date": "2026-07-01T04:05:01+00:00",
+      "titles": [
+        "Version Luna VIII Version Details - What's New"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
+    }
+  ],
+  "Forza Horizon 6": [
+    {
+      "date_detected": "2026-07-30T15:46:57.033759+00:00",
+      "article_date": "2026-07-20T17:08:50+00:00",
+      "titles": [
+        "Forza Horizon 6 Series 3 Hotfix 1"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
+    }
+  ],
+  "Meccha Chameleon": [
+    {
+      "date_detected": "2026-07-30T15:46:57.393998+00:00",
+      "article_date": "2026-07-30T08:09:40+00:00",
+      "titles": [
+        "update3.3.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    }
+  ],
+  "Slay the Spire 2": [
+    {
+      "date_detected": "2026-07-30T15:46:57.698969+00:00",
+      "article_date": "2026-07-25T18:42:05+00:00",
+      "titles": [
+        "Beta Hotfix Patch Notes - v0.109.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/2868840"
+    }
+  ],
+  "War Thunder": [
+    {
+      "date_detected": "2026-07-30T15:46:58.393008+00:00",
+      "article_date": "2026-07-30T13:04:10+00:00",
+      "titles": [
+        "Update 2.57.1.58"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ]
 }
