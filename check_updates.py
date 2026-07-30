@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 import yaml
+from email.utils import parsedate_to_datetime
 
 with open("game_keywords.yaml", "r", encoding="utf-8") as f:
     keyword_rules = yaml.safe_load(f)
@@ -57,6 +58,93 @@ def is_excluded(game_name: str, text: str) -> bool:
     rules = keyword_rules.get(game_name, {})
     low = text.lower()
     return any(word.lower() in low for word in rules.get("exclude", []))
+
+
+# --- data hygiene helpers -------------------------------------------------
+
+# An ISO timestamp embedded inside a title string (some feeds prepend one).
+_ISO_IN_TEXT = re.compile(
+    r"\d{4}-\d{2}-\d{2}T[\d:.]+(?:Z|[+-]\d{2}:?\d{2})?"
+)
+_MONTH_DAY_RE = re.compile(r"[A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}")
+
+# Titles that are page chrome / navigation, never a real update.
+_JUNK_TITLES = {
+    "skip to main content",
+    "skip to content",
+    "main content",
+    "read more",
+    "news",
+}
+
+
+def clean_title(raw: str) -> str:
+    """Strip embedded timestamps and feed labels from a title."""
+    if not raw:
+        return ""
+    t = _ISO_IN_TEXT.sub(" ", raw)
+    t = re.sub(r"^\s*Game Updates\s*", "", t, flags=re.IGNORECASE)
+    t = re.sub(r"\s{2,}", " ", t).strip()
+    return t
+
+
+def is_junk_title(raw: str) -> bool:
+    t = (raw or "").strip().lower()
+    return (not t) or len(t) < 5 or t in _JUNK_TITLES
+
+
+def _iso_utc(dt) -> str:
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc).isoformat()
+
+
+def to_iso(raw):
+    """Normalize any known date format (ISO / RFC-822 RSS / 'Month Day, Year'
+    or a string containing one) to an ISO-8601 UTC string, or None."""
+    if not raw:
+        return None
+    raw = raw.strip()
+
+    try:
+        return _iso_utc(datetime.fromisoformat(raw.replace("Z", "+00:00")))
+    except ValueError:
+        pass
+
+    try:
+        dt = parsedate_to_datetime(raw)
+        if dt is not None:
+            return _iso_utc(dt)
+    except (TypeError, ValueError):
+        pass
+
+    m = _MONTH_DAY_RE.search(raw)
+    if m:
+        for fmt in ("%B %d, %Y", "%b %d, %Y"):
+            try:
+                return _iso_utc(
+                    datetime.strptime(m.group(0), fmt).replace(
+                        tzinfo=timezone.utc
+                    )
+                )
+            except ValueError:
+                continue
+
+    return None
+
+
+def record_key(rec: dict):
+    """Identity of a history record for dedup: same article-day (preferred)
+    or, lacking a date, same primary title."""
+    ad = rec.get("article_date")
+    if ad:
+        return ("d", ad[:10])
+    return ("t", (rec.get("titles") or [""])[0].strip().lower())
+
+
+def already_recorded(records: list, rec: dict) -> bool:
+    key = record_key(rec)
+    return any(record_key(r) == key for r in records)
 
 
 def load_state() -> dict:
@@ -525,6 +613,8 @@ def main() -> None:
 
                 joined_titles = " ".join(titles)
 
+                clean = clean_title(latest_title)
+
                 if mode == "build":
                     # A changed build/CL is itself the update signal; no
                     # keyword matching needed.
@@ -536,32 +626,46 @@ def main() -> None:
                         name, joined_titles
                     )
 
+                # Never record page chrome / empty titles as an update.
+                if is_junk_title(clean):
+                    is_update = False
+
                 if is_update:
 
                     print(
                         f"NEW UPDATE DETECTED -> {name} | "
-                        f"title={latest_title} | "
+                        f"title={clean} | "
                         f"prev={prev_title}"
                     )
+
+                    supporting = [
+                        clean_title(t)
+                        for t in titles[1:3]
+                        if not is_junk_title(clean_title(t))
+                    ]
+
+                    record = {
+                        "date_detected": datetime.now(timezone.utc).isoformat(),
+                        "article_date": to_iso(latest_date),
+                        "titles": [clean] + supporting,
+                        "url": news_url,
+                    }
 
                     if name not in history:
                         history[name] = []
 
-                    history[name].append({
-                        "date_detected": datetime.now(timezone.utc).isoformat(),
-                        "article_date": latest_date,
-                        "titles": [latest_title] + titles[1:3],
-                        "url": news_url
-                    })
+                    # Skip if we've already logged this update (same article
+                    # day, or same title when undated).
+                    if not already_recorded(history[name], record):
 
-                    history[name] = history[name][-50:]
+                        history[name].append(record)
 
-                    updates_found.append({
-                        "name": name,
-                        "url": news_url,
-                        "detected": detected,
-                        "titles": [latest_title]
-                    })
+                        updates_found.append({
+                            "name": name,
+                            "url": news_url,
+                            "detected": detected,
+                            "titles": [clean],
+                        })
 
             print(f"{name} | title={latest_title} | date={latest_date}")
 

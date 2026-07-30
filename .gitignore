@@ -3,3 +3,5 @@ update_history.json
 __pycache__/
 *.pyc
 .venv/
+*.bak
+update_history.json.*.bak
