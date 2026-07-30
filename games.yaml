@@ -172,8 +172,8 @@ games:
 
   - name: "Hearthstone"
     news_url: "https://hearthstone.blizzard.com/en-us/news/patchnotes"
-    mode: rss
-    url: "https://www.hearthstonetopdecks.com/feed/"
+    mode: appstore
+    url: "https://itunes.apple.com/lookup?id=625257520&country=us"
 
   - name: "Helldivers 2"
     news_url: "https://store.steampowered.com/news/app/553850"

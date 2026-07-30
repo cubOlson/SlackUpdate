@@ -286,21 +286,14 @@ Genshin Impact:
     - "web event"
     - "survey"
 
+# Hearthstone tracks via the App Store lookup (appstore mode), which treats
+# any version change as an update — these keywords are unused but kept for
+# reference if the source ever changes back to a news feed.
 Hearthstone:
   high:
     - "update"
     - "patch"
     - "patch notes"
-    - "hotfix"
-    - "expansion"
-    - "balance"
-  exclude:
-    - "top decks"
-    - "tier list"
-    - "best decks"
-    - "budget"
-    - "arena"
-    - "giveaway"
 
 Helldivers 2:
   high:
