@@ -285,6 +285,14 @@
         "Apex Legends: Latest Update - 07/21/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-08-03T22:11:43.548674+00:00",
+      "article_date": "2026-08-03T16:48:40+00:00",
+      "titles": [
+        "Apex Legends™: Marked Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -741,6 +749,14 @@
       "article_date": "2026-07-30T15:06:24+00:00",
       "titles": [
         "Battlefield 6 - Community Update - New Maps, Features, and More"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-08-03T22:11:45.920796+00:00",
+      "article_date": "2026-08-03T15:01:27+00:00",
+      "titles": [
+        "BATTLEFIELD 6 GAME UPDATE 1.4.1.5"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -1506,6 +1522,14 @@
       "article_date": "2026-06-06T03:09:44+00:00",
       "titles": [
         "The massive expansion Monster Hunter Wilds: Ascendance is coming in 2027!"
+      ],
+      "url": "https://store.steampowered.com/news/app/2246340"
+    },
+    {
+      "date_detected": "2026-08-03T22:11:50.296304+00:00",
+      "article_date": "2026-08-03T21:50:37+00:00",
+      "titles": [
+        "Update Ver. 1.042 — Maintenance Notice"
       ],
       "url": "https://store.steampowered.com/news/app/2246340"
     }
