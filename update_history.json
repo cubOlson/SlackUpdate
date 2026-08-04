@@ -391,6 +391,14 @@
         "Live Update 1.39.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-08-04T22:17:20.029390+00:00",
+      "article_date": "2026-08-04T09:01:29+00:00",
+      "titles": [
+        "Store Update 1.40.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -922,6 +930,14 @@
         "Minecraft 26.3 Snapshot 6"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-08-04T22:17:17.403863+00:00",
+      "article_date": "2026-08-04T14:00:02.449000+00:00",
+      "titles": [
+        "Minecraft 26.3 Snapshot 7"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
     }
   ],
   "Fortnite": [
@@ -1252,6 +1268,14 @@
       "article_date": "2026-07-21T14:31:30+00:00",
       "titles": [
         "10.0.3 | Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-08-04T22:17:21.237852+00:00",
+      "article_date": "2026-08-04T14:30:45+00:00",
+      "titles": [
+        "10.1.0 | PTB Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
     }
@@ -1694,6 +1718,14 @@
         "Rainbow Six Siege Mid-Season Update: Everything You Need to Know"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-08-04T22:17:27.440021+00:00",
+      "article_date": "2026-08-04T13:44:13+00:00",
+      "titles": [
+        "Y11S2.3 PATCH NOTES"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
     }
   ],
   "Rocket League": [
@@ -2037,6 +2069,14 @@
         "Update 2.57.1.60"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-04T22:17:30.777125+00:00",
+      "article_date": "2026-08-04T10:24:33+00:00",
+      "titles": [
+        "Update 2.57.1.67"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -2045,6 +2085,14 @@
       "article_date": "2026-07-06T18:02:06+00:00",
       "titles": [
         "Hearthstone v36.0.246003"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    },
+    {
+      "date_detected": "2026-08-04T22:17:24.261999+00:00",
+      "article_date": "2026-08-04T18:00:13+00:00",
+      "titles": [
+        "Hearthstone v36.2.248348"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
     }
