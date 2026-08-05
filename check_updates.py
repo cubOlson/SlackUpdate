@@ -16,6 +16,11 @@ with open("game_keywords.yaml", "r", encoding="utf-8") as f:
 STATE_FILE = "state.json"
 HISTORY_FILE = "update_history.json"
 
+# Consecutive failed daily checks before a source is called "likely broken"
+# rather than just having a transient blip. One bad day is noise; a streak is
+# a real problem worth surfacing loudly.
+BROKEN_STREAK = 3
+
 # Matches article titles that signal actual game changes worth alerting on.
 _RELEVANT_RE = re.compile(
     r'\b(?:'
@@ -657,6 +662,11 @@ def main() -> None:
         last_error = None
         used_url = None
 
+        # Carry the current failure streak forward from the last run so a
+        # success can reset it and a failure can extend it.
+        prev_entry = state.get(name, {})
+        prev_streak = prev_entry.get("error_streak", 0)
+
         try:
 
             content = None
@@ -790,22 +800,29 @@ def main() -> None:
                 ).isoformat(),
                 "last_source": used_url,
                 "mode": mode,
+                "error_streak": 0,
             }
 
         except Exception as e:
 
+            now_iso = datetime.now(timezone.utc).isoformat()
+            streak = prev_streak + 1
+            # Timestamp the start of the streak so we can report "broken since".
+            error_since = prev_entry.get("error_since") if prev_streak else now_iso
+
             failures.append((
                 name,
                 used_url or urls[0],
-                str(e)
+                str(e),
+                streak,
             ))
 
             state[name] = {
                 "error": str(e),
-                "last_checked_utc": datetime.now(
-                    timezone.utc
-                ).isoformat(),
+                "last_checked_utc": now_iso,
                 "last_source": used_url or urls[0],
+                "error_streak": streak,
+                "error_since": error_since,
             }
 
     save_state(state)
@@ -830,14 +847,34 @@ def main() -> None:
     else:
         lines.append("No high priority updates today ✅")
 
-    if failures:
+    # Escalate sources that have failed several days running — those are
+    # broken, not blips, and are the ones worth chasing down early.
+    broken = [f for f in failures if f[3] >= BROKEN_STREAK]
+    transient = [f for f in failures if f[3] < BROKEN_STREAK]
+
+    if broken:
+
+        lines.append("")
+        lines.append(
+            f"🔴 *Likely broken (failing {BROKEN_STREAK}+ days — check the source):*"
+        )
+
+        for name, url, err, streak in broken:
+
+            short = err[:180].replace("\n", " ")
+
+            lines.append(
+                f"- {name} ({streak}d): {url} — `{short}`"
+            )
+
+    if transient:
 
         lines.append("")
         lines.append(
             "*Errors on check (url down/changed):*"
         )
 
-        for name, url, err in failures:
+        for name, url, err, streak in transient:
 
             short = err[:180].replace("\n", " ")
 
