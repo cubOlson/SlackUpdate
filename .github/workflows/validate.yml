@@ -1,0 +1,38 @@
+name: Validate config
+
+# Catch broken game config (missing keyword rules, unknown modes, dead
+# entries) before it can merge — the daily bot silently skips a misconfigured
+# game rather than erroring, so this is our early-warning net.
+
+on:
+  push:
+    paths:
+      - "games.yaml"
+      - "game_keywords.yaml"
+      - "validate_config.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "games.yaml"
+      - "game_keywords.yaml"
+      - "validate_config.py"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate config
+        run: python validate_config.py
