@@ -783,6 +783,14 @@
         "BATTLEFIELD 6 GAME UPDATE 1.4.1.5"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-08-07T01:01:21.889571+00:00",
+      "article_date": "2026-08-06T15:00:30+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - Top Gun Incoming"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -2123,6 +2131,14 @@
       "article_date": "2026-08-04T10:24:33+00:00",
       "titles": [
         "Update 2.57.1.67"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-07T01:01:32.657422+00:00",
+      "article_date": "2026-08-06T12:43:26+00:00",
+      "titles": [
+        "Update 2.57.1.70"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
