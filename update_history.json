@@ -677,6 +677,14 @@
         "Marvel Rivals Version 20260807 Balance Post"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-08-07T21:44:39.413547+00:00",
+      "article_date": "2026-08-07T06:32:34+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260807 Patch Notes - Season 9.5 Arrives"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -2087,6 +2095,14 @@
       "article_date": "2026-08-05T13:56:16+00:00",
       "titles": [
         "update3.5.3"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-07T21:44:44.148948+00:00",
+      "article_date": "2026-08-07T15:12:42+00:00",
+      "titles": [
+        "update3.6.0"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
