@@ -29,6 +29,14 @@ HISTORY_FILE = "update_history.json"
 # "Jun 23, 2026" or "June 23, 2026" embedded anywhere in a string
 _MONTH_DAY_RE = re.compile(r"[A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}")
 
+# A cadence/prediction is only meaningful with at least this many intervals
+# (this many + 1 recorded updates). One gap between two updates is not a rhythm.
+MIN_INTERVALS = 2
+
+# Floor for the "quiet/broken" check: even a fast-cadence game shouldn't be
+# flagged before this many days of silence (avoids noise on bursty games).
+STALE_MIN_DAYS = 21
+
 
 def parse_date(raw):
     """Parse the many date formats found in the history file.
@@ -116,26 +124,30 @@ def analyze_game(name, records, now):
         for a, b in zip(dates, dates[1:])
         if (b - a).days > 0
     ]
+    n_intervals = len(intervals)
 
     median_interval = statistics.median(intervals) if intervals else None
     mean_interval = statistics.fmean(intervals) if intervals else None
 
     # Regularity: coefficient of variation of the intervals. Lower = steadier
     # cadence = more trustworthy prediction.
-    if len(intervals) >= 2 and mean_interval:
+    if n_intervals >= 2 and mean_interval:
         cv = statistics.pstdev(intervals) / mean_interval
     else:
         cv = None
 
+    # Only predict when we've seen enough gaps for a cadence to mean anything.
+    # A single interval (two updates) is not a rhythm.
     predicted_next = None
     overdue_by = None
-    if median_interval:
+    if median_interval and n_intervals >= MIN_INTERVALS:
         predicted_next = last + timedelta(days=median_interval)
         overdue_by = (now - predicted_next).days  # >0 means overdue
 
     return {
         "name": name,
         "count": len(dates),
+        "n_intervals": n_intervals,
         "first": dates[0],
         "last": last,
         "days_since_last": days_since_last,
@@ -174,7 +186,9 @@ def build_report(stats, now, window_days, top):
     if ranked:
         for i, s in enumerate(ranked, 1):
             cadence = (
-                f"~{s['median_interval']}d" if s["median_interval"] else "n/a"
+                f"~{s['median_interval']}d"
+                if s["median_interval"] and s["n_intervals"] >= MIN_INTERVALS
+                else "n/a"
             )
             lines.append(
                 f"{i}. *{s['name']}* — {s['window_count']} updates "
@@ -184,13 +198,16 @@ def build_report(stats, now, window_days, top):
         lines.append("_No updates recorded in this window._")
     lines.append("")
 
-    # A game is "stale" when it's silent for far longer than its own cadence
-    # (or >60 days with no cadence). That usually means a genuinely dormant
-    # game OR a broken source/scraper — either way, worth checking.
+    # A game is "stale" when it's silent for far longer than its own cadence.
+    # That usually means a genuinely dormant game OR a broken source/scraper —
+    # either way, worth checking. The STALE_MIN_DAYS floor keeps bursty games
+    # from tripping it, but (unlike the old flat 60d) doesn't let a fast game
+    # coast silently for months before we notice.
     def is_stale(s):
         cadence = s["median_interval"]
-        if cadence:
-            return s["days_since_last"] > max(60, 3 * cadence)
+        if cadence and s["n_intervals"] >= MIN_INTERVALS:
+            return s["days_since_last"] > max(STALE_MIN_DAYS, 3 * cadence)
+        # No trustworthy cadence yet: fall back to a fixed silence threshold.
         return s["days_since_last"] > 60
 
     stale = [s for s in stats if is_stale(s)]
