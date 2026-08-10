@@ -943,6 +943,14 @@
         "Excavation Initiative"
       ],
       "url": "https://store.steampowered.com/news/app/2357570"
+    },
+    {
+      "date_detected": "2026-08-10T21:16:05.898067+00:00",
+      "article_date": "2026-08-10T17:58:34+00:00",
+      "titles": [
+        "Everything New in Overwatch Season 4: Heroes of Busan"
+      ],
+      "url": "https://store.steampowered.com/news/app/2357570"
     }
   ],
   "Minecraft": [
@@ -2053,6 +2061,14 @@
         "Version Luna VIII Version Details - What's New"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-08-10T21:16:03.262948+00:00",
+      "article_date": "2026-08-10T03:10:04+00:00",
+      "titles": [
+        "Version 7.0 Update Maintenance Preview"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
     }
   ],
   "Forza Horizon 6": [
@@ -2061,6 +2077,14 @@
       "article_date": "2026-07-20T17:08:50+00:00",
       "titles": [
         "Forza Horizon 6 Series 3 Hotfix 1"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
+    },
+    {
+      "date_detected": "2026-08-10T21:16:10.465029+00:00",
+      "article_date": "2026-08-10T17:57:13+00:00",
+      "titles": [
+        "Series 4 Update August 10, 2026"
       ],
       "url": "https://store.steampowered.com/news/app/2483190"
     }
@@ -2119,6 +2143,14 @@
       "article_date": "2026-08-08T08:58:02+00:00",
       "titles": [
         "fix3.6.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-10T21:16:10.649612+00:00",
+      "article_date": "2026-08-10T17:14:53+00:00",
+      "titles": [
+        "fix3.7.1"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
