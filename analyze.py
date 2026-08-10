@@ -213,28 +213,41 @@ def build_report(stats, now, window_days, top):
     stale = [s for s in stats if is_stale(s)]
     fresh = [s for s in stats if not is_stale(s)]
 
-    # --- Predictions: due soon / recently overdue (stale ones excluded) --
+    # --- Predictions: which games are about to update -------------------
+    # Forward-looking: show upcoming updates soonest-first (the "updating
+    # this week" view), then fill any remaining room with games just past
+    # their ETA ("due now"). Genuinely-stale/broken games are excluded above.
     predictable = [s for s in fresh if s["predicted_next"] is not None]
-    predictable.sort(key=lambda s: s["predicted_next"])
+
+    upcoming = sorted(
+        (s for s in predictable if (s["predicted_next"] - now).days >= 0),
+        key=lambda s: s["predicted_next"],
+    )
+    due_now = sorted(
+        (s for s in predictable if (s["predicted_next"] - now).days < 0),
+        key=lambda s: s["predicted_next"],
+        reverse=True,  # least-overdue (closest to now) first
+    )
 
     lines.append("🔮 *Predicted next updates (soonest first)*")
-    shown = 0
-    for s in predictable:
-        conf = confidence_label(s["cv"], s["count"] - 1)
+    picks = (upcoming + due_now)[:top]
+    for s in picks:
+        conf = confidence_label(s["cv"], s["n_intervals"])
         due = s["predicted_next"]
-        if s["overdue_by"] is not None and s["overdue_by"] > 0:
-            when = f"overdue by {s['overdue_by']}d"
+        days = (due - now).days
+        if days < 0:
+            when = "due now"
+        elif days == 0:
+            when = "today"
         else:
-            days = (due - now).days
-            when = f"in {days}d" if days >= 0 else fmt_date(due)
+            when = f"in {days}d"
+        # Flag the ones landing within the coming week.
+        this_week = " 🗓️ this week" if 0 <= days <= 7 else ""
         lines.append(
-            f"• *{s['name']}* → {fmt_date(due)} ({when}) "
+            f"• *{s['name']}* → {fmt_date(due)} ({when}){this_week} "
             f"· cadence ~{s['median_interval']}d · confidence {conf}"
         )
-        shown += 1
-        if shown >= top:
-            break
-    if shown == 0:
+    if not picks:
         lines.append("_Not enough history to predict yet._")
     lines.append("")
 
