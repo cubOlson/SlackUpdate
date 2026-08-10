@@ -195,10 +195,47 @@ def is_stale(s):
     return s["days_since_last"] > stale_threshold(s)
 
 
+def updates_since(records, since):
+    """Summarize a game's updates on/after `since`: (count, latest_title,
+    latest_dt). Dedups by title, like the rest of the report."""
+    seen = set()
+    items = []
+    for rec in records:
+        dt = record_date(rec)
+        if dt is None or dt < since:
+            continue
+        title = (rec.get("titles") or ["(no title)"])[0]
+        if title in seen:
+            continue
+        seen.add(title)
+        items.append((dt, title))
+
+    if not items:
+        return 0, None, None
+    items.sort(reverse=True)
+    return len(items), items[0][1], items[0][0]
+
+
 def build_report(stats, now, window_days, top):
     lines = ["📊 *GAME UPDATE ANALYSIS*",
              f"_As of {now.strftime('%Y-%m-%d')} · {len(stats)} games tracked_",
              ""]
+
+    # --- This week's updates (the old weekly-calendar digest) -----------
+    this_week = [s for s in stats if s.get("week_count")]
+    this_week.sort(key=lambda s: s["week_latest_dt"], reverse=True)
+
+    lines.append("🎮 *Updated this week*")
+    if this_week:
+        for s in this_week:
+            title = (s["week_latest_title"] or "")[:70]
+            lines.append(
+                f"• *{s['name']}* — {s['week_count']} update(s) · "
+                f"latest: {title} ({fmt_date(s['week_latest_dt'])})"
+            )
+    else:
+        lines.append("_No updates logged in the last 7 days._")
+    lines.append("")
 
     # --- Leaderboard: most updated within the window --------------------
     ranked = sorted(stats, key=lambda s: s["window_count"], reverse=True)
@@ -321,6 +358,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     window_start = now - timedelta(days=args.days)
+    week_start = now - timedelta(days=7)
 
     stats = []
     for name, records in history.items():
@@ -331,6 +369,11 @@ def main():
         s["window_count"] = sum(
             1 for dt in update_dates(records) if dt >= window_start
         )
+        # updates in the last 7 days (for the "this week" digest)
+        wc, wt, wdt = updates_since(records, week_start)
+        s["week_count"] = wc
+        s["week_latest_title"] = wt
+        s["week_latest_dt"] = wdt
         stats.append(s)
 
     report = build_report(stats, now, args.days, args.top)
