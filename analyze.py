@@ -37,6 +37,12 @@ MIN_INTERVALS = 2
 # flagged before this many days of silence (avoids noise on bursty games).
 STALE_MIN_DAYS = 21
 
+# A quiet game is only "newly quiet" (worth showing in full) if it crossed the
+# threshold within this many days — roughly the weekly report interval. Games
+# quiet longer than that were already reported before, so we collapse them into
+# a single summary line instead of relisting them every week.
+NEWLY_QUIET_WINDOW = 7
+
 
 def parse_date(raw):
     """Parse the many date formats found in the history file.
@@ -173,6 +179,22 @@ def fmt_date(dt):
     return dt.strftime("%Y-%m-%d") if dt else "—"
 
 
+def stale_threshold(s):
+    """Days of silence before a game counts as quiet/broken. Cadence-aware
+    (3x its usual gap) with a floor so bursty games don't trip it, and a fixed
+    fallback when there isn't a trustworthy cadence yet."""
+    cadence = s["median_interval"]
+    if cadence and s["n_intervals"] >= MIN_INTERVALS:
+        return max(STALE_MIN_DAYS, 3 * cadence)
+    return 60
+
+
+def is_stale(s):
+    # Silent far longer than its own cadence usually means a dormant game OR a
+    # broken source/scraper — either way, worth checking.
+    return s["days_since_last"] > stale_threshold(s)
+
+
 def build_report(stats, now, window_days, top):
     lines = ["📊 *GAME UPDATE ANALYSIS*",
              f"_As of {now.strftime('%Y-%m-%d')} · {len(stats)} games tracked_",
@@ -197,18 +219,6 @@ def build_report(stats, now, window_days, top):
     else:
         lines.append("_No updates recorded in this window._")
     lines.append("")
-
-    # A game is "stale" when it's silent for far longer than its own cadence.
-    # That usually means a genuinely dormant game OR a broken source/scraper —
-    # either way, worth checking. The STALE_MIN_DAYS floor keeps bursty games
-    # from tripping it, but (unlike the old flat 60d) doesn't let a fast game
-    # coast silently for months before we notice.
-    def is_stale(s):
-        cadence = s["median_interval"]
-        if cadence and s["n_intervals"] >= MIN_INTERVALS:
-            return s["days_since_last"] > max(STALE_MIN_DAYS, 3 * cadence)
-        # No trustworthy cadence yet: fall back to a fixed silence threshold.
-        return s["days_since_last"] > 60
 
     stale = [s for s in stats if is_stale(s)]
     fresh = [s for s in stats if not is_stale(s)]
@@ -252,14 +262,34 @@ def build_report(stats, now, window_days, top):
     lines.append("")
 
     # --- Health: quiet games / possible source breakage -----------------
+    # Show games that went quiet *recently* in full — those are the actionable
+    # ones (a source that just broke). Games that have been quiet a while were
+    # already reported, so collapse them into one line rather than relisting
+    # the same dead games every week.
     if stale:
         stale.sort(key=lambda s: s["days_since_last"], reverse=True)
+
+        newly = [
+            s for s in stale
+            if s["days_since_last"] <= stale_threshold(s) + NEWLY_QUIET_WINDOW
+        ]
+        ongoing = [s for s in stale if s not in newly]
+
         lines.append("⚠️ *Quiet — check source/scraper*")
-        for s in stale[:top]:
+
+        for s in newly[:top]:
             lines.append(
                 f"• *{s['name']}* — last update {fmt_date(s['last'])} "
-                f"({s['days_since_last']}d ago)"
+                f"({s['days_since_last']}d ago) · newly quiet"
             )
+
+        if ongoing:
+            preview = ", ".join(s["name"] for s in ongoing[:6])
+            more = f" +{len(ongoing) - 6} more" if len(ongoing) > 6 else ""
+            lines.append(
+                f"_{len(ongoing)} still quiet (unchanged): {preview}{more}_"
+            )
+
         lines.append("")
 
     return "\n".join(lines)
