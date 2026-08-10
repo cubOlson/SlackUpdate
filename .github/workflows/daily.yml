@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main          # commit on a real branch, not a detached HEAD
+          fetch-depth: 0      # full history so rebase-on-push works cleanly
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -37,15 +40,44 @@ jobs:
 
       - name: Commit state and history
         run: |
+          set -euo pipefail
+
           git config user.name "game-update-bot"
           git config user.email "game-update-bot@users.noreply.github.com"
-      
+
           git add state.json update_history.json
-      
-          git diff --cached --quiet && exit 0
-      
+
+          # Nothing changed (shouldn't happen — last_checked_utc always moves —
+          # but stay safe). Note: can't use `&& exit 0` under `set -e`.
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
           git commit -m "Update state and history"
-      
-          git pull --rebase origin main
-      
-          git push
+
+          # origin/main may have advanced since checkout (a merge, or a prior
+          # run). Rebase onto the latest main and retry the push a few times.
+          # These JSON files are bot-generated, so on the rare conflict we keep
+          # our freshly-written version (-X theirs = the commit being replayed).
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            if ! git rebase -X theirs origin/main; then
+              git rebase --abort || true
+              echo "Rebase failed (attempt $attempt); retrying..."
+              sleep 5
+              continue
+            fi
+
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push rejected (attempt $attempt); retrying..."
+            sleep 5
+          done
+
+          echo "Could not push state/history after 3 attempts." >&2
+          exit 1
