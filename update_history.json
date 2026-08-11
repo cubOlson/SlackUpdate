@@ -139,6 +139,14 @@
         "Map Service Report - Update 42.2"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:19.792885+00:00",
+      "article_date": "2026-08-11T06:00:47+00:00",
+      "titles": [
+        "August Store Update 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -301,6 +309,14 @@
         "Apex Legends: Latest Update 8/4/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:10.997625+00:00",
+      "article_date": "2026-08-11T17:19:03+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 8/11/26"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -405,6 +421,14 @@
       "article_date": "2026-08-04T09:01:29+00:00",
       "titles": [
         "Store Update 1.40.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:12.914489+00:00",
+      "article_date": "2026-08-11T09:01:41+00:00",
+      "titles": [
+        "Store Update 1.41.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
     }
@@ -925,6 +949,14 @@
         "The Summer Extremes Release Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1599340"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:18.127661+00:00",
+      "article_date": "2026-08-11T16:11:05+00:00",
+      "titles": [
+        "The Bitter Cold — August Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/1599340"
     }
   ],
   "Overwatch 2": [
@@ -949,6 +981,14 @@
       "article_date": "2026-08-10T17:58:34+00:00",
       "titles": [
         "Everything New in Overwatch Season 4: Heroes of Busan"
+      ],
+      "url": "https://store.steampowered.com/news/app/2357570"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:19.313004+00:00",
+      "article_date": "2026-08-11T17:55:21+00:00",
+      "titles": [
+        "Overwatch Reign of Talon - Season 4: Heroes of Busan Now Live!"
       ],
       "url": "https://store.steampowered.com/news/app/2357570"
     }
@@ -2019,6 +2059,16 @@
         "League of Legends Patch 26.14 Notes Glory to the victorious three-peat champions!"
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:11.352176+00:00",
+      "article_date": "2026-08-11T18:00:00+00:00",
+      "titles": [
+        "League of Legends Patch 26.16 Notes",
+        "League of Legends Patch 26.16 Notes Champion and system updates, the ninjas have come to Classic, and more!",
+        "League of Legends Patch 26.15 Notes We’re kicking off Season 3…but of what year?!"
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -2049,6 +2099,16 @@
         "Teamfight Tactics patch 17.8",
         "Teamfight Tactics patch 17.8 Choncc’s Lore & Legends (Set 16) becomes Choncc’s Classic Treasure and set 17 gets light changes!",
         "Teamfight Tactics patch 17.7 Patch 17.7 unlocks Choncc’s Lore & Legends (set 16) in addition to a patch full of buffs for the Space Gods roster!"
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:21.785390+00:00",
+      "article_date": "2026-08-11T18:00:00+00:00",
+      "titles": [
+        "Teamfight Tactics patch 17.9",
+        "Teamfight Tactics patch 17.9 It’s our final dedicated patch for Space Gods before Enchanted Wilds arrives on live.",
+        "Teamfight Tactics patch 17.8 Choncc’s Lore & Legends (Set 16) becomes Choncc’s Classic Treasure and set 17 gets light changes!"
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
@@ -2153,6 +2213,14 @@
         "fix3.7.1"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:22.901528+00:00",
+      "article_date": "2026-08-11T14:16:25+00:00",
+      "titles": [
+        "fix7.3.2"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
     }
   ],
   "Slay the Spire 2": [
@@ -2203,6 +2271,14 @@
       "article_date": "2026-08-06T12:43:26+00:00",
       "titles": [
         "Update 2.57.1.70"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-11T21:54:23.432286+00:00",
+      "article_date": "2026-08-11T10:09:08+00:00",
+      "titles": [
+        "Update 2.57.1.81"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
