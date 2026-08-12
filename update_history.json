@@ -521,6 +521,14 @@
         "Dune: Awakening - 1.4.10.4 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:25.808571+00:00",
+      "article_date": "2026-08-12T08:50:34+00:00",
+      "titles": [
+        "Dune: Awakening - 1.4.10.5 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -957,6 +965,14 @@
         "The Bitter Cold — August Update"
       ],
       "url": "https://store.steampowered.com/news/app/1599340"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:28.420404+00:00",
+      "article_date": "2026-08-12T08:10:23+00:00",
+      "titles": [
+        "An Update on Lost Ark in the West"
+      ],
+      "url": "https://store.steampowered.com/news/app/1599340"
     }
   ],
   "Overwatch 2": [
@@ -1016,6 +1032,14 @@
       "article_date": "2026-08-04T14:00:02.449000+00:00",
       "titles": [
         "Minecraft 26.3 Snapshot 7"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:19.714600+00:00",
+      "article_date": "2026-08-12T11:03:15.513000+00:00",
+      "titles": [
+        "Minecraft 26.3 Snapshot 8"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -1582,6 +1606,14 @@
         "Machinery of Oppression: 6.3.1"
       ],
       "url": "https://store.steampowered.com/news/app/553850"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:27.852459+00:00",
+      "article_date": "2026-08-12T12:05:35+00:00",
+      "titles": [
+        "HELLDIVERS 2 Devoid of Liberty Update Out Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/553850"
     }
   ],
   "Hogwarts Legacy": [
@@ -1744,6 +1776,14 @@
       "article_date": "2026-07-30T12:16:34+00:00",
       "titles": [
         "v1.0.2.101103:Bug fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:30.085683+00:00",
+      "article_date": "2026-08-12T03:13:23+00:00",
+      "titles": [
+        "v1.0.3: Balance Adjustments & Bug Fixes"
       ],
       "url": "https://store.steampowered.com/news/app/1623730"
     }
@@ -2129,6 +2169,14 @@
         "Version 7.0 Update Maintenance Preview"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:27.528439+00:00",
+      "article_date": "2026-08-12T03:29:54+00:00",
+      "titles": [
+        "V7.0 Known Issues & Update"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
     }
   ],
   "Forza Horizon 6": [
@@ -2219,6 +2267,14 @@
       "article_date": "2026-08-11T14:16:25+00:00",
       "titles": [
         "fix7.3.2"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-12T21:52:34.368538+00:00",
+      "article_date": "2026-08-12T15:42:50+00:00",
+      "titles": [
+        "fix3.7.3"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
