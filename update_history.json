@@ -529,6 +529,14 @@
         "Dune: Awakening - 1.4.10.5 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-08-13T21:51:56.094091+00:00",
+      "article_date": "2026-08-13T15:08:23+00:00",
+      "titles": [
+        "Public Test Client: Patch 1.5.1.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -715,6 +723,14 @@
       "article_date": "2026-08-07T06:32:34+00:00",
       "titles": [
         "Marvel Rivals Version 20260807 Patch Notes - Season 9.5 Arrives"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-08-13T21:51:58.991840+00:00",
+      "article_date": "2026-08-13T06:11:22+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260813 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -1666,6 +1682,14 @@
         "World Update 22: United States National Parks"
       ],
       "url": "https://store.steampowered.com/news/app/2537590/"
+    },
+    {
+      "date_detected": "2026-08-13T21:51:59.384860+00:00",
+      "article_date": "2026-08-13T18:03:05+00:00",
+      "titles": [
+        "Sim Update 6 Release Notes [1.8.14.0] - Available Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2537590/"
     }
   ],
   "Monster Hunter Wilds": [
@@ -2036,6 +2060,14 @@
         "Update 2.3.1: Summer Surge"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-08-13T21:52:03.480351+00:00",
+      "article_date": "2026-08-13T13:00:30+00:00",
+      "titles": [
+        "Update 2.4: Overdrive"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -2193,6 +2225,14 @@
       "article_date": "2026-08-10T17:57:13+00:00",
       "titles": [
         "Series 4 Update August 10, 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
+    },
+    {
+      "date_detected": "2026-08-13T21:52:04.237708+00:00",
+      "article_date": "2026-08-13T15:00:35+00:00",
+      "titles": [
+        "Let’s Get the Party Started with a Track-Day Kit Car!"
       ],
       "url": "https://store.steampowered.com/news/app/2483190"
     }
