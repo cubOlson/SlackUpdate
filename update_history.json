@@ -847,6 +847,14 @@
         "Battlefield 6 - Community Update - Top Gun Incoming"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-08-14T21:29:27.123975+00:00",
+      "article_date": "2026-08-14T17:00:45+00:00",
+      "titles": [
+        "BATTLEFIELD 6 UPDATE 1.4.2.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1406,6 +1414,14 @@
         "10.1.0 | PTB Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-08-14T21:29:28.408424+00:00",
+      "article_date": "2026-08-14T17:00:22+00:00",
+      "titles": [
+        "Developer Update | Player Intent System"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -1714,6 +1730,14 @@
       "article_date": "2026-08-08T02:25:12+00:00",
       "titles": [
         "Update Summary (Ver.1.042.00.0 / Demo Version 1.0.1)"
+      ],
+      "url": "https://store.steampowered.com/news/app/2246340"
+    },
+    {
+      "date_detected": "2026-08-14T21:29:35.802701+00:00",
+      "article_date": "2026-08-14T03:26:59+00:00",
+      "titles": [
+        "Update Summary (Ver.1.042.00.02)"
       ],
       "url": "https://store.steampowered.com/news/app/2246340"
     }
@@ -2317,6 +2341,14 @@
         "fix3.7.3"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-14T21:29:43.449837+00:00",
+      "article_date": "2026-08-14T10:32:44+00:00",
+      "titles": [
+        "update 3.8.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
     }
   ],
   "Slay the Spire 2": [
@@ -2333,6 +2365,14 @@
       "article_date": "2026-07-31T03:26:13+00:00",
       "titles": [
         "Beta Patch Notes - v0.110.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2868840"
+    },
+    {
+      "date_detected": "2026-08-14T21:29:43.656031+00:00",
+      "article_date": "2026-08-14T01:07:02+00:00",
+      "titles": [
+        "Beta Patch Notes - v0.111.0"
       ],
       "url": "https://store.steampowered.com/news/app/2868840"
     }
