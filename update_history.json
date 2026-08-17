@@ -881,6 +881,14 @@
         "New Transfigured Skills in Path of Exile: Curse of the Allflame"
       ],
       "url": "https://store.steampowered.com/news/app/238960"
+    },
+    {
+      "date_detected": "2026-08-17T21:30:11.627966+00:00",
+      "article_date": "2026-08-16T22:07:26+00:00",
+      "titles": [
+        "The Last of the Druids Microtransactions Are Now Available in Store"
+      ],
+      "url": "https://store.steampowered.com/news/app/238960"
     }
   ],
   "Counter-Strike 2": [
@@ -1064,6 +1072,14 @@
       "article_date": "2026-08-12T11:03:15.513000+00:00",
       "titles": [
         "Minecraft 26.3 Snapshot 8"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-08-17T21:30:01.439150+00:00",
+      "article_date": "2026-08-17T14:04:38.215000+00:00",
+      "titles": [
+        "Minecraft 26.3 Snapshot 9"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
