@@ -335,6 +335,14 @@
         "Apex Legends: Latest Update - 08/17/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-08-19T21:29:54.369025+00:00",
+      "article_date": "2026-08-19T20:57:58+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 8/19/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -2076,6 +2084,14 @@
         "Terraria 1.4.5: Bigger & Boulder - Available Now!"
       ],
       "url": "https://store.steampowered.com/news/app/105600"
+    },
+    {
+      "date_detected": "2026-08-19T21:30:10.544107+00:00",
+      "article_date": "2026-08-19T20:45:37+00:00",
+      "titles": [
+        "Terraria 1.4.5.7 - Out Now for PC! (Console/Mobile Soon)"
+      ],
+      "url": "https://store.steampowered.com/news/app/105600"
     }
   ],
   "World of Tanks": [
@@ -2124,6 +2140,14 @@
       "article_date": "2026-08-13T13:00:30+00:00",
       "titles": [
         "Update 2.4: Overdrive"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-08-19T21:30:11.411101+00:00",
+      "article_date": "2026-08-19T13:12:44+00:00",
+      "titles": [
+        "Update 2.4: Visual and Sound Overhaul"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
     }
@@ -2465,6 +2489,14 @@
       "article_date": "2026-08-18T14:37:42+00:00",
       "titles": [
         "Community Update No.12: Keeping You Updated On What We’re Working on!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-19T21:30:13.259182+00:00",
+      "article_date": "2026-08-19T13:10:44+00:00",
+      "titles": [
+        "Update 2.57.1.98"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
