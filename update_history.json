@@ -759,6 +759,14 @@
         "Marvel Rivals Version 20260813 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-08-20T21:32:46.122860+00:00",
+      "article_date": "2026-08-20T06:43:51+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260820 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -879,6 +887,14 @@
       "article_date": "2026-08-14T17:00:45+00:00",
       "titles": [
         "BATTLEFIELD 6 UPDATE 1.4.2.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-08-20T21:32:41.227338+00:00",
+      "article_date": "2026-08-20T20:13:02+00:00",
+      "titles": [
+        "ICYMI: Season 4 - Top Gun is now live!"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -2415,6 +2431,14 @@
         "update3.9.0"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-20T21:32:51.225666+00:00",
+      "article_date": "2026-08-20T07:59:15+00:00",
+      "titles": [
+        "update4.0.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
     }
   ],
   "Slay the Spire 2": [
@@ -2497,6 +2521,14 @@
       "article_date": "2026-08-19T13:10:44+00:00",
       "titles": [
         "Update 2.57.1.98"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-20T21:32:51.725931+00:00",
+      "article_date": "2026-08-20T14:06:37+00:00",
+      "titles": [
+        "Update 2.57.1.103"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
