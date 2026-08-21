@@ -457,6 +457,14 @@
         "Store Update 1.41.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-08-21T21:29:11.605579+00:00",
+      "article_date": "2026-08-21T14:50:16+00:00",
+      "titles": [
+        "Live Update 1.42.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1148,6 +1156,14 @@
       "article_date": null,
       "titles": [
         "Fortnite v41.30 (build CL-56430492)"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-08-21T21:29:09.617485+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v42.00 (build CL-56878558)"
       ],
       "url": "https://www.fortnite.com/news"
     }
