@@ -343,6 +343,14 @@
         "Apex Legends: Latest Update 8/19/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-08-22T21:26:35.955058+00:00",
+      "article_date": "2026-08-21T23:59:43+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 8/21/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -2453,6 +2461,14 @@
       "article_date": "2026-08-20T07:59:15+00:00",
       "titles": [
         "update4.0.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-22T21:26:49.071243+00:00",
+      "article_date": "2026-08-22T05:20:20+00:00",
+      "titles": [
+        "Hotfix"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
