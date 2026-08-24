@@ -2190,6 +2190,14 @@
         "Update 2.4: Visual and Sound Overhaul"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-08-24T21:34:42.269330+00:00",
+      "article_date": "2026-08-24T09:01:01+00:00",
+      "titles": [
+        "Update 2.4: Light Tank Roles and Matchmaker Changes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -2357,6 +2365,14 @@
         "Let’s Get the Party Started with a Track-Day Kit Car!"
       ],
       "url": "https://store.steampowered.com/news/app/2483190"
+    },
+    {
+      "date_detected": "2026-08-24T21:34:43.370350+00:00",
+      "article_date": "2026-08-24T17:05:38+00:00",
+      "titles": [
+        "Series 4 Hotfix 1 August 24th"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
     }
   ],
   "Meccha Chameleon": [
@@ -2469,6 +2485,14 @@
       "article_date": "2026-08-22T05:20:20+00:00",
       "titles": [
         "Hotfix"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-24T21:34:43.591787+00:00",
+      "article_date": "2026-08-24T16:10:36+00:00",
+      "titles": [
+        "fix4.0.1"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
