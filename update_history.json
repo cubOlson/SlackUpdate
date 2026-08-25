@@ -473,6 +473,14 @@
         "Live Update 1.42.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:31.757334+00:00",
+      "article_date": "2026-08-25T09:00:51+00:00",
+      "titles": [
+        "Store Update 1.43.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1504,6 +1512,14 @@
         "Developer Update | Player Intent System"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:33.268127+00:00",
+      "article_date": "2026-08-25T14:30:16+00:00",
+      "titles": [
+        "10.1.0 | Chorus of Sin"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -2198,6 +2214,14 @@
         "Update 2.4: Light Tank Roles and Matchmaker Changes"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:42.888985+00:00",
+      "article_date": "2026-08-25T13:03:22+00:00",
+      "titles": [
+        "Update 2.4—Personal Missions: Prepare for Operation Fossa"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -2271,6 +2295,16 @@
         "League of Legends Patch 26.15 Notes We’re kicking off Season 3…but of what year?!"
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:29.668604+00:00",
+      "article_date": "2026-08-25T18:00:00+00:00",
+      "titles": [
+        "League of Legends Patch 26.17 Notes",
+        "League of Legends Patch 26.17 Notes Arenas, Bridges, Summoner’s Rifts new and old… change comes for us all.",
+        "League of Legends Patch 26.16 Notes Champion and system updates, the ninjas have come to Classic, and more!"
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -2311,6 +2345,16 @@
         "Teamfight Tactics patch 17.9",
         "Teamfight Tactics patch 17.9 It’s our final dedicated patch for Space Gods before Enchanted Wilds arrives on live.",
         "Teamfight Tactics patch 17.8 Choncc’s Lore & Legends (Set 16) becomes Choncc’s Classic Treasure and set 17 gets light changes!"
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:42.705347+00:00",
+      "article_date": "2026-08-25T18:00:00+00:00",
+      "titles": [
+        "Teamfight Tactics patch 18.1",
+        "Teamfight Tactics patch 18.1 Explore the new set, Enchanted Wilds, with Riftbeasts, Elderwood, a Yeti, and new mechanic, Wisps!",
+        "Teamfight Tactics patch 17.9 It’s our final dedicated patch for Space Gods before Enchanted Wilds arrives on live."
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
@@ -2495,6 +2539,14 @@
         "fix4.0.1"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:44.016764+00:00",
+      "article_date": "2026-08-25T14:54:38+00:00",
+      "titles": [
+        "Update 4.0.2"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
     }
   ],
   "Slay the Spire 2": [
@@ -2587,6 +2639,14 @@
         "Update 2.57.1.103"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:44.689876+00:00",
+      "article_date": "2026-08-25T10:04:15+00:00",
+      "titles": [
+        "Reshuffles to the Ground Vehicle Research Trees in the Next Major Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -2603,6 +2663,14 @@
       "article_date": "2026-08-04T18:00:13+00:00",
       "titles": [
         "Hearthstone v36.2.248348"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    },
+    {
+      "date_detected": "2026-08-25T21:33:36.962263+00:00",
+      "article_date": "2026-08-25T18:00:09+00:00",
+      "titles": [
+        "Hearthstone v36.4.250339"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
     }
