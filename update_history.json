@@ -799,6 +799,14 @@
         "Marvel Rivals Version 20260820 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-08-28T05:10:12.092599+00:00",
+      "article_date": "2026-08-27T07:07:07+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260827 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -1668,6 +1676,14 @@
         "Release Note for 2025/12/16"
       ],
       "url": "https://store.steampowered.com/news/app/1245620/"
+    },
+    {
+      "date_detected": "2026-08-28T05:10:09.862525+00:00",
+      "article_date": "2026-08-27T14:00:22+00:00",
+      "titles": [
+        "Patch Notes Version 1.17"
+      ],
+      "url": "https://store.steampowered.com/news/app/1245620/"
     }
   ],
   "Forza Horizon 5": [
@@ -2230,6 +2246,14 @@
         "Update 2.4—Personal Missions: Prepare for Operation Fossa"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-08-28T05:10:15.625171+00:00",
+      "article_date": "2026-08-27T13:07:43+00:00",
+      "titles": [
+        "Update 2.4: Five Tier XIs Join the Fray"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -2653,6 +2677,14 @@
       "article_date": "2026-08-25T10:04:15+00:00",
       "titles": [
         "Reshuffles to the Ground Vehicle Research Trees in the Next Major Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-08-28T05:10:17.071709+00:00",
+      "article_date": "2026-08-27T10:04:22+00:00",
+      "titles": [
+        "Update 2.57.1.111"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
