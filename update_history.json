@@ -937,6 +937,14 @@
         "ICYMI: Season 4 - Top Gun is now live!"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-08-29T03:06:55.045923+00:00",
+      "article_date": "2026-08-28T15:01:00+00:00",
+      "titles": [
+        "Battlefield 6 - Anticheat Update - Season 4"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -2254,6 +2262,14 @@
         "Update 2.4: Five Tier XIs Join the Fray"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-08-29T03:07:04.684426+00:00",
+      "article_date": "2026-08-28T13:00:55+00:00",
+      "titles": [
+        "Battle Pass Season XXI: Into the Forgotten"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -2577,6 +2593,14 @@
       "article_date": "2026-08-25T14:54:38+00:00",
       "titles": [
         "Update 4.0.2"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-08-29T03:07:06.090694+00:00",
+      "article_date": "2026-08-28T12:35:44+00:00",
+      "titles": [
+        "BIG UPDATE 4.1.0"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
