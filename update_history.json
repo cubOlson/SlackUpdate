@@ -49,6 +49,16 @@
         "VALORANT Patch Notes 13.02 Phoenix ult change, new maps added to Retakes, and loads of bug fixes."
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-09-01T23:11:49.254571+00:00",
+      "article_date": "2026-09-01T13:00:00+00:00",
+      "titles": [
+        "VALORANT Patch Notes 13.05",
+        "VALORANT Patch Notes 13.05 Pick’Ems for Champs soon, penalties for stream sniping and instalock tools, and future changes to the Agent Gear system.",
+        "VALORANT Patch Notes 13.04 New map rotation and bug fixes for Agents and melee skins"
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -487,6 +497,14 @@
       "article_date": "2026-08-25T09:00:51+00:00",
       "titles": [
         "Store Update 1.43.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-09-01T23:11:51.601840+00:00",
+      "article_date": "2026-09-01T09:00:56+00:00",
+      "titles": [
+        "Store Update 1.44.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
     }
@@ -1552,6 +1570,14 @@
         "10.1.0 | Chorus of Sin"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-09-01T23:11:52.721131+00:00",
+      "article_date": "2026-09-01T14:30:25+00:00",
+      "titles": [
+        "10.1.1 | Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -2056,6 +2082,14 @@
         "Y11S2.3 PATCH NOTES"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-09-01T23:11:58.500023+00:00",
+      "article_date": "2026-09-01T15:33:33+00:00",
+      "titles": [
+        "Y11S3 PATCH NOTES ADDENDUM"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
     }
   ],
   "Rocket League": [
@@ -2276,6 +2310,14 @@
       "article_date": "2026-08-28T13:00:55+00:00",
       "titles": [
         "Battle Pass Season XXI: Into the Forgotten"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-09-01T23:12:00.357107+00:00",
+      "article_date": "2026-09-01T13:00:38+00:00",
+      "titles": [
+        "Update 2.4: Overdrive"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
     }
