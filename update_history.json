@@ -369,6 +369,14 @@
         "Apex Legends: Latest Update 8/26/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-02T23:11:25.966921+00:00",
+      "article_date": "2026-09-02T17:24:54+00:00",
+      "titles": [
+        "Controller Anti-Cheat Enforcement & Ban Wave Update — 09/02/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -969,6 +977,14 @@
       "article_date": "2026-08-31T15:00:58+00:00",
       "titles": [
         "BATTLEFIELD 6 UPDATE 1.4.2.5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-09-02T23:11:29.048630+00:00",
+      "article_date": "2026-09-02T15:01:31+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - Tidal Strike"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -2759,6 +2775,14 @@
       "article_date": "2026-08-27T10:04:22+00:00",
       "titles": [
         "Update 2.57.1.111"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-02T23:11:39.074087+00:00",
+      "article_date": "2026-09-02T13:39:12+00:00",
+      "titles": [
+        "Update 2.57.1.126"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
