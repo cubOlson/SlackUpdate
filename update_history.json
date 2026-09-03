@@ -377,6 +377,14 @@
         "Controller Anti-Cheat Enforcement & Ban Wave Update — 09/02/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-03T23:08:32.687319+00:00",
+      "article_date": "2026-09-03T16:28:20+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 9/3/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -833,6 +841,14 @@
         "Marvel Rivals Version 20260827 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-09-03T23:08:42.183058+00:00",
+      "article_date": "2026-09-03T06:26:19+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260903 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -1246,6 +1262,14 @@
       "article_date": null,
       "titles": [
         "Fortnite v42.00 (build CL-56878558)"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-09-03T23:08:33.090019+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v42.10 (build CL-57566230)"
       ],
       "url": "https://www.fortnite.com/news"
     }
@@ -2783,6 +2807,14 @@
       "article_date": "2026-09-02T13:39:12+00:00",
       "titles": [
         "Update 2.57.1.126"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-03T23:08:49.446496+00:00",
+      "article_date": "2026-09-03T17:17:26+00:00",
+      "titles": [
+        "\"Sky Odyssey\" Update Trailer!"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
