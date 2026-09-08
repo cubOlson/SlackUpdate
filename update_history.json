@@ -523,6 +523,14 @@
         "Store Update 1.44.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-09-08T23:16:44.758624+00:00",
+      "article_date": "2026-09-08T09:03:11+00:00",
+      "titles": [
+        "Live Update 1.45.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -661,6 +669,14 @@
       "article_date": "2026-07-28T16:15:16+00:00",
       "titles": [
         "Patch 7.55 Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/39210"
+    },
+    {
+      "date_detected": "2026-09-08T23:16:47.638493+00:00",
+      "article_date": "2026-09-08T10:00:22+00:00",
+      "titles": [
+        "Patch 7.56 Notes"
       ],
       "url": "https://store.steampowered.com/news/app/39210"
     }
@@ -1616,6 +1632,14 @@
       "article_date": "2026-09-01T14:30:25+00:00",
       "titles": [
         "10.1.1 | Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-09-08T23:16:45.835447+00:00",
+      "article_date": "2026-09-08T14:30:39+00:00",
+      "titles": [
+        "10.1.2 | Bugfix Patch"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
     }
@@ -2823,6 +2847,14 @@
       "article_date": "2026-09-03T17:17:26+00:00",
       "titles": [
         "\"Sky Odyssey\" Update Trailer!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-08T23:16:55.639374+00:00",
+      "article_date": "2026-09-08T14:37:16+00:00",
+      "titles": [
+        "Update 2.57.1.135"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
