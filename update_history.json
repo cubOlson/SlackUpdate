@@ -167,6 +167,14 @@
         "August Store Update 2026"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-09-09T23:06:17.285580+00:00",
+      "article_date": "2026-09-09T06:00:15+00:00",
+      "titles": [
+        "Map Service Report - Update 43.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -2475,6 +2483,16 @@
         "League of Legends Patch 26.16 Notes Champion and system updates, the ninjas have come to Classic, and more!"
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-09-09T23:06:07.911197+00:00",
+      "article_date": "2026-09-09T18:00:00+00:00",
+      "titles": [
+        "League of Legends Patch 26.18 Notes",
+        "League of Legends Patch 26.18 Notes Everything is where it belongs: Caps is in the Hall of Legends, Demacians are back in Classic, and ARAM Mayhem augments are on the right champions!",
+        "League of Legends Patch 26.17 Notes Arenas, Bridges, Summoner’s Rifts new and old… change comes for us all."
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -2525,6 +2543,16 @@
         "Teamfight Tactics patch 18.1",
         "Teamfight Tactics patch 18.1 Explore the new set, Enchanted Wilds, with Riftbeasts, Elderwood, a Yeti, and new mechanic, Wisps!",
         "Teamfight Tactics patch 17.9 It’s our final dedicated patch for Space Gods before Enchanted Wilds arrives on live."
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-09-09T23:06:19.656056+00:00",
+      "article_date": "2026-09-09T18:00:00+00:00",
+      "titles": [
+        "Teamfight Tactics patch 18.2",
+        "Teamfight Tactics patch 18.2 It’s the first main patch of Enchanted Wilds and we’ve got a patch full of buffs to bring some of our struggling comps out from under the canopy. Along with a bunch of buffs we’re taking a huge pass at lowering the cost of our Wisps so you can keep your gold to buy XP or keep rolling for that last copy of Master Yi.",
+        "Teamfight Tactics patch 18.1 Explore the new set, Enchanted Wilds, with Riftbeasts, Elderwood, a Yeti, and new mechanic, Wisps!"
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
@@ -2723,6 +2751,14 @@
       "article_date": "2026-08-28T12:35:44+00:00",
       "titles": [
         "BIG UPDATE 4.1.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-09-09T23:06:20.637922+00:00",
+      "article_date": "2026-09-09T14:49:43+00:00",
+      "titles": [
+        "Hotfix 4.1.0"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
     }
