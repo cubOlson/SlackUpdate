@@ -393,6 +393,14 @@
         "Apex Legends: Latest Update 9/3/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-10T23:01:54.530206+00:00",
+      "article_date": "2026-09-10T20:16:11+00:00",
+      "titles": [
+        "Apex Legends: Anti-Cheat Update - 09/10/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -871,6 +879,14 @@
       "article_date": "2026-09-03T06:26:19+00:00",
       "titles": [
         "Marvel Rivals Version 20260903 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-09-10T23:02:02.362288+00:00",
+      "article_date": "2026-09-10T07:33:06+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260911 Balance Post"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -1520,6 +1536,14 @@
         "Version 1.9 - July 30, 2026"
       ],
       "url": "https://store.steampowered.com/news/app/1285190"
+    },
+    {
+      "date_detected": "2026-09-10T23:01:57.425136+00:00",
+      "article_date": "2026-09-10T16:01:28+00:00",
+      "titles": [
+        "Version 1.10 - September 10, 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1285190"
     }
   ],
   "Dead by Daylight": [
@@ -1846,6 +1870,14 @@
       "article_date": "2026-07-03T16:00:21+00:00",
       "titles": [
         "Reward Car Build July 3rd"
+      ],
+      "url": "https://store.steampowered.com/news/app/1551360"
+    },
+    {
+      "date_detected": "2026-09-10T23:01:59.807256+00:00",
+      "article_date": "2026-09-10T14:30:38+00:00",
+      "titles": [
+        "Investigate the Track, Dirt, and Mud with This Week’s Reward"
       ],
       "url": "https://store.steampowered.com/news/app/1551360"
     }
@@ -2613,6 +2645,14 @@
       "article_date": "2026-08-24T17:05:38+00:00",
       "titles": [
         "Series 4 Hotfix 1 August 24th"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
+    },
+    {
+      "date_detected": "2026-09-10T23:02:08.050176+00:00",
+      "article_date": "2026-09-10T14:30:39+00:00",
+      "titles": [
+        "A British Track Day Star Kicks Off British Automotive!"
       ],
       "url": "https://store.steampowered.com/news/app/2483190"
     }
