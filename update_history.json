@@ -401,6 +401,14 @@
         "Apex Legends: Anti-Cheat Update - 09/10/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-14T23:47:09.891662+00:00",
+      "article_date": "2026-09-14T18:41:23+00:00",
+      "titles": [
+        "Apex Legends™: Marked Midseason Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1043,6 +1051,14 @@
         "Battlefield 6 - Community Update - Tidal Strike"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-09-14T23:47:13.416735+00:00",
+      "article_date": "2026-09-14T15:00:24+00:00",
+      "titles": [
+        "BATTLEFIELD 6 GAME UPDATE 1.4.3.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1276,6 +1292,14 @@
       "article_date": "2026-09-11T10:34:40+00:00",
       "titles": [
         "Minecraft 26.3 Release Candidate 2"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-09-14T23:47:09.583752+00:00",
+      "article_date": "2026-09-14T12:58:38+00:00",
+      "titles": [
+        "Minecraft 26.3 Release Candidate 3"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -1680,6 +1704,14 @@
       "article_date": "2026-09-08T14:30:39+00:00",
       "titles": [
         "10.1.2 | Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-09-14T23:47:14.576854+00:00",
+      "article_date": "2026-09-14T14:00:30+00:00",
+      "titles": [
+        "Dev Update | 10.2.0 Perks Update"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
     }
@@ -2939,6 +2971,14 @@
       "article_date": "2026-09-08T14:37:16+00:00",
       "titles": [
         "Update 2.57.1.135"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-14T23:47:26.884090+00:00",
+      "article_date": "2026-09-14T11:58:19+00:00",
+      "titles": [
+        "Update 2.57.1.140"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
