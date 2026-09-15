@@ -555,6 +555,14 @@
         "Live Update 1.45.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:16.321293+00:00",
+      "article_date": "2026-09-15T09:01:48+00:00",
+      "titles": [
+        "Store Update 1.46.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1059,6 +1067,14 @@
         "BATTLEFIELD 6 GAME UPDATE 1.4.3.0"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:16.717601+00:00",
+      "article_date": "2026-09-15T15:04:02+00:00",
+      "titles": [
+        "Battlefield 6 | REDSEC Season 4: Tidal Strike"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1209,6 +1225,14 @@
         "An Update on Lost Ark in the West"
       ],
       "url": "https://store.steampowered.com/news/app/1599340"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:22.120193+00:00",
+      "article_date": "2026-09-15T16:14:21+00:00",
+      "titles": [
+        "Dimensions Unbound — September Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/1599340"
     }
   ],
   "Overwatch 2": [
@@ -1300,6 +1324,14 @@
       "article_date": "2026-09-14T12:58:38+00:00",
       "titles": [
         "Minecraft 26.3 Release Candidate 3"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:13.660890+00:00",
+      "article_date": "2026-09-15T11:23:02+00:00",
+      "titles": [
+        "Minecraft: Java Edition 26.3"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -1452,6 +1484,14 @@
         "Diablo IV | Season of Death Awakening | Season 14 Now Live!"
       ],
       "url": "https://news.blizzard.com/en-us/diablo4"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:15.400259+00:00",
+      "article_date": "2026-09-15T22:00:09+00:00",
+      "titles": [
+        "Season of Hell’s Legacy Is Live — Play for Free"
+      ],
+      "url": "https://store.steampowered.com/news/app/2344520"
     }
   ],
   "Among Us": [
@@ -1714,6 +1754,14 @@
         "Dev Update | 10.2.0 Perks Update"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:18.103561+00:00",
+      "article_date": "2026-09-15T15:07:04+00:00",
+      "titles": [
+        "10.2.0 | PTB Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -1834,6 +1882,14 @@
       "article_date": "2026-07-30T23:58:15+00:00",
       "titles": [
         "Gameplay Patch 7.41e and Summer Scrub"
+      ],
+      "url": "https://store.steampowered.com/news/app/570"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:19.090262+00:00",
+      "article_date": "2026-09-15T18:44:25+00:00",
+      "titles": [
+        "7.41f Gameplay Patch"
       ],
       "url": "https://store.steampowered.com/news/app/570"
     }
@@ -2148,6 +2204,14 @@
       "article_date": "2026-09-07T03:04:45+00:00",
       "titles": [
         "v1.0.4: Balance Adjustments & Bug Fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1623730"
+    },
+    {
+      "date_detected": "2026-09-15T23:28:23.704361+00:00",
+      "article_date": "2026-09-15T03:03:47+00:00",
+      "titles": [
+        "v1.0.5: Bug fixes"
       ],
       "url": "https://store.steampowered.com/news/app/1623730"
     }
@@ -3007,6 +3071,46 @@
         "Hearthstone v36.4.250339"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    }
+  ],
+  "Star Wars Zero Company": [
+    {
+      "date_detected": "2026-09-15T23:28:28.325019+00:00",
+      "article_date": "2026-09-09T13:01:11+00:00",
+      "titles": [
+        "STAR WARS Zero Company™ 1.1 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2075800"
+    }
+  ],
+  "Delta Force": [
+    {
+      "date_detected": "2026-09-15T23:28:28.488199+00:00",
+      "article_date": "2026-09-09T13:00:36+00:00",
+      "titles": [
+        "Update | Balance Adjustments & Bug Fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2507950"
+    }
+  ],
+  "Mortal Shell 2": [
+    {
+      "date_detected": "2026-09-15T23:28:28.701170+00:00",
+      "article_date": "2026-09-14T19:05:44+00:00",
+      "titles": [
+        "New Hotfix out now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2584270"
+    }
+  ],
+  "Project Zomboid": [
+    {
+      "date_detected": "2026-09-15T23:28:29.175952+00:00",
+      "article_date": "2026-08-26T11:12:26+00:00",
+      "titles": [
+        "42.20.4 STABLE & 42.19.2 UNSTABLE & 41.78.21 LEGACY Hotfixes Released"
+      ],
+      "url": "https://store.steampowered.com/news/app/108600"
     }
   ]
 }
