@@ -6,11 +6,16 @@ Analyze update_history.json to answer three questions:
      update likely? -> prediction
   3. Which games are updated the most? -> leaderboard
 
+Two report flavors (see --report):
+  * weekly  -> "Updated this week" + "Predicted next updates"
+  * monthly -> "Most updated" leaderboard + "Quiet — check source/scraper"
+
 Usage:
-    python analyze.py                 # print report to console
-    python analyze.py --slack         # also post the report to Slack
-    python analyze.py --days 30       # leaderboard window (default 90)
-    python analyze.py --top 15        # leaderboard size (default 10)
+    python analyze.py                       # print weekly report to console
+    python analyze.py --slack               # also post it to Slack
+    python analyze.py --report monthly      # monthly report instead
+    python analyze.py --days 30             # leaderboard window (monthly)
+    python analyze.py --top 15              # rows per section (default 10)
 """
 
 import os
@@ -216,18 +221,23 @@ def updates_since(records, since):
     return len(items), items[0][1], items[0][0]
 
 
-def build_report(stats, now, window_days, top):
-    lines = ["📊 *GAME UPDATE ANALYSIS*",
-             f"_As of {now.strftime('%Y-%m-%d')} · {len(stats)} games tracked_",
-             ""]
+def _header(title, stats, now):
+    return [
+        title,
+        f"_As of {now.strftime('%Y-%m-%d')} · {len(stats)} games tracked_",
+        "",
+    ]
 
-    # --- This week's updates (the old weekly-calendar digest) -----------
-    this_week = [s for s in stats if s.get("week_count")]
-    this_week.sort(key=lambda s: s["week_latest_dt"], reverse=True)
 
-    lines.append("🎮 *Updated this week*")
-    if this_week:
-        for s in this_week:
+def section_updated_this_week(stats):
+    """🎮 Games that logged an update in the last 7 days (weekly report)."""
+    lines = ["🎮 *Updated this week*"]
+
+    updated = [s for s in stats if s.get("week_count")]
+    updated.sort(key=lambda s: s["week_latest_dt"], reverse=True)
+
+    if updated:
+        for s in updated:
             title = (s["week_latest_title"] or "")[:70]
             lines.append(
                 f"• *{s['name']}* — {s['week_count']} update(s) · "
@@ -236,34 +246,17 @@ def build_report(stats, now, window_days, top):
     else:
         lines.append("_No updates logged in the last 7 days._")
     lines.append("")
+    return lines
 
-    # --- Leaderboard: most updated within the window --------------------
-    ranked = sorted(stats, key=lambda s: s["window_count"], reverse=True)
-    ranked = [s for s in ranked if s["window_count"] > 0][:top]
 
-    lines.append(f"🏆 *Most updated (last {window_days} days)*")
-    if ranked:
-        for i, s in enumerate(ranked, 1):
-            cadence = (
-                f"~{s['median_interval']}d"
-                if s["median_interval"] and s["n_intervals"] >= MIN_INTERVALS
-                else "n/a"
-            )
-            lines.append(
-                f"{i}. *{s['name']}* — {s['window_count']} updates "
-                f"(every {cadence})"
-            )
-    else:
-        lines.append("_No updates recorded in this window._")
-    lines.append("")
+def section_predictions(stats, now, top):
+    """🔮 Forward-looking ETA list (weekly report).
 
-    stale = [s for s in stats if is_stale(s)]
+    Show upcoming updates soonest-first (the "updating this week" view), then
+    fill any remaining room with games just past their ETA ("due now").
+    Genuinely-stale/broken games are excluded — those live in the quiet list.
+    """
     fresh = [s for s in stats if not is_stale(s)]
-
-    # --- Predictions: which games are about to update -------------------
-    # Forward-looking: show upcoming updates soonest-first (the "updating
-    # this week" view), then fill any remaining room with games just past
-    # their ETA ("due now"). Genuinely-stale/broken games are excluded above.
     predictable = [s for s in fresh if s["predicted_next"] is not None]
 
     upcoming = sorted(
@@ -276,7 +269,7 @@ def build_report(stats, now, window_days, top):
         reverse=True,  # least-overdue (closest to now) first
     )
 
-    lines.append("🔮 *Predicted next updates (soonest first)*")
+    lines = ["🔮 *Predicted next updates (soonest first)*"]
     picks = (upcoming + due_now)[:top]
     for s in picks:
         conf = confidence_label(s["cv"], s["n_intervals"])
@@ -297,38 +290,84 @@ def build_report(stats, now, window_days, top):
     if not picks:
         lines.append("_Not enough history to predict yet._")
     lines.append("")
+    return lines
 
-    # --- Health: quiet games / possible source breakage -----------------
-    # Show games that went quiet *recently* in full — those are the actionable
-    # ones (a source that just broke). Games that have been quiet a while were
-    # already reported, so collapse them into one line rather than relisting
-    # the same dead games every week.
-    if stale:
-        stale.sort(key=lambda s: s["days_since_last"], reverse=True)
 
-        newly = [
-            s for s in stale
-            if s["days_since_last"] <= stale_threshold(s) + NEWLY_QUIET_WINDOW
-        ]
-        ongoing = [s for s in stale if s not in newly]
+def section_leaderboard(stats, window_days, top):
+    """🏆 Most updated within the window (monthly report)."""
+    ranked = sorted(stats, key=lambda s: s["window_count"], reverse=True)
+    ranked = [s for s in ranked if s["window_count"] > 0][:top]
 
-        lines.append("⚠️ *Quiet — check source/scraper*")
-
-        for s in newly[:top]:
-            lines.append(
-                f"• *{s['name']}* — last update {fmt_date(s['last'])} "
-                f"({s['days_since_last']}d ago) · newly quiet"
+    lines = [f"🏆 *Most updated (last {window_days} days)*"]
+    if ranked:
+        for i, s in enumerate(ranked, 1):
+            cadence = (
+                f"~{s['median_interval']}d"
+                if s["median_interval"] and s["n_intervals"] >= MIN_INTERVALS
+                else "n/a"
             )
-
-        if ongoing:
-            preview = ", ".join(s["name"] for s in ongoing[:6])
-            more = f" +{len(ongoing) - 6} more" if len(ongoing) > 6 else ""
             lines.append(
-                f"_{len(ongoing)} still quiet (unchanged): {preview}{more}_"
+                f"{i}. *{s['name']}* — {s['window_count']} updates "
+                f"(every {cadence})"
             )
+    else:
+        lines.append("_No updates recorded in this window._")
+    lines.append("")
+    return lines
 
-        lines.append("")
 
+def section_quiet(stats, top):
+    """⚠️ Quiet games / possible source breakage (monthly report).
+
+    Show games that went quiet *recently* in full — those are the actionable
+    ones (a source that just broke). Games that have been quiet a while were
+    already reported, so collapse them into one line rather than relisting the
+    same dead games every report.
+    """
+    stale = [s for s in stats if is_stale(s)]
+    if not stale:
+        return []
+
+    stale.sort(key=lambda s: s["days_since_last"], reverse=True)
+
+    newly = [
+        s for s in stale
+        if s["days_since_last"] <= stale_threshold(s) + NEWLY_QUIET_WINDOW
+    ]
+    ongoing = [s for s in stale if s not in newly]
+
+    lines = ["⚠️ *Quiet — check source/scraper*"]
+
+    for s in newly[:top]:
+        lines.append(
+            f"• *{s['name']}* — last update {fmt_date(s['last'])} "
+            f"({s['days_since_last']}d ago) · newly quiet"
+        )
+
+    if ongoing:
+        preview = ", ".join(s["name"] for s in ongoing[:6])
+        more = f" +{len(ongoing) - 6} more" if len(ongoing) > 6 else ""
+        lines.append(
+            f"_{len(ongoing)} still quiet (unchanged): {preview}{more}_"
+        )
+
+    lines.append("")
+    return lines
+
+
+def build_weekly_report(stats, now, top):
+    """Weekly Slack post: what updated this week + what's coming up."""
+    lines = _header("📊 *WEEKLY GAME UPDATES*", stats, now)
+    lines += section_updated_this_week(stats)
+    lines += section_predictions(stats, now, top)
+    return "\n".join(lines)
+
+
+def build_monthly_report(stats, now, window_days, top):
+    """Monthly Slack post: leaderboard + quiet/broken-source health check."""
+    lines = _header("📊 *MONTHLY GAME REPORT*", stats, now)
+    lines += section_leaderboard(stats, window_days, top)
+    lines += section_quiet(stats, top)
     return "\n".join(lines)
 
 
@@ -343,9 +382,24 @@ def send_slack(message):
 def main():
     ap = argparse.ArgumentParser(description="Analyze game update history.")
     ap.add_argument("--slack", action="store_true", help="post report to Slack")
-    ap.add_argument("--days", type=int, default=90, help="leaderboard window")
+    ap.add_argument(
+        "--report",
+        choices=["weekly", "monthly"],
+        default="weekly",
+        help="which report to build (default: weekly)",
+    )
+    ap.add_argument(
+        "--days",
+        type=int,
+        default=None,
+        help="leaderboard window in days (monthly report; default 30)",
+    )
     ap.add_argument("--top", type=int, default=10, help="rows per section")
     args = ap.parse_args()
+
+    # Leaderboard window only matters for the monthly report; default it to a
+    # true month unless the caller overrides.
+    window_days = args.days if args.days is not None else 30
 
     # Windows consoles default to cp1252 and choke on emoji; force UTF-8.
     try:
@@ -357,7 +411,7 @@ def main():
         history = json.load(f)
 
     now = datetime.now(timezone.utc)
-    window_start = now - timedelta(days=args.days)
+    window_start = now - timedelta(days=window_days)
     week_start = now - timedelta(days=7)
 
     stats = []
@@ -376,7 +430,10 @@ def main():
         s["week_latest_dt"] = wdt
         stats.append(s)
 
-    report = build_report(stats, now, args.days, args.top)
+    if args.report == "monthly":
+        report = build_monthly_report(stats, now, window_days, args.top)
+    else:
+        report = build_weekly_report(stats, now, args.top)
     print(report)
 
     if args.slack:

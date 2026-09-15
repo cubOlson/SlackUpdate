@@ -1,17 +1,17 @@
-name: Weekly Update Analysis
+name: Monthly Update Report
 
 on:
   schedule:
-    # Segunda-feira 11:00 Fortaleza (UTC-3) = 14:00 UTC
-    - cron: '0 14 * * 1'
+    # Dia 1 de cada mês, 11:00 Fortaleza (UTC-3) = 14:00 UTC
+    - cron: '0 14 1 * *'
 
   workflow_dispatch:
 
-# Weekly post: what updated this week + predicted next updates.
-# The leaderboard + quiet/broken-source health check moved to monthly.yml.
+# Monthly post: most-updated leaderboard (30-day window) + quiet/broken-source
+# health check. The "updated this week" + predictions live in analyze.yml.
 
 jobs:
-  run-analysis:
+  run-monthly:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,8 +27,8 @@ jobs:
         run: |
           pip install requests
 
-      - name: Run analysis
+      - name: Run monthly report
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          python analyze.py --slack --report weekly
+          python analyze.py --slack --report monthly --days 30
