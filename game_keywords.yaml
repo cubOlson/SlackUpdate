@@ -545,3 +545,46 @@ War Thunder:
     - "patch notes"
     - "major update"
     - "hotfix"
+
+Star Wars Zero Company:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "release notes"
+
+Delta Force:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "season"
+
+Mortal Shell 2:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "release notes"
+    - "version"
+
+"The Binding of Isaac: Rebirth":
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "version"
+
+Project Zomboid:
+  high:
+    - "update"
+    - "patch"
+    - "patch notes"
+    - "hotfix"
+    - "build"
+    - "released"
+    - "unstable"

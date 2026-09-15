@@ -332,3 +332,28 @@ games:
     news_url: "https://store.steampowered.com/news/app/236390"
     mode: rss
     url: "https://store.steampowered.com/feeds/news/app/236390/?format=rss"
+
+  - name: "Star Wars Zero Company"
+    news_url: "https://store.steampowered.com/news/app/2075800"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2075800/?format=rss"
+
+  - name: "Delta Force"
+    news_url: "https://store.steampowered.com/news/app/2507950"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2507950/?format=rss"
+
+  - name: "Mortal Shell 2"
+    news_url: "https://store.steampowered.com/news/app/2584270"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/2584270/?format=rss"
+
+  - name: "The Binding of Isaac: Rebirth"
+    news_url: "https://store.steampowered.com/news/app/250900"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/250900/?format=rss"
+
+  - name: "Project Zomboid"
+    news_url: "https://store.steampowered.com/news/app/108600"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/108600/?format=rss"
