@@ -563,6 +563,14 @@
         "Store Update 1.46.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-09-16T23:35:30.349715+00:00",
+      "article_date": "2026-09-16T08:11:06+00:00",
+      "titles": [
+        "Hotfix 1.46.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1806,6 +1814,14 @@
         "Diablo Immortal v5.0.4"
       ],
       "url": "https://news.blizzard.com/en-us/diablo-immortal"
+    },
+    {
+      "date_detected": "2026-09-16T23:35:32.509864+00:00",
+      "article_date": "2026-09-16T08:00:19+00:00",
+      "titles": [
+        "Diablo Immortal v5.1.0"
+      ],
+      "url": "https://news.blizzard.com/en-us/diablo-immortal"
     }
   ],
   "DOOM 2016": [
@@ -2905,6 +2921,14 @@
         "Hotfix 4.1.0"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-09-16T23:35:44.829020+00:00",
+      "article_date": "2026-09-16T05:22:23+00:00",
+      "titles": [
+        "Update 4.1.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
     }
   ],
   "Slay the Spire 2": [
@@ -3045,6 +3069,14 @@
         "Update 2.57.1.140"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-16T23:35:45.909402+00:00",
+      "article_date": "2026-09-16T09:20:34+00:00",
+      "titles": [
+        "Meet the “Sky Odyssey” Major Update!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -3069,6 +3101,14 @@
       "article_date": "2026-08-25T18:00:09+00:00",
       "titles": [
         "Hearthstone v36.4.250339"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    },
+    {
+      "date_detected": "2026-09-16T23:35:35.902355+00:00",
+      "article_date": "2026-09-15T18:00:07+00:00",
+      "titles": [
+        "Hearthstone v36.6.251952"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
     }
