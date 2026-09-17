@@ -409,6 +409,14 @@
         "Apex Legends™: Marked Midseason Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-17T23:27:57.214290+00:00",
+      "article_date": "2026-09-17T17:34:56+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 9/17/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -913,6 +921,14 @@
         "Marvel Rivals Version 20260911 Balance Post"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-09-17T23:28:06.022270+00:00",
+      "article_date": "2026-09-17T08:45:27+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260917 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -1384,6 +1400,14 @@
         "Fortnite v42.10 (build CL-57566230)"
       ],
       "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-09-17T23:27:57.562393+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v42.20 (build CL-58011042)"
+      ],
+      "url": "https://www.fortnite.com/news"
     }
   ],
   "Call of Duty": [
@@ -1624,6 +1648,14 @@
         "Version 1.10 - September 10, 2026"
       ],
       "url": "https://store.steampowered.com/news/app/1285190"
+    },
+    {
+      "date_detected": "2026-09-17T23:28:01.488298+00:00",
+      "article_date": "2026-09-17T16:00:51+00:00",
+      "titles": [
+        "Update Notes - September 17, 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1285190"
     }
   ],
   "Dead by Daylight": [
@@ -1768,6 +1800,14 @@
       "article_date": "2026-09-15T15:07:04+00:00",
       "titles": [
         "10.2.0 | PTB Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-09-17T23:28:01.949485+00:00",
+      "article_date": "2026-09-17T15:00:07+00:00",
+      "titles": [
+        "10.1.2a | Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
     }
@@ -2084,6 +2124,14 @@
       "article_date": "2026-08-13T18:03:05+00:00",
       "titles": [
         "Sim Update 6 Release Notes [1.8.14.0] - Available Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2537590/"
+    },
+    {
+      "date_detected": "2026-09-17T23:28:06.424794+00:00",
+      "article_date": "2026-09-17T13:24:52+00:00",
+      "titles": [
+        "September 2026 - Development Update"
       ],
       "url": "https://store.steampowered.com/news/app/2537590/"
     }
@@ -3075,6 +3123,14 @@
       "article_date": "2026-09-16T09:20:34+00:00",
       "titles": [
         "Meet the “Sky Odyssey” Major Update!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-17T23:28:12.739526+00:00",
+      "article_date": "2026-09-17T14:38:29+00:00",
+      "titles": [
+        "Update 2.59.0.11"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
