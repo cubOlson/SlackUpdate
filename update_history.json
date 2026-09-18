@@ -417,6 +417,14 @@
         "Apex Legends: Latest Update 9/17/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-18T23:08:31.839094+00:00",
+      "article_date": "2026-09-18T17:37:54+00:00",
+      "titles": [
+        "An Update from the Anti Cheat Team - 09/18/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -3131,6 +3139,14 @@
       "article_date": "2026-09-17T14:38:29+00:00",
       "titles": [
         "Update 2.59.0.11"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-18T23:08:45.665423+00:00",
+      "article_date": "2026-09-18T15:00:26+00:00",
+      "titles": [
+        "Update 2.59.0.13"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
