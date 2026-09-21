@@ -425,6 +425,14 @@
         "An Update from the Anti Cheat Team - 09/18/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-21T23:58:06.333249+00:00",
+      "article_date": "2026-09-21T17:41:03+00:00",
+      "titles": [
+        "Apex Legends: Latest Update - 09/21/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -699,6 +707,14 @@
       "article_date": "2026-09-19T15:02:24+00:00",
       "titles": [
         "Dune: Awakening - 1.5.3.1 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-09-21T23:58:11.460892+00:00",
+      "article_date": "2026-09-21T10:00:56+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.3.2 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
     }
@@ -1878,6 +1894,14 @@
         "Diablo Immortal v5.1.0"
       ],
       "url": "https://news.blizzard.com/en-us/diablo-immortal"
+    },
+    {
+      "date_detected": "2026-09-21T23:58:10.564845+00:00",
+      "article_date": "2026-09-21T18:19:40+00:00",
+      "titles": [
+        "Diablo Immortal v5.1.2"
+      ],
+      "url": "https://news.blizzard.com/en-us/diablo-immortal"
     }
   ],
   "DOOM 2016": [
@@ -2795,6 +2819,14 @@
       "article_date": "2026-08-12T03:29:54+00:00",
       "titles": [
         "V7.0 Known Issues & Update"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-09-21T23:58:12.976989+00:00",
+      "article_date": "2026-09-21T03:10:08+00:00",
+      "titles": [
+        "Version 7.1 Update Maintenance Preview"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
     }
