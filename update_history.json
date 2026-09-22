@@ -59,6 +59,16 @@
         "VALORANT Patch Notes 13.04 New map rotation and bug fixes for Agents and melee skins"
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:46.229303+00:00",
+      "article_date": "2026-09-22T13:00:00+00:00",
+      "titles": [
+        "VALORANT Patch Notes 13.06",
+        "VALORANT Patch Notes 13.06 VALORANT’s big update is here.",
+        "VALORANT Patch Notes 13.05 Pick’Ems for Champs soon, penalties for stream sniping and instalock tools, and future changes to the Agent Gear system."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -433,6 +443,14 @@
         "Apex Legends: Latest Update - 09/21/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:46.429864+00:00",
+      "article_date": "2026-09-22T17:58:25+00:00",
+      "titles": [
+        "Apex Legends: Latest Update - 09/22/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -595,6 +613,14 @@
         "Hotfix 1.46.1"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:48.947325+00:00",
+      "article_date": "2026-09-22T09:01:52+00:00",
+      "titles": [
+        "Store Update 1.47.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -715,6 +741,14 @@
       "article_date": "2026-09-21T10:00:56+00:00",
       "titles": [
         "Dune: Awakening - 1.5.3.2 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:51.283505+00:00",
+      "article_date": "2026-09-22T12:05:42+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.3.3 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
     }
@@ -1388,6 +1422,14 @@
       "article_date": "2026-09-15T11:23:02+00:00",
       "titles": [
         "Minecraft: Java Edition 26.3"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:46.291500+00:00",
+      "article_date": "2026-09-22T13:38:53+00:00",
+      "titles": [
+        "Minecraft 26.4 Snapshot 1"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -2436,6 +2478,14 @@
         "Rocket League Patch Notes v2.72"
       ],
       "url": "https://store.steampowered.com/news/app/252950"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:56.190626+00:00",
+      "article_date": "2026-09-22T23:15:03+00:00",
+      "titles": [
+        "Rocket League S24 Patch Notes v2.76"
+      ],
+      "url": "https://store.steampowered.com/news/app/252950"
     }
   ],
   "Rust": [
@@ -2733,6 +2783,16 @@
         "League of Legends Patch 26.17 Notes Arenas, Bridges, Summoner’s Rifts new and old… change comes for us all."
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:47.271627+00:00",
+      "article_date": "2026-09-22T18:00:00+00:00",
+      "titles": [
+        "League of Legends Patch 26.19 Notes",
+        "League of Legends Patch 26.19 Notes Worlds is right around the corner, more “new” champs join Classic, and Arena’s got fresh Augments!",
+        "League of Legends Patch 26.18 Notes Everything is where it belongs: Caps is in the Hall of Legends, Demacians are back in Classic, and ARAM Mayhem augments are on the right champions!"
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -2795,6 +2855,16 @@
         "Teamfight Tactics patch 18.1 Explore the new set, Enchanted Wilds, with Riftbeasts, Elderwood, a Yeti, and new mechanic, Wisps!"
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:57.677395+00:00",
+      "article_date": "2026-09-22T18:00:00+00:00",
+      "titles": [
+        "Teamfight Tactics patch 18.3",
+        "Teamfight Tactics patch 18.3 18.3 is a more focused patch, with smaller, more specific changes to Champs/Traits as we nerf power ceilings, or bring up power floors, and broader buffs to combat Augments.",
+        "Teamfight Tactics patch 18.2 It’s the first main patch of Enchanted Wilds and we’ve got a patch full of buffs to bring some of our struggling comps out from under the canopy. Along with a bunch of buffs we’re taking a huge pass at lowering the cost of our Wisps so you can keep your gold to buy XP or keep rolling for that last copy of Master Yi."
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Genshin Impact": [
@@ -2827,6 +2897,14 @@
       "article_date": "2026-09-21T03:10:08+00:00",
       "titles": [
         "Version 7.1 Update Maintenance Preview"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:53.101328+00:00",
+      "article_date": "2026-09-22T23:00:02+00:00",
+      "titles": [
+        "\"A Rekviem for the Underworld\" Version 7.1 Update Details"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
     }
@@ -3187,6 +3265,14 @@
       "article_date": "2026-09-18T15:00:26+00:00",
       "titles": [
         "Update 2.59.0.13"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-22T23:32:59.626842+00:00",
+      "article_date": "2026-09-22T15:16:00+00:00",
+      "titles": [
+        "Update 2.59.0.22"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
