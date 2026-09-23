@@ -451,6 +451,14 @@
         "Apex Legends: Latest Update - 09/22/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-23T23:30:45.582576+00:00",
+      "article_date": "2026-09-23T22:58:15+00:00",
+      "titles": [
+        "Apex Legends: Latest Update - 09/23/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -2452,6 +2460,14 @@
         "Y11S3 PATCH NOTES ADDENDUM"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-09-23T23:30:59.257244+00:00",
+      "article_date": "2026-09-23T09:41:20+00:00",
+      "titles": [
+        "Y11S3.1 PATCH NOTES"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
     }
   ],
   "Rocket League": [
@@ -2907,6 +2923,14 @@
         "\"A Rekviem for the Underworld\" Version 7.1 Update Details"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-09-23T23:30:53.860359+00:00",
+      "article_date": "2026-09-23T03:36:54+00:00",
+      "titles": [
+        "V7.1 Known Issues & Update"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
     }
   ],
   "Forza Horizon 6": [
@@ -3275,6 +3299,14 @@
         "Update 2.59.0.22"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-23T23:31:04.862279+00:00",
+      "article_date": "2026-09-23T15:08:07+00:00",
+      "titles": [
+        "Update 2.59.0.28"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -3355,6 +3387,14 @@
       "article_date": "2026-08-26T11:12:26+00:00",
       "titles": [
         "42.20.4 STABLE & 42.19.2 UNSTABLE & 41.78.21 LEGACY Hotfixes Released"
+      ],
+      "url": "https://store.steampowered.com/news/app/108600"
+    },
+    {
+      "date_detected": "2026-09-23T23:31:06.313046+00:00",
+      "article_date": "2026-09-23T16:08:16+00:00",
+      "titles": [
+        "Re-population of the Dead: Build 42.21 Unstable Released"
       ],
       "url": "https://store.steampowered.com/news/app/108600"
     }
