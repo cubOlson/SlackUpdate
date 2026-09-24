@@ -459,6 +459,14 @@
         "Apex Legends: Latest Update - 09/23/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-24T23:48:34.136201+00:00",
+      "article_date": "2026-09-24T20:56:47+00:00",
+      "titles": [
+        "Apex Legends: Latest Update - 09/24/2026 - 2:00pm PT"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -759,6 +767,14 @@
         "Dune: Awakening - 1.5.3.3 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-09-24T23:48:40.803722+00:00",
+      "article_date": "2026-09-24T11:01:12+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.3.4 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -1001,6 +1017,14 @@
       "article_date": "2026-09-17T08:45:27+00:00",
       "titles": [
         "Marvel Rivals Version 20260917 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-09-24T23:48:44.592897+00:00",
+      "article_date": "2026-09-24T06:54:04+00:00",
+      "titles": [
+        "Marvel Rivals Version 20260924 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -3341,6 +3365,14 @@
         "Hearthstone v36.6.251952"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    },
+    {
+      "date_detected": "2026-09-24T23:48:42.707404+00:00",
+      "article_date": "2026-09-24T17:50:07+00:00",
+      "titles": [
+        "Hearthstone v36.6.0.253216"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
     }
   ],
   "Star Wars Zero Company": [
@@ -3377,6 +3409,14 @@
       "article_date": "2026-09-14T19:05:44+00:00",
       "titles": [
         "New Hotfix out now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2584270"
+    },
+    {
+      "date_detected": "2026-09-24T23:48:54.560102+00:00",
+      "article_date": "2026-09-24T22:20:36+00:00",
+      "titles": [
+        "Hotfix Live Now"
       ],
       "url": "https://store.steampowered.com/news/app/2584270"
     }
