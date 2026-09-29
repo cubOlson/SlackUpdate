@@ -467,6 +467,14 @@
         "Apex Legends: Latest Update - 09/24/2026 - 2:00pm PT"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-29T00:53:39.857705+00:00",
+      "article_date": "2026-09-28T19:17:40+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 9/28/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -3435,6 +3443,14 @@
       "article_date": "2026-09-23T16:08:16+00:00",
       "titles": [
         "Re-population of the Dead: Build 42.21 Unstable Released"
+      ],
+      "url": "https://store.steampowered.com/news/app/108600"
+    },
+    {
+      "date_detected": "2026-09-29T00:53:55.335893+00:00",
+      "article_date": "2026-09-28T12:07:08+00:00",
+      "titles": [
+        "Build 42.21 Stable Released"
       ],
       "url": "https://store.steampowered.com/news/app/108600"
     }
