@@ -475,6 +475,14 @@
         "Apex Legends: Latest Update 9/28/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-09-30T00:13:55.666910+00:00",
+      "article_date": "2026-09-29T17:56:12+00:00",
+      "titles": [
+        "Apex Legends: Latest Update - 09/29/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -643,6 +651,14 @@
       "article_date": "2026-09-22T09:01:52+00:00",
       "titles": [
         "Store Update 1.47.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-09-30T00:13:58.949107+00:00",
+      "article_date": "2026-09-29T09:01:15+00:00",
+      "titles": [
+        "Store Update 1.48.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
     }
@@ -1205,6 +1221,14 @@
         "Battlefield 6 | REDSEC Season 4: Tidal Strike"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-09-30T00:13:59.445361+00:00",
+      "article_date": "2026-09-29T15:02:29+00:00",
+      "titles": [
+        "BATTLEFIELD 6 GAME UPDATE 1.4.3.5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1470,6 +1494,14 @@
       "article_date": "2026-09-22T13:38:53+00:00",
       "titles": [
         "Minecraft 26.4 Snapshot 1"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-09-30T00:13:55.313942+00:00",
+      "article_date": "2026-09-29T11:32:57+00:00",
+      "titles": [
+        "Minecraft 26.4 Snapshot 2"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -3337,6 +3369,14 @@
       "article_date": "2026-09-23T15:08:07+00:00",
       "titles": [
         "Update 2.59.0.28"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-09-30T00:14:49.780973+00:00",
+      "article_date": "2026-09-29T08:48:35+00:00",
+      "titles": [
+        "Update 2.59.0.38"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
