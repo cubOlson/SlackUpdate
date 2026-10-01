@@ -661,6 +661,14 @@
         "Store Update 1.48.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-10-01T00:26:09.841097+00:00",
+      "article_date": "2026-09-30T16:04:46+00:00",
+      "titles": [
+        "An Update on Anti-Cheat"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -797,6 +805,14 @@
       "article_date": "2026-09-24T11:01:12+00:00",
       "titles": [
         "Dune: Awakening - 1.5.3.4 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-10-01T00:26:12.420254+00:00",
+      "article_date": "2026-09-30T14:04:08+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.3.5 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
     }
@@ -1227,6 +1243,14 @@
       "article_date": "2026-09-29T15:02:29+00:00",
       "titles": [
         "BATTLEFIELD 6 GAME UPDATE 1.4.3.5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-10-01T00:26:10.354685+00:00",
+      "article_date": "2026-09-30T15:01:18+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - Siege of Vegas Incoming"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
