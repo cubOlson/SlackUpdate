@@ -483,6 +483,14 @@
         "Apex Legends: Latest Update - 09/29/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-10-02T00:36:56.799570+00:00",
+      "article_date": "2026-10-01T17:03:32+00:00",
+      "titles": [
+        "An Update from the Anti Cheat Team - 10/01/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1067,6 +1075,14 @@
         "Marvel Rivals Version 20260924 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-10-02T00:37:04.106680+00:00",
+      "article_date": "2026-10-01T08:39:09+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261001 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -1576,6 +1592,14 @@
       "article_date": null,
       "titles": [
         "Fortnite v42.20 (build CL-58011042)"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-10-02T00:36:57.063179+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v42.30 (build CL-58557680)"
       ],
       "url": "https://www.fortnite.com/news"
     }
@@ -2794,6 +2818,14 @@
         "Update 2.4: Overdrive"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-10-02T00:37:07.840459+00:00",
+      "article_date": "2026-09-28T13:00:33+00:00",
+      "titles": [
+        "Battle Pass Special: DOOM"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -3059,6 +3091,14 @@
       "article_date": "2026-09-10T14:30:39+00:00",
       "titles": [
         "A British Track Day Star Kicks Off British Automotive!"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
+    },
+    {
+      "date_detected": "2026-10-02T00:37:08.673011+00:00",
+      "article_date": "2026-10-01T15:20:41+00:00",
+      "titles": [
+        "Enjoy the Soundtrack of a Big V8 in the Final Week of British Automotive!"
       ],
       "url": "https://store.steampowered.com/news/app/2483190"
     }
@@ -3401,6 +3441,14 @@
       "article_date": "2026-09-29T08:48:35+00:00",
       "titles": [
         "Update 2.59.0.38"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-02T00:37:09.453367+00:00",
+      "article_date": "2026-10-01T07:31:54+00:00",
+      "titles": [
+        "Update 2.59.0.43"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
