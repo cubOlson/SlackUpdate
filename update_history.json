@@ -491,6 +491,14 @@
         "An Update from the Anti Cheat Team - 10/01/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-10-03T00:19:03.122313+00:00",
+      "article_date": "2026-10-02T20:24:23+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 10/02/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1267,6 +1275,14 @@
       "article_date": "2026-09-30T15:01:18+00:00",
       "titles": [
         "Battlefield 6 - Community Update - Siege of Vegas Incoming"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-10-03T00:19:06.111447+00:00",
+      "article_date": "2026-10-02T18:40:17+00:00",
+      "titles": [
+        "Battlefield 6/REDSEC: Looking Ahead To Season 5 And Beyond"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
