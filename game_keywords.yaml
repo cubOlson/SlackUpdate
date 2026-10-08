@@ -588,3 +588,25 @@ Project Zomboid:
     - "build"
     - "released"
     - "unstable"
+
+Aniimo:
+  high:
+    - "patch notes"
+    - "update"
+    - "patch"
+    - "hotfix"
+    - "maintenance"
+
+Valheim:
+  high:
+    - "patch"
+    - "hotfix"
+    - "update"
+    - "patch notes"
+
+WARDOGS:
+  high:
+    - "update"
+    - "patch"
+    - "hotfix"
+    - "patch notes"

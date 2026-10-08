@@ -357,3 +357,18 @@ games:
     news_url: "https://store.steampowered.com/news/app/108600"
     mode: rss
     url: "https://store.steampowered.com/feeds/news/app/108600/?format=rss"
+
+  - name: "Aniimo"
+    news_url: "https://store.steampowered.com/news/app/4126040"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/4126040/?format=rss"
+
+  - name: "Valheim"
+    news_url: "https://store.steampowered.com/news/app/892970"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/892970/?format=rss"
+
+  - name: "WARDOGS"
+    news_url: "https://store.steampowered.com/news/app/1867240"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/1867240/?format=rss"
