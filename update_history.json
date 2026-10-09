@@ -507,6 +507,14 @@
         "Apex Legends: Latest Update 10/6/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-10-09T01:05:46.265301+00:00",
+      "article_date": "2026-10-08T17:01:41+00:00",
+      "titles": [
+        "An Update from the Anti Cheat Team - 10/08/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -691,6 +699,14 @@
       "article_date": "2026-09-30T16:04:46+00:00",
       "titles": [
         "An Update on Anti-Cheat"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-10-09T01:05:49.094664+00:00",
+      "article_date": "2026-10-08T09:02:39+00:00",
+      "titles": [
+        "FROZEN TRAIL - 2.0 Update"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
     }
@@ -1105,6 +1121,14 @@
       "article_date": "2026-10-01T08:39:09+00:00",
       "titles": [
         "Marvel Rivals Version 20261001 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-10-09T01:05:55.179392+00:00",
+      "article_date": "2026-10-08T09:51:17+00:00",
+      "titles": [
+        "Season 10.5: New Modes and Halloween // Dev Vision Vol. 22 | Marvel Rivals"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -3583,6 +3607,14 @@
         "Update 2.59.0.49"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-09T01:06:01.570124+00:00",
+      "article_date": "2026-10-08T13:36:25+00:00",
+      "titles": [
+        "Update 2.59.0.59"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -3697,6 +3729,36 @@
         "Build 42.21 Stable Released"
       ],
       "url": "https://store.steampowered.com/news/app/108600"
+    }
+  ],
+  "Aniimo": [
+    {
+      "date_detected": "2026-10-09T01:06:02.728654+00:00",
+      "article_date": "2026-10-01T05:32:24+00:00",
+      "titles": [
+        "Aniimo Dev Dispatch Vol. 1"
+      ],
+      "url": "https://store.steampowered.com/news/app/4126040"
+    }
+  ],
+  "Valheim": [
+    {
+      "date_detected": "2026-10-09T01:06:03.010968+00:00",
+      "article_date": "2026-10-06T12:11:50+00:00",
+      "titles": [
+        "Patch 1.0.17"
+      ],
+      "url": "https://store.steampowered.com/news/app/892970"
+    }
+  ],
+  "WARDOGS": [
+    {
+      "date_detected": "2026-10-09T01:06:03.208165+00:00",
+      "article_date": "2026-10-02T15:39:32+00:00",
+      "titles": [
+        "IR Goggles & CIWS Balance Hotfix"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
     }
   ]
 }
