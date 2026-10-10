@@ -515,6 +515,14 @@
         "An Update from the Anti Cheat Team - 10/08/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-10-10T00:38:44.325590+00:00",
+      "article_date": "2026-10-09T20:40:35+00:00",
+      "titles": [
+        "An Update from the Anti Cheat Team - 10/09/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -709,6 +717,14 @@
         "FROZEN TRAIL - 2.0 Update"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-10-10T00:38:46.968376+00:00",
+      "article_date": "2026-10-09T10:32:56+00:00",
+      "titles": [
+        "Hotfix 2.0.2"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -861,6 +877,14 @@
       "article_date": "2026-10-06T09:17:31+00:00",
       "titles": [
         "Dune: Awakening - 1.5.3.6 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-10-10T00:38:49.657349+00:00",
+      "article_date": "2026-10-09T08:04:00+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.3.7 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
     }
@@ -3615,6 +3639,14 @@
         "Update 2.59.0.59"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-10T00:38:58.934233+00:00",
+      "article_date": "2026-10-09T14:20:49+00:00",
+      "titles": [
+        "Server Update 09.10.2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -3683,6 +3715,14 @@
       "article_date": "2026-09-20T11:22:49+00:00",
       "titles": [
         "Delta Force | ANNIVERSARY SEASON STREAMER"
+      ],
+      "url": "https://store.steampowered.com/news/app/2507950"
+    },
+    {
+      "date_detected": "2026-10-10T00:38:59.339042+00:00",
+      "article_date": "2026-10-09T15:00:48+00:00",
+      "titles": [
+        "1v1 Mode & Season Ammo, New Victory Unite Event, Mid-Season Balance Tweaks"
       ],
       "url": "https://store.steampowered.com/news/app/2507950"
     }
