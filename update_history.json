@@ -1357,6 +1357,14 @@
         "Battlefield 6 | REDSEC Season 5 Gameplay Trailer"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-10-13T02:29:24.160511+00:00",
+      "article_date": "2026-10-12T15:00:05+00:00",
+      "titles": [
+        "BATTLEFIELD 6 GAME UPDATE 2.1.1.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -2962,6 +2970,14 @@
         "Update 2.4.1: Changes to Maps"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-10-13T02:29:31.680817+00:00",
+      "article_date": "2026-10-12T13:00:59+00:00",
+      "titles": [
+        "Update 2.4.1: Season of Action"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -3645,6 +3661,14 @@
       "article_date": "2026-10-09T14:20:49+00:00",
       "titles": [
         "Server Update 09.10.2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-13T02:29:33.346583+00:00",
+      "article_date": "2026-10-12T15:04:44+00:00",
+      "titles": [
+        "Update 2.59.0.62"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
