@@ -69,6 +69,16 @@
         "VALORANT Patch Notes 13.05 Pick’Ems for Champs soon, penalties for stream sniping and instalock tools, and future changes to the Agent Gear system."
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:21.072738+00:00",
+      "article_date": "2026-10-13T13:00:00+00:00",
+      "titles": [
+        "VALORANT Patch Notes 13.08",
+        "VALORANT Patch Notes 13.08 Act 6 starts now.",
+        "VALORANT Patch Notes 13.06 VALORANT’s big update is here."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -183,6 +193,14 @@
       "article_date": "2026-09-09T06:00:15+00:00",
       "titles": [
         "Map Service Report - Update 43.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:33.504370+00:00",
+      "article_date": "2026-10-13T06:00:52+00:00",
+      "titles": [
+        "October Store Update 2026"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
     }
@@ -725,6 +743,14 @@
         "Hotfix 2.0.2"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:24.354450+00:00",
+      "article_date": "2026-10-13T09:01:04+00:00",
+      "titles": [
+        "Store Update 2.1.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -927,6 +953,14 @@
       "article_date": "2026-09-08T10:00:22+00:00",
       "titles": [
         "Patch 7.56 Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/39210"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:27.876032+00:00",
+      "article_date": "2026-10-13T10:33:49+00:00",
+      "titles": [
+        "Patch 7.57 Notes"
       ],
       "url": "https://store.steampowered.com/news/app/39210"
     }
@@ -1365,6 +1399,14 @@
         "BATTLEFIELD 6 GAME UPDATE 2.1.1.0"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:24.854047+00:00",
+      "article_date": "2026-10-13T13:24:22+00:00",
+      "titles": [
+        "Battlefield 6 | REDSEC Season 5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1654,6 +1696,14 @@
       "article_date": "2026-10-06T12:54:26+00:00",
       "titles": [
         "Minecraft 26.4 Snapshot 3"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:21.104257+00:00",
+      "article_date": "2026-10-13T12:05:46+00:00",
+      "titles": [
+        "Minecraft 26.4 Snapshot 4"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -2470,6 +2520,14 @@
       "article_date": "2026-09-17T13:24:52+00:00",
       "titles": [
         "September 2026 - Development Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/2537590/"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:31.532714+00:00",
+      "article_date": "2026-10-13T22:44:53+00:00",
+      "titles": [
+        "Sim Update 7 Release Notes [1.9.18.0] - Available Now"
       ],
       "url": "https://store.steampowered.com/news/app/2537590/"
     }
@@ -3671,6 +3729,14 @@
         "Update 2.59.0.62"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:38.629436+00:00",
+      "article_date": "2026-10-13T14:41:39+00:00",
+      "titles": [
+        "Update 2.59.0.65"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -3711,6 +3777,14 @@
       "article_date": "2026-09-24T17:50:07+00:00",
       "titles": [
         "Hearthstone v36.6.0.253216"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    },
+    {
+      "date_detected": "2026-10-14T00:12:30.127041+00:00",
+      "article_date": "2026-10-13T18:00:12+00:00",
+      "titles": [
+        "Hearthstone v37.0.254477"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
     }
