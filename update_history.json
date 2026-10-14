@@ -2190,6 +2190,14 @@
         "10.2.0 | Mid-Chapter"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-10-14T23:47:44.430074+00:00",
+      "article_date": "2026-10-14T15:01:01+00:00",
+      "titles": [
+        "10.2.1 | Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -3895,6 +3903,14 @@
       "article_date": "2026-10-02T15:39:32+00:00",
       "titles": [
         "IR Goggles & CIWS Balance Hotfix"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
+    },
+    {
+      "date_detected": "2026-10-14T23:47:55.555019+00:00",
+      "article_date": "2026-10-14T14:59:37+00:00",
+      "titles": [
+        "WARDOGS | Season 02 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
     }
