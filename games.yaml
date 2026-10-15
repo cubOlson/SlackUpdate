@@ -372,3 +372,13 @@ games:
     news_url: "https://store.steampowered.com/news/app/1867240"
     mode: rss
     url: "https://store.steampowered.com/feeds/news/app/1867240/?format=rss"
+
+  - name: "The Witcher 3"
+    news_url: "https://store.steampowered.com/news/app/292030"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/292030/?format=rss"
+
+  - name: "AION 2"
+    news_url: "https://store.steampowered.com/news/app/3393110"
+    mode: rss
+    url: "https://store.steampowered.com/feeds/news/app/3393110/?format=rss"

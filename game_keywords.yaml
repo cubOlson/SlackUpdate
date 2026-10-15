@@ -610,3 +610,18 @@ WARDOGS:
     - "patch"
     - "hotfix"
     - "patch notes"
+
+The Witcher 3:
+  high:
+    - "patch"
+    - "update"
+    - "hotfix"
+    - "patch notes"
+
+AION 2:
+  high:
+    - "patch notes"
+    - "update"
+    - "patch"
+    - "hotfix"
+    - "maintenance"
