@@ -1189,6 +1189,14 @@
         "Season 10.5: New Modes and Halloween // Dev Vision Vol. 22 | Marvel Rivals"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:40.528646+00:00",
+      "article_date": "2026-10-15T07:19:34+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261015 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -1762,6 +1770,14 @@
       "article_date": null,
       "titles": [
         "Fortnite v42.30 (build CL-58557680)"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:32.497723+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v42.40 (build CL-59086525)"
       ],
       "url": "https://www.fortnite.com/news"
     }
@@ -2782,6 +2798,14 @@
         "Y11S3.1 PATCH NOTES"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:42.546840+00:00",
+      "article_date": "2026-10-15T13:30:03+00:00",
+      "titles": [
+        "DESIGNER'S NOTES: Y11S3 MID-SEASON UPDATE"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
     }
   ],
   "Rocket League": [
@@ -3745,6 +3769,14 @@
         "Update 2.59.0.65"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:46.635245+00:00",
+      "article_date": "2026-10-15T14:15:11+00:00",
+      "titles": [
+        "Community Update No.13: What’s Coming Up!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -3803,6 +3835,14 @@
       "article_date": "2026-09-09T13:01:11+00:00",
       "titles": [
         "STAR WARS Zero Company™ 1.1 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2075800"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:46.826540+00:00",
+      "article_date": "2026-10-15T15:26:12+00:00",
+      "titles": [
+        "Star Wars Zero Company 1.2 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2075800"
     }
@@ -3885,6 +3925,14 @@
         "Aniimo Dev Dispatch Vol. 1"
       ],
       "url": "https://store.steampowered.com/news/app/4126040"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:47.763268+00:00",
+      "article_date": "2026-10-15T15:39:04+00:00",
+      "titles": [
+        "Patch Notes-v1.0.3732728.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4126040"
     }
   ],
   "Valheim": [
@@ -3893,6 +3941,14 @@
       "article_date": "2026-10-06T12:11:50+00:00",
       "titles": [
         "Patch 1.0.17"
+      ],
+      "url": "https://store.steampowered.com/news/app/892970"
+    },
+    {
+      "date_detected": "2026-10-15T23:36:47.908625+00:00",
+      "article_date": "2026-10-15T08:58:17+00:00",
+      "titles": [
+        "Patch 1.0.20"
       ],
       "url": "https://store.steampowered.com/news/app/892970"
     }
@@ -3913,6 +3969,26 @@
         "WARDOGS | Season 02 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
+    }
+  ],
+  "The Witcher 3": [
+    {
+      "date_detected": "2026-10-15T23:36:48.279950+00:00",
+      "article_date": "2026-10-08T12:02:51+00:00",
+      "titles": [
+        "Patch 5.01 is live!"
+      ],
+      "url": "https://store.steampowered.com/news/app/292030"
+    }
+  ],
+  "AION 2": [
+    {
+      "date_detected": "2026-10-15T23:36:48.425970+00:00",
+      "article_date": "2026-10-14T07:01:30+00:00",
+      "titles": [
+        "[Notice] Patch Notes | Oct. 13 (PDT) / Oct. 14 (CEST)"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
     }
   ]
 }
