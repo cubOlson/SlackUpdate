@@ -751,6 +751,14 @@
         "Store Update 2.1.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-10-16T23:22:42.709976+00:00",
+      "article_date": "2026-10-16T09:35:36+00:00",
+      "titles": [
+        "Hotfix 2.1.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1413,6 +1421,14 @@
       "article_date": "2026-10-13T13:24:22+00:00",
       "titles": [
         "Battlefield 6 | REDSEC Season 5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-10-16T23:22:43.079309+00:00",
+      "article_date": "2026-10-16T15:00:57+00:00",
+      "titles": [
+        "Siege of Vegas and Season 5 Battlefield Discord Live Q&A on October 20"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -3775,6 +3791,14 @@
       "article_date": "2026-10-15T14:15:11+00:00",
       "titles": [
         "Community Update No.13: What’s Coming Up!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-16T23:22:54.889361+00:00",
+      "article_date": "2026-10-16T14:37:34+00:00",
+      "titles": [
+        "Update 2.59.0.72"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
