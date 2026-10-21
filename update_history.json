@@ -1463,6 +1463,14 @@
         "Siege of Vegas and Season 5 Battlefield Discord Live Q&A on October 20"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-10-21T23:56:21.712251+00:00",
+      "article_date": "2026-10-21T15:02:11+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - More to Season 5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1932,6 +1940,14 @@
       "article_date": "2025-09-11T10:09:03+00:00",
       "titles": [
         "Patch 2.31"
+      ],
+      "url": "https://store.steampowered.com/news/app/1091500"
+    },
+    {
+      "date_detected": "2026-10-21T23:56:18.925129+00:00",
+      "article_date": "2026-10-21T15:45:15+00:00",
+      "titles": [
+        "Check out what's coming to Cyberpunk 2077 in the Edgerunners 2 Update!"
       ],
       "url": "https://store.steampowered.com/news/app/1091500"
     }
@@ -4127,6 +4143,14 @@
       "article_date": "2026-10-20T05:00:16+00:00",
       "titles": [
         "[Notice] Maintenance | Oct. 20 (PDT) / Oct. 21 (CEST)"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-10-21T23:56:41.396548+00:00",
+      "article_date": "2026-10-21T06:30:46+00:00",
+      "titles": [
+        "[Notice] Patch Notes | Oct. 20 (PDT) / Oct. 21 (CEST)"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
