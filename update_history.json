@@ -953,6 +953,14 @@
         "Dune: Awakening - 1.5.15.1 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-10-22T23:55:57.363643+00:00",
+      "article_date": "2026-10-22T08:12:51+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.15.2 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -1235,6 +1243,14 @@
       "article_date": "2026-10-15T07:19:34+00:00",
       "titles": [
         "Marvel Rivals Version 20261015 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-10-22T23:56:01.023321+00:00",
+      "article_date": "2026-10-22T07:32:01+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261022 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -1950,6 +1966,14 @@
         "Check out what's coming to Cyberpunk 2077 in the Edgerunners 2 Update!"
       ],
       "url": "https://store.steampowered.com/news/app/1091500"
+    },
+    {
+      "date_detected": "2026-10-22T23:55:52.678100+00:00",
+      "article_date": "2026-10-22T10:06:54+00:00",
+      "titles": [
+        "Cyberpunk 2077's Edgerunners 2 Update (2.5) is out now!"
+      ],
+      "url": "https://store.steampowered.com/news/app/1091500"
     }
   ],
   "Diablo IV": [
@@ -2114,6 +2138,14 @@
       "article_date": "2026-09-17T16:00:51+00:00",
       "titles": [
         "Update Notes - September 17, 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1285190"
+    },
+    {
+      "date_detected": "2026-10-22T23:55:55.433719+00:00",
+      "article_date": "2026-10-22T16:00:35+00:00",
+      "titles": [
+        "Version 1.11 Update Notes - October 22, 2026"
       ],
       "url": "https://store.steampowered.com/news/app/1285190"
     }
@@ -4003,6 +4035,14 @@
         "1v1 Mode & Season Ammo, New Victory Unite Event, Mid-Season Balance Tweaks"
       ],
       "url": "https://store.steampowered.com/news/app/2507950"
+    },
+    {
+      "date_detected": "2026-10-22T23:56:09.830578+00:00",
+      "article_date": "2026-10-22T12:00:32+00:00",
+      "titles": [
+        "Halloween Update | Raven's Deal & Trickster Store Arrive"
+      ],
+      "url": "https://store.steampowered.com/news/app/2507950"
     }
   ],
   "Mortal Shell 2": [
@@ -4153,6 +4193,16 @@
         "[Notice] Patch Notes | Oct. 20 (PDT) / Oct. 21 (CEST)"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
+    }
+  ],
+  "The Binding of Isaac: Rebirth": [
+    {
+      "date_detected": "2026-10-22T23:56:10.506402+00:00",
+      "article_date": "2026-04-11T01:43:27+00:00",
+      "titles": [
+        "Repentance Online 1.9.7.16!"
+      ],
+      "url": "https://store.steampowered.com/news/app/250900"
     }
   ]
 }
