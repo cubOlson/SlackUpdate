@@ -500,29 +500,46 @@ World of Warcraft:
 Forza Horizon 6:
   high:
     - "update"
+    - "title update"
     - "patch"
     - "patch notes"
     - "hotfix"
-    - "series"
-    - "track"
+    - "expansion"
+  exclude:
+    - "community calendar"
+    - "community creations"
+    - "spotlight"
+    - "soundtrack"
+    - "playlist"
+    - "this week"
+    - "horizon meet"
 
 Meccha Chameleon:
   high:
     - "update"
+    - "big update"
     - "patch"
     - "patch notes"
     - "fix"
     - "hotfix"
     - "version"
+  exclude:
+    - "nominated"
+    - "award"
+    - "nintendo switch"
 
 Slay the Spire 2:
   high:
     - "update"
+    - "major update"
     - "patch"
     - "patch notes"
     - "hotfix"
     - "beta"
     - "version"
+  exclude:
+    - "neowsletter"
+    - "newsletter"
 
 Warframe:
   high:
@@ -537,6 +554,12 @@ Warframe:
     - "merch"
     - "sale"
     - "tennocon"
+    - "soundtrack"
+    - "baro"
+    - "prime resurgence"
+    - "alienware"
+    - "twitch drops"
+    - "giveaway"
 
 War Thunder:
   high:
@@ -545,6 +568,14 @@ War Thunder:
     - "patch notes"
     - "major update"
     - "hotfix"
+  exclude:
+    - "discount"
+    - "pre-order"
+    - "twitch drops"
+    - "decal"
+    - "roundel"
+    - "grand finals"
+    - "anniversary"
 
 Star Wars Zero Company:
   high:
@@ -553,6 +584,12 @@ Star Wars Zero Company:
     - "patch notes"
     - "hotfix"
     - "release notes"
+  exclude:
+    - "trailer"
+    - "preview"
+    - "faq"
+    - "pre-order"
+    - "thank you"
 
 Delta Force:
   high:
@@ -561,6 +598,12 @@ Delta Force:
     - "patch notes"
     - "hotfix"
     - "season"
+    - "balance"
+  exclude:
+    - "g.t.i. security"
+    - "penalties"
+    - "account restrictions"
+    - "rmt"
 
 Mortal Shell 2:
   high:
@@ -570,6 +613,12 @@ Mortal Shell 2:
     - "hotfix"
     - "release notes"
     - "version"
+  exclude:
+    - "pre-order"
+    - "pricing"
+    - "release date"
+    - "revealed"
+    - "trailer"
 
 "The Binding of Isaac: Rebirth":
   high:
@@ -578,6 +627,14 @@ Mortal Shell 2:
     - "patch notes"
     - "hotfix"
     - "version"
+    - "online 1."
+    - "beta v"
+  exclude:
+    - "roundup"
+    - "discount"
+    - "fortnite"
+    - "mewgenics"
+    - "descriptions"
 
 Project Zomboid:
   high:
@@ -585,9 +642,14 @@ Project Zomboid:
     - "patch"
     - "patch notes"
     - "hotfix"
-    - "build"
-    - "released"
+    - "build 4"
+    - "stable released"
     - "unstable"
+  exclude:
+    - "fundraise"
+    - "checklist"
+    - "a note on"
+    - "modding"
 
 Aniimo:
   high:
@@ -596,6 +658,11 @@ Aniimo:
     - "patch"
     - "hotfix"
     - "maintenance"
+  exclude:
+    - "preview"
+    - "dev feedback"
+    - "dev dispatch"
+    - "geforce now"
 
 Valheim:
   high:
@@ -603,6 +670,9 @@ Valheim:
     - "hotfix"
     - "update"
     - "patch notes"
+  exclude:
+    - "word from the devs"
+    - "merch"
 
 WARDOGS:
   high:
@@ -610,6 +680,12 @@ WARDOGS:
     - "patch"
     - "hotfix"
     - "patch notes"
+    - "season"
+  exclude:
+    - "preview"
+    - "trailer"
+    - "giveaway"
+    - "teaser"
 
 The Witcher 3:
   high:
@@ -617,6 +693,12 @@ The Witcher 3:
     - "update"
     - "hotfix"
     - "patch notes"
+  exclude:
+    - "redstreams"
+    - "gamescom"
+    - "reigns"
+    - "announcing"
+    - "anniversary"
 
 AION 2:
   high:
@@ -625,3 +707,8 @@ AION 2:
     - "patch"
     - "hotfix"
     - "maintenance"
+  exclude:
+    - "account restrictions"
+    - "payment issue"
+    - "server transfer"
+
