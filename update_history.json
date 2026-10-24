@@ -3999,6 +3999,14 @@
         "Hearthstone v37.0.254477"
       ],
       "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
+    },
+    {
+      "date_detected": "2026-10-24T23:01:54.984091+00:00",
+      "article_date": "2026-10-23T21:51:02+00:00",
+      "titles": [
+        "Hearthstone v37.0.255790"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-us/news/patchnotes"
     }
   ],
   "Star Wars Zero Company": [
@@ -4199,6 +4207,14 @@
       "article_date": "2026-10-21T06:30:46+00:00",
       "titles": [
         "[Notice] Patch Notes | Oct. 20 (PDT) / Oct. 21 (CEST)"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-10-24T23:02:05.274144+00:00",
+      "article_date": "2026-10-24T00:00:20+00:00",
+      "titles": [
+        "[Notice] Temporary Maintenance (EU) | Oct 24 PDT / Oct 25 CEST"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
