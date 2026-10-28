@@ -79,6 +79,16 @@
         "VALORANT Patch Notes 13.06 VALORANT’s big update is here."
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-10-28T00:21:24.442248+00:00",
+      "article_date": "2026-10-27T13:00:00+00:00",
+      "titles": [
+        "VALORANT Patch Notes 13.09",
+        "VALORANT Patch Notes 13.09 Hush is here.",
+        "VALORANT Patch Notes 13.08 Act 6 starts now."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -773,6 +783,14 @@
       "article_date": "2026-10-20T09:01:47+00:00",
       "titles": [
         "Store Update 2.2.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-10-28T00:21:27.703369+00:00",
+      "article_date": "2026-10-27T10:00:44+00:00",
+      "titles": [
+        "Live Update 2.3.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
     }
@@ -1800,6 +1818,14 @@
       "article_date": "2026-10-20T12:15:06+00:00",
       "titles": [
         "Minecraft 26.4 Snapshot 5"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-10-28T00:21:24.519302+00:00",
+      "article_date": "2026-10-27T13:40:29+00:00",
+      "titles": [
+        "Minecraft 26.4 Snapshot 6"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -3957,6 +3983,14 @@
         "Update 2.59.0.75"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-28T00:21:40.800519+00:00",
+      "article_date": "2026-10-27T12:35:18+00:00",
+      "titles": [
+        "Update 2.59.0.87"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -4223,6 +4257,14 @@
       "article_date": "2026-10-24T00:00:20+00:00",
       "titles": [
         "[Notice] Temporary Maintenance (EU) | Oct 24 PDT / Oct 25 CEST"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-10-28T00:21:43.169943+00:00",
+      "article_date": "2026-10-27T11:00:29+00:00",
+      "titles": [
+        "[Notice] Maintenance | Oct. 27 (PDT) / Oct. 28 (CET)"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
