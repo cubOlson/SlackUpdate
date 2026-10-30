@@ -1287,6 +1287,14 @@
         "Marvel Rivals Version 20261022 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-10-30T00:42:14.463164+00:00",
+      "article_date": "2026-10-29T10:00:29+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261029 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -2384,6 +2392,14 @@
         "10.3.0 | Terrifier PTB Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-10-30T00:42:08.317572+00:00",
+      "article_date": "2026-10-29T15:06:00+00:00",
+      "titles": [
+        "10.2.2a Backend Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -2400,6 +2416,14 @@
       "article_date": "2026-06-18T18:48:49+00:00",
       "titles": [
         "This Week in Destiny – 06/18/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1085660"
+    },
+    {
+      "date_detected": "2026-10-30T00:42:08.491919+00:00",
+      "article_date": "2026-10-29T16:00:32+00:00",
+      "titles": [
+        "Bungie Community Update – October 2026"
       ],
       "url": "https://store.steampowered.com/news/app/1085660"
     }
@@ -4045,6 +4069,14 @@
       "article_date": "2026-10-28T15:09:42+00:00",
       "titles": [
         "Updated Sun City and American Desert and Improved Weather Settings!"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-30T00:42:20.858898+00:00",
+      "article_date": "2026-10-29T21:26:39+00:00",
+      "titles": [
+        "\"Eagle's Shadow\" Update Trailer!"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
