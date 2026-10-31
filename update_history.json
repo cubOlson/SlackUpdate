@@ -2468,6 +2468,14 @@
         "Diablo Immortal v5.1.2"
       ],
       "url": "https://news.blizzard.com/en-us/diablo-immortal"
+    },
+    {
+      "date_detected": "2026-10-31T00:35:20.171068+00:00",
+      "article_date": "2026-10-30T16:27:14+00:00",
+      "titles": [
+        "Diablo Immortal v5.1.4"
+      ],
+      "url": "https://news.blizzard.com/en-us/diablo-immortal"
     }
   ],
   "DOOM 2016": [
@@ -4079,6 +4087,14 @@
         "\"Eagle's Shadow\" Update Trailer!"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-10-31T00:35:29.778529+00:00",
+      "article_date": "2026-10-30T12:37:24+00:00",
+      "titles": [
+        "Server Update 30.10.2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -4215,6 +4231,14 @@
         "Mortal Shell II: Rotten Autumn Update Brings New Content and Seasonal Treats"
       ],
       "url": "https://store.steampowered.com/news/app/2584270"
+    },
+    {
+      "date_detected": "2026-10-31T00:35:30.222258+00:00",
+      "article_date": "2026-10-30T19:34:15+00:00",
+      "titles": [
+        "Rotten Autumn Hotfix 1 - Live Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2584270"
     }
   ],
   "Project Zomboid": [
@@ -4265,6 +4289,14 @@
       "article_date": "2026-10-17T10:49:34+00:00",
       "titles": [
         "Patch Notes-v1.0.3743667"
+      ],
+      "url": "https://store.steampowered.com/news/app/4126040"
+    },
+    {
+      "date_detected": "2026-10-31T00:35:30.695469+00:00",
+      "article_date": "2026-10-30T15:52:57+00:00",
+      "titles": [
+        "Patch Notes-v1.1.3857679.0"
       ],
       "url": "https://store.steampowered.com/news/app/4126040"
     }
