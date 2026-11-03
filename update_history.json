@@ -567,6 +567,14 @@
         "Apex Legends: Latest Update - 10/26/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-11-03T02:50:26.347800+00:00",
+      "article_date": "2026-11-02T18:58:53+00:00",
+      "titles": [
+        "Apex Legends™: Cipher Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1527,6 +1535,14 @@
       "article_date": "2026-10-21T15:02:11+00:00",
       "titles": [
         "Battlefield 6 - Community Update - More to Season 5"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-11-03T02:50:29.855550+00:00",
+      "article_date": "2026-11-02T16:00:31+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - High Stakes in the Casino"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -3056,6 +3072,14 @@
         "DESIGNER'S NOTES: Y11S3 MID-SEASON UPDATE"
       ],
       "url": "https://store.steampowered.com/news/app/359550"
+    },
+    {
+      "date_detected": "2026-11-03T02:50:37.169646+00:00",
+      "article_date": "2026-11-02T17:51:52+00:00",
+      "titles": [
+        "COMMUNITY CHECKPOINT #6: Y11S3.3 UPDATES"
+      ],
+      "url": "https://store.steampowered.com/news/app/359550"
     }
   ],
   "Rocket League": [
@@ -3583,6 +3607,14 @@
         "V7.1 Known Issues & Update"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-11-03T02:50:34.100133+00:00",
+      "article_date": "2026-11-02T03:10:05+00:00",
+      "titles": [
+        "Version 7.2 Update Maintenance Preview"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
     }
   ],
   "Forza Horizon 6": [
@@ -3639,6 +3671,14 @@
       "article_date": "2026-10-05T17:01:18+00:00",
       "titles": [
         "Series 6 Update, October 10th 2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/2483190"
+    },
+    {
+      "date_detected": "2026-11-03T02:50:40.561712+00:00",
+      "article_date": "2026-11-02T18:41:24+00:00",
+      "titles": [
+        "Series 7 Patch Notes - November 2nd"
       ],
       "url": "https://store.steampowered.com/news/app/2483190"
     }
