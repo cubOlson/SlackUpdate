@@ -213,6 +213,14 @@
         "October Store Update 2026"
       ],
       "url": "https://store.steampowered.com/news/app/578080"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:51.423176+00:00",
+      "article_date": "2026-11-03T06:00:02+00:00",
+      "titles": [
+        "Patch Notes - Update 44.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/578080"
     }
   ],
   "Apex Legends": [
@@ -809,6 +817,14 @@
         "Live Update 2.3.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:43.479717+00:00",
+      "article_date": "2026-11-03T10:01:19+00:00",
+      "titles": [
+        "Store Update 2.4.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1001,6 +1017,14 @@
       "article_date": "2026-10-28T09:07:03+00:00",
       "titles": [
         "Dune: Awakening - 1.5.15.3 Hotfix Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:46.438769+00:00",
+      "article_date": "2026-11-03T11:43:57+00:00",
+      "titles": [
+        "Dune: Awakening - 1.5.15.4 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
     }
@@ -1545,6 +1569,14 @@
         "Battlefield 6 - Community Update - High Stakes in the Casino"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:44.047884+00:00",
+      "article_date": "2026-11-03T16:02:41+00:00",
+      "titles": [
+        "Battlefield 6 - Community Update - Server Browser Coming Soon"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1866,6 +1898,14 @@
       "article_date": "2026-10-27T13:40:29+00:00",
       "titles": [
         "Minecraft 26.4 Snapshot 6"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:40.708353+00:00",
+      "article_date": "2026-11-03T13:08:56+00:00",
+      "titles": [
+        "Minecraft 26.4 Snapshot 7"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -3465,6 +3505,16 @@
         "League of Legends Patch 26.20 Notes Bee woo woop - the Worlds patch is here! Plenty of pro tuning, more champs return to Classic, and HEARTSTEEL are living their lives."
       ],
       "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:41.527862+00:00",
+      "article_date": "2026-11-03T19:00:00+00:00",
+      "titles": [
+        "League of Legends Patch 26.22 Notes",
+        "League of Legends Patch 26.22 Notes Patch 26.22 is at the top of the charts. K/DA is starting fires, Mel got a midscope, and plenty of changes are in for SR, Mayhem, and Classic.",
+        "League of Legends Patch 26.21 Notes True Damage has arrived with style! Plus tons to look forward to across SR, Mayhem, Classic, and Arena."
+      ],
+      "url": "https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Teamfight Tactics": [
@@ -3557,6 +3607,16 @@
         "Teamfight Tactics patch 18.4 18.4 is about moving power from traits into units, buffing under-performing lines and shipping consistency buffs to our feast or famine champs!"
       ],
       "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:54.018893+00:00",
+      "article_date": "2026-11-03T19:00:00+00:00",
+      "titles": [
+        "Teamfight Tactics patch 18.6",
+        "Teamfight Tactics patch 18.6 Small buffs & a standalone client that we’ll be iterating on in future patches. 18.6 is a big download!",
+        "Teamfight Tactics patch 18.5 18.5 follows up on the larger 18.4 changes with more precise adjustments and buffs to underperforming champions."
+      ],
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/tags/patch-notes/"
     }
   ],
   "Genshin Impact": [
@@ -3613,6 +3673,14 @@
       "article_date": "2026-11-02T03:10:05+00:00",
       "titles": [
         "Version 7.2 Update Maintenance Preview"
+      ],
+      "url": "https://genshin.hoyoverse.com/en/news/"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:48.027198+00:00",
+      "article_date": "2026-11-03T23:00:05+00:00",
+      "titles": [
+        "\"Hour of Ruin\" Version 7.2 Update Details"
       ],
       "url": "https://genshin.hoyoverse.com/en/news/"
     }
@@ -4449,6 +4517,14 @@
       "article_date": "2026-10-31T00:42:04+00:00",
       "titles": [
         "[Notice] Temporary Maintenance (NAE) | Oct 31 (PDT) / Nov 1 (CET)"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-11-04T01:07:58.716564+00:00",
+      "article_date": "2026-11-03T10:59:53+00:00",
+      "titles": [
+        "[Notice] Maintenance | Nov. 3 (PST) / Nov. 4 (CET)"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
