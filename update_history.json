@@ -607,6 +607,14 @@
         "Apex Legends: Latest Update 11/4/26"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-11-07T00:46:37.223127+00:00",
+      "article_date": "2026-11-06T18:48:48+00:00",
+      "titles": [
+        "Apex Legends: Latest Update - 11/6/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -4477,6 +4485,14 @@
         "42.22.1 Pre-Release Hotfix Released"
       ],
       "url": "https://store.steampowered.com/news/app/108600"
+    },
+    {
+      "date_detected": "2026-11-07T00:46:51.127844+00:00",
+      "article_date": "2026-11-06T14:41:13+00:00",
+      "titles": [
+        "42.22.2 Pre-Release Hotfix Released"
+      ],
+      "url": "https://store.steampowered.com/news/app/108600"
     }
   ],
   "Aniimo": [
@@ -4517,6 +4533,14 @@
       "article_date": "2026-11-05T06:24:15+00:00",
       "titles": [
         "Patch Notes-v1.1.3880756.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/4126040"
+    },
+    {
+      "date_detected": "2026-11-07T00:46:51.261368+00:00",
+      "article_date": "2026-11-06T14:47:04+00:00",
+      "titles": [
+        "Patch Notes-v1.1.3887621.0"
       ],
       "url": "https://store.steampowered.com/news/app/4126040"
     }
@@ -4561,6 +4585,14 @@
       "article_date": "2026-10-14T14:59:37+00:00",
       "titles": [
         "WARDOGS | Season 02 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
+    },
+    {
+      "date_detected": "2026-11-07T00:46:51.625473+00:00",
+      "article_date": "2026-11-06T19:00:18+00:00",
+      "titles": [
+        "WARDOGS | Road to Season 3"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
     }
