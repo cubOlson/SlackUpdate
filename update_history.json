@@ -1067,6 +1067,14 @@
         "Dune: Awakening - 1.5.15.4 Hotfix Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-11-10T03:20:16.745132+00:00",
+      "article_date": "2026-11-09T12:35:51+00:00",
+      "titles": [
+        "Dune: Awakening – 1.5.20.0 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -1623,6 +1631,14 @@
       "article_date": "2026-11-03T16:02:41+00:00",
       "titles": [
         "Battlefield 6 - Community Update - Server Browser Coming Soon"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-11-10T03:20:14.076701+00:00",
+      "article_date": "2026-11-09T18:00:16+00:00",
+      "titles": [
+        "BATTLEFIELD 6 GAME UPDATE 2.1.2.0"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
     }
@@ -2510,6 +2526,14 @@
       "article_date": "2026-10-29T15:06:00+00:00",
       "titles": [
         "10.2.2a Backend Bugfix Patch"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-11-10T03:20:15.293161+00:00",
+      "article_date": "2026-11-09T19:08:56+00:00",
+      "titles": [
+        "10.2.2b Backend Patch"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
     }
@@ -4509,6 +4533,14 @@
         "42.22.2 Pre-Release Hotfix Released"
       ],
       "url": "https://store.steampowered.com/news/app/108600"
+    },
+    {
+      "date_detected": "2026-11-10T03:20:28.286249+00:00",
+      "article_date": "2026-11-09T14:04:15+00:00",
+      "titles": [
+        "42.22.2 STABLE Released"
+      ],
+      "url": "https://store.steampowered.com/news/app/108600"
     }
   ],
   "Aniimo": [
@@ -4685,6 +4717,14 @@
       "article_date": "2026-11-04T12:50:56+00:00",
       "titles": [
         "[Notice] Hotfix Nov 4"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-11-10T03:20:29.537779+00:00",
+      "article_date": "2026-11-09T20:00:52+00:00",
+      "titles": [
+        "[Notice] Platform Services Maintenance | Nov 10"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
