@@ -89,6 +89,16 @@
         "VALORANT Patch Notes 13.08 Act 6 starts now."
       ],
       "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
+    },
+    {
+      "date_detected": "2026-11-11T01:07:58.266007+00:00",
+      "article_date": "2026-11-10T14:00:00+00:00",
+      "titles": [
+        "VALORANT Patch Notes 13.10",
+        "VALORANT Patch Notes 13.10 Replays bookmarks, Gauntlet: Glitched updates, assist changes, and more bug fixes!",
+        "VALORANT Patch Notes 13.09 Hush is here."
+      ],
+      "url": "https://playvalorant.com/en-us/news/tags/patch-notes/"
     }
   ],
   "PUBG": [
@@ -615,6 +625,14 @@
         "Apex Legends: Latest Update - 11/6/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-11-11T01:07:58.587873+00:00",
+      "article_date": "2026-11-10T18:15:47+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 11/10/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -865,6 +883,14 @@
         "Hotfix 2.4.1"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-11-11T01:08:01.222472+00:00",
+      "article_date": "2026-11-10T10:01:22+00:00",
+      "titles": [
+        "Store Update 2.5.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -1075,6 +1101,14 @@
         "Dune: Awakening – 1.5.20.0 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-11-11T01:08:04.551938+00:00",
+      "article_date": "2026-11-10T13:13:00+00:00",
+      "titles": [
+        "Dune: Awakening - Hotfix 1.5.20.1 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -1123,6 +1157,14 @@
       "article_date": "2026-10-13T10:33:49+00:00",
       "titles": [
         "Patch 7.57 Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/39210"
+    },
+    {
+      "date_detected": "2026-11-11T01:08:05.060946+00:00",
+      "article_date": "2026-11-10T10:41:08+00:00",
+      "titles": [
+        "Patch 7.58 Notes"
       ],
       "url": "https://store.steampowered.com/news/app/39210"
     }
@@ -1641,6 +1683,14 @@
         "BATTLEFIELD 6 GAME UPDATE 2.1.2.0"
       ],
       "url": "https://store.steampowered.com/news/app/2807960"
+    },
+    {
+      "date_detected": "2026-11-11T01:08:01.745119+00:00",
+      "article_date": "2026-11-10T15:28:52+00:00",
+      "titles": [
+        "Battlefield 6 Season 5: Casino Heist"
+      ],
+      "url": "https://store.steampowered.com/news/app/2807960"
     }
   ],
   "Path of Exile": [
@@ -1970,6 +2020,14 @@
       "article_date": "2026-11-03T13:08:56+00:00",
       "titles": [
         "Minecraft 26.4 Snapshot 7"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-11-11T01:07:58.286489+00:00",
+      "article_date": "2026-11-10T14:20:05+00:00",
+      "titles": [
+        "Minecraft 26.4 Snapshot 8"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
     }
@@ -4725,6 +4783,14 @@
       "article_date": "2026-11-09T20:00:52+00:00",
       "titles": [
         "[Notice] Platform Services Maintenance | Nov 10"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-11-11T01:08:17.524791+00:00",
+      "article_date": "2026-11-10T11:30:38+00:00",
+      "titles": [
+        "[Notice] Maintenance | Nov. 10 (PST) / Nov. 11 (CET)"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
