@@ -1109,6 +1109,14 @@
         "Dune: Awakening - Hotfix 1.5.20.1 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-11-12T02:09:47.296659+00:00",
+      "article_date": "2026-11-11T19:57:14+00:00",
+      "titles": [
+        "Dune: Awakening - Hotfix 1.5.20.2 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -4081,6 +4089,14 @@
         "BIG UPDATE 4.2.0"
       ],
       "url": "https://store.steampowered.com/news/app/4704690"
+    },
+    {
+      "date_detected": "2026-11-12T02:09:59.602107+00:00",
+      "article_date": "2026-11-11T08:02:48+00:00",
+      "titles": [
+        "fix 4.2.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/4704690"
     }
   ],
   "Slay the Spire 2": [
@@ -4379,6 +4395,14 @@
       "article_date": "2026-10-30T12:37:24+00:00",
       "titles": [
         "Server Update 30.10.2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-11-12T02:10:00.357073+00:00",
+      "article_date": "2026-11-11T09:03:55+00:00",
+      "titles": [
+        "Meet the “Eagle’s Shadow” Major Update!"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
@@ -4701,6 +4725,14 @@
         "WARDOGS | Road to Season 3"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
+    },
+    {
+      "date_detected": "2026-11-12T02:10:02.388656+00:00",
+      "article_date": "2026-11-11T17:59:23+00:00",
+      "titles": [
+        "WARDOGS | Season 03 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
     }
   ],
   "The Witcher 3": [
@@ -4791,6 +4823,14 @@
       "article_date": "2026-11-10T11:30:38+00:00",
       "titles": [
         "[Notice] Maintenance | Nov. 10 (PST) / Nov. 11 (CET)"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-11-12T02:10:02.705733+00:00",
+      "article_date": "2026-11-11T09:09:48+00:00",
+      "titles": [
+        "[Notice] Patch Notes | Nov. 11"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
