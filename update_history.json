@@ -633,6 +633,14 @@
         "Apex Legends: Latest Update 11/10/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-11-13T01:43:50.192131+00:00",
+      "article_date": "2026-11-12T21:23:07+00:00",
+      "titles": [
+        "Apex Legends: Latest Update 11/12/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1433,6 +1441,14 @@
         "Marvel Rivals Version 20261105 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-11-13T01:43:57.001713+00:00",
+      "article_date": "2026-11-12T09:44:14+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261113 Patch Notes - Season 11 Arrives"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
     }
   ],
   "Battlefield 6": [
@@ -2110,6 +2126,14 @@
       "article_date": null,
       "titles": [
         "Fortnite v43.00 (build CL-59596594)"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-11-13T01:43:50.869334+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v43.10 (build CL-60118918)"
       ],
       "url": "https://www.fortnite.com/news"
     }
@@ -2854,6 +2878,14 @@
       "article_date": "2026-11-05T15:30:03+00:00",
       "titles": [
         "Enjoy a Superpowered Track Day with an Elite 911"
+      ],
+      "url": "https://store.steampowered.com/news/app/1551360"
+    },
+    {
+      "date_detected": "2026-11-13T01:43:55.028658+00:00",
+      "article_date": "2026-11-12T15:30:56+00:00",
+      "titles": [
+        "Take Your Track Days to the Desert with this Week's Reward"
       ],
       "url": "https://store.steampowered.com/news/app/1551360"
     }
@@ -4123,6 +4155,14 @@
         "Beta Patch Notes - v0.111.0"
       ],
       "url": "https://store.steampowered.com/news/app/2868840"
+    },
+    {
+      "date_detected": "2026-11-13T01:44:02.360057+00:00",
+      "article_date": "2026-11-12T20:30:16+00:00",
+      "titles": [
+        "Beta Patch Notes - v0.113.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2868840"
     }
   ],
   "War Thunder": [
@@ -4405,6 +4445,14 @@
         "Meet the “Eagle’s Shadow” Major Update!"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-11-13T01:44:02.702662+00:00",
+      "article_date": "2026-11-12T16:22:32+00:00",
+      "titles": [
+        "Update 2.61.0.13"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -4537,6 +4585,14 @@
       "article_date": "2026-11-08T12:00:16+00:00",
       "titles": [
         "Version Update | New Season \"Aurora\" Massive Events & Rewards & Store Updates"
+      ],
+      "url": "https://store.steampowered.com/news/app/2507950"
+    },
+    {
+      "date_detected": "2026-11-13T01:44:02.926156+00:00",
+      "article_date": "2026-11-12T12:00:46+00:00",
+      "titles": [
+        "November 12 Update | Balance Adjustments and Bug Fixes"
       ],
       "url": "https://store.steampowered.com/news/app/2507950"
     }
@@ -4731,6 +4787,14 @@
       "article_date": "2026-11-11T17:59:23+00:00",
       "titles": [
         "WARDOGS | Season 03 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
+    },
+    {
+      "date_detected": "2026-11-13T01:44:03.724529+00:00",
+      "article_date": "2026-11-12T15:00:35+00:00",
+      "titles": [
+        "WARDOGS | SEASON 03 IS NOW LIVE"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
     }
