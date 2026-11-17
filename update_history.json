@@ -2754,6 +2754,14 @@
         "Update 4 Hotfix 2"
       ],
       "url": "https://store.steampowered.com/news/app/3017860"
+    },
+    {
+      "date_detected": "2026-11-17T03:34:48.687035+00:00",
+      "article_date": "2026-11-16T17:00:21+00:00",
+      "titles": [
+        "Slaughter Mode Update 5"
+      ],
+      "url": "https://store.steampowered.com/news/app/3017860"
     }
   ],
   "Dota 2": [
@@ -4179,6 +4187,14 @@
         "Beta Hotfix Patch Notes - v0.113.1"
       ],
       "url": "https://store.steampowered.com/news/app/2868840"
+    },
+    {
+      "date_detected": "2026-11-17T03:34:59.948191+00:00",
+      "article_date": "2026-11-17T01:07:11+00:00",
+      "titles": [
+        "Major Update #3 - v0.111.1"
+      ],
+      "url": "https://store.steampowered.com/news/app/2868840"
     }
   ],
   "War Thunder": [
@@ -4651,6 +4667,14 @@
       "article_date": "2026-10-30T19:34:15+00:00",
       "titles": [
         "Rotten Autumn Hotfix 1 - Live Now"
+      ],
+      "url": "https://store.steampowered.com/news/app/2584270"
+    },
+    {
+      "date_detected": "2026-11-17T03:35:01.317107+00:00",
+      "article_date": "2026-11-16T20:04:40+00:00",
+      "titles": [
+        "Mortal Shell 2 Hotfix: Nov 16, 2026"
       ],
       "url": "https://store.steampowered.com/news/app/2584270"
     }
