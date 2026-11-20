@@ -657,6 +657,14 @@
         "Apex Legends: Latest Update 11/16/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:35.859855+00:00",
+      "article_date": "2026-11-19T23:45:07+00:00",
+      "titles": [
+        "An Update from the Anti-Cheat Team - 11/19/2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1471,6 +1479,14 @@
       "article_date": "2026-11-12T09:44:14+00:00",
       "titles": [
         "Marvel Rivals Version 20261113 Patch Notes - Season 11 Arrives"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:45.611566+00:00",
+      "article_date": "2026-11-19T09:20:25+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261119 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -2800,6 +2816,14 @@
       "article_date": "2026-11-16T17:00:21+00:00",
       "titles": [
         "Slaughter Mode Update 5"
+      ],
+      "url": "https://store.steampowered.com/news/app/3017860"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:41.977771+00:00",
+      "article_date": "2026-11-19T18:31:02+00:00",
+      "titles": [
+        "Slaughter Mode Update 5 Hotfix 1"
       ],
       "url": "https://store.steampowered.com/news/app/3017860"
     }
@@ -4577,6 +4601,14 @@
         "Update 2.61.0.26"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:52.757511+00:00",
+      "article_date": "2026-11-19T17:09:31+00:00",
+      "titles": [
+        "Server Update 19.11.2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -4937,6 +4969,14 @@
         "WARDOGS | SEASON 03 IS NOW LIVE"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:55.457885+00:00",
+      "article_date": "2026-11-19T14:40:43+00:00",
+      "titles": [
+        "WARDOGS | Minor Balance Patch 0.31 - Pricing Change"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
     }
   ],
   "The Witcher 3": [
@@ -5053,6 +5093,14 @@
         "[Notice] Patch Notes | Nov. 18"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:55.935172+00:00",
+      "article_date": "2026-11-19T04:00:47+00:00",
+      "titles": [
+        "[Notice] European Servers Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
     }
   ],
   "The Binding of Isaac: Rebirth": [
@@ -5061,6 +5109,14 @@
       "article_date": "2026-04-11T01:43:27+00:00",
       "titles": [
         "Repentance Online 1.9.7.16!"
+      ],
+      "url": "https://store.steampowered.com/news/app/250900"
+    },
+    {
+      "date_detected": "2026-11-20T02:09:54.389847+00:00",
+      "article_date": "2026-11-19T23:05:52+00:00",
+      "titles": [
+        "A Grand Day for a Repentance+ Update!"
       ],
       "url": "https://store.steampowered.com/news/app/250900"
     }
