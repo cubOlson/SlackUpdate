@@ -2690,6 +2690,14 @@
         "10.2.2b Backend Patch"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-11-21T02:02:45.850912+00:00",
+      "article_date": "2026-11-20T15:00:35+00:00",
+      "titles": [
+        "PTB-to-Live Update | The Terrifier"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -4607,6 +4615,14 @@
       "article_date": "2026-11-19T17:09:31+00:00",
       "titles": [
         "Server Update 19.11.2026"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-11-21T02:03:00.418836+00:00",
+      "article_date": "2026-11-20T17:04:40+00:00",
+      "titles": [
+        "Update 2.61.0.33"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
     }
