@@ -3680,6 +3680,14 @@
         "Battle Pass Special Dune: Part Three"
       ],
       "url": "https://store.steampowered.com/news/app/1407200"
+    },
+    {
+      "date_detected": "2026-11-24T05:11:50.010785+00:00",
+      "article_date": "2026-11-23T13:00:23+00:00",
+      "titles": [
+        "Update 2.4.2: A Taste of the Festive Season"
+      ],
+      "url": "https://store.steampowered.com/news/app/1407200"
     }
   ],
   "World of Warcraft": [
@@ -4625,6 +4633,14 @@
         "Update 2.61.0.33"
       ],
       "url": "https://store.steampowered.com/news/app/236390"
+    },
+    {
+      "date_detected": "2026-11-24T05:11:51.436919+00:00",
+      "article_date": "2026-11-23T14:49:43+00:00",
+      "titles": [
+        "Update 2.61.0.37"
+      ],
+      "url": "https://store.steampowered.com/news/app/236390"
     }
   ],
   "Hearthstone": [
@@ -4765,6 +4781,14 @@
       "article_date": "2026-11-12T12:00:46+00:00",
       "titles": [
         "November 12 Update | Balance Adjustments and Bug Fixes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2507950"
+    },
+    {
+      "date_detected": "2026-11-24T05:11:51.857625+00:00",
+      "article_date": "2026-11-23T15:00:29+00:00",
+      "titles": [
+        "Ask Shadow Anything——Season Aurora Edition"
       ],
       "url": "https://store.steampowered.com/news/app/2507950"
     }
