@@ -931,6 +931,14 @@
         "Live Update 2.6.0"
       ],
       "url": "https://store.steampowered.com/news/app/1808500"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:28.468586+00:00",
+      "article_date": "2026-11-24T10:02:19+00:00",
+      "titles": [
+        "Store Update 2.7.0 - Flickering Flames"
+      ],
+      "url": "https://store.steampowered.com/news/app/1808500"
     }
   ],
   "Dune: Awakening": [
@@ -2118,6 +2126,14 @@
         "Minecraft 26.4 Snapshot 10"
       ],
       "url": "https://www.minecraft.net/en-us/articles"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:26.218645+00:00",
+      "article_date": "2026-11-24T12:48:31+00:00",
+      "titles": [
+        "Minecraft 26.4 Pre-Release 1"
+      ],
+      "url": "https://www.minecraft.net/en-us/articles"
     }
   ],
   "Fortnite": [
@@ -2338,6 +2354,14 @@
       "article_date": "2026-09-15T22:00:09+00:00",
       "titles": [
         "Season of Hell’s Legacy Is Live — Play for Free"
+      ],
+      "url": "https://store.steampowered.com/news/app/2344520"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:27.753598+00:00",
+      "article_date": "2026-11-20T23:22:37+00:00",
+      "titles": [
+        "Developer Update Livestream"
       ],
       "url": "https://store.steampowered.com/news/app/2344520"
     }
@@ -2698,6 +2722,14 @@
         "PTB-to-Live Update | The Terrifier"
       ],
       "url": "https://store.steampowered.com/news/app/381210"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:29.670467+00:00",
+      "article_date": "2026-11-24T17:01:39+00:00",
+      "titles": [
+        "10.3.0 | Terrifier Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/381210"
     }
   ],
   "Destiny 2": [
@@ -2882,6 +2914,14 @@
       "article_date": "2026-11-18T20:00:46+00:00",
       "titles": [
         "7.42 Gameplay Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/570"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:30.475243+00:00",
+      "article_date": "2026-11-24T23:39:04+00:00",
+      "titles": [
+        "7.42a Gameplay Patch"
       ],
       "url": "https://store.steampowered.com/news/app/570"
     }
@@ -3548,6 +3588,14 @@
       "article_date": "2026-08-19T20:45:37+00:00",
       "titles": [
         "Terraria 1.4.5.7 - Out Now for PC! (Console/Mobile Soon)"
+      ],
+      "url": "https://store.steampowered.com/news/app/105600"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:35.710688+00:00",
+      "article_date": "2026-11-24T15:14:44+00:00",
+      "titles": [
+        "Terraria 1.4.6: Crossplay Phase One Launches Today!"
       ],
       "url": "https://store.steampowered.com/news/app/105600"
     }
@@ -4303,6 +4351,14 @@
         "Major Update #3 - v0.111.1"
       ],
       "url": "https://store.steampowered.com/news/app/2868840"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:37.198670+00:00",
+      "article_date": "2026-11-25T01:42:13+00:00",
+      "titles": [
+        "Beta Patch Notes - v0.114.0"
+      ],
+      "url": "https://store.steampowered.com/news/app/2868840"
     }
   ],
   "War Thunder": [
@@ -5017,6 +5073,14 @@
         "WARDOGS | Minor Balance Patch 0.31 - Pricing Change"
       ],
       "url": "https://store.steampowered.com/news/app/1867240"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:38.946952+00:00",
+      "article_date": "2026-11-24T22:41:40+00:00",
+      "titles": [
+        "WARDOGS | Minor Patch 0.32"
+      ],
+      "url": "https://store.steampowered.com/news/app/1867240"
     }
   ],
   "The Witcher 3": [
@@ -5139,6 +5203,14 @@
       "article_date": "2026-11-19T04:00:47+00:00",
       "titles": [
         "[Notice] European Servers Update"
+      ],
+      "url": "https://store.steampowered.com/news/app/3393110"
+    },
+    {
+      "date_detected": "2026-11-25T04:01:39.228050+00:00",
+      "article_date": "2026-11-25T02:51:18+00:00",
+      "titles": [
+        "[Notice] Updates to AION2 Operational Policy"
       ],
       "url": "https://store.steampowered.com/news/app/3393110"
     }
