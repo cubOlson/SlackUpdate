@@ -673,6 +673,14 @@
         "Apex Legends: Latest Update 11/25/2026"
       ],
       "url": "https://store.steampowered.com/news/app/1172470"
+    },
+    {
+      "date_detected": "2026-11-27T03:33:01.675050+00:00",
+      "article_date": "2026-11-26T21:37:42+00:00",
+      "titles": [
+        "Competitive Integrity Update: Modified PlayStation 4 Consoles"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172470"
     }
   ],
   "Arc Raiders": [
@@ -1173,6 +1181,14 @@
         "Dune: Awakening - Hotfix 1.5.20.2 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/1172710"
+    },
+    {
+      "date_detected": "2026-11-27T03:33:07.245182+00:00",
+      "article_date": "2026-11-26T13:09:46+00:00",
+      "titles": [
+        "Public Test Client - Update 1.6.0.0 - Blood and Ice Expansion"
+      ],
+      "url": "https://store.steampowered.com/news/app/1172710"
     }
   ],
   "Final Fantasy XIV": [
@@ -1503,6 +1519,14 @@
       "article_date": "2026-11-19T09:20:25+00:00",
       "titles": [
         "Marvel Rivals Version 20261119 Patch Notes"
+      ],
+      "url": "https://store.steampowered.com/news/app/2767030"
+    },
+    {
+      "date_detected": "2026-11-27T03:33:10.368114+00:00",
+      "article_date": "2026-11-26T10:14:05+00:00",
+      "titles": [
+        "Marvel Rivals Version 20261126 Patch Notes"
       ],
       "url": "https://store.steampowered.com/news/app/2767030"
     }
@@ -2230,6 +2254,14 @@
       "article_date": null,
       "titles": [
         "Fortnite v43.10 (build CL-60118918)"
+      ],
+      "url": "https://www.fortnite.com/news"
+    },
+    {
+      "date_detected": "2026-11-27T03:33:02.276938+00:00",
+      "article_date": null,
+      "titles": [
+        "Fortnite v43.11 (build CL-60803671)"
       ],
       "url": "https://www.fortnite.com/news"
     }
@@ -5063,6 +5095,14 @@
         "Patch 1.0.30"
       ],
       "url": "https://store.steampowered.com/news/app/892970"
+    },
+    {
+      "date_detected": "2026-11-27T03:33:17.136798+00:00",
+      "article_date": "2026-11-26T14:06:26+00:00",
+      "titles": [
+        "Hotfix 1.0.31"
+      ],
+      "url": "https://store.steampowered.com/news/app/892970"
     }
   ],
   "WARDOGS": [
@@ -5129,6 +5169,14 @@
       "article_date": "2026-10-08T12:02:51+00:00",
       "titles": [
         "Patch 5.01 is live!"
+      ],
+      "url": "https://store.steampowered.com/news/app/292030"
+    },
+    {
+      "date_detected": "2026-11-27T03:33:17.607648+00:00",
+      "article_date": "2026-11-26T13:05:54+00:00",
+      "titles": [
+        "Patch 5.02 for The Witcher 3: Wild Hunt — Remastered is live!"
       ],
       "url": "https://store.steampowered.com/news/app/292030"
     }
